@@ -9,13 +9,18 @@ import urllib.parse
 import urllib.request
 import time
 
-RESOLVER = Path('/home/pvca/Documentos/Workspace-IA/projetos/local/linux/repo/tmdb/pvca_tmdb_credentials.py')
+# The credential resolver lives outside this repository. PVCA_TMDB_RESOLVER names it;
+# without it, the resolver is expected beside the checkout.
+RESOLVER = Path(os.environ.get('PVCA_TMDB_RESOLVER') or
+                Path(__file__).resolve().parents[2] / 'repo/tmdb/pvca_tmdb_credentials.py')
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, *args, **kwargs):
         raise RuntimeError('TMDB_REDIRECT_REFUSED')
 
 def credential():
+    if not RESOLVER.is_file():
+        raise RuntimeError('TMDB_RESOLVER_NOT_FOUND')
     spec = importlib.util.spec_from_file_location('pvca_tmdb_credentials', RESOLVER)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
