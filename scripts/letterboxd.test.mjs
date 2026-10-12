@@ -15,14 +15,17 @@ const copy = (id, size_gib, resolution, subtitle_languages = []) => ({
   subtitle_languages,
 });
 const link = (provider, url, copy_id) => ({ provider, url, copy_id });
+const ficha = (slug) =>
+  `<a href="https://pv-ca.github.io/acervo-pvca/filmes/${slug}/">Ver a ficha do filme no Acervo PVCA</a>`;
 
-test("single link: size, resolution and pt-BR-first subtitles", () => {
+test("review links to the ficha and describes the copy, pt-BR subtitles first", () => {
   assert.equal(
     reviewFor({
+      slug: "x-1950",
       copies: [copy("a", 17.8, "1080p", ["en", "fr", "pt-BR"])],
       external_links: [link("internet_archive", "https://archive.org/x", "a")],
     }),
-    '<a href="https://archive.org/x">Internet Archive</a><br>19,1 GB · 1080p · Legendas: PT-BR, EN, FR'
+    ficha("x-1950") + "<br>19,1 GB · 1080p · Legendas: PT-BR, EN, FR"
   );
 });
 
@@ -31,57 +34,41 @@ test("no subtitles omits the subtitle part; sizes below 1 GB use MB", () => {
   assert.equal(formatResolution("720×544"), "544p");
   assert.equal(
     reviewFor({
+      slug: "x-1950",
       copies: [copy("a", 0.3725, "480p")],
       external_links: [link("google_drive", "https://drive/x", "a")],
     }),
-    '<a href="https://drive/x">Google Drive</a><br>400 MB · 480p'
+    ficha("x-1950") + "<br>400 MB · 480p"
   );
 });
 
-test("two links agree: one value; differ: labelled per provider", () => {
-  const links = [
-    link("internet_archive", "https://archive.org/x", "ia"),
-    link("google_drive", "https://drive/x", "dr"),
-  ];
+test("several public copies: the largest is described, never a copy without a link", () => {
   assert.equal(
     reviewFor({
+      slug: "x-1950",
       copies: [
-        copy("dr", 27.0, "1080p", ["en"]),
-        copy("ia", 27.0, "1080p", ["en"]),
-      ],
-      external_links: links,
-    }),
-    '<a href="https://drive/x">Google Drive</a> · <a href="https://archive.org/x">Internet Archive</a><br>29,0 GB · 1080p · Legendas: EN'
-  );
-  assert.equal(
-    reviewFor({
-      copies: [
-        copy("dr", 1.5, "1080p", ["en", "zh"]),
-        copy("ia", 56.1, "2160p", ["en", "pt-BR"]),
-      ],
-      external_links: links,
-    }),
-    '<a href="https://drive/x">Google Drive</a> · <a href="https://archive.org/x">Internet Archive</a><br>1,6 GB (Drive) / 60,2 GB (Archive) · 1080p (Drive) / 2160p (Archive) · Legendas: EN, ZH (Drive) / PT-BR, EN (Archive)'
-  );
-});
-
-test("copies without a current public link are never described", () => {
-  assert.equal(
-    reviewFor({ copies: [copy("x-local", 1, "1080p")], external_links: [] }),
-    ""
-  );
-  // A Drive copy whose folder is gone or private leaves only the Archive link.
-  assert.equal(
-    reviewFor({
-      copies: [
-        copy("x-drive", 1, "1080p", ["fr"]),
-        copy("x-archive", 1, "1080p"),
+        copy("hd", 7.65, "1080p", ["en"]),
+        copy("uhd", 80.3, "2160p", ["en", "pt-BR"]),
+        copy("gone-drive", 120, "2160p", ["fr"]),
       ],
       external_links: [
-        link("internet_archive", "https://archive.org/x", "x-archive"),
+        link("internet_archive", "https://archive.org/hd", "hd"),
+        link("google_drive", "https://drive/x", "uhd"),
+        link("internet_archive", "https://archive.org/uhd", "uhd"),
       ],
     }),
-    '<a href="https://archive.org/x">Internet Archive</a><br>1,1 GB · 1080p'
+    ficha("x-1950") + "<br>86,2 GB · 2160p · Legendas: PT-BR, EN"
+  );
+});
+
+test("a film with no public copy gets the ficha link alone", () => {
+  assert.equal(
+    reviewFor({
+      slug: "x-1950",
+      copies: [copy("x-local", 1, "1080p", ["en"])],
+      external_links: [],
+    }),
+    ficha("x-1950")
   );
 });
 
@@ -109,14 +96,15 @@ const parse = (csv) => {
 test("csv exports every catalog film, with or without a known URI or copy", () => {
   const films = Array.from({ length: 600 }, (_, index) => ({
     tmdb_id: index + 1,
+    slug: `film-${index + 1}`,
     copies: [copy("a", 1, "480p", ["en", "pt-BR"])],
     external_links: [
       link("internet_archive", "https://archive.org/details/x", "a"),
-      link("google_drive", "https://drive/x", "a"),
     ],
   }));
   films[1] = {
     tmdb_id: 2,
+    slug: "film-2",
     copies: [copy("a-local", 1, "480p")],
     external_links: [],
   };
@@ -131,11 +119,11 @@ test("csv exports every catalog film, with or without a known URI or copy", () =
   assert.deepEqual(rows[0], [
     "https://letterboxd.com/film/one/",
     "1",
-    '<a href="https://drive/x">Google Drive</a> · <a href="https://archive.org/details/x">Internet Archive</a><br>1,1 GB · 480p · Legendas: PT-BR, EN',
+    ficha("film-1") + "<br>1,1 GB · 480p · Legendas: PT-BR, EN",
   ]);
-  assert.deepEqual(rows[1], ["", "2", ""]);
+  assert.deepEqual(rows[1], ["", "2", ficha("film-2")]);
   assert.deepEqual(rows[599].slice(0, 2), ["", "600"]);
-  assert.doesNotMatch(csv, /em envio/);
+  assert.doesNotMatch(csv, /em envio|drive\.google|archive\.org/);
 });
 
 test("filename matches the Downloads convention", () => {
