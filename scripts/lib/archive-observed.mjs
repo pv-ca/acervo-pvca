@@ -15,7 +15,7 @@ const fold = (value) =>
     .replace(/\p{Diacritic}/gu, "")
     .toLowerCase()
     .trim();
-const MEDIA = /\.(mkv|mp4)$/i;
+const MEDIA = /\.(mkv|mp4|avi)$/i;
 const list = (value) => (value == null ? [] : [value].flat());
 function requireValue(value, message) {
   if (!value) throw Error(message);

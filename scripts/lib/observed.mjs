@@ -49,7 +49,9 @@ export function convertObserved(input, audit, { shareDrive = false } = {}) {
       ? "MKV"
       : probeFormat.includes("mp4")
         ? "MP4"
-        : null;
+        : probeFormat === "avi"
+          ? "AVI"
+          : null;
     const declared = item.copies[provider].resolution?.declared_class;
     const subtitles = copy.ffprobe.streams
       .filter((s) => s.codec_type === "subtitle")

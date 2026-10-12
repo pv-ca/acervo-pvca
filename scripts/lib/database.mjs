@@ -73,6 +73,12 @@ function normalizeFilm(db, record, previous, refs = {}) {
     published: previous?.published ?? false,
   };
 }
+// pt-BR subtitles always come first; the rest keep their order.
+const isPtBr = (name) => ["pt-BR", "Português (Brasil)"].includes(name);
+const ptBrFirst = (names) => [
+  ...names.filter(isPtBr),
+  ...names.filter((name) => !isPtBr(name)),
+];
 export function exportFilm(db, row) {
   const record = structuredClone(row.fields);
   for (const [field, kind] of Object.entries(relationFields))
@@ -85,8 +91,8 @@ export function exportFilm(db, row) {
       copy.audio_languages = languages.audio.map(
         (id) => db.entities.languages[id].name
       );
-      copy.subtitle_languages = languages.subtitles.map(
-        (id) => db.entities.languages[id].name
+      copy.subtitle_languages = ptBrFirst(
+        languages.subtitles.map((id) => db.entities.languages[id].name)
       );
     }
   }

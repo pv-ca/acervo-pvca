@@ -10,6 +10,7 @@ import {
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
+import { letterboxdCsv, letterboxdFilename } from "./lib/letterboxd.mjs";
 import {
   validateCatalog,
   mergeCatalog,
@@ -434,6 +435,13 @@ export function createAdmin(root, port = 4323) {
           flag: "wx",
         });
         json(200, { poster: "/posters/" + filename });
+        return;
+      } else if (pathname === "/api/export/letterboxd") {
+        const { csv, count } = letterboxdCsv(
+          read("data/public/catalog.json"),
+          read("data/letterboxd-uris.json")
+        );
+        json(200, { csv, filename: letterboxdFilename(count), count });
         return;
       } else if (pathname === "/api/build") {
         building = true;

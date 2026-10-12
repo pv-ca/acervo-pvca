@@ -108,8 +108,12 @@ def enrich(movie_id, root):
         target=Path(root)/'public/posters'/filename
         if not target.exists():
             req=urllib.request.Request(config['secure_base_url']+size+image_path)
-            with opener.open(req, timeout=20) as response:
-                data=response.read(5*1024*1024+1)
+            # The artwork host differs from the API host; name it when only it is unreachable.
+            try:
+                with opener.open(req, timeout=20) as response:
+                    data=response.read(5*1024*1024+1)
+            except OSError:
+                raise RuntimeError('TMDB_IMAGE_HOST_UNREACHABLE') from None
             if len(data)>5*1024*1024 or not data.startswith(b'\xff\xd8'): raise RuntimeError('TMDB_IMAGE_INVALID')
             target.parent.mkdir(parents=True,exist_ok=True)
             temporary=target.with_suffix('.tmp')
