@@ -1,6 +1,7 @@
 // Site receipts built only from what the destination itself serves: an Internet Archive item or a
 // Google Drive film folder. No local media and no upload job are needed, so any transport can end here.
 import { spawn } from "node:child_process";
+import { createServer } from "node:net";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { createHash } from "node:crypto";
@@ -73,10 +74,39 @@ const drive = {
     reader.stdin.on("error", () => {});
     source.on("error", () => reader.stdin.end());
     source.stdout.pipe(reader.stdin);
+    let header;
     try {
-      return await printed(reader, "MEDIA_PROBE_FAILED");
+      header = await printed(reader, "MEDIA_PROBE_FAILED");
     } finally {
       source.kill();
+    }
+    if (header.streams?.length) return header;
+    // A container indexed at its end (MP4 without faststart) needs seeking: serve the one file locally.
+    const port = await new Promise((done, reject) => {
+      const probe = createServer().once("error", reject);
+      probe.listen(0, "127.0.0.1", () => {
+        const { port } = probe.address();
+        probe.close(() => done(port));
+      });
+    });
+    const server = spawn(
+      "rclone",
+      ["serve", "http", remote, "--addr", `127.0.0.1:${port}`, "--read-only"],
+      quiet
+    );
+    try {
+      const url = `http://127.0.0.1:${port}/${encodeURIComponent(remote.split("/").at(-1))}`;
+      for (let attempt = 0; attempt < 40; attempt++) {
+        try {
+          await fetch(url, { method: "HEAD" });
+          break;
+        } catch {
+          await new Promise((done) => setTimeout(done, 250));
+        }
+      }
+      return await remoteProbe(url);
+    } finally {
+      server.kill();
     }
   },
   // A folder that opens without signing in is shared with anyone who has the link.
@@ -135,8 +165,12 @@ async function receiptFor(root, source, options) {
     source.title && source.creators.length,
     "REVIEWED_TITLE_AND_CREATOR_REQUIRED"
   );
+  const films = allRecords(readDatabase(root));
+  const known = films.find((film) => film.tmdb_id === tmdb);
+  // TMDB may credit a director only in the original script; a ficha already reviewed names them too.
   const candidates = [
     ...(work.directors ?? []),
+    ...(known?.directors ?? []),
     ...((await search(root, source.title, work.year)).find(
       (match) => match.id === tmdb
     )?.directors ?? []),
@@ -146,8 +180,6 @@ async function receiptFor(root, source, options) {
     "TMDB_DIRECTOR_DOES_NOT_MATCH_REVIEWED_CREATOR"
   );
 
-  const films = allRecords(readDatabase(root));
-  const known = films.find((film) => film.tmdb_id === tmdb);
   const id =
     known?.id ??
     "PVCA-" +
@@ -221,8 +253,8 @@ async function receiptFor(root, source, options) {
     ...(known ? {} : { added_at: today, directors: source.creators }),
     ...overrides,
     copies: projected.copies,
-    // A work already in the catalog keeps the copy chosen for its ficha.
-    catalog_copy_id: known?.catalog_copy_id ?? projected.catalog_copy_id,
+    // The receipt names its own copy; publication keeps the copy already chosen for a known ficha.
+    catalog_copy_id: projected.catalog_copy_id,
     external_links: [],
     selections: [],
   };
