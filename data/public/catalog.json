@@ -682,11 +682,6 @@
         "copy_id": "pvca-000012-archive"
       },
       {
-        "provider": "google_drive",
-        "url": "https://drive.google.com/drive/folders/1u7HBkh49TkinaJYZtNRAV_YRGehdQq3l",
-        "copy_id": "pvca-000012-drive"
-      },
-      {
         "provider": "internet_archive",
         "url": "https://archive.org/details/la-notte-1961-2160p-pvca",
         "copy_id": "pvca-000012-drive"
