@@ -63,7 +63,9 @@ const memberSelections = selections.filter((selection) =>
         {film.synopsis && (
           <div class="detail-synopsis">
             <h2 class="eyebrow">{t("Sinopse")}</h2>
-            <p>{film.synopsis}</p>
+            {film.synopsis.split("\n\n").map((paragraph) => (
+              <p>{paragraph}</p>
+            ))}
           </div>
         )}
         <dl class="detail-facts">
