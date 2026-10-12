@@ -19,7 +19,7 @@
         "size_gib": 42.24734884593636,
         "format": "Matroska",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en", "zh", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "zh"]
       }
     ],
     "catalog_copy_id": "pvca-000001-drive",
@@ -137,11 +137,25 @@
         "format": "Matroska",
         "audio_languages": [],
         "subtitle_languages": []
+      },
+      {
+        "id": "pvca-000003-archive",
+        "resolution": "1080p",
+        "size_gib": 20.397025062702596,
+        "format": "MKV",
+        "audio_languages": ["it"],
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000003-local",
     "poster": "/posters/tmdb-43195-qLwENVUnmb6ULiUKAh6dzDTwxUI.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/senso-1954-1080p-pvca",
+        "copy_id": "pvca-000003-archive"
+      }
+    ],
     "selections": ["Anos 1950", "Cinema italiano"],
     "tmdb_id": 43195,
     "original_title": "Senso",
@@ -298,7 +312,7 @@
         "size_gib": 14.208452044986188,
         "format": "Matroska",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000006-drive",
@@ -649,6 +663,14 @@
         "format": "Matroska",
         "audio_languages": ["it"],
         "subtitle_languages": ["en"]
+      },
+      {
+        "id": "pvca-000012-drive",
+        "resolution": "2160p",
+        "size_gib": 80.31830299366266,
+        "format": "MKV",
+        "audio_languages": ["it", "en"],
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000012-archive",
@@ -658,6 +680,11 @@
         "provider": "internet_archive",
         "url": "https://archive.org/details/la-notte-1961-1080p",
         "copy_id": "pvca-000012-archive"
+      },
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1u7HBkh49TkinaJYZtNRAV_YRGehdQq3l",
+        "copy_id": "pvca-000012-drive"
       }
     ],
     "selections": ["Michelangelo Antonioni", "Cinema italiano"],
@@ -704,7 +731,7 @@
         "size_gib": 24.520382006652653,
         "format": "Matroska",
         "audio_languages": ["ru"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000013-archive",
@@ -872,7 +899,7 @@
         "size_gib": 23.447712127119303,
         "format": "Matroska",
         "audio_languages": ["ru", "fr"],
-        "subtitle_languages": ["ru", "en", "fr", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "ru", "en", "fr"]
       }
     ],
     "catalog_copy_id": "pvca-000016-archive",
@@ -1097,11 +1124,25 @@
         "format": "Matroska",
         "audio_languages": ["no"],
         "subtitle_languages": ["ru", "en"]
+      },
+      {
+        "id": "pvca-000020-archive",
+        "resolution": "720p",
+        "size_gib": 17.916829419322312,
+        "format": "MKV",
+        "audio_languages": ["no"],
+        "subtitle_languages": ["pt-BR", "en", "ru"]
       }
     ],
     "catalog_copy_id": "pvca-000020-local",
     "poster": "/posters/tmdb-50254-aXAkJld5UTIa0nijWvDm7DcyBe0.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/edvard-munch-1974-720p-pvca",
+        "copy_id": "pvca-000020-archive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 50254,
     "original_title": "Edvard Munch",
@@ -1315,13 +1356,13 @@
         "format": "Matroska",
         "audio_languages": ["it", "en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "el",
           "es",
           "fr",
           "ko",
-          "pt-BR",
           "ro",
           "uk"
         ]
@@ -1436,7 +1477,7 @@
         "size_gib": 4.364690546877682,
         "format": "Matroska",
         "audio_languages": ["pt"],
-        "subtitle_languages": ["en", "es", "fr", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "es", "fr"]
       }
     ],
     "catalog_copy_id": "pvca-000026-archive",
@@ -2633,6 +2674,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "zh",
@@ -2645,7 +2687,6 @@
           "id",
           "it",
           "no",
-          "pt-BR",
           "ro",
           "es",
           "sv",
@@ -2708,6 +2749,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "zh",
@@ -2719,7 +2761,6 @@
           "it",
           "no",
           "pl",
-          "pt-BR",
           "es",
           "sv",
           "tr"
@@ -3053,7 +3094,7 @@
         "size_gib": 22.374236026778817,
         "format": "Matroska",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000054-archive",
@@ -3173,7 +3214,7 @@
         "size_gib": 26.527407403104007,
         "format": "Matroska",
         "audio_languages": ["it"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000056-drive",
@@ -4611,7 +4652,7 @@
         "size_gib": 16.385303151793778,
         "format": "Matroska",
         "audio_languages": ["ja"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000081-archive",
@@ -4667,7 +4708,7 @@
         "size_gib": 15.28024575393647,
         "format": "Matroska",
         "audio_languages": ["ja"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000082-archive",
@@ -4723,7 +4764,7 @@
         "size_gib": 15.298465154133737,
         "format": "Matroska",
         "audio_languages": ["ja"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000083-archive",
@@ -4836,12 +4877,12 @@
         "format": "Matroska",
         "audio_languages": ["ja", "en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "fr",
           "de",
           "ja",
-          "pt-BR",
           "ro",
           "es",
           "th"
@@ -4969,7 +5010,7 @@
         "size_gib": 14.202598167583346,
         "format": "Matroska",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en", "de", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "de"]
       }
     ],
     "catalog_copy_id": "pvca-000087-archive",
@@ -5249,7 +5290,7 @@
         "size_gib": 16.298942706547678,
         "format": "Matroska",
         "audio_languages": ["ko"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000092-archive",
@@ -5314,6 +5355,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "hr",
           "nl",
@@ -5323,7 +5365,6 @@
           "he",
           "it",
           "no",
-          "pt-BR",
           "es",
           "sl"
         ]
@@ -6641,6 +6682,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "bg",
@@ -6667,7 +6709,6 @@
           "may",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "sr",
@@ -6857,6 +6898,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -6873,7 +6915,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -6889,6 +6930,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -6905,7 +6947,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -7087,7 +7128,7 @@
         "size_gib": 5.222464679740369,
         "format": "Matroska",
         "audio_languages": ["fa"],
-        "subtitle_languages": ["es", "en", "fr", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "es", "en", "fr"]
       }
     ],
     "catalog_copy_id": "pvca-000122-archive",
@@ -7144,6 +7185,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "bg",
@@ -7163,7 +7205,6 @@
           "may",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -7395,6 +7436,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -7410,7 +7452,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "es",
           "sv",
@@ -7728,11 +7769,25 @@
         "format": "Matroska",
         "audio_languages": ["ru", "en"],
         "subtitle_languages": ["ru", "en"]
+      },
+      {
+        "id": "pvca-000132-archive",
+        "resolution": "1080p",
+        "size_gib": 30.760927735827863,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en", "ru"]
       }
     ],
     "catalog_copy_id": "pvca-000132-drive",
     "poster": "/posters/tmdb-4175-chQ44mnhMfaEHoTya1ALnbsMC3M.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/under-capricorn-1949-720p-pvca",
+        "copy_id": "pvca-000132-archive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 4175,
     "original_title": "Under Capricorn",
@@ -8175,6 +8230,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "da",
           "nl",
@@ -8185,7 +8241,6 @@
           "ja",
           "no",
           "ru",
-          "pt-BR",
           "es",
           "sv"
         ]
@@ -8301,6 +8356,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -8317,7 +8373,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -8333,6 +8388,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -8349,7 +8405,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -8413,6 +8468,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "zh",
@@ -8426,7 +8482,6 @@
           "ja",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "es",
           "sv",
@@ -8440,6 +8495,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "da",
@@ -8450,7 +8506,6 @@
           "it",
           "ja",
           "no",
-          "pt-BR",
           "es",
           "sv",
           "tr"
@@ -9443,6 +9498,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "bg",
           "zh",
@@ -9465,7 +9521,6 @@
           "may",
           "no",
           "pl",
-          "pt-BR",
           "ru",
           "sl",
           "es",
@@ -9586,11 +9641,25 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": []
+      },
+      {
+        "id": "pvca-000163-archive",
+        "resolution": "576p",
+        "size_gib": 1.2318935012444854,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": []
       }
     ],
     "catalog_copy_id": "pvca-000163-drive",
     "poster": "/posters/tmdb-467731-m8uDk727KpQg3S2nqLR0eSh73c2.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/tragedy-in-a-temporary-town-1956-576p-pvca",
+        "copy_id": "pvca-000163-archive"
+      }
+    ],
     "selections": ["Sidney Lumet", "Anos 1950", "Justiça e instituições"],
     "tmdb_id": 467731,
     "original_title": "Tragedy in a Temporary Town",
@@ -10148,6 +10217,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "zh",
@@ -10161,7 +10231,6 @@
           "it",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "es",
           "sv",
@@ -10392,6 +10461,7 @@
         "format": "Matroska",
         "audio_languages": ["en", "fr", "de", "it", "pt", "es"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "bg",
@@ -10412,7 +10482,6 @@
           "pl",
           "sv",
           "tr",
-          "pt-BR",
           "es"
         ]
       }
@@ -10527,13 +10596,13 @@
         "format": "Matroska",
         "audio_languages": ["en", "it"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "da",
           "fi",
           "de",
           "el",
           "no",
-          "pt-BR",
           "ro",
           "es",
           "sv"
@@ -10822,6 +10891,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "bg",
@@ -10837,7 +10907,6 @@
           "ja",
           "no",
           "pl",
-          "pt-BR",
           "ru",
           "sl",
           "es",
@@ -10853,6 +10922,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "bg",
@@ -10868,7 +10938,6 @@
           "ja",
           "no",
           "pl",
-          "pt-BR",
           "ru",
           "sl",
           "es",
@@ -11049,12 +11118,12 @@
         "format": "Matroska",
         "audio_languages": ["ru", "mul"],
         "subtitle_languages": [
+          "pt-BR",
           "ru",
           "en",
           "fr",
           "es",
           "it",
-          "pt-BR",
           "ar",
           "fa"
         ]
@@ -11623,6 +11692,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -11639,7 +11709,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -11655,6 +11724,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -11671,7 +11741,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -11735,6 +11804,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -11752,7 +11822,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -11768,6 +11837,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -11785,7 +11855,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -11905,6 +11974,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -11920,7 +11990,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ru",
           "sk",
           "es",
@@ -12039,6 +12108,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -12053,7 +12123,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "es",
           "sv",
@@ -12283,13 +12352,13 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "fr",
           "de",
           "it",
           "es",
           "zh",
-          "pt-BR",
           "el",
           "he",
           "hu",
@@ -12354,6 +12423,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -12365,7 +12435,6 @@
           "it",
           "ja",
           "no",
-          "pt-BR",
           "es",
           "sv",
           "tr"
@@ -12378,6 +12447,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -12389,7 +12459,6 @@
           "it",
           "ja",
           "no",
-          "pt-BR",
           "es",
           "sv",
           "tr"
@@ -12455,6 +12524,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "zh",
           "en",
           "de",
@@ -12465,7 +12535,6 @@
           "da",
           "fi",
           "no",
-          "pt-BR",
           "sv"
         ]
       }
@@ -12636,12 +12705,12 @@
         "format": "Matroska",
         "audio_languages": ["ru", "en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "de",
           "fr",
           "es",
           "it",
-          "pt-BR",
           "zh",
           "uk"
         ]
@@ -12764,7 +12833,7 @@
         "size_gib": 22.9564948361367,
         "format": "Matroska",
         "audio_languages": ["ru"],
-        "subtitle_languages": ["ru", "en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "ru", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000214-archive",
@@ -12820,7 +12889,7 @@
         "size_gib": 16.02872514538467,
         "format": "Matroska",
         "audio_languages": ["ru"],
-        "subtitle_languages": ["ru", "en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "ru", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000215-archive",
@@ -12876,7 +12945,7 @@
         "size_gib": 17.308307296596467,
         "format": "Matroska",
         "audio_languages": ["ru"],
-        "subtitle_languages": ["ru", "en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "ru", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000216-archive",
@@ -12932,7 +13001,7 @@
         "size_gib": 21.495909889228642,
         "format": "Matroska",
         "audio_languages": ["ru"],
-        "subtitle_languages": ["ru", "en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "ru", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000217-archive",
@@ -12989,6 +13058,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "da",
           "nl",
@@ -12998,7 +13068,6 @@
           "it",
           "ja",
           "no",
-          "pt-BR",
           "es",
           "sv"
         ]
@@ -13121,6 +13190,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "hr",
           "cs",
@@ -13131,7 +13201,6 @@
           "hu",
           "it",
           "nob",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -13702,6 +13771,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "da",
           "nl",
@@ -13711,7 +13781,6 @@
           "it",
           "ko",
           "no",
-          "pt-BR",
           "es",
           "sv",
           "ar",
@@ -14184,6 +14253,7 @@
         "format": "Matroska",
         "audio_languages": ["en", "zxx"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "zh",
@@ -14204,7 +14274,6 @@
           "lt",
           "no",
           "pl",
-          "pt-BR",
           "ru",
           "es",
           "sv",
@@ -14491,6 +14560,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "zh",
@@ -14509,7 +14579,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -14629,6 +14698,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "da",
@@ -14639,7 +14709,6 @@
           "it",
           "ja",
           "no",
-          "pt-BR",
           "ro",
           "es",
           "sv",
@@ -15330,11 +15399,25 @@
         "format": "Matroska",
         "audio_languages": [],
         "subtitle_languages": []
+      },
+      {
+        "id": "pvca-000257-archive",
+        "resolution": "1080p",
+        "size_gib": 20.696482189930975,
+        "format": "MKV",
+        "audio_languages": ["fr"],
+        "subtitle_languages": ["pt-BR", "fr", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000257-local",
     "poster": "/posters/tmdb-53156-kWIpbE4YZ9xp3SregE4h8577cI.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/elena-and-her-men-1956",
+        "copy_id": "pvca-000257-archive"
+      }
+    ],
     "selections": ["Anos 1950", "Cinema francês"],
     "tmdb_id": 53156,
     "original_title": "Elena et les hommes",
@@ -15604,6 +15687,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "ar",
           "zh",
@@ -15620,7 +15704,6 @@
           "ko",
           "nl",
           "no",
-          "pt-BR",
           "ro",
           "sk",
           "sl",
@@ -15683,7 +15766,7 @@
         "size_gib": 32.16267691832036,
         "format": "Matroska",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en", "fr", "de", "pt-BR", "es"]
+        "subtitle_languages": ["pt-BR", "en", "fr", "de", "es"]
       }
     ],
     "catalog_copy_id": "pvca-000263-archive",
@@ -16597,6 +16680,7 @@
         "format": "Matroska",
         "audio_languages": ["en", "fr"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "bg",
           "zh",
@@ -16612,7 +16696,6 @@
           "ja",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -16856,13 +16939,13 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "fr",
           "es",
           "de",
           "it",
           "nl",
-          "pt-BR",
           "fi",
           "sv",
           "da",
@@ -19463,6 +19546,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "cs",
           "fr",
@@ -19471,7 +19555,6 @@
           "ja",
           "ko",
           "pl",
-          "pt-BR",
           "es",
           "th"
         ]
@@ -19936,11 +20019,25 @@
         "format": "Matroska",
         "audio_languages": [],
         "subtitle_languages": []
+      },
+      {
+        "id": "pvca-000337-archive",
+        "resolution": "1080p",
+        "size_gib": 8.744901796802878,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000337-local",
     "poster": "/posters/tmdb-56167-cDlxLnLMboEfdDcPelodOs71GVs.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-golden-coach-1952-1080p-pvca",
+        "copy_id": "pvca-000337-archive"
+      }
+    ],
     "selections": ["Anos 1950", "Cinema francês"],
     "tmdb_id": 56167,
     "original_title": "Le Carrosse d'or",
@@ -19986,6 +20083,7 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "bg",
           "zh",
@@ -20003,7 +20101,6 @@
           "ko",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "ru",
           "es",
@@ -20066,7 +20163,7 @@
         "size_gib": 33.7375951167196,
         "format": "Matroska",
         "audio_languages": ["ja", "en"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000340-archive",
@@ -20471,7 +20568,7 @@
         "size_gib": 16.066679667681456,
         "format": "Matroska",
         "audio_languages": ["it"],
-        "subtitle_languages": ["en", "it", "ja", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "it", "ja"]
       }
     ],
     "catalog_copy_id": "pvca-000347-archive",
@@ -20695,7 +20792,7 @@
         "size_gib": 57.3282986683771,
         "format": "Matroska",
         "audio_languages": ["ja"],
-        "subtitle_languages": ["fr", "it", "en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "fr", "it", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000351-archive",
@@ -20751,7 +20848,7 @@
         "size_gib": 20.18559659924358,
         "format": "Matroska",
         "audio_languages": ["ja"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000352-archive",
@@ -20807,7 +20904,7 @@
         "size_gib": 3.7269595842808485,
         "format": "Matroska",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000353-archive",
@@ -20919,7 +21016,7 @@
         "size_gib": 57.30624588113278,
         "format": "Matroska",
         "audio_languages": ["zh", "en"],
-        "subtitle_languages": ["en", "fr", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "fr"]
       }
     ],
     "catalog_copy_id": "pvca-000355-archive",
@@ -20975,7 +21072,7 @@
         "size_gib": 29.951535964384675,
         "format": "Matroska",
         "audio_languages": ["it", "en"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000356-archive",
@@ -21031,7 +21128,7 @@
         "size_gib": 25.822916998527944,
         "format": "Matroska",
         "audio_languages": ["fr"],
-        "subtitle_languages": ["en", "fr", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "fr"]
       }
     ],
     "catalog_copy_id": "pvca-000357-archive",
@@ -21143,7 +21240,7 @@
         "size_gib": 20.826295539736748,
         "format": "Matroska",
         "audio_languages": ["fr"],
-        "subtitle_languages": ["en", "fr", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "fr"]
       }
     ],
     "catalog_copy_id": "pvca-000359-archive",
@@ -21199,7 +21296,7 @@
         "size_gib": 3.893584861420095,
         "format": "Matroska",
         "audio_languages": ["ja", "ru"],
-        "subtitle_languages": ["en", "ja", "ru", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "ja", "ru"]
       }
     ],
     "catalog_copy_id": "pvca-000360-archive",
@@ -21255,7 +21352,7 @@
         "size_gib": 5.669426222331822,
         "format": "Matroska",
         "audio_languages": ["ja"],
-        "subtitle_languages": ["ru", "en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "ru", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000361-archive",
@@ -21539,7 +21636,7 @@
         "size_gib": 5.107265140861273,
         "format": "Matroska",
         "audio_languages": [],
-        "subtitle_languages": ["ru", "ja", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "ru", "ja"]
       }
     ],
     "catalog_copy_id": "pvca-000366-archive",
@@ -21596,6 +21693,7 @@
         "format": "Matroska",
         "audio_languages": ["ko", "en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "da",
           "fi",
@@ -21603,8 +21701,7 @@
           "de",
           "ko",
           "no",
-          "sv",
-          "pt-BR"
+          "sv"
         ]
       }
     ],
@@ -21853,7 +21950,7 @@
         "size_gib": 23.95797017030418,
         "format": "Matroska",
         "audio_languages": ["ru", "en"],
-        "subtitle_languages": ["ru", "en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "ru", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000371-drive",
@@ -22015,7 +22112,7 @@
         "size_gib": 30.93301062658429,
         "format": "Matroska",
         "audio_languages": ["ru", "en"],
-        "subtitle_languages": ["ru", "en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "ru", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000374-drive",
@@ -22239,7 +22336,7 @@
         "size_gib": 4.914360962808132,
         "format": "Matroska",
         "audio_languages": ["pt"],
-        "subtitle_languages": ["en", "fr", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "fr"]
       }
     ],
     "catalog_copy_id": "pvca-000378-archive",
@@ -22295,7 +22392,7 @@
         "size_gib": 17.74893473368138,
         "format": "Matroska",
         "audio_languages": ["pt"],
-        "subtitle_languages": ["en", "fr", "it", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "fr", "it"]
       }
     ],
     "catalog_copy_id": "pvca-000379-archive",
@@ -22407,7 +22504,7 @@
         "size_gib": 25.31704930588603,
         "format": "Matroska",
         "audio_languages": ["ja"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000381-archive",
@@ -22463,7 +22560,7 @@
         "size_gib": 26.34602902829647,
         "format": "Matroska",
         "audio_languages": ["pt"],
-        "subtitle_languages": ["en", "pt-BR", "fr"]
+        "subtitle_languages": ["pt-BR", "en", "fr"]
       }
     ],
     "catalog_copy_id": "pvca-000382-archive",
@@ -22519,7 +22616,7 @@
         "size_gib": 20.112213210202754,
         "format": "Matroska",
         "audio_languages": ["ja"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000383-archive",
@@ -22575,7 +22672,7 @@
         "size_gib": 141.70244302600622,
         "format": "Matroska",
         "audio_languages": ["zxx"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000384-drive",
@@ -24255,7 +24352,7 @@
         "size_gib": 16.259024559520185,
         "format": "Matroska",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en", "pt-BR", "de", "it"]
+        "subtitle_languages": ["pt-BR", "en", "de", "it"]
       }
     ],
     "catalog_copy_id": "pvca-000414-drive",
@@ -24480,13 +24577,13 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "cs",
           "fr",
           "el",
           "hu",
           "pl",
-          "pt-BR",
           "ro",
           "es"
         ]
@@ -24777,7 +24874,7 @@
         "size_gib": 23.878390179015696,
         "format": "Matroska",
         "audio_languages": ["fr"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000423-archive",
@@ -24833,7 +24930,7 @@
         "size_gib": 5.501171680167317,
         "format": "Matroska",
         "audio_languages": ["fr"],
-        "subtitle_languages": ["en", "ru", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "ru"]
       },
       {
         "id": "pvca-000424-archive",
@@ -24841,7 +24938,7 @@
         "size_gib": 5.501171680167317,
         "format": "Matroska",
         "audio_languages": ["fr"],
-        "subtitle_languages": ["en", "ru", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "ru"]
       }
     ],
     "catalog_copy_id": "pvca-000424-local",
@@ -24962,6 +25059,7 @@
         "format": "MKV",
         "audio_languages": ["en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "zh",
           "cs",
@@ -24976,7 +25074,6 @@
           "hu",
           "no",
           "pl",
-          "pt-BR",
           "pt-PT",
           "ru",
           "sv",
@@ -24988,7 +25085,13 @@
     ],
     "catalog_copy_id": "pvca-000426-drive",
     "poster": "/posters/tmdb-1051-5XSGvIKl2yPvOkieFjc3rzLw7x0.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1-dzDOEXzgNP_1RxDjUrhbioEl8L0y33Q",
+        "copy_id": "pvca-000426-drive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 1051,
     "original_title": "The French Connection",
@@ -25039,7 +25142,13 @@
     ],
     "catalog_copy_id": "pvca-000427-drive",
     "poster": "/posters/tmdb-11335-tH8qTYf5iLw6PN3UJymct3BoQfN.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1pN7k1QdWG7DmX6fV9G2JP9YOOKNEYP77",
+        "copy_id": "pvca-000427-drive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 11335,
     "original_title": "Popeye",
@@ -25090,7 +25199,13 @@
     ],
     "catalog_copy_id": "pvca-000428-drive",
     "poster": "/posters/tmdb-34148-595b692sHJ70kJw8XQO8qzl3HFW.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1TObxZpw-NuOnS1N37XUWTnI8BvaI_F9a",
+        "copy_id": "pvca-000428-drive"
+      }
+    ],
     "selections": ["Anos 1950"],
     "tmdb_id": 34148,
     "original_title": "Imitation of Life",
@@ -25141,7 +25256,13 @@
     ],
     "catalog_copy_id": "pvca-000429-drive",
     "poster": "/posters/tmdb-1937-c3q2l1hGiDuBCvl6RvcWxwCyvSc.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1KxuM5WLaTQwSMGD00plidu_v3Kq96Z-U",
+        "copy_id": "pvca-000429-drive"
+      }
+    ],
     "selections": ["Anos 1950"],
     "tmdb_id": 1937,
     "original_title": "Bonjour Tristesse",
@@ -25202,7 +25323,13 @@
     ],
     "catalog_copy_id": "pvca-000430-drive",
     "poster": "/posters/tmdb-3133-z81rBzHNgiNLean2JTGHgxjJ8nq.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1jSPdIjHUmjm1ip4g4ZRNj0mjmM98I6QW",
+        "copy_id": "pvca-000430-drive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 3133,
     "original_title": "Badlands",
@@ -25253,7 +25380,13 @@
     ],
     "catalog_copy_id": "pvca-000431-drive",
     "poster": "/posters/tmdb-50153-bA8TbHq96DaWxml0j3OneCBjrJG.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1gs8clGWMYVfQkQubKicTLD4apJdDOj1Y",
+        "copy_id": "pvca-000431-drive"
+      }
+    ],
     "selections": ["Anos 1950"],
     "tmdb_id": 50153,
     "original_title": "The Man from Planet X",
@@ -25641,7 +25774,7 @@
         "size_gib": 13.491348245181143,
         "format": "MKV",
         "audio_languages": ["fr", "en"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000438-archive",
@@ -25698,7 +25831,7 @@
         "size_gib": 20.11703008133918,
         "format": "MKV",
         "audio_languages": ["fr"],
-        "subtitle_languages": ["en", "ja", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en", "ja"]
       }
     ],
     "catalog_copy_id": "pvca-000439-archive",
@@ -25803,13 +25936,13 @@
   {
     "id": "PVCA-000441",
     "slug": "histoire-s-du-cinema-1989",
-    "title": "Histoire(s) du cinéma 1a: Toutes les histoires",
+    "title": "Histoire(s) du cinéma",
     "year": 1989,
     "copies": [
       {
         "id": "pvca-000441-drive",
         "resolution": "1080p",
-        "size_gib": 2.9055520948022604,
+        "size_gib": 13.923861240968108,
         "format": "MKV",
         "audio_languages": ["fr"],
         "subtitle_languages": ["en"]
@@ -25817,7 +25950,13 @@
     ],
     "catalog_copy_id": "pvca-000441-drive",
     "poster": "/posters/tmdb-116393-1xOG2ejvdoAAmQhOsaj6gznMYle.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1P6NOGSO8Pyc0fSMZ2Ndwfw30FvfknRgy",
+        "copy_id": "pvca-000441-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 116393,
     "original_title": "Histoire(s) du cinéma 1a : toutes les histoires",
@@ -25826,11 +25965,11 @@
     "imdb_id": "tt0097514",
     "translations": {
       "pt-BR": {
-        "title": "História(s) do Cinema - Todas as Histórias",
+        "title": "História(s) do Cinema",
         "synopsis": "Neste primeiro capítulo de História(s) do Cinema, Jean-Luc Godard apresenta uma visão pessoal da história cinematográfica. Fragmentos de filmes, textos, citações, fotografias, pinturas, música e leituras se entrelaçam numa colagem crítica e melancólica sobre a arte do cinema."
       },
       "en": {
-        "title": "Histoire(s) du Cinéma 1a: All the (Hi)stories",
+        "title": "Histoire(s) du Cinéma",
         "synopsis": "A very personal look at the history of cinema directed, written and edited by Jean-Luc Godard in his Swiss residence in Rolle for ten years (1988-98); a monumental collage, constructed from film fragments, texts and quotations, photos and paintings, music and sound, and diverse readings; a critical, beautiful and melancholic vision of cinematographic art."
       }
     },
@@ -25868,7 +26007,13 @@
     ],
     "catalog_copy_id": "pvca-000442-drive",
     "poster": "/posters/tmdb-292858-s3S2at0zrMSmKqHfj8556m9OzSX.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1em5YzjDsUrn3ral56uYtDU75QvY9M3hZ",
+        "copy_id": "pvca-000442-drive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 292858,
     "original_title": "Fanchon, the Cricket",
@@ -26028,7 +26173,7 @@
         "size_gib": 21.597962018102407,
         "format": "MKV",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000445-archive",
@@ -26147,7 +26292,13 @@
     ],
     "catalog_copy_id": "pvca-000447-drive",
     "poster": "/posters/tmdb-126514-8gRRobSLuPcpnMBMUtwA1cRcIbt.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1GpFdR0ExMQcnx-2i1Afi7Kh_QWM-qfRh",
+        "copy_id": "pvca-000447-drive"
+      }
+    ],
     "selections": ["Cinema japonês"],
     "tmdb_id": 126514,
     "original_title": "腰弁頑張れ",
@@ -26193,7 +26344,7 @@
         "size_gib": 21.013859655708075,
         "format": "MKV",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en", "pt-BR"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000448-archive",
@@ -26312,7 +26463,13 @@
     ],
     "catalog_copy_id": "pvca-000450-drive",
     "poster": "/posters/tmdb-91150-kKXYSdUPPwfIppDtFwudPTt0M70.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1zLXlNMuFJgCUurx86t4nm0irO4dXamyJ",
+        "copy_id": "pvca-000450-drive"
+      }
+    ],
     "selections": ["Cinema japonês"],
     "tmdb_id": 91150,
     "original_title": "君と別れて",
@@ -26363,7 +26520,13 @@
     ],
     "catalog_copy_id": "pvca-000451-drive",
     "poster": "/posters/tmdb-126516-dY1ibivWhMjzbYQcg4EPtgcPXjp.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/13n93-q6dEEVVopi30TbV0vzPO4Sj7r5d",
+        "copy_id": "pvca-000451-drive"
+      }
+    ],
     "selections": ["Cinema japonês"],
     "tmdb_id": 126516,
     "original_title": "夜ごとの夢",
@@ -26414,7 +26577,13 @@
     ],
     "catalog_copy_id": "pvca-000452-drive",
     "poster": "/posters/tmdb-92950-cZWOkRKzSceQaiNqTmmEf37RaCF.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1b7I2hm5LaGEHlBwzZROzSfhZKbipl9Fa",
+        "copy_id": "pvca-000452-drive"
+      }
+    ],
     "selections": ["Cinema japonês"],
     "tmdb_id": 92950,
     "original_title": "妻よ薔薇のやうに",
@@ -26522,7 +26691,13 @@
     ],
     "catalog_copy_id": "pvca-000454-drive",
     "poster": "/posters/tmdb-257781-8s6DGfRuOjddiiNkFrc6b3cPkAL.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1HC1xsCMXUpOnhIcmIsuKMhLcZwrvoEub",
+        "copy_id": "pvca-000454-drive"
+      }
+    ],
     "selections": ["Cinema japonês"],
     "tmdb_id": 257781,
     "original_title": "秀子の車掌さん",
@@ -26630,7 +26805,13 @@
     ],
     "catalog_copy_id": "pvca-000456-drive",
     "poster": "/posters/tmdb-37347-5gUwQGHsLDb72wlbkiSyRUO7QA3.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1jVvwGZ8VN-TyJCQZiD1VDZAbjPVDWkPQ",
+        "copy_id": "pvca-000456-drive"
+      }
+    ],
     "selections": ["John Ford"],
     "tmdb_id": 37347,
     "original_title": "Fort Apache",
@@ -26738,7 +26919,13 @@
     ],
     "catalog_copy_id": "pvca-000458-drive",
     "poster": "/posters/tmdb-92956-vuuDZLvl6Dzm1zvEGWjAQ4D6Yu1.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1XTmGnYg9p7VSy9ROk2VlJW0I0cyXyOBk",
+        "copy_id": "pvca-000458-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês", "Anos 1950"],
     "tmdb_id": 92956,
     "original_title": "白い野獣",
@@ -26977,7 +27164,13 @@
     ],
     "catalog_copy_id": "pvca-000462-drive",
     "poster": "/posters/tmdb-46492-A714Iga5FG8FypJAUMHdorm1s98.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/197gzadL5jU2k_L73QQXw3mRXBhExHLpY",
+        "copy_id": "pvca-000462-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês", "Anos 1950"],
     "tmdb_id": 46492,
     "original_title": "山の音",
@@ -27028,7 +27221,13 @@
     ],
     "catalog_copy_id": "pvca-000463-drive",
     "poster": "/posters/tmdb-77285-eZ0MjpVixCJLPYpvh5ielJXeiZV.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1b88zcLXeznseaaDL4OtaFgnn3gWQG_8-",
+        "copy_id": "pvca-000463-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês", "Anos 1950"],
     "tmdb_id": 77285,
     "original_title": "浮雲",
@@ -27079,7 +27278,13 @@
     ],
     "catalog_copy_id": "pvca-000464-drive",
     "poster": "/posters/tmdb-18264-aKMZoZpN0FobSIDAlj5Ixv0kDeT.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1T0_4SER4KpWxCBVyfeSaIyWm-9WzLfMH",
+        "copy_id": "pvca-000464-drive"
+      }
+    ],
     "selections": ["Anos 1950"],
     "tmdb_id": 18264,
     "original_title": "The Man from Laramie",
@@ -27130,7 +27335,13 @@
     ],
     "catalog_copy_id": "pvca-000465-drive",
     "poster": "/posters/tmdb-46493-tNGCNgHiLrNhz77Q4XchIi9deyD.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/16x8eZ6zCTylgcr_CwMoUaC7Uwmjs30dJ",
+        "copy_id": "pvca-000465-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês", "Anos 1950"],
     "tmdb_id": 46493,
     "original_title": "流れる",
@@ -27181,7 +27392,13 @@
     ],
     "catalog_copy_id": "pvca-000466-drive",
     "poster": "/posters/tmdb-35847-rRSWvUqBBxaQ2O8CRdEQFQRqzAs.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1JKjIw6QtdJH5M7xtqfQ-GhpzOl8LV9VE",
+        "copy_id": "pvca-000466-drive"
+      }
+    ],
     "selections": ["Anos 1950", "Cinema francês"],
     "tmdb_id": 35847,
     "original_title": "Les Mistons",
@@ -27289,7 +27506,13 @@
     ],
     "catalog_copy_id": "pvca-000468-drive",
     "poster": "/posters/tmdb-233596-6aVKHQJRzfEEIm4Buj2pyBv1BQV.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1NZCMNG449jkbDwYrMjh-oF_BPrXsDKIT",
+        "copy_id": "pvca-000468-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês", "Anos 1950"],
     "tmdb_id": 233596,
     "original_title": "コタンの口笛",
@@ -27397,7 +27620,13 @@
     ],
     "catalog_copy_id": "pvca-000470-drive",
     "poster": "/posters/tmdb-239-hVIKyTK13AvOGv7ICmJjK44DTzp.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/13bP261t_bd_1yMGJpwUSpPMH7_pN0bed",
+        "copy_id": "pvca-000470-drive"
+      }
+    ],
     "selections": ["Anos 1950"],
     "tmdb_id": 239,
     "original_title": "Some Like It Hot",
@@ -27444,6 +27673,7 @@
         "format": "MKV",
         "audio_languages": ["fr", "en"],
         "subtitle_languages": [
+          "pt-BR",
           "en",
           "bg",
           "zh",
@@ -27461,7 +27691,6 @@
           "mac",
           "no",
           "pl",
-          "pt-BR",
           "ro",
           "es",
           "sr",
@@ -27474,7 +27703,13 @@
     ],
     "catalog_copy_id": "pvca-000471-drive",
     "poster": "/posters/tmdb-147-aWLtevC6PIdPPFaqLP172njY1qr.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1yOFO_b-JGM7MNSSjuoaLvIHO51D1rcwH",
+        "copy_id": "pvca-000471-drive"
+      }
+    ],
     "selections": ["Anos 1950", "Cinema francês"],
     "tmdb_id": 147,
     "original_title": "Les Quatre Cents Coups",
@@ -27525,7 +27760,13 @@
     ],
     "catalog_copy_id": "pvca-000472-drive",
     "poster": "/posters/tmdb-92959-9mHEjVB3am2i1km0By2MZgDgBOz.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1Txd0LUhGYfd7w6AZpUbPzhm9uZYTN8e-",
+        "copy_id": "pvca-000472-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês"],
     "tmdb_id": 92959,
     "original_title": "娘・妻・母",
@@ -27576,7 +27817,13 @@
     ],
     "catalog_copy_id": "pvca-000473-drive",
     "poster": "/posters/tmdb-1818-84exM47Ng4T4iWNofjFmlGZNosA.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1-Pmy7Rh9Uuh46vpM04Fcz4-TlDneksrA",
+        "copy_id": "pvca-000473-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1818,
     "original_title": "Tirez sur le pianiste",
@@ -27627,7 +27874,13 @@
     ],
     "catalog_copy_id": "pvca-000474-drive",
     "poster": "/posters/tmdb-175061-8sxj11bJ9GiCKGNNhX1BHy1Paby.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/16QwinfBoLb93-2fMD4ELzSA_OovbaHXw",
+        "copy_id": "pvca-000474-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês"],
     "tmdb_id": 175061,
     "original_title": "秋立ちぬ",
@@ -27678,7 +27931,13 @@
     ],
     "catalog_copy_id": "pvca-000475-drive",
     "poster": "/posters/tmdb-36872-5s4YwelqkiMYBiTKduRpnU9fgbw.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1lux0xv8gePHlFv1Dpr9lBZyTD0CfMN_t",
+        "copy_id": "pvca-000475-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês"],
     "tmdb_id": 36872,
     "original_title": "女が階段を上る時",
@@ -27729,7 +27988,13 @@
     ],
     "catalog_copy_id": "pvca-000476-drive",
     "poster": "/posters/tmdb-45948-wxa1w9FNhjUBtfYs4aAZ62IsKXz.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1NMSWfJWP5O11f75dPlVXgKlI_Z2PrVe5",
+        "copy_id": "pvca-000476-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 45948,
     "original_title": "Une histoire d'eau",
@@ -27780,7 +28045,13 @@
     ],
     "catalog_copy_id": "pvca-000477-drive",
     "poster": "/posters/tmdb-142501-zpiM4TA9p3uNjRamPCgbp6FitGY.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1P84A0nkqBf8lCcjoMlyxSKqTj9wJsELn",
+        "copy_id": "pvca-000477-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês"],
     "tmdb_id": 142501,
     "original_title": "女の座",
@@ -27831,7 +28102,13 @@
     ],
     "catalog_copy_id": "pvca-000478-drive",
     "poster": "/posters/tmdb-256-idFg8VL69r37vEMcjUUoQgNNUy6.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1lr6PIB-ZZo730TFk-ogrWgnD6IXU0qgH",
+        "copy_id": "pvca-000478-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 256,
     "original_title": "Antoine et Colette",
@@ -27939,7 +28216,13 @@
     ],
     "catalog_copy_id": "pvca-000480-drive",
     "poster": "/posters/tmdb-1628-iQPk7jK26RrwYgnAYq5l2Ha3iPc.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1jujXR7__5tgQOZ0GdJW74JBQOHwXEWIz",
+        "copy_id": "pvca-000480-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1628,
     "original_title": "Jules et Jim",
@@ -28104,7 +28387,13 @@
     ],
     "catalog_copy_id": "pvca-000484-drive",
     "poster": "/posters/tmdb-1719-9bHHaK5ehIcEWvQc24WgHQYtMeR.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1Bg5UqRmac-4aT_xE7xP-mLOYn6777are",
+        "copy_id": "pvca-000484-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1719,
     "original_title": "La Peau douce",
@@ -28155,7 +28444,13 @@
     ],
     "catalog_copy_id": "pvca-000485-drive",
     "poster": "/posters/tmdb-111398-94KEboOFPEki3DW86nBIHK0KsNz.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1Klj2nfBazqLmrAT4uMcfmR7nTGQuvlix",
+        "copy_id": "pvca-000485-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês"],
     "tmdb_id": 111398,
     "original_title": "乱れる",
@@ -28206,7 +28501,13 @@
     ],
     "catalog_copy_id": "pvca-000486-drive",
     "poster": "/posters/tmdb-1714-bikkYoOBmvFjcB5P5QcRWebSWRe.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1nrMbLOctIkDOlolWDZ-eUgfAW45XphyL",
+        "copy_id": "pvca-000486-drive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 1714,
     "original_title": "Fahrenheit 451",
@@ -28257,7 +28558,13 @@
     ],
     "catalog_copy_id": "pvca-000487-drive",
     "poster": "/posters/tmdb-138034-ytVmqEO3xXycJUbPRDKnW8hpiv.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1xR6GMpfHhAlgx9BOimUAhNuq9zDCDI9o",
+        "copy_id": "pvca-000487-drive"
+      }
+    ],
     "selections": ["Japão depois da guerra", "Cinema japonês"],
     "tmdb_id": 138034,
     "original_title": "女の中にいる他人",
@@ -28365,7 +28672,13 @@
     ],
     "catalog_copy_id": "pvca-000489-drive",
     "poster": "/posters/tmdb-255-xc6le6aPCZrWRQkDY8y8I0eNqJ3.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1P8U2cwymNDYGuNDfWHPH830yaaB3rWeF",
+        "copy_id": "pvca-000489-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 255,
     "original_title": "Baisers volés",
@@ -28416,7 +28729,13 @@
     ],
     "catalog_copy_id": "pvca-000490-drive",
     "poster": "/posters/tmdb-26690-e5tGRBWSnCTSn7Ubr77wb42TEgK.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1VwgpeCXyCtuB4YWy1q9XXhp8nVj0mEcr",
+        "copy_id": "pvca-000490-drive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 26690,
     "original_title": "The Boston Strangler",
@@ -28467,7 +28786,13 @@
     ],
     "catalog_copy_id": "pvca-000491-drive",
     "poster": "/posters/tmdb-4191-j8Oi4qua86tpZSU3yjrRyGIvdaZ.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1tJ3AxniHEa7aoKpp3eh_zyS6pgCYeY5v",
+        "copy_id": "pvca-000491-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 4191,
     "original_title": "La mariée était en noir",
@@ -28518,7 +28843,13 @@
     ],
     "catalog_copy_id": "pvca-000492-drive",
     "poster": "/posters/tmdb-1651-mBiAHXw8Qn6ISKHAkd1HqlynzGE.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/11Arh6Fo5j8rhq-xLBFY41aXtnwoVlYzB",
+        "copy_id": "pvca-000492-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1651,
     "original_title": "La Sirène du Mississipi",
@@ -28626,7 +28957,13 @@
     ],
     "catalog_copy_id": "pvca-000494-drive",
     "poster": "/posters/tmdb-258-it1CIdXuoaOQ7KDCRd90QaSIool.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1EAon1So1O8NMrEg60EZQ7heJJZqdflIV",
+        "copy_id": "pvca-000494-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 258,
     "original_title": "Domicile conjugal",
@@ -28677,7 +29014,13 @@
     ],
     "catalog_copy_id": "pvca-000495-drive",
     "poster": "/posters/tmdb-1627-sVECgJcQ8GQwaahyoTFWcZamMT1.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1mn5cu1tBDOCCKZWvNikAz6qggIioU8S7",
+        "copy_id": "pvca-000495-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1627,
     "original_title": "L'Enfant sauvage",
@@ -28785,7 +29128,13 @@
     ],
     "catalog_copy_id": "pvca-000497-drive",
     "poster": "/posters/tmdb-42513-zUy1kqMq4szlfHWLnsVuWfI0h8H.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1Xib0Ocoq3kkO806frK3KxQs16lC0GkxD",
+        "copy_id": "pvca-000497-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 42513,
     "original_title": "Les Deux Anglaises et le Continent",
@@ -28836,7 +29185,13 @@
     ],
     "catalog_copy_id": "pvca-000498-drive",
     "poster": "/posters/tmdb-4683-yAjJouE6uG8tt5OR4dvzqdR0VES.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/12W0WimvOoQlphoUCMD_30YycI2icNqhj",
+        "copy_id": "pvca-000498-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 4683,
     "original_title": "Une belle fille comme moi",
@@ -28944,7 +29299,13 @@
     ],
     "catalog_copy_id": "pvca-000500-drive",
     "poster": "/posters/tmdb-1675-vTT3I0KTP2N7OcEyWcHzwZ7CsxN.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1XoN5P6E8S_EkX0VuV76RCktaWmr7PO2_",
+        "copy_id": "pvca-000500-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1675,
     "original_title": "La Nuit américaine",
@@ -29052,7 +29413,13 @@
     ],
     "catalog_copy_id": "pvca-000502-drive",
     "poster": "/posters/tmdb-1829-8nDKC58JAS6MIUAsIoLkDErzE66.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1R2kRfETy6og5xjjGYKy-Cwdctv5HaBkZ",
+        "copy_id": "pvca-000502-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1829,
     "original_title": "L'Histoire d'Adèle H.",
@@ -29114,7 +29481,13 @@
     ],
     "catalog_copy_id": "pvca-000503-drive",
     "poster": "/posters/tmdb-1660-ly48oTQc1m0Zhbfg4yYG7MvoUrB.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1u4Nb-EY8wpgrGHvSFnuX-v_bbaklEN33",
+        "copy_id": "pvca-000503-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1660,
     "original_title": "L'Argent de poche",
@@ -29222,7 +29595,13 @@
     ],
     "catalog_copy_id": "pvca-000505-drive",
     "poster": "/posters/tmdb-1421-dQVei0bXAIo8x5jRXtUHJDrb2fL.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1pGn3oYQjrJFfLduEwPowO7vw25O8ko6O",
+        "copy_id": "pvca-000505-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1421,
     "original_title": "L'Homme qui aimait les femmes",
@@ -29273,7 +29652,13 @@
     ],
     "catalog_copy_id": "pvca-000506-drive",
     "poster": "/posters/tmdb-8070-3WSsfYSBVndamAiekCBcKNMsDUF.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1BnKYMBx2iYiMfAu7mTXR0jweVTFXBAgR",
+        "copy_id": "pvca-000506-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 8070,
     "original_title": "La Chambre verte",
@@ -29324,7 +29709,13 @@
     ],
     "catalog_copy_id": "pvca-000507-drive",
     "poster": "/posters/tmdb-259-mHyZ086yGcnuLSQcsHNzK3DJXyc.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1v8tKKcRvW9Vke3A_mNMVHnTnLfGfKTk5",
+        "copy_id": "pvca-000507-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 259,
     "original_title": "L'Amour en fuite",
@@ -29432,7 +29823,13 @@
     ],
     "catalog_copy_id": "pvca-000509-drive",
     "poster": "/posters/tmdb-1716-1C42Y4Ge0lQVDB3YyBYcXmJ5KHe.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1Ytx3k0YUhwuL92YxhtbyRbgQc7MthS_N",
+        "copy_id": "pvca-000509-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 1716,
     "original_title": "Le Dernier Métro",
@@ -29483,7 +29880,13 @@
     ],
     "catalog_copy_id": "pvca-000510-drive",
     "poster": "/posters/tmdb-25468-u2KB70Xlzwg920mYWlGb18YIatd.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1PGkxWQ8KSifFZ65qrZYajxH3mcDBrBzl",
+        "copy_id": "pvca-000510-drive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 25468,
     "original_title": "My Dinner with Andre",
@@ -29591,7 +29994,13 @@
     ],
     "catalog_copy_id": "pvca-000512-drive",
     "poster": "/posters/tmdb-12579-6PD9Qjbt49sEYgqCqFnqkj074JE.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1Q78f1AU491h65CS5BTWDybGCruZ99D9q",
+        "copy_id": "pvca-000512-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 12579,
     "original_title": "La Femme d'à côté",
@@ -29699,7 +30108,13 @@
     ],
     "catalog_copy_id": "pvca-000514-drive",
     "poster": "/posters/tmdb-2455-4uPbhZwr98CKSAebgAW1ZNMZy1k.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1myBI-Aqj1DhQ0k-ob9NzMs-blHtUZCWg",
+        "copy_id": "pvca-000514-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 2455,
     "original_title": "Vivement dimanche !",
@@ -29921,7 +30336,13 @@
     ],
     "catalog_copy_id": "pvca-000518-drive",
     "poster": "/posters/tmdb-41925-ePU1QvThfPUopPSo4mDUg55jVuD.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1M0JSKYFmTs0L9eocMbmiEQTcachWZM3z",
+        "copy_id": "pvca-000518-drive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 41925,
     "original_title": "The Comfort of Strangers",
@@ -29972,7 +30393,13 @@
     ],
     "catalog_copy_id": "pvca-000519-drive",
     "poster": "/posters/tmdb-128743-5XLdflYRN0dltzuYB7CgO8ge6Tn.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1Mg4ODAv-jtrvk9CbotLzHbRaD0dgNXW8",
+        "copy_id": "pvca-000519-drive"
+      }
+    ],
     "selections": ["Cinema francês"],
     "tmdb_id": 128743,
     "original_title": "François Truffaut: Portraits volés",
@@ -30591,7 +31018,13 @@
     ],
     "catalog_copy_id": "pvca-000481-drive",
     "poster": "/posters/los-4-golpes-1962-editorial-v2.png",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1zXji3--aPtTa43AAYJ18VI2kdsBuKOmL",
+        "copy_id": "pvca-000481-drive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 435872,
     "original_title": "Los 4 Golpes",
@@ -30856,11 +31289,19 @@
   {
     "id": "PVCA-000532",
     "slug": "new-year-trip-1968",
-    "title": "New Year Trip",
+    "title": "Kigeki Hatsumode Ressha",
     "year": 1968,
     "copies": [
       {
         "id": "pvca-000532-archive",
+        "resolution": "1080p",
+        "size_gib": 2.648027223534882,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "en"]
+      },
+      {
+        "id": "pvca-000532-drive",
         "resolution": "1080p",
         "size_gib": 2.648027223534882,
         "format": "MKV",
@@ -30875,6 +31316,11 @@
         "provider": "internet_archive",
         "url": "https://archive.org/details/kigeki-hatsumode-ressha-1968-1080p-pvca",
         "copy_id": "pvca-000532-archive"
+      },
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1bxfXIDaX_6Mgd1po78pRECo0Buzcl3CM",
+        "copy_id": "pvca-000532-drive"
       }
     ],
     "selections": [],
@@ -30909,5 +31355,518 @@
     "countries": ["Japan"],
     "genres": ["Comedy"],
     "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000533",
+    "slug": "finding-emily-2026",
+    "title": "Finding Emily",
+    "year": 2026,
+    "copies": [
+      {
+        "id": "pvca-000533-drive",
+        "resolution": "1080p",
+        "size_gib": 5.671619734726846,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["en", "fr", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000533-drive",
+    "poster": "/posters/tmdb-1339588-A8jADlBRtpmfysvi4EZf6PFmKex.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1z7yh26B9VsU9rwpQ2BRmZflB83MpayIm",
+        "copy_id": "pvca-000533-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 1339588,
+    "added_at": "2026-10-12",
+    "original_title": "Finding Emily",
+    "release_date": "2026-05-21",
+    "runtime_minutes": 111,
+    "imdb_id": "tt32499466",
+    "translations": {
+      "pt-BR": {
+        "title": "Procurando Emily",
+        "synopsis": "Quando um músico apaixonado recebe o número errado de sua garota dos sonhos, ele se junta a uma determinada estudante de psicologia para encontrá-la. Juntos, eles provocam um frenesi hilário por todo o campus que coloca à prova seus próprios corações e ambições ao longo do caminho."
+      },
+      "en": {
+        "title": "Finding Emily",
+        "synopsis": "When a lovesick musician is given the wrong number for his dream girl, he teams up with a driven psychology student to find her. Together, they spark a hilarious campus-wide frenzy that tests their own hearts and ambitions along the way."
+      }
+    },
+    "synopsis": "Quando um músico apaixonado recebe o número errado de sua garota dos sonhos, ele se junta a uma determinada estudante de psicologia para encontrá-la. Juntos, eles provocam um frenesi hilário por todo o campus que coloca à prova seus próprios corações e ambições ao longo do caminho.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Reino Unido", "Estados Unidos"],
+        "genres": ["Romance", "Comédia"]
+      },
+      "en": {
+        "countries": ["United Kingdom", "United States"],
+        "genres": ["Romance", "Comedy"]
+      }
+    },
+    "directors": ["Alicia MacDonald"],
+    "countries": ["United Kingdom", "United States of America"],
+    "genres": ["Romance", "Comedy"],
+    "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000534",
+    "slug": "andrei-rublev-1966",
+    "title": "Andrei Rublev",
+    "year": 1966,
+    "copies": [
+      {
+        "id": "pvca-000534-drive",
+        "resolution": "1080p",
+        "size_gib": 40.62118196487427,
+        "format": "MKV",
+        "audio_languages": ["ru"],
+        "subtitle_languages": ["ru", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000534-drive",
+    "poster": "/posters/tmdb-895-t950gX4EeAPgk8TCeh2NsixkBdr.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1jZt8nCx5yldEOFXcBJ-AblmByJZI5C0-",
+        "copy_id": "pvca-000534-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 895,
+    "added_at": "2026-10-12",
+    "original_title": "Андрей Рублёв",
+    "release_date": "1966-12-16",
+    "runtime_minutes": 215,
+    "imdb_id": "tt0060107",
+    "translations": {
+      "pt-BR": {
+        "title": "Andrei Rublev",
+        "synopsis": "Um filme sobre os diversos episódios da vida do pintor de ícones Andrei Rublev (1360-1430), um dos maiores artistas russos da Idade Média, mas também um retrato da difícil vida do povo russo neste século. Entre os conflitos apresentados estão a rigidez da Igreja Ortodoxa Russa e o seu lugar na cultura russa, bem como a pobreza e as invasões tártaras. Após quatro anos de produção a exibição do filme seria proibida logo após seu lançamento, levando-o a ser exibido apenas em festivais de cinema estrangeiros."
+      },
+      "en": {
+        "title": "Andrei Rublev",
+        "synopsis": "An expansive Russian drama, this film focuses on the life of revered religious icon painter Andrei Rublev. Drifting from place to place in a tumultuous era, the peace-seeking monk eventually gains a reputation for his art. But after Rublev witnesses a brutal battle and unintentionally becomes involved, he takes a vow of silence and spends time away from his work. As he begins to ease his troubled soul, he takes steps towards becoming a painter once again."
+      }
+    },
+    "synopsis": "Um filme sobre os diversos episódios da vida do pintor de ícones Andrei Rublev (1360-1430), um dos maiores artistas russos da Idade Média, mas também um retrato da difícil vida do povo russo neste século. Entre os conflitos apresentados estão a rigidez da Igreja Ortodoxa Russa e o seu lugar na cultura russa, bem como a pobreza e as invasões tártaras. Após quatro anos de produção a exibição do filme seria proibida logo após seu lançamento, levando-o a ser exibido apenas em festivais de cinema estrangeiros.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["União Soviética"],
+        "genres": ["Drama", "História"]
+      },
+      "en": {
+        "countries": ["Soviet Union"],
+        "genres": ["Drama", "History"]
+      }
+    },
+    "directors": ["Andrei Tarkovsky"],
+    "countries": ["Soviet Union"],
+    "genres": ["Drama", "History"],
+    "original_languages": ["ru"]
+  },
+  {
+    "id": "PVCA-000535",
+    "slug": "violent-rome-1975",
+    "title": "Violent Rome",
+    "year": 1975,
+    "copies": [
+      {
+        "id": "pvca-000535-drive",
+        "resolution": "576i",
+        "size_gib": 4.166852711699903,
+        "format": "MKV",
+        "audio_languages": ["it", "en", "de", "ru"],
+        "subtitle_languages": ["en", "de"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000535-drive",
+    "poster": "/posters/tmdb-96460-mFOOJ77jVp82yLKEZkfxTKTO4NB.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1t5cgTeozBvED9M-lMS02y7KccjgM9DEs",
+        "copy_id": "pvca-000535-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 96460,
+    "added_at": "2026-10-12",
+    "original_title": "Roma violenta",
+    "release_date": "1975-08-13",
+    "runtime_minutes": 86,
+    "imdb_id": "tt0073633",
+    "translations": {
+      "pt-BR": {
+        "title": "Roma violenta",
+        "synopsis": "Cansado do crime e da violência que tomam conta de sua cidade e em conflito constante com os superiores, um detetive acaba expulso da polícia depois de atirar, em circunstâncias questionáveis, em um criminoso cruel. Logo ele é procurado pelo representante de um grupo de cidadãos também fartos de ver criminosos impunes, que lhe faz uma oferta difícil de recusar."
+      },
+      "en": {
+        "title": "Violent Rome",
+        "synopsis": "A detective sick and tired of the rampant crime and violence in his city, and constantly at odds with his superiors, is finally kicked out of the department for a \"questionable\" shooting of a vicious criminal. However, he is soon approached by a representative for a group of citizens who themselves are fed up with what they see as criminals going unpunished, and they make him an offer he may very well not refuse."
+      }
+    },
+    "synopsis": "Cansado do crime e da violência que tomam conta de sua cidade e em conflito constante com os superiores, um detetive acaba expulso da polícia depois de atirar, em circunstâncias questionáveis, em um criminoso cruel. Logo ele é procurado pelo representante de um grupo de cidadãos também fartos de ver criminosos impunes, que lhe faz uma oferta difícil de recusar.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Itália"],
+        "genres": ["Crime", "Ação"]
+      },
+      "en": {
+        "countries": ["Italy"],
+        "genres": ["Crime", "Action"]
+      }
+    },
+    "directors": ["Marino Girolami"],
+    "countries": ["Italy"],
+    "genres": ["Crime", "Action"],
+    "original_languages": ["it"]
+  },
+  {
+    "id": "PVCA-000536",
+    "slug": "harakiri-1962",
+    "title": "Harakiri",
+    "year": 1962,
+    "copies": [
+      {
+        "id": "pvca-000536-drive",
+        "resolution": "1080p",
+        "size_gib": 33.516107846051455,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["en", "ru"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000536-drive",
+    "poster": "/posters/tmdb-14537-juRMHEWUbk2kM9RdxjjcVjj7T1a.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/12fsiwuEJ2uf87j8c06dmpwhte2yhCjOk",
+        "copy_id": "pvca-000536-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 14537,
+    "added_at": "2026-10-12",
+    "original_title": "切腹",
+    "release_date": "1962-09-15",
+    "runtime_minutes": 135,
+    "imdb_id": "tt0056058",
+    "translations": {
+      "pt-BR": {
+        "title": "Harakiri",
+        "synopsis": "No século 18, o Japão não está mais em guerra e o país é governado com firmeza. Hanshiro Tsugumo, um dos muitos ronin (samurais errantes) desempregados, decide bater à porta do poderoso clã Ii. Recebido por Kageyu Saito, o intendente do clã, ele pede permissão para cometer suicídio por harakiri na residência. Tentando dissuadi-lo, Saito começa a lhe contar a história de Motome Chijiwa, outro ronin que também queria realizar o mesmo ritual no local."
+      },
+      "en": {
+        "title": "Harakiri",
+        "synopsis": "Down-on-his-luck veteran Tsugumo Hanshirō enters the courtyard of the prosperous House of Iyi. Unemployed, and with no family, he hopes to find a place to commit seppuku—and a worthy second to deliver the coup de grâce in his suicide ritual. The senior counselor for the Iyi clan questions the ronin’s resolve and integrity, suspecting Hanshirō of seeking charity rather than an honorable end. What follows is a pair of interlocking stories which lay bare the difference between honor and respect, and promises to examine the legendary foundations of the Samurai code."
+      }
+    },
+    "synopsis": "No século 18, o Japão não está mais em guerra e o país é governado com firmeza. Hanshiro Tsugumo, um dos muitos ronin (samurais errantes) desempregados, decide bater à porta do poderoso clã Ii. Recebido por Kageyu Saito, o intendente do clã, ele pede permissão para cometer suicídio por harakiri na residência. Tentando dissuadi-lo, Saito começa a lhe contar a história de Motome Chijiwa, outro ronin que também queria realizar o mesmo ritual no local.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Ação", "Drama", "História"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Action", "Drama", "History"]
+      }
+    },
+    "directors": ["Masaki Kobayashi"],
+    "countries": ["Japan"],
+    "genres": ["Action", "Drama", "History"],
+    "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000537",
+    "slug": "fireworks-1997",
+    "title": "Fireworks",
+    "year": 1997,
+    "copies": [
+      {
+        "id": "pvca-000537-drive",
+        "resolution": "1080p",
+        "size_gib": 22.50611619092524,
+        "format": "MKV",
+        "audio_languages": ["ru", "ja"],
+        "subtitle_languages": ["ru", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000537-drive",
+    "poster": "/posters/tmdb-5910-8rEfuvkzDHfOrsZDxRsKWIw4Bnd.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1e8Q4pEZbFmEuKJa9xEGC7lOfAAkkKhz8",
+        "copy_id": "pvca-000537-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 5910,
+    "added_at": "2026-10-12",
+    "original_title": "HANA-BI",
+    "release_date": "1997-10-30",
+    "runtime_minutes": 103,
+    "imdb_id": "tt0119250",
+    "translations": {
+      "pt-BR": {
+        "title": "Hana-Bi: Fogos de Artifício",
+        "synopsis": "O detetive Nishi tem sua vida abalada após descobrir que sua mulher tem uma doença terminal; seu parceiro é baleado e ficará para sempre em uma cadeira de rodas. O policial começa a se sentir responsável pelo sofrimento dos dois e decide sair da polícia e pegar um grande empréstimo com a máfia para dar um pouco de conforto aos que estão à sua volta. Para pagar o empréstimo, Nishi arquitetará um plano que mudará o curso de sua vida."
+      },
+      "en": {
+        "title": "Fireworks",
+        "synopsis": "Beleaguered police detective Nishi takes desperate measures to try and set things right in a world gone wrong. With those close to him suffering their own tribulations, Nishi's methods become increasingly extreme."
+      }
+    },
+    "synopsis": "O detetive Nishi tem sua vida abalada após descobrir que sua mulher tem uma doença terminal; seu parceiro é baleado e ficará para sempre em uma cadeira de rodas. O policial começa a se sentir responsável pelo sofrimento dos dois e decide sair da polícia e pegar um grande empréstimo com a máfia para dar um pouco de conforto aos que estão à sua volta. Para pagar o empréstimo, Nishi arquitetará um plano que mudará o curso de sua vida.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Crime", "Drama"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Crime", "Drama"]
+      }
+    },
+    "directors": ["Takeshi Kitano"],
+    "countries": ["Japan"],
+    "genres": ["Crime", "Drama"],
+    "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000538",
+    "slug": "poem-of-the-sea-1958",
+    "title": "Poem of the Sea",
+    "year": 1958,
+    "copies": [
+      {
+        "id": "pvca-000538-drive",
+        "resolution": "576p",
+        "size_gib": 3.804813182912767,
+        "format": "MKV",
+        "audio_languages": ["ru"],
+        "subtitle_languages": ["uk", "ru", "en", "fr"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000538-drive",
+    "poster": "/posters/tmdb-257637-7Qa2RveCq3MgNGUuHqg9cVjITBa.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1Z3eoOAXgbSyaEs6sEdSChBTbuI5ldHkz",
+        "copy_id": "pvca-000538-drive"
+      }
+    ],
+    "selections": ["Anos 1950"],
+    "tmdb_id": 257637,
+    "added_at": "2026-10-12",
+    "original_title": "Поэма о море",
+    "release_date": "1958-11-04",
+    "runtime_minutes": 104,
+    "imdb_id": "tt0053177",
+    "translations": {
+      "pt-BR": {
+        "title": "Poema do Mar",
+        "synopsis": "A construção de uma barragem soviética deixará debaixo d'água muitas antigas aldeias ucranianas. Surgem conflitos entre os engenheiros da obra e os moradores que não querem partir."
+      },
+      "en": {
+        "title": "Poem of the Sea",
+        "synopsis": "A Soviet dam project means that many old Ukrainian villages will end up under water. There are conflicts between the dam engineers and villagers who don't want to move."
+      }
+    },
+    "synopsis": "A construção de uma barragem soviética deixará debaixo d'água muitas antigas aldeias ucranianas. Surgem conflitos entre os engenheiros da obra e os moradores que não querem partir.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["União Soviética"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Soviet Union"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Yuliya Solntseva"],
+    "countries": ["Soviet Union"],
+    "genres": ["Drama"],
+    "original_languages": ["ru"]
+  },
+  {
+    "id": "PVCA-000540",
+    "slug": "the-unforgettable-1967",
+    "title": "The Unforgettable",
+    "year": 1967,
+    "copies": [
+      {
+        "id": "pvca-000540-drive",
+        "resolution": "480p",
+        "size_gib": 1.3675994873046875,
+        "format": "AVI",
+        "audio_languages": [],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000540-drive",
+    "poster": "/posters/tmdb-204871-mno2sYKfgLzWw3V0icmtajD11nR.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/16HjnHFb5ktPtcWJ2Py11TamcqIkLoj4B",
+        "copy_id": "pvca-000540-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 204871,
+    "added_at": "2026-10-12",
+    "original_title": "Незабываемое",
+    "release_date": "1967-08-30",
+    "runtime_minutes": 118,
+    "imdb_id": "tt0174984",
+    "translations": {
+      "pt-BR": {
+        "title": "O Inesquecível",
+        "synopsis": "As dificuldades dos primeiros anos da guerra, vividas pela gente comum da Ucrânia sob o jugo da ocupação fascista, e a luta heroica contra os invasores. Logo após a invasão nazista, uma jovem russa pede a um soldado do Exército Vermelho que passe a noite com ela. Temendo morrer em breve, ela espera viver uma noite de amor antes de um fim que pode ser terrível."
+      },
+      "en": {
+        "title": "The Unforgettable",
+        "synopsis": "About hardships of the first years of War, which fell to the lot of ordinary people in Ukraine, who got under the yoke of fascist occupation, and heroic struggle against the invaders. A young Russian woman asks a Red Army soldier to spend the night with her in the wake of the Nazi invasion. Fearing she may soon perish, the woman hopes for one night of romance before what could be a horrible demise."
+      }
+    },
+    "synopsis": "As dificuldades dos primeiros anos da guerra, vividas pela gente comum da Ucrânia sob o jugo da ocupação fascista, e a luta heroica contra os invasores. Logo após a invasão nazista, uma jovem russa pede a um soldado do Exército Vermelho que passe a noite com ela. Temendo morrer em breve, ela espera viver uma noite de amor antes de um fim que pode ser terrível.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["União Soviética"],
+        "genres": ["Guerra", "Drama"]
+      },
+      "en": {
+        "countries": ["Soviet Union"],
+        "genres": ["War", "Drama"]
+      }
+    },
+    "directors": ["Yuliya Solntseva"],
+    "countries": ["Soviet Union"],
+    "genres": ["War", "Drama"],
+    "original_languages": ["ru"]
+  },
+  {
+    "id": "PVCA-000541",
+    "slug": "my-lady-s-lips-1925",
+    "title": "My Lady's Lips",
+    "year": 1925,
+    "copies": [
+      {
+        "id": "pvca-000541-drive",
+        "resolution": "1080p",
+        "size_gib": 5.931966374628246,
+        "format": "MP4",
+        "audio_languages": ["und"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000541-drive",
+    "poster": "/posters/tmdb-363576-heoAsCPlO8pD8pNeUxBAqJoiTHx.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1xyp-vYu2nOsrAbdbwJbavsX4Ja1qbn8z",
+        "copy_id": "pvca-000541-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 363576,
+    "added_at": "2026-10-12",
+    "original_title": "My Lady's Lips",
+    "release_date": "1925-07-01",
+    "runtime_minutes": 68,
+    "imdb_id": "tt0016134",
+    "translations": {
+      "pt-BR": {
+        "title": "My Lady's Lips",
+        "synopsis": "O dono de um jornal descobre que sua filha rebelde se envolveu com uma quadrilha de jogadores. Um repórter infiltrado no bando em busca de uma matéria se apaixona pela mulher que o chefia, e quando os dois são apanhados em uma batida policial, acabam igualmente encrencados."
+      },
+      "en": {
+        "title": "My Lady's Lips",
+        "synopsis": "A newspaper publisher finds out that his wild daughter has fallen in with a ring of gamblers. A reporter who has infiltrated the gang to get a story falls in love with the gang's female leader, and when the two are caught in a police raid, they find themselves in equal amounts of trouble."
+      }
+    },
+    "synopsis": "O dono de um jornal descobre que sua filha rebelde se envolveu com uma quadrilha de jogadores. Um repórter infiltrado no bando em busca de uma matéria se apaixona pela mulher que o chefia, e quando os dois são apanhados em uma batida policial, acabam igualmente encrencados.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos"],
+        "genres": ["Thriller", "Crime", "Drama"]
+      },
+      "en": {
+        "countries": ["United States"],
+        "genres": ["Thriller", "Crime", "Drama"]
+      }
+    },
+    "directors": ["James P. Hogan"],
+    "countries": ["United States of America"],
+    "genres": ["Thriller", "Crime", "Drama"],
+    "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000539",
+    "slug": "the-enchanted-desna-1964",
+    "title": "The Enchanted Desna",
+    "year": 1964,
+    "copies": [
+      {
+        "id": "pvca-000539-drive",
+        "resolution": "480p",
+        "size_gib": 0.7234806763008237,
+        "format": "MKV",
+        "audio_languages": ["ru"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000539-drive",
+    "poster": "/posters/the-enchanted-desna-1964-editorial-v2.png",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1zVQMNfmi9uz9piCEHiDhcREivctUi0mQ",
+        "copy_id": "pvca-000539-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 283454,
+    "added_at": "2026-10-12",
+    "original_title": "Зачарованная Десна",
+    "release_date": "1964-12-07",
+    "runtime_minutes": 77,
+    "imdb_id": "tt0175345",
+    "translations": {
+      "pt-BR": {
+        "title": "O Desna Encantado",
+        "synopsis": "Passado no início dos anos 1900, o filme descreve a vida em uma vila ucraniana às margens do rio Desna, que será inundada para construção de uma barragem moderna. Faz parte dos vários textos e roteiros que Dovzhenko não pôde filmar em vida e foram realizados por sua viúva."
+      },
+      "en": {
+        "title": "The Enchanted Desna",
+        "synopsis": "Based on the novel of the same name by Oleksandr Dovzhenko.  About the childhood of the famous Ukrainian film director Oleksandr Dovzhenko, who was born on the ancient lands of Chernihiv, along the banks the Desna. The film consists of two parts. The first is the world shown through the impressions of the six-year-old Sashko. The second is the recollections and reasoning of Sashko, now an elderly colonel who liberates his native village during the war."
+      }
+    },
+    "synopsis": "Passado no início dos anos 1900, o filme descreve a vida em uma vila ucraniana às margens do rio Desna, que será inundada para construção de uma barragem moderna. Faz parte dos vários textos e roteiros que Dovzhenko não pôde filmar em vida e foram realizados por sua viúva.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["União Soviética"],
+        "genres": ["Drama", "Guerra", "Fantasia"]
+      },
+      "en": {
+        "countries": ["Soviet Union"],
+        "genres": ["Drama", "War", "Fantasy"]
+      }
+    },
+    "directors": ["Yuliya Solntseva"],
+    "countries": ["Soviet Union"],
+    "genres": ["Drama", "War", "Fantasy"],
+    "original_languages": ["ru"]
   }
 ]

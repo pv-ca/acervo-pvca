@@ -8,7 +8,7 @@ import {
   withStoreLock,
   fingerprint,
 } from "./store.mjs";
-import { planPublication, publicRecords } from "./database.mjs";
+import { planPublication, publicRecords, allRecords } from "./database.mjs";
 import { checkSchema } from "./catalog.mjs";
 import { enrichTmdb } from "./tmdb.mjs";
 const hash = (value) => createHash("sha256").update(value).digest("hex");
@@ -138,6 +138,15 @@ export async function prepare(root, receipt, { enrich = true } = {}) {
   if (enrich) {
     try {
       const metadata = await enrichTmdb(root, film.tmdb_id);
+      // A ficha already in the catalog keeps what it has: a gap is one in both the receipt and the ficha.
+      const current =
+        allRecords(readDatabase(root)).find(
+          (known) => known.tmdb_id === film.tmdb_id
+        ) ?? {};
+      const empty = (value) =>
+        value == null ||
+        value === "" ||
+        (Array.isArray(value) && !value.length);
       // Official metadata only fills gaps; technical copy facts remain untouched.
       for (const [field, value] of Object.entries(metadata)) {
         if (
@@ -157,14 +166,13 @@ export async function prepare(root, receipt, { enrich = true } = {}) {
           for (const [locale, values] of Object.entries(value ?? {})) {
             film[field][locale] ??= {};
             for (const [name, content] of Object.entries(values))
-              if (!film[field][locale][name])
+              if (
+                !film[field][locale][name] &&
+                !current[field]?.[locale]?.[name]
+              )
                 film[field][locale][name] = content;
           }
-        } else if (
-          film[field] == null ||
-          film[field] === "" ||
-          (Array.isArray(film[field]) && !film[field].length)
-        )
+        } else if (empty(film[field]) && empty(current[field]))
           film[field] = value;
       }
       if (metadata.entity_refs)

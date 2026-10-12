@@ -302,3 +302,45 @@ test("local editor guards origins and preserves draft/public boundaries", async 
     rmSync(dir, { recursive: true, force: true });
   }
 });
+test("Letterboxd export returns the whole current catalog and its row count", async () => {
+  const dir = mkdtempSync(join(tmpdir(), "pvca-admin-export-"));
+  let server;
+  try {
+    for (const name of ["data", "scripts/admin", "scripts/i18n"])
+      cpSync(new URL(name, root), join(dir, name), { recursive: true });
+    const catalog = JSON.parse(
+      readFileSync(join(dir, "data/public/catalog.json"))
+    );
+    // The auxiliary URI list must not decide which films are exported.
+    writeFileSync(join(dir, "data/letterboxd-uris.json"), "{}\n");
+    server = createAdmin(dir, 0);
+    await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+    const port = server.address().port;
+    await new Promise((resolve) => server.close(resolve));
+    server = createAdmin(dir, port);
+    await new Promise((resolve) => server.listen(port, "127.0.0.1", resolve));
+    const origin = `http://127.0.0.1:${port}`;
+    const { token } = await (await fetch(origin + "/api/state")).json();
+    const result = await (
+      await fetch(origin + "/api/export/letterboxd", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Origin: origin,
+          "X-PVCA-Token": token,
+        },
+        body: "{}",
+      })
+    ).json();
+    const lines = result.csv.trimEnd().split("\r\n");
+    assert.equal(lines[0], "﻿LetterboxdURI,tmdbID,Review");
+    assert.equal(result.count, catalog.length);
+    assert.equal(lines.length - 1, result.count);
+    assert.match(result.filename, new RegExp(`— ${result.count} títulos — `));
+    assert.doesNotMatch(result.csv, /em envio/);
+  } finally {
+    if (server?.listening)
+      await new Promise((resolve) => server.close(resolve));
+    rmSync(dir, { recursive: true, force: true });
+  }
+});

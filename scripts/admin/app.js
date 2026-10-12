@@ -591,6 +591,24 @@ $("#build").addEventListener("click", () =>
     status(result.message);
   })
 );
+$("#export-letterboxd").addEventListener("click", () =>
+  action(async () => {
+    status("Exportando CSV…");
+    const result = await api("export/letterboxd", {});
+    if (typeof result.csv !== "string" || !result.filename)
+      throw Error(
+        "O painel em execução é uma versão antiga. Feche o processo node do painel e abra o ícone de novo."
+      );
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(
+      new Blob([result.csv], { type: "text/csv;charset=utf-8" })
+    );
+    link.download = result.filename;
+    link.click();
+    URL.revokeObjectURL(link.href);
+    status(`CSV exportado (${result.count} títulos): ${result.filename}`);
+  })
+);
 load().catch((error) => status(error.message));
 
 $("#admin-language").addEventListener("change", (event) => {
