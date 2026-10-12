@@ -85,6 +85,23 @@ test("copies without a current public link are never described", () => {
   );
 });
 
+test("a provider with two copies names each by resolution, largest first", () => {
+  assert.equal(
+    reviewFor({
+      copies: [
+        copy("hd", 7.65, "1080p", ["en"]),
+        copy("uhd", 80.3, "2160p", ["en", "pt-BR"]),
+      ],
+      external_links: [
+        link("internet_archive", "https://archive.org/hd", "hd"),
+        link("google_drive", "https://drive/x", "uhd"),
+        link("internet_archive", "https://archive.org/uhd", "uhd"),
+      ],
+    }),
+    '<a href="https://drive/x">Google Drive</a> · <a href="https://archive.org/uhd">Internet Archive (2160p)</a> · <a href="https://archive.org/hd">Internet Archive (1080p)</a><br>86,2 GB (2160p) / 8,2 GB (1080p) · Legendas: PT-BR, EN (2160p) / EN (1080p)'
+  );
+});
+
 const parse = (csv) => {
   const rows = [];
   let row = [""],

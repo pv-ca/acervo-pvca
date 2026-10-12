@@ -50,24 +50,42 @@ function merge(entries, same = (a, b) => a === b) {
 }
 
 // Only copies with a current public link are described: a Review states
-// verifiable access, never a private or pending copy.
+// verifiable access, never a private or pending copy. Drive comes first; a
+// provider holding several copies lists the largest first.
 function sourcesFor(film) {
-  return PROVIDERS.flatMap(([provider, name, label]) => {
-    const link = film.external_links?.find(
-      (item) => item.provider === provider
-    );
-    const copy = film.copies?.find((item) => item.id === link?.copy_id);
-    return link && copy ? [{ link, name, label, copy }] : [];
-  });
+  return PROVIDERS.flatMap(([provider, name, label]) =>
+    (film.external_links ?? [])
+      .filter((link) => link.provider === provider)
+      .flatMap((link) => {
+        const copy = film.copies?.find((item) => item.id === link.copy_id);
+        return copy ? [{ link, name, label, copy, provider }] : [];
+      })
+      .sort((a, b) => b.copy.size_gib - a.copy.size_gib)
+  );
 }
 
 export function reviewFor(film) {
   const links = sourcesFor(film);
   if (!links.length) return "";
+  const repeated = (provider) =>
+    links.filter((item) => item.provider === provider).length > 1;
+  const several = links.some((item) => repeated(item.provider));
   const anchors = links
-    .map(({ link, name }) => `<a href="${link.url}">${name}</a>`)
+    .map(({ link, name, copy, provider }) => {
+      const text = repeated(provider)
+        ? `${name} (${formatResolution(copy.resolution)})`
+        : name;
+      return `<a href="${link.url}">${text}</a>`;
+    })
     .join(" · ");
-  const sizes = links.map(({ label, copy }) => ({
+  // One provider with several copies: values are told apart by resolution, per copy.
+  const entries = several
+    ? [...new Set(links.map((item) => item.copy))].map((copy) => ({
+        label: formatResolution(copy.resolution),
+        copy,
+      }))
+    : links;
+  const sizes = entries.map(({ label, copy }) => ({
     label,
     value: formatSize(copy.size_gib),
     gib: copy.size_gib,
@@ -76,22 +94,24 @@ export function reviewFor(film) {
     Math.max(...sizes.map((s) => s.gib)) -
       Math.min(...sizes.map((s) => s.gib)) <=
     SAME_SIZE * Math.max(...sizes.map((s) => s.gib));
-  const parts = [
+  const subtitles = merge(
+    entries.map(({ label, copy }) => ({
+      label,
+      value: formatSubtitles(copy.subtitle_languages ?? []),
+    }))
+  );
+  const meta = [
     sameSize ? sizes.at(-1).value : merge(sizes),
-    merge(
-      links.map(({ label, copy }) => ({
-        label,
-        value: formatResolution(copy.resolution),
-      }))
-    ),
-    merge(
-      links.map(({ label, copy }) => ({
-        label,
-        value: formatSubtitles(copy.subtitle_languages ?? []),
-      }))
-    ),
-  ];
-  const meta = [parts[0], parts[1], parts[2] && `Legendas: ${parts[2]}`]
+    several && entries.length > 1
+      ? ""
+      : merge(
+          entries.map(({ label, copy }) => ({
+            label,
+            value: formatResolution(copy.resolution),
+          }))
+        ),
+    subtitles && `Legendas: ${subtitles}`,
+  ]
     .filter(Boolean)
     .join(" · ");
   return `${anchors}<br>${meta}`;
