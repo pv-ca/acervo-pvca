@@ -2,7 +2,9 @@
 // film's ficha, which always shows the current copies, and describes the best
 // public copy (size, resolution, subtitles).
 const SITE = "https://pv-ca.github.io/acervo-pvca";
-const LINK_TEXT = "Ver a ficha do filme no Acervo PVCA";
+const AVAILABLE = "Disponível no Acervo PVCA";
+// A film with no public copy is not available: its link names the ficha only.
+const FICHA = "Ficha no Acervo PVCA";
 const BYTES_PER_GIB = 1.073741824;
 const LANGUAGE_CODES = {
   may: "MS",
@@ -45,8 +47,8 @@ function publicCopy(film) {
 }
 
 export function reviewFor(film) {
-  const anchor = `<a href="${SITE}/filmes/${film.slug}/">${LINK_TEXT}</a>`;
   const copy = publicCopy(film);
+  const anchor = `<a href="${SITE}/filmes/${film.slug}/">${copy ? AVAILABLE : FICHA}</a>`;
   if (!copy) return anchor;
   const subtitles = formatSubtitles(copy.subtitle_languages ?? []);
   const meta = [
