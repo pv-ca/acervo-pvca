@@ -1,11 +1,9 @@
-// Letterboxd import export: one row per catalog film, in the Review format of
-// the curated acervo_pvca_letterboxd_import CSVs (links, size, resolution, subtitles).
-const PROVIDERS = [
-  ["google_drive", "Google Drive", "Drive"],
-  ["internet_archive", "Internet Archive", "Archive"],
-];
+// Letterboxd import export: one row per catalog film. The Review links to the
+// film's ficha, which always shows the current copies, and describes the best
+// public copy (size, resolution, subtitles).
+const SITE = "https://pv-ca.github.io/acervo-pvca";
+const LINK_TEXT = "Ver a ficha do filme no Acervo PVCA";
 const BYTES_PER_GIB = 1.073741824;
-const SAME_SIZE = 0.01;
 const LANGUAGE_CODES = {
   may: "MS",
   mac: "MK",
@@ -36,85 +34,29 @@ export function formatSubtitles(languages) {
   ].join(", ");
 }
 
-// Joins one value per link: a single value when the copies agree, otherwise
-// "value (Drive) / value (Archive)". Copies without a value are left out.
-function merge(entries, same = (a, b) => a === b) {
-  const present = entries.filter((entry) => entry.value);
-  if (!present.length) return "";
-  const [first, ...rest] = present;
-  if (rest.every((entry) => same(first.value, entry.value)))
-    return present.length === entries.length
-      ? present.at(-1).value
-      : `${present.at(-1).value} (${present.at(-1).label})`;
-  return present.map((entry) => `${entry.value} (${entry.label})`).join(" / ");
-}
-
-// Only copies with a current public link are described: a Review states
-// verifiable access, never a private or pending copy. Drive comes first; a
-// provider holding several copies lists the largest first.
-function sourcesFor(film) {
-  return PROVIDERS.flatMap(([provider, name, label]) =>
-    (film.external_links ?? [])
-      .filter((link) => link.provider === provider)
-      .flatMap((link) => {
-        const copy = film.copies?.find((item) => item.id === link.copy_id);
-        return copy ? [{ link, name, label, copy, provider }] : [];
-      })
-      .sort((a, b) => b.copy.size_gib - a.copy.size_gib)
+// The largest copy that has a current public link; a private or pending copy is never described.
+function publicCopy(film) {
+  const linked = new Set(
+    (film.external_links ?? []).map((link) => link.copy_id)
   );
+  return (film.copies ?? [])
+    .filter((copy) => linked.has(copy.id))
+    .sort((a, b) => b.size_gib - a.size_gib)[0];
 }
 
 export function reviewFor(film) {
-  const links = sourcesFor(film);
-  if (!links.length) return "";
-  const repeated = (provider) =>
-    links.filter((item) => item.provider === provider).length > 1;
-  const several = links.some((item) => repeated(item.provider));
-  const anchors = links
-    .map(({ link, name, copy, provider }) => {
-      const text = repeated(provider)
-        ? `${name} (${formatResolution(copy.resolution)})`
-        : name;
-      return `<a href="${link.url}">${text}</a>`;
-    })
-    .join(" · ");
-  // One provider with several copies: values are told apart by resolution, per copy.
-  const entries = several
-    ? [...new Set(links.map((item) => item.copy))].map((copy) => ({
-        label: formatResolution(copy.resolution),
-        copy,
-      }))
-    : links;
-  const sizes = entries.map(({ label, copy }) => ({
-    label,
-    value: formatSize(copy.size_gib),
-    gib: copy.size_gib,
-  }));
-  const sameSize =
-    Math.max(...sizes.map((s) => s.gib)) -
-      Math.min(...sizes.map((s) => s.gib)) <=
-    SAME_SIZE * Math.max(...sizes.map((s) => s.gib));
-  const subtitles = merge(
-    entries.map(({ label, copy }) => ({
-      label,
-      value: formatSubtitles(copy.subtitle_languages ?? []),
-    }))
-  );
+  const anchor = `<a href="${SITE}/filmes/${film.slug}/">${LINK_TEXT}</a>`;
+  const copy = publicCopy(film);
+  if (!copy) return anchor;
+  const subtitles = formatSubtitles(copy.subtitle_languages ?? []);
   const meta = [
-    sameSize ? sizes.at(-1).value : merge(sizes),
-    several && entries.length > 1
-      ? ""
-      : merge(
-          entries.map(({ label, copy }) => ({
-            label,
-            value: formatResolution(copy.resolution),
-          }))
-        ),
+    formatSize(copy.size_gib),
+    formatResolution(copy.resolution),
     subtitles && `Legendas: ${subtitles}`,
   ]
     .filter(Boolean)
     .join(" · ");
-  return `${anchors}<br>${meta}`;
+  return `${anchor}<br>${meta}`;
 }
 
 const quote = (value) =>
@@ -123,7 +65,7 @@ const quote = (value) =>
 // One row per catalog film, whatever its identity or availability: the catalog
 // alone defines what is exported. uris maps tmdb_id to the film's
 // letterboxd.com URI and only adds identity; tmdbID lets Letterboxd match the
-// films whose URI is not known. A film with no public copy has an empty Review.
+// films whose URI is not known.
 export function letterboxdCsv(films, uris = {}) {
   const rows = films.map((film) =>
     [uris[film.tmdb_id] ?? "", film.tmdb_id ?? "", reviewFor(film)]
