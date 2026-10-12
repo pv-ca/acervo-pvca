@@ -137,11 +137,25 @@
         "format": "Matroska",
         "audio_languages": [],
         "subtitle_languages": []
+      },
+      {
+        "id": "pvca-000003-archive",
+        "resolution": "1080p",
+        "size_gib": 20.397025062702596,
+        "format": "MKV",
+        "audio_languages": ["it"],
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000003-local",
     "poster": "/posters/tmdb-43195-qLwENVUnmb6ULiUKAh6dzDTwxUI.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/senso-1954-1080p-pvca",
+        "copy_id": "pvca-000003-archive"
+      }
+    ],
     "selections": ["Anos 1950", "Cinema italiano"],
     "tmdb_id": 43195,
     "original_title": "Senso",
@@ -649,6 +663,14 @@
         "format": "Matroska",
         "audio_languages": ["it"],
         "subtitle_languages": ["en"]
+      },
+      {
+        "id": "pvca-000012-drive",
+        "resolution": "2160p",
+        "size_gib": 80.31830299366266,
+        "format": "MKV",
+        "audio_languages": ["it", "en"],
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000012-archive",
@@ -658,6 +680,11 @@
         "provider": "internet_archive",
         "url": "https://archive.org/details/la-notte-1961-1080p",
         "copy_id": "pvca-000012-archive"
+      },
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1u7HBkh49TkinaJYZtNRAV_YRGehdQq3l",
+        "copy_id": "pvca-000012-drive"
       }
     ],
     "selections": ["Michelangelo Antonioni", "Cinema italiano"],
@@ -1097,11 +1124,25 @@
         "format": "Matroska",
         "audio_languages": ["no"],
         "subtitle_languages": ["ru", "en"]
+      },
+      {
+        "id": "pvca-000020-archive",
+        "resolution": "720p",
+        "size_gib": 17.916829419322312,
+        "format": "MKV",
+        "audio_languages": ["no"],
+        "subtitle_languages": ["pt-BR", "en", "ru"]
       }
     ],
     "catalog_copy_id": "pvca-000020-local",
     "poster": "/posters/tmdb-50254-aXAkJld5UTIa0nijWvDm7DcyBe0.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/edvard-munch-1974-720p-pvca",
+        "copy_id": "pvca-000020-archive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 50254,
     "original_title": "Edvard Munch",
@@ -7728,11 +7769,25 @@
         "format": "Matroska",
         "audio_languages": ["ru", "en"],
         "subtitle_languages": ["ru", "en"]
+      },
+      {
+        "id": "pvca-000132-archive",
+        "resolution": "1080p",
+        "size_gib": 30.760927735827863,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en", "ru"]
       }
     ],
     "catalog_copy_id": "pvca-000132-drive",
     "poster": "/posters/tmdb-4175-chQ44mnhMfaEHoTya1ALnbsMC3M.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/under-capricorn-1949-720p-pvca",
+        "copy_id": "pvca-000132-archive"
+      }
+    ],
     "selections": [],
     "tmdb_id": 4175,
     "original_title": "Under Capricorn",
@@ -9586,11 +9641,25 @@
         "format": "Matroska",
         "audio_languages": ["en"],
         "subtitle_languages": []
+      },
+      {
+        "id": "pvca-000163-archive",
+        "resolution": "576p",
+        "size_gib": 1.2318935012444854,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": []
       }
     ],
     "catalog_copy_id": "pvca-000163-drive",
     "poster": "/posters/tmdb-467731-m8uDk727KpQg3S2nqLR0eSh73c2.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/tragedy-in-a-temporary-town-1956-576p-pvca",
+        "copy_id": "pvca-000163-archive"
+      }
+    ],
     "selections": ["Sidney Lumet", "Anos 1950", "Justiça e instituições"],
     "tmdb_id": 467731,
     "original_title": "Tragedy in a Temporary Town",
@@ -15330,11 +15399,25 @@
         "format": "Matroska",
         "audio_languages": [],
         "subtitle_languages": []
+      },
+      {
+        "id": "pvca-000257-archive",
+        "resolution": "1080p",
+        "size_gib": 20.696482189930975,
+        "format": "MKV",
+        "audio_languages": ["fr"],
+        "subtitle_languages": ["pt-BR", "fr", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000257-local",
     "poster": "/posters/tmdb-53156-kWIpbE4YZ9xp3SregE4h8577cI.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/elena-and-her-men-1956",
+        "copy_id": "pvca-000257-archive"
+      }
+    ],
     "selections": ["Anos 1950", "Cinema francês"],
     "tmdb_id": 53156,
     "original_title": "Elena et les hommes",
@@ -19936,11 +20019,25 @@
         "format": "Matroska",
         "audio_languages": [],
         "subtitle_languages": []
+      },
+      {
+        "id": "pvca-000337-archive",
+        "resolution": "1080p",
+        "size_gib": 8.744901796802878,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000337-local",
     "poster": "/posters/tmdb-56167-cDlxLnLMboEfdDcPelodOs71GVs.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-golden-coach-1952-1080p-pvca",
+        "copy_id": "pvca-000337-archive"
+      }
+    ],
     "selections": ["Anos 1950", "Cinema francês"],
     "tmdb_id": 56167,
     "original_title": "Le Carrosse d'or",
@@ -31202,6 +31299,14 @@
         "format": "MKV",
         "audio_languages": ["ja"],
         "subtitle_languages": ["pt-BR", "en"]
+      },
+      {
+        "id": "pvca-000532-drive",
+        "resolution": "1080p",
+        "size_gib": 2.648027223534882,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000532-archive",
@@ -31211,6 +31316,11 @@
         "provider": "internet_archive",
         "url": "https://archive.org/details/kigeki-hatsumode-ressha-1968-1080p-pvca",
         "copy_id": "pvca-000532-archive"
+      },
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1bxfXIDaX_6Mgd1po78pRECo0Buzcl3CM",
+        "copy_id": "pvca-000532-drive"
       }
     ],
     "selections": [],
@@ -31245,5 +31355,518 @@
     "countries": ["Japan"],
     "genres": ["Comedy"],
     "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000533",
+    "slug": "finding-emily-2026",
+    "title": "Finding Emily",
+    "year": 2026,
+    "copies": [
+      {
+        "id": "pvca-000533-drive",
+        "resolution": "1080p",
+        "size_gib": 5.671619734726846,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["en", "fr", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000533-drive",
+    "poster": "/posters/tmdb-1339588-A8jADlBRtpmfysvi4EZf6PFmKex.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1z7yh26B9VsU9rwpQ2BRmZflB83MpayIm",
+        "copy_id": "pvca-000533-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 1339588,
+    "added_at": "2026-10-12",
+    "original_title": "Finding Emily",
+    "release_date": "2026-05-21",
+    "runtime_minutes": 111,
+    "imdb_id": "tt32499466",
+    "translations": {
+      "pt-BR": {
+        "title": "Procurando Emily",
+        "synopsis": "Quando um músico apaixonado recebe o número errado de sua garota dos sonhos, ele se junta a uma determinada estudante de psicologia para encontrá-la. Juntos, eles provocam um frenesi hilário por todo o campus que coloca à prova seus próprios corações e ambições ao longo do caminho."
+      },
+      "en": {
+        "title": "Finding Emily",
+        "synopsis": "When a lovesick musician is given the wrong number for his dream girl, he teams up with a driven psychology student to find her. Together, they spark a hilarious campus-wide frenzy that tests their own hearts and ambitions along the way."
+      }
+    },
+    "synopsis": "Quando um músico apaixonado recebe o número errado de sua garota dos sonhos, ele se junta a uma determinada estudante de psicologia para encontrá-la. Juntos, eles provocam um frenesi hilário por todo o campus que coloca à prova seus próprios corações e ambições ao longo do caminho.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Reino Unido", "Estados Unidos"],
+        "genres": ["Romance", "Comédia"]
+      },
+      "en": {
+        "countries": ["United Kingdom", "United States"],
+        "genres": ["Romance", "Comedy"]
+      }
+    },
+    "directors": ["Alicia MacDonald"],
+    "countries": ["United Kingdom", "United States of America"],
+    "genres": ["Romance", "Comedy"],
+    "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000534",
+    "slug": "andrei-rublev-1966",
+    "title": "Andrei Rublev",
+    "year": 1966,
+    "copies": [
+      {
+        "id": "pvca-000534-drive",
+        "resolution": "1080p",
+        "size_gib": 40.62118196487427,
+        "format": "MKV",
+        "audio_languages": ["ru"],
+        "subtitle_languages": ["ru", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000534-drive",
+    "poster": "/posters/tmdb-895-t950gX4EeAPgk8TCeh2NsixkBdr.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1jZt8nCx5yldEOFXcBJ-AblmByJZI5C0-",
+        "copy_id": "pvca-000534-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 895,
+    "added_at": "2026-10-12",
+    "original_title": "Андрей Рублёв",
+    "release_date": "1966-12-16",
+    "runtime_minutes": 215,
+    "imdb_id": "tt0060107",
+    "translations": {
+      "pt-BR": {
+        "title": "Andrei Rublev",
+        "synopsis": "Um filme sobre os diversos episódios da vida do pintor de ícones Andrei Rublev (1360-1430), um dos maiores artistas russos da Idade Média, mas também um retrato da difícil vida do povo russo neste século. Entre os conflitos apresentados estão a rigidez da Igreja Ortodoxa Russa e o seu lugar na cultura russa, bem como a pobreza e as invasões tártaras. Após quatro anos de produção a exibição do filme seria proibida logo após seu lançamento, levando-o a ser exibido apenas em festivais de cinema estrangeiros."
+      },
+      "en": {
+        "title": "Andrei Rublev",
+        "synopsis": "An expansive Russian drama, this film focuses on the life of revered religious icon painter Andrei Rublev. Drifting from place to place in a tumultuous era, the peace-seeking monk eventually gains a reputation for his art. But after Rublev witnesses a brutal battle and unintentionally becomes involved, he takes a vow of silence and spends time away from his work. As he begins to ease his troubled soul, he takes steps towards becoming a painter once again."
+      }
+    },
+    "synopsis": "Um filme sobre os diversos episódios da vida do pintor de ícones Andrei Rublev (1360-1430), um dos maiores artistas russos da Idade Média, mas também um retrato da difícil vida do povo russo neste século. Entre os conflitos apresentados estão a rigidez da Igreja Ortodoxa Russa e o seu lugar na cultura russa, bem como a pobreza e as invasões tártaras. Após quatro anos de produção a exibição do filme seria proibida logo após seu lançamento, levando-o a ser exibido apenas em festivais de cinema estrangeiros.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["União Soviética"],
+        "genres": ["Drama", "História"]
+      },
+      "en": {
+        "countries": ["Soviet Union"],
+        "genres": ["Drama", "History"]
+      }
+    },
+    "directors": ["Andrei Tarkovsky"],
+    "countries": ["Soviet Union"],
+    "genres": ["Drama", "History"],
+    "original_languages": ["ru"]
+  },
+  {
+    "id": "PVCA-000535",
+    "slug": "violent-rome-1975",
+    "title": "Violent Rome",
+    "year": 1975,
+    "copies": [
+      {
+        "id": "pvca-000535-drive",
+        "resolution": "576i",
+        "size_gib": 4.166852711699903,
+        "format": "MKV",
+        "audio_languages": ["it", "en", "de", "ru"],
+        "subtitle_languages": ["en", "de"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000535-drive",
+    "poster": "/posters/tmdb-96460-mFOOJ77jVp82yLKEZkfxTKTO4NB.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1t5cgTeozBvED9M-lMS02y7KccjgM9DEs",
+        "copy_id": "pvca-000535-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 96460,
+    "added_at": "2026-10-12",
+    "original_title": "Roma violenta",
+    "release_date": "1975-08-13",
+    "runtime_minutes": 86,
+    "imdb_id": "tt0073633",
+    "translations": {
+      "pt-BR": {
+        "title": "Roma violenta",
+        "synopsis": "Cansado do crime e da violência que tomam conta de sua cidade e em conflito constante com os superiores, um detetive acaba expulso da polícia depois de atirar, em circunstâncias questionáveis, em um criminoso cruel. Logo ele é procurado pelo representante de um grupo de cidadãos também fartos de ver criminosos impunes, que lhe faz uma oferta difícil de recusar."
+      },
+      "en": {
+        "title": "Violent Rome",
+        "synopsis": "A detective sick and tired of the rampant crime and violence in his city, and constantly at odds with his superiors, is finally kicked out of the department for a \"questionable\" shooting of a vicious criminal. However, he is soon approached by a representative for a group of citizens who themselves are fed up with what they see as criminals going unpunished, and they make him an offer he may very well not refuse."
+      }
+    },
+    "synopsis": "Cansado do crime e da violência que tomam conta de sua cidade e em conflito constante com os superiores, um detetive acaba expulso da polícia depois de atirar, em circunstâncias questionáveis, em um criminoso cruel. Logo ele é procurado pelo representante de um grupo de cidadãos também fartos de ver criminosos impunes, que lhe faz uma oferta difícil de recusar.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Itália"],
+        "genres": ["Crime", "Ação"]
+      },
+      "en": {
+        "countries": ["Italy"],
+        "genres": ["Crime", "Action"]
+      }
+    },
+    "directors": ["Marino Girolami"],
+    "countries": ["Italy"],
+    "genres": ["Crime", "Action"],
+    "original_languages": ["it"]
+  },
+  {
+    "id": "PVCA-000536",
+    "slug": "harakiri-1962",
+    "title": "Harakiri",
+    "year": 1962,
+    "copies": [
+      {
+        "id": "pvca-000536-drive",
+        "resolution": "1080p",
+        "size_gib": 33.516107846051455,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["en", "ru"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000536-drive",
+    "poster": "/posters/tmdb-14537-juRMHEWUbk2kM9RdxjjcVjj7T1a.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/12fsiwuEJ2uf87j8c06dmpwhte2yhCjOk",
+        "copy_id": "pvca-000536-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 14537,
+    "added_at": "2026-10-12",
+    "original_title": "切腹",
+    "release_date": "1962-09-15",
+    "runtime_minutes": 135,
+    "imdb_id": "tt0056058",
+    "translations": {
+      "pt-BR": {
+        "title": "Harakiri",
+        "synopsis": "No século 18, o Japão não está mais em guerra e o país é governado com firmeza. Hanshiro Tsugumo, um dos muitos ronin (samurais errantes) desempregados, decide bater à porta do poderoso clã Ii. Recebido por Kageyu Saito, o intendente do clã, ele pede permissão para cometer suicídio por harakiri na residência. Tentando dissuadi-lo, Saito começa a lhe contar a história de Motome Chijiwa, outro ronin que também queria realizar o mesmo ritual no local."
+      },
+      "en": {
+        "title": "Harakiri",
+        "synopsis": "Down-on-his-luck veteran Tsugumo Hanshirō enters the courtyard of the prosperous House of Iyi. Unemployed, and with no family, he hopes to find a place to commit seppuku—and a worthy second to deliver the coup de grâce in his suicide ritual. The senior counselor for the Iyi clan questions the ronin’s resolve and integrity, suspecting Hanshirō of seeking charity rather than an honorable end. What follows is a pair of interlocking stories which lay bare the difference between honor and respect, and promises to examine the legendary foundations of the Samurai code."
+      }
+    },
+    "synopsis": "No século 18, o Japão não está mais em guerra e o país é governado com firmeza. Hanshiro Tsugumo, um dos muitos ronin (samurais errantes) desempregados, decide bater à porta do poderoso clã Ii. Recebido por Kageyu Saito, o intendente do clã, ele pede permissão para cometer suicídio por harakiri na residência. Tentando dissuadi-lo, Saito começa a lhe contar a história de Motome Chijiwa, outro ronin que também queria realizar o mesmo ritual no local.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Ação", "Drama", "História"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Action", "Drama", "History"]
+      }
+    },
+    "directors": ["Masaki Kobayashi"],
+    "countries": ["Japan"],
+    "genres": ["Action", "Drama", "History"],
+    "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000537",
+    "slug": "fireworks-1997",
+    "title": "Fireworks",
+    "year": 1997,
+    "copies": [
+      {
+        "id": "pvca-000537-drive",
+        "resolution": "1080p",
+        "size_gib": 22.50611619092524,
+        "format": "MKV",
+        "audio_languages": ["ru", "ja"],
+        "subtitle_languages": ["ru", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000537-drive",
+    "poster": "/posters/tmdb-5910-8rEfuvkzDHfOrsZDxRsKWIw4Bnd.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1e8Q4pEZbFmEuKJa9xEGC7lOfAAkkKhz8",
+        "copy_id": "pvca-000537-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 5910,
+    "added_at": "2026-10-12",
+    "original_title": "HANA-BI",
+    "release_date": "1997-10-30",
+    "runtime_minutes": 103,
+    "imdb_id": "tt0119250",
+    "translations": {
+      "pt-BR": {
+        "title": "Hana-Bi: Fogos de Artifício",
+        "synopsis": "O detetive Nishi tem sua vida abalada após descobrir que sua mulher tem uma doença terminal; seu parceiro é baleado e ficará para sempre em uma cadeira de rodas. O policial começa a se sentir responsável pelo sofrimento dos dois e decide sair da polícia e pegar um grande empréstimo com a máfia para dar um pouco de conforto aos que estão à sua volta. Para pagar o empréstimo, Nishi arquitetará um plano que mudará o curso de sua vida."
+      },
+      "en": {
+        "title": "Fireworks",
+        "synopsis": "Beleaguered police detective Nishi takes desperate measures to try and set things right in a world gone wrong. With those close to him suffering their own tribulations, Nishi's methods become increasingly extreme."
+      }
+    },
+    "synopsis": "O detetive Nishi tem sua vida abalada após descobrir que sua mulher tem uma doença terminal; seu parceiro é baleado e ficará para sempre em uma cadeira de rodas. O policial começa a se sentir responsável pelo sofrimento dos dois e decide sair da polícia e pegar um grande empréstimo com a máfia para dar um pouco de conforto aos que estão à sua volta. Para pagar o empréstimo, Nishi arquitetará um plano que mudará o curso de sua vida.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Crime", "Drama"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Crime", "Drama"]
+      }
+    },
+    "directors": ["Takeshi Kitano"],
+    "countries": ["Japan"],
+    "genres": ["Crime", "Drama"],
+    "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000538",
+    "slug": "poem-of-the-sea-1958",
+    "title": "Poem of the Sea",
+    "year": 1958,
+    "copies": [
+      {
+        "id": "pvca-000538-drive",
+        "resolution": "576p",
+        "size_gib": 3.804813182912767,
+        "format": "MKV",
+        "audio_languages": ["ru"],
+        "subtitle_languages": ["uk", "ru", "en", "fr"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000538-drive",
+    "poster": "/posters/tmdb-257637-7Qa2RveCq3MgNGUuHqg9cVjITBa.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1Z3eoOAXgbSyaEs6sEdSChBTbuI5ldHkz",
+        "copy_id": "pvca-000538-drive"
+      }
+    ],
+    "selections": ["Anos 1950"],
+    "tmdb_id": 257637,
+    "added_at": "2026-10-12",
+    "original_title": "Поэма о море",
+    "release_date": "1958-11-04",
+    "runtime_minutes": 104,
+    "imdb_id": "tt0053177",
+    "translations": {
+      "pt-BR": {
+        "title": "Poema do Mar",
+        "synopsis": "A construção de uma barragem soviética deixará debaixo d'água muitas antigas aldeias ucranianas. Surgem conflitos entre os engenheiros da obra e os moradores que não querem partir."
+      },
+      "en": {
+        "title": "Poem of the Sea",
+        "synopsis": "A Soviet dam project means that many old Ukrainian villages will end up under water. There are conflicts between the dam engineers and villagers who don't want to move."
+      }
+    },
+    "synopsis": "A construção de uma barragem soviética deixará debaixo d'água muitas antigas aldeias ucranianas. Surgem conflitos entre os engenheiros da obra e os moradores que não querem partir.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["União Soviética"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Soviet Union"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Yuliya Solntseva"],
+    "countries": ["Soviet Union"],
+    "genres": ["Drama"],
+    "original_languages": ["ru"]
+  },
+  {
+    "id": "PVCA-000540",
+    "slug": "the-unforgettable-1967",
+    "title": "The Unforgettable",
+    "year": 1967,
+    "copies": [
+      {
+        "id": "pvca-000540-drive",
+        "resolution": "480p",
+        "size_gib": 1.3675994873046875,
+        "format": "AVI",
+        "audio_languages": [],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000540-drive",
+    "poster": "/posters/tmdb-204871-mno2sYKfgLzWw3V0icmtajD11nR.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/16HjnHFb5ktPtcWJ2Py11TamcqIkLoj4B",
+        "copy_id": "pvca-000540-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 204871,
+    "added_at": "2026-10-12",
+    "original_title": "Незабываемое",
+    "release_date": "1967-08-30",
+    "runtime_minutes": 118,
+    "imdb_id": "tt0174984",
+    "translations": {
+      "pt-BR": {
+        "title": "O Inesquecível",
+        "synopsis": "As dificuldades dos primeiros anos da guerra, vividas pela gente comum da Ucrânia sob o jugo da ocupação fascista, e a luta heroica contra os invasores. Logo após a invasão nazista, uma jovem russa pede a um soldado do Exército Vermelho que passe a noite com ela. Temendo morrer em breve, ela espera viver uma noite de amor antes de um fim que pode ser terrível."
+      },
+      "en": {
+        "title": "The Unforgettable",
+        "synopsis": "About hardships of the first years of War, which fell to the lot of ordinary people in Ukraine, who got under the yoke of fascist occupation, and heroic struggle against the invaders. A young Russian woman asks a Red Army soldier to spend the night with her in the wake of the Nazi invasion. Fearing she may soon perish, the woman hopes for one night of romance before what could be a horrible demise."
+      }
+    },
+    "synopsis": "As dificuldades dos primeiros anos da guerra, vividas pela gente comum da Ucrânia sob o jugo da ocupação fascista, e a luta heroica contra os invasores. Logo após a invasão nazista, uma jovem russa pede a um soldado do Exército Vermelho que passe a noite com ela. Temendo morrer em breve, ela espera viver uma noite de amor antes de um fim que pode ser terrível.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["União Soviética"],
+        "genres": ["Guerra", "Drama"]
+      },
+      "en": {
+        "countries": ["Soviet Union"],
+        "genres": ["War", "Drama"]
+      }
+    },
+    "directors": ["Yuliya Solntseva"],
+    "countries": ["Soviet Union"],
+    "genres": ["War", "Drama"],
+    "original_languages": ["ru"]
+  },
+  {
+    "id": "PVCA-000541",
+    "slug": "my-lady-s-lips-1925",
+    "title": "My Lady's Lips",
+    "year": 1925,
+    "copies": [
+      {
+        "id": "pvca-000541-drive",
+        "resolution": "1080p",
+        "size_gib": 5.931966374628246,
+        "format": "MP4",
+        "audio_languages": ["und"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000541-drive",
+    "poster": "/posters/tmdb-363576-heoAsCPlO8pD8pNeUxBAqJoiTHx.jpg",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1xyp-vYu2nOsrAbdbwJbavsX4Ja1qbn8z",
+        "copy_id": "pvca-000541-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 363576,
+    "added_at": "2026-10-12",
+    "original_title": "My Lady's Lips",
+    "release_date": "1925-07-01",
+    "runtime_minutes": 68,
+    "imdb_id": "tt0016134",
+    "translations": {
+      "pt-BR": {
+        "title": "My Lady's Lips",
+        "synopsis": "O dono de um jornal descobre que sua filha rebelde se envolveu com uma quadrilha de jogadores. Um repórter infiltrado no bando em busca de uma matéria se apaixona pela mulher que o chefia, e quando os dois são apanhados em uma batida policial, acabam igualmente encrencados."
+      },
+      "en": {
+        "title": "My Lady's Lips",
+        "synopsis": "A newspaper publisher finds out that his wild daughter has fallen in with a ring of gamblers. A reporter who has infiltrated the gang to get a story falls in love with the gang's female leader, and when the two are caught in a police raid, they find themselves in equal amounts of trouble."
+      }
+    },
+    "synopsis": "O dono de um jornal descobre que sua filha rebelde se envolveu com uma quadrilha de jogadores. Um repórter infiltrado no bando em busca de uma matéria se apaixona pela mulher que o chefia, e quando os dois são apanhados em uma batida policial, acabam igualmente encrencados.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos"],
+        "genres": ["Thriller", "Crime", "Drama"]
+      },
+      "en": {
+        "countries": ["United States"],
+        "genres": ["Thriller", "Crime", "Drama"]
+      }
+    },
+    "directors": ["James P. Hogan"],
+    "countries": ["United States of America"],
+    "genres": ["Thriller", "Crime", "Drama"],
+    "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000539",
+    "slug": "the-enchanted-desna-1964",
+    "title": "The Enchanted Desna",
+    "year": 1964,
+    "copies": [
+      {
+        "id": "pvca-000539-drive",
+        "resolution": "480p",
+        "size_gib": 0.7234806763008237,
+        "format": "MKV",
+        "audio_languages": ["ru"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000539-drive",
+    "poster": "/posters/the-enchanted-desna-1964-editorial-v2.png",
+    "external_links": [
+      {
+        "provider": "google_drive",
+        "url": "https://drive.google.com/drive/folders/1zVQMNfmi9uz9piCEHiDhcREivctUi0mQ",
+        "copy_id": "pvca-000539-drive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 283454,
+    "added_at": "2026-10-12",
+    "original_title": "Зачарованная Десна",
+    "release_date": "1964-12-07",
+    "runtime_minutes": 77,
+    "imdb_id": "tt0175345",
+    "translations": {
+      "pt-BR": {
+        "title": "O Desna Encantado",
+        "synopsis": "Passado no início dos anos 1900, o filme descreve a vida em uma vila ucraniana às margens do rio Desna, que será inundada para construção de uma barragem moderna. Faz parte dos vários textos e roteiros que Dovzhenko não pôde filmar em vida e foram realizados por sua viúva."
+      },
+      "en": {
+        "title": "The Enchanted Desna",
+        "synopsis": "Based on the novel of the same name by Oleksandr Dovzhenko.  About the childhood of the famous Ukrainian film director Oleksandr Dovzhenko, who was born on the ancient lands of Chernihiv, along the banks the Desna. The film consists of two parts. The first is the world shown through the impressions of the six-year-old Sashko. The second is the recollections and reasoning of Sashko, now an elderly colonel who liberates his native village during the war."
+      }
+    },
+    "synopsis": "Passado no início dos anos 1900, o filme descreve a vida em uma vila ucraniana às margens do rio Desna, que será inundada para construção de uma barragem moderna. Faz parte dos vários textos e roteiros que Dovzhenko não pôde filmar em vida e foram realizados por sua viúva.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["União Soviética"],
+        "genres": ["Drama", "Guerra", "Fantasia"]
+      },
+      "en": {
+        "countries": ["Soviet Union"],
+        "genres": ["Drama", "War", "Fantasy"]
+      }
+    },
+    "directors": ["Yuliya Solntseva"],
+    "countries": ["Soviet Union"],
+    "genres": ["Drama", "War", "Fantasy"],
+    "original_languages": ["ru"]
   }
 ]
