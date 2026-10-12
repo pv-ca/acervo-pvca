@@ -15,8 +15,8 @@ const copy = (id, size_gib, resolution, subtitle_languages = []) => ({
   subtitle_languages,
 });
 const link = (provider, url, copy_id) => ({ provider, url, copy_id });
-const ficha = (slug) =>
-  `<a href="https://pv-ca.github.io/acervo-pvca/filmes/${slug}/">Ver a ficha do filme no Acervo PVCA</a>`;
+const ficha = (slug, text = "Disponível no Acervo PVCA") =>
+  `<a href="https://pv-ca.github.io/acervo-pvca/filmes/${slug}/">${text}</a>`;
 
 test("review links to the ficha and describes the copy, pt-BR subtitles first", () => {
   assert.equal(
@@ -68,7 +68,7 @@ test("a film with no public copy gets the ficha link alone", () => {
       copies: [copy("x-local", 1, "1080p", ["en"])],
       external_links: [],
     }),
-    ficha("x-1950")
+    ficha("x-1950", "Ficha no Acervo PVCA")
   );
 });
 
@@ -121,7 +121,7 @@ test("csv exports every catalog film, with or without a known URI or copy", () =
     "1",
     ficha("film-1") + "<br>1,1 GB · 480p · Legendas: PT-BR, EN",
   ]);
-  assert.deepEqual(rows[1], ["", "2", ficha("film-2")]);
+  assert.deepEqual(rows[1], ["", "2", ficha("film-2", "Ficha no Acervo PVCA")]);
   assert.deepEqual(rows[599].slice(0, 2), ["", "600"]);
   assert.doesNotMatch(csv, /em envio|drive\.google|archive\.org/);
 });
