@@ -31868,5 +31868,461 @@
     "countries": ["Soviet Union"],
     "genres": ["Drama", "War", "Fantasy"],
     "original_languages": ["ru"]
+  },
+  {
+    "id": "PVCA-000542",
+    "slug": "rosa-de-areia-1989",
+    "title": "Rosa de Areia",
+    "year": 1989,
+    "copies": [
+      {
+        "id": "pvca-000542-archive",
+        "resolution": "1080p",
+        "size_gib": 2.1634449176490307,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000542-archive",
+    "poster": "/posters/tmdb-242375-uziSarUc2aJaFqRkTxaDHGiDul8.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/rosa-de-areia-1989-1080p-pvca",
+        "copy_id": "pvca-000542-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 242375,
+    "added_at": "2026-10-13",
+    "original_title": "Rosa de Areia",
+    "release_date": "1989-02-18",
+    "runtime_minutes": 87,
+    "imdb_id": "tt0098223",
+    "translations": {
+      "pt-BR": {
+        "title": "Rosa de Areia",
+        "synopsis": null
+      },
+      "en": {
+        "title": "Desert Rose",
+        "synopsis": "Drawing on a wide mosaic of texts from figures like Montaigne and Kafka, literary and philosophical fragments are used to illustrate and reflect on the human condition. It is a tribute to the landscape and the people who inhabit the Trás-os-Montes region of Portugal, portraying the region not just as a physical space, but as a place where imagination and reality intertwine."
+      }
+    },
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Portugal"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Portugal"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["António Reis", "Margarida Cordeiro"],
+    "countries": ["Portugal"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000543",
+    "slug": "tras-os-montes-1976",
+    "title": "Trás-os-Montes",
+    "year": 1976,
+    "copies": [
+      {
+        "id": "pvca-000543-archive",
+        "resolution": "1080p",
+        "size_gib": 2.2155988356098533,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000543-archive",
+    "poster": "/posters/tmdb-186967-mEWdjBlo9TiyJMdIAoei0hPpTc7.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/tras-os-montes-1976-1080p-pvca",
+        "copy_id": "pvca-000543-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 186967,
+    "added_at": "2026-10-13",
+    "original_title": "Trás-os-Montes",
+    "release_date": "1976-06-10",
+    "runtime_minutes": 108,
+    "imdb_id": "tt0075354",
+    "translations": {
+      "pt-BR": {
+        "title": "Trás-os-Montes",
+        "synopsis": null
+      },
+      "en": {
+        "title": "Trás-os-Montes",
+        "synopsis": "The first feature in António Reis and Margarida Cordeiro’s trilogy is a journey through this almost mythical region of north-east Portugal, a tapestry of micronarratives where past, present and future become intertwined."
+      }
+    },
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Portugal"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Portugal"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["António Reis", "Margarida Cordeiro"],
+    "countries": ["Portugal"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000544",
+    "slug": "ana-1982",
+    "title": "Ana",
+    "year": 1982,
+    "copies": [
+      {
+        "id": "pvca-000544-archive",
+        "resolution": "1080p",
+        "size_gib": 2.229291076771915,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-PT", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000544-archive",
+    "poster": "/posters/tmdb-260922-vx0iUGartyGwUIkggfDW8MyiXEr.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/ana-1982-1080p-pvca",
+        "copy_id": "pvca-000544-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 260922,
+    "added_at": "2026-10-13",
+    "original_title": "Ana",
+    "release_date": "1982-09-15",
+    "runtime_minutes": 110,
+    "imdb_id": "tt0083555",
+    "translations": {
+      "pt-BR": {
+        "title": "Ana",
+        "synopsis": null
+      },
+      "en": {
+        "title": "Ana",
+        "synopsis": "Centered on an elderly matriarch and her family in the Trás-os-Montes region of Portugal. An exploration of the cycle of life and death, using the main character, Ana, as an emblem of a life lived in harmony with nature and tradition."
+      }
+    },
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Portugal"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Portugal"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["António Reis", "Margarida Cordeiro"],
+    "countries": ["Portugal"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000545",
+    "slug": "os-canibais-1988",
+    "title": "Os Canibais",
+    "year": 1988,
+    "copies": [
+      {
+        "id": "pvca-000545-archive",
+        "resolution": "1080p",
+        "size_gib": 19.35882779210806,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "fr", "ja", "pt"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000545-archive",
+    "poster": "/posters/tmdb-198450-nywvSeIdnlOcXhS4iaaHxigx27x.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/os-canibais-1988-1080p-pvca",
+        "copy_id": "pvca-000545-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 198450,
+    "added_at": "2026-10-13",
+    "original_title": "Os Canibais",
+    "release_date": "1988-11-10",
+    "runtime_minutes": 95,
+    "imdb_id": "tt0094833",
+    "translations": {
+      "pt-BR": {
+        "title": "Os Canibais",
+        "synopsis": null
+      },
+      "en": {
+        "title": "The Cannibals",
+        "synopsis": "This odd film is a major representative of an even odder film genre: direct-to-celluloid opera. It was commissioned by the Portuguese master of style, director Manoel de Oliveira from composer João Paes. Musically, it ranges from 19th-century romanticism to popular, modernist and even \"post-modernist\" styles. In the initially tame story, a host-narrator tells the story of a wedding between the two lovebirds: Viscount d'Aveleda and the beautiful Marguerite. However, what happens in the bridal chamber is incredibly bizarre. The events after that are even stranger, and the wedding guests and family indulge in cannibalism, among other perversions."
+      }
+    },
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Alemanha", "França", "Itália", "Portugal", "Suíça"],
+        "genres": ["Drama", "Fantasia"]
+      },
+      "en": {
+        "countries": ["Germany", "France", "Italy", "Portugal", "Switzerland"],
+        "genres": ["Drama", "Fantasy"]
+      }
+    },
+    "directors": ["Manoel de Oliveira"],
+    "countries": ["Germany", "France", "Italy", "Portugal", "Switzerland"],
+    "genres": ["Drama", "Fantasy"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000546",
+    "slug": "ossos-1997",
+    "title": "Ossos",
+    "year": 1997,
+    "copies": [
+      {
+        "id": "pvca-000546-archive",
+        "resolution": "1080p",
+        "size_gib": 20.27647893782705,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000546-archive",
+    "poster": "/posters/tmdb-55700-8BFXcbFjv8gXGCcxdLR2Edk5fzu.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/ossos-1997-1080p-pvca",
+        "copy_id": "pvca-000546-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 55700,
+    "added_at": "2026-10-13",
+    "original_title": "Ossos",
+    "release_date": "1997-11-14",
+    "runtime_minutes": 97,
+    "imdb_id": "tt0119844",
+    "translations": {
+      "pt-BR": {
+        "title": "Ossos",
+        "synopsis": "No Estrela de África, um bairro crioulo dos arredores de Lisboa, um bebé de poucos dias irá sobreviver a várias mortes. Tina, a sua jovem mãe, pega-lhe ao colo e abre o gás. Resgatado pelo pai, ele dormirá nas ruas da cidade alimentado pelo leite da caridade alheia. Por duas vezes, quase será vendido, por desespero, por amor, por quase nada. Mas Tina não se esquece: com a ajuda das suas vizinhas do bairro a vingança aproxima-se..."
+      },
+      "en": {
+        "title": "Ossos",
+        "synopsis": "After a suicidal teenage girl gives birth, she misguidedly entrusts her baby’s safety to the troubled, deadbeat father, whose violent actions take the viewer on a tour of the foreboding, crumbling shantytown in which they live."
+      }
+    },
+    "synopsis": "No Estrela de África, um bairro crioulo dos arredores de Lisboa, um bebé de poucos dias irá sobreviver a várias mortes. Tina, a sua jovem mãe, pega-lhe ao colo e abre o gás. Resgatado pelo pai, ele dormirá nas ruas da cidade alimentado pelo leite da caridade alheia. Por duas vezes, quase será vendido, por desespero, por amor, por quase nada. Mas Tina não se esquece: com a ajuda das suas vizinhas do bairro a vingança aproxima-se...",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Dinamarca", "França", "Portugal"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Denmark", "France", "Portugal"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Pedro Costa"],
+    "countries": ["Dinamarca", "France", "Portugal"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000547",
+    "slug": "o-sangue-1989",
+    "title": "O Sangue",
+    "year": 1989,
+    "copies": [
+      {
+        "id": "pvca-000547-archive",
+        "resolution": "1080p",
+        "size_gib": 21.058178467676044,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "ja"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000547-archive",
+    "poster": "/posters/tmdb-46821-hiipYngLgrqzZ5f2GQzF0fgGOh6.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/o-sangue-1989-1080p-pvca",
+        "copy_id": "pvca-000547-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 46821,
+    "added_at": "2026-10-13",
+    "original_title": "O Sangue",
+    "release_date": "1989-12-07",
+    "runtime_minutes": 95,
+    "imdb_id": "tt0098252",
+    "translations": {
+      "pt-BR": {
+        "title": "O Sangue",
+        "synopsis": null
+      },
+      "en": {
+        "title": "Blood",
+        "synopsis": "Nino, tough but sickly, and his older brother Vicente live in the country with their father. After their father disappears ― we’re never sure why ― murder is suggested. Vicente brings his girlfriend to the house, and a different kind of family is established as the three youngsters grow fiercely protective of each other. But their uncle grows suspicious about the fate of the missing father and forcibly kidnaps Nino, taking him away to the city and leaving Vicente to locate him there."
+      }
+    },
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Portugal"],
+        "genres": ["Drama", "Mistério"]
+      },
+      "en": {
+        "countries": ["Portugal"],
+        "genres": ["Drama", "Mystery"]
+      }
+    },
+    "directors": ["Pedro Costa"],
+    "countries": ["Portugal"],
+    "genres": ["Drama", "Mystery"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000548",
+    "slug": "casa-de-lava-1995",
+    "title": "Casa de Lava",
+    "year": 1995,
+    "copies": [
+      {
+        "id": "pvca-000548-archive",
+        "resolution": "1080p",
+        "size_gib": 26.10262088943273,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000548-archive",
+    "poster": "/posters/tmdb-126376-2RjUWv8vYlPuTd1HUU2BijDYnHS.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/casa-de-lava-1994-1080p-pvca",
+        "copy_id": "pvca-000548-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 126376,
+    "added_at": "2026-10-13",
+    "original_title": "Casa de Lava",
+    "release_date": "1995-02-10",
+    "runtime_minutes": 107,
+    "imdb_id": "tt0109384",
+    "translations": {
+      "pt-BR": {
+        "title": "Casa de Lava",
+        "synopsis": "No início é o ruído, o desespero e o abuso. Mariana (Inês de Medeiros) quer sair do Inferno. Estende a mão a um homem meio morto, Leão (Isaach De Bankolé). Mariana, plena de vida, pensa que talvez possam escapar juntos do inferno. Acredita que pode trazer o homem morto para o mundo dos vivos. Sete dias e sete noites mais tarde percebe que estava enganada. Trouxe um homem vivo para o meio dos mortos."
+      },
+      "en": {
+        "title": "Casa de Lava",
+        "synopsis": "The film tells a story of Mariana, a nurse who leaves Lisbon to accompany an immigrant worker in a comatose sleep on his trip home to Cape Verde. The devoted Portuguese nurse took a journey only to find herself lost in abstract drama."
+      }
+    },
+    "synopsis": "No início é o ruído, o desespero e o abuso. Mariana (Inês de Medeiros) quer sair do Inferno. Estende a mão a um homem meio morto, Leão (Isaach De Bankolé). Mariana, plena de vida, pensa que talvez possam escapar juntos do inferno. Acredita que pode trazer o homem morto para o mundo dos vivos. Sete dias e sete noites mais tarde percebe que estava enganada. Trouxe um homem vivo para o meio dos mortos.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["França", "Alemanha", "Portugal", "Cabo Verde"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["France", "Germany", "Portugal", "Cape Verde"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Pedro Costa"],
+    "countries": ["France", "Germany", "Portugal", "Cabo Verde"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000549",
+    "slug": "juventude-em-marcha-2006",
+    "title": "Juventude em Marcha",
+    "year": 2006,
+    "copies": [
+      {
+        "id": "pvca-000549-archive",
+        "resolution": "1080p",
+        "size_gib": 38.000995515845716,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000549-archive",
+    "poster": "/posters/tmdb-82404-cGPkNPDwAwbUP2zDlygxbRreO1v.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/juventude-em-marcha-2006-1080p-pvca",
+        "copy_id": "pvca-000549-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 82404,
+    "added_at": "2026-10-13",
+    "original_title": "Juventude Em Marcha",
+    "release_date": "2006-11-23",
+    "runtime_minutes": 156,
+    "imdb_id": "tt0460480",
+    "translations": {
+      "pt-BR": {
+        "title": "Juventude Em Marcha",
+        "synopsis": null
+      },
+      "en": {
+        "title": "Colossal Youth",
+        "synopsis": "After the Portuguese government demolishes his slum and relocates him to a housing project on the outskirts of Lisbon, 75-year-old Cape Verde immigrant Ventura wanders between his new and old homes, reconnecting with people from his past."
+      }
+    },
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Portugal", "Suíça", "França"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Portugal", "Switzerland", "France"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Pedro Costa"],
+    "countries": ["Portugal", "Switzerland", "France"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
