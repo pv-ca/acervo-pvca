@@ -32324,5 +32324,62 @@
     "countries": ["Portugal", "Switzerland", "France"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000550",
+    "slug": "to-sleep-so-as-to-dream-1986",
+    "title": "To Sleep So as to Dream",
+    "year": 1986,
+    "copies": [
+      {
+        "id": "pvca-000550-archive",
+        "resolution": "1080p",
+        "size_gib": 1.3840386243537068,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000550-archive",
+    "poster": "/posters/tmdb-132702-b2vySwtKp2JMl6oHLnBjQFN3n3I.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/to-sleep-so-as-to-dream-1986-1080p-pvca",
+        "copy_id": "pvca-000550-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 132702,
+    "added_at": "2026-10-13",
+    "original_title": "夢みるように眠りたい",
+    "release_date": "1986-05-18",
+    "runtime_minutes": 81,
+    "imdb_id": "tt0092274",
+    "translations": {
+      "pt-BR": {
+        "title": "Dormir Assim Como Sonhar",
+        "synopsis": "Uma senhora, atriz do cinema mudo, contrata um detetive particular e seu assistente maluco, mas útil, para rastrear sua filha desaparecida, Flor de Sino. Os dois seguem uma sucessão de pistas bizarras e obscuras, até descobrirem a localização dos sequestradores e da filha."
+      },
+      "en": {
+        "title": "To Sleep So as to Dream",
+        "synopsis": "An aging silent film actress hires a private eye and his wacky but helpful assistant to track down her missing daughter, Bellflower. The two follow a succession of bizarre, obscure clues, until they track down the location of the kidnappers and the daughter."
+      }
+    },
+    "synopsis": "Uma senhora, atriz do cinema mudo, contrata um detetive particular e seu assistente maluco, mas útil, para rastrear sua filha desaparecida, Flor de Sino. Os dois seguem uma sucessão de pistas bizarras e obscuras, até descobrirem a localização dos sequestradores e da filha.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Fantasia", "Mistério", "Comédia"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Fantasy", "Mystery", "Comedy"]
+      }
+    },
+    "directors": ["Kaizo Hayashi"],
+    "countries": ["Japan"],
+    "genres": ["Fantasy", "Mystery", "Comedy"],
+    "original_languages": ["ja"]
   }
 ]
