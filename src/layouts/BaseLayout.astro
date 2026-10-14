@@ -23,7 +23,14 @@ const {
   noindex = false,
   glow,
 } = Astro.props;
-const socialImage = image ? new URL(image, site) : undefined;
+const defaultSocialImage =
+  import.meta.env.BASE_URL.replace(/\/$/, "") + "/images/acervo-pvca-share.png";
+const socialImage = new URL(image ?? defaultSocialImage, site);
+const socialImageAlt = image
+  ? t(title)
+  : lang === "en"
+    ? "Acervo PVCA illustration"
+    : "Ilustração do Acervo PVCA";
 ---
 
 <!doctype html>
@@ -62,14 +69,19 @@ const socialImage = image ? new URL(image, site) : undefined;
     />
     <meta
       name="twitter:card"
-      content={socialImage ? "summary_large_image" : "summary"}
+      content={image ? "summary_large_image" : "summary"}
     />
     <meta name="twitter:title" content={t(title)} />
     <meta name="twitter:description" content={description} />
-    {socialImage && (
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:alt" content={socialImageAlt} />
+    <meta name="twitter:image" content={socialImage} />
+    <meta name="twitter:image:alt" content={socialImageAlt} />
+    {!image && (
       <>
-        <meta property="og:image" content={socialImage} />
-        <meta name="twitter:image" content={socialImage} />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="400" />
       </>
     )}
     <link rel="canonical" href={canonical} />
