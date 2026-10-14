@@ -32381,5 +32381,62 @@
     "countries": ["Japan"],
     "genres": ["Fantasy", "Mystery", "Comedy"],
     "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000551",
+    "slug": "make-way-for-tomorrow-1937",
+    "title": "Make Way for Tomorrow",
+    "year": 1937,
+    "copies": [
+      {
+        "id": "pvca-000551-archive",
+        "resolution": "1080p",
+        "size_gib": 23.231738096103072,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en", "ru"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000551-archive",
+    "poster": "/posters/tmdb-41059-xDUNcQa59HV36PQuaaeSYTwomst.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/make-way-for-tomorrow-1937-1080p-pvca",
+        "copy_id": "pvca-000551-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 41059,
+    "added_at": "2026-10-14",
+    "original_title": "Make Way for Tomorrow",
+    "release_date": "1937-05-09",
+    "runtime_minutes": 92,
+    "imdb_id": "tt0029192",
+    "translations": {
+      "pt-BR": {
+        "title": "A Cruz dos Anos",
+        "synopsis": "Um casal de idosos é forçado a viver a centenas de quilômetros de distância um do outro quando perde sua casa e nenhum de seus cinco filhos aceita acolher ambos os pais."
+      },
+      "en": {
+        "title": "Make Way for Tomorrow",
+        "synopsis": "An elderly couple are forced to separate themselves from each other after their children refuse to take both into one house."
+      }
+    },
+    "synopsis": "Um casal de idosos é forçado a viver a centenas de quilômetros de distância um do outro quando perde sua casa e nenhum de seus cinco filhos aceita acolher ambos os pais.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos"],
+        "genres": ["Drama", "Romance"]
+      },
+      "en": {
+        "countries": ["United States"],
+        "genres": ["Drama", "Romance"]
+      }
+    },
+    "directors": ["Leo McCarey"],
+    "countries": ["United States of America"],
+    "genres": ["Drama", "Romance"],
+    "original_languages": ["en"]
   }
 ]
