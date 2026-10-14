@@ -1,11 +1,27 @@
 :root {
   color-scheme: dark;
+  /* Flexoki Rams ivory: the same diagonal fill and ink as its dock badge. */
+  --ivory-fill: linear-gradient(158deg, #fffcf0, #cecdc3);
+  --ivory-ink: #100f0f;
+  /* Two-light shading from flexoki-rams-global-theme/Photo 1.jpg, scaled to
+     button size and inverted for the dark page: raised at rest, sunk on press. */
+  --ivory-raise:
+    -3px -3px 8px rgba(255, 252, 240, 0.06), 4px 4px 12px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  --ivory-raise-hover:
+    -3px -3px 10px rgba(255, 252, 240, 0.08), 6px 6px 16px rgba(0, 0, 0, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  --ivory-press:
+    inset 3px 3px 6px rgba(16, 15, 15, 0.28),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.6);
   --color-bg: #100f0f;
   --color-bg-1: #1c1b1a;
   --color-border: #343331;
   --color-text-head: #fffcf0;
   --color-text-body: #cecdc3;
   --color-text-muted: #9f9d96;
+  --color-diary-rating: #92bfdb;
+  --color-diary-like: #fffcf0;
   --content-max: 980px;
   --content-gutter: 24px;
 }
@@ -14,9 +30,22 @@
 }
 html {
   background: var(--color-bg);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+/* The recent-films rail scrolls natively; only its track is hidden. */
+.recent-films {
+  scrollbar-width: none;
+}
+.recent-films::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }
 body {
   margin: 0;
+  padding-inline: env(safe-area-inset-left, 0px) env(safe-area-inset-right, 0px);
   color: var(--color-text-body);
   font-family:
     Inter,
@@ -42,6 +71,22 @@ select {
 button,
 select {
   cursor: pointer;
+}
+button,
+a,
+[role="button"] {
+  touch-action: manipulation;
+}
+button,
+[role="button"] {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+a:active,
+button:active,
+[role="button"]:active {
+  opacity: 0.8;
 }
 a:focus-visible,
 button:focus-visible,
@@ -78,8 +123,8 @@ p {
 }
 .skip-link {
   position: fixed;
-  top: 12px;
-  left: 12px;
+  top: calc(12px + env(safe-area-inset-top, 0px));
+  left: calc(12px + env(safe-area-inset-left, 0px));
   z-index: 10;
   padding: 10px;
   background: var(--color-bg-1);
@@ -89,7 +134,7 @@ p {
   transform: none;
 }
 .site-header {
-  padding: 28px 0 8px;
+  padding: calc(28px + env(safe-area-inset-top, 0px)) 0 8px;
 }
 .top {
   display: flex;
@@ -112,10 +157,11 @@ nav a {
   border-radius: 5px;
   color: var(--color-text-muted);
 }
-nav a:hover,
-nav a.active {
-  background: var(--color-bg-1);
-  color: var(--color-text-head);
+@media (hover: hover) and (pointer: fine) {
+  nav a:hover {
+    background: var(--color-bg-1);
+    color: var(--color-text-head);
+  }
 }
 .menu-toggle {
   display: none;
@@ -171,38 +217,19 @@ h2 {
   font-size: 12px;
   color: var(--color-text-muted);
 }
-.feature {
-  display: grid;
-  grid-template-columns: 180px minmax(0, 1fr);
-  gap: 30px;
-  align-items: start;
-}
-.feature-copy h3 {
-  font-size: 28px;
-  line-height: 1.2;
-  font-weight: 580;
-  margin: 0 0 8px;
-}
-.feature-meta {
-  color: var(--color-text-muted);
-  font-size: 13px;
-  margin-bottom: 22px;
-}
-.feature-copy > p:not(.feature-meta) {
-  max-width: 65ch;
-  font-size: 15px;
-}
 .inline-link {
   display: inline-block;
   padding: 8px 0;
   font-size: 13px;
   color: var(--color-text-head);
 }
-a:hover h2,
-a:hover h3,
-.inline-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
+@media (hover: hover) and (pointer: fine) {
+  a:hover h2,
+  a:hover h3,
+  .inline-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
 }
 .poster {
   display: block;
@@ -360,12 +387,12 @@ a:hover h3,
   font-size: 13px;
   min-height: 44px;
 }
-.catalog-filter:hover,
-.catalog-view:hover,
-.catalog-filter.active,
-.catalog-view.active {
-  background: var(--color-bg-1);
-  color: var(--color-text-head);
+@media (hover: hover) and (pointer: fine) {
+  .catalog-filter:hover,
+  .catalog-view:hover {
+    background: var(--color-bg-1);
+    color: var(--color-text-head);
+  }
 }
 .catalog-sort select {
   background: var(--color-bg);
@@ -417,9 +444,11 @@ a:hover h3,
 .film-card-flags:empty {
   display: none;
 }
-.film-card:hover .film-card-title {
-  text-decoration: underline;
-  text-underline-offset: 3px;
+@media (hover: hover) and (pointer: fine) {
+  .film-card:hover .film-card-title {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
 }
 .catalog-empty {
   padding: 30px 0 70px;
@@ -551,8 +580,10 @@ a:hover h3,
   color: var(--color-text-head);
   font-size: 14px;
 }
-.access-button:hover {
-  border-color: var(--color-text-muted);
+@media (hover: hover) and (pointer: fine) {
+  .access-button:hover {
+    border-color: var(--color-text-muted);
+  }
 }
 .film-selection-links {
   display: flex;
@@ -599,8 +630,10 @@ a:hover h3,
 .selection-copy .count {
   font-size: 12px;
 }
-.selection-link:hover {
-  border-color: var(--color-text-muted);
+@media (hover: hover) and (pointer: fine) {
+  .selection-link:hover {
+    border-color: var(--color-text-muted);
+  }
 }
 .selection-link {
   display: inline-flex;
@@ -633,7 +666,7 @@ a:hover h3,
   color: var(--color-text-muted);
 }
 footer {
-  padding: 24px 0;
+  padding: 24px 0 calc(24px + env(safe-area-inset-bottom, 0px));
 }
 .footer-note {
   display: flex;
@@ -675,7 +708,7 @@ footer {
     --content-gutter: 22px;
   }
   .site-header {
-    padding-top: 20px;
+    padding-top: calc(20px + env(safe-area-inset-top, 0px));
   }
   .top {
     flex-wrap: wrap;
@@ -715,6 +748,11 @@ footer {
     z-index: 5;
     background: var(--color-bg);
     overflow-y: auto;
+    height: 100dvh;
+    padding-inline: env(safe-area-inset-left, 0px)
+      env(safe-area-inset-right, 0px);
+    padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+    overscroll-behavior: contain;
   }
   body.menu-open {
     overflow: hidden;
@@ -755,27 +793,22 @@ footer {
   .section-title {
     gap: 6px 12px;
   }
-  .feature {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 24px;
-  }
-  .feature > .poster {
-    max-width: 190px;
-  }
-  .feature-copy h3 {
-    font-size: 26px;
-  }
   .recent-films {
     display: flex;
     overflow-x: auto;
     gap: 20px;
     padding-bottom: 8px;
+    scroll-snap-type: x proximity;
+    overscroll-behavior-x: contain;
   }
   .recent-films > a {
     flex: 0 0 128px;
+    scroll-snap-align: start;
   }
   .home-selections {
-    display: block;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
   }
   .home-selections a {
     display: block;
@@ -816,6 +849,15 @@ footer {
     width: 100%;
     justify-content: space-between;
     gap: 8px;
+    flex-wrap: wrap;
+  }
+  .catalog-sort {
+    flex: 1;
+    min-width: 0;
+  }
+  .catalog-sort select {
+    width: 100%;
+    max-width: 100%;
   }
   .film-catalog {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -906,52 +948,205 @@ footer {
   }
 }
 
-.feature-copy h3 a:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-.social-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 24px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-}
-.social-links a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-}
-.social-links a:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
 .intro-stats {
   margin-top: 36px;
 }
 
-.language-switch a[aria-current="page"] {
-  color: var(--color-text-head);
-  text-decoration: underline;
-  text-underline-offset: 0.3em;
-}
-
 /* Home introduction: editorial variant A, selected from the local prototype. */
+/* Ivory buttons: the home call to action, the current page and language,
+   active catalog toggles and selection links. The ivory fill carries the
+   emphasis; shading alone would leave a dark-on-dark button too faint. */
+.intro-explore,
+nav a.active,
+.language-switch a[aria-current="page"],
+.catalog-filter.active,
+.catalog-view.active,
+.selection-link {
+  border: 0;
+  border-radius: 999px;
+  background: var(--ivory-fill);
+  color: var(--ivory-ink);
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: var(--ivory-raise);
+  transition:
+    transform 160ms cubic-bezier(0.23, 1, 0.32, 1),
+    box-shadow 160ms cubic-bezier(0.23, 1, 0.32, 1);
+}
 .intro-explore {
   display: inline-flex;
   align-items: center;
-  gap: 18px;
-  min-height: 44px;
-  margin-top: 22px;
-  border-bottom: 1px solid var(--color-border);
-  color: var(--color-text-head);
+  gap: 14px;
+  min-height: 48px;
+  margin-top: 26px;
+  padding: 0 22px 0 24px;
 }
-.intro-explore:hover {
-  border-color: var(--color-text-head);
+nav a.active {
+  padding-inline: 14px;
 }
+.language-switch a[aria-current="page"] {
+  padding-inline: 10px;
+}
+.intro-explore span,
+.selection-link span {
+  transition: transform 200ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+@media (hover: hover) and (pointer: fine) {
+  .intro-explore:hover,
+  nav a.active:hover,
+  .language-switch a[aria-current="page"]:hover,
+  .catalog-filter.active:hover,
+  .catalog-view.active:hover,
+  .selection-link:hover {
+    background: var(--ivory-fill);
+    color: var(--ivory-ink);
+    transform: translateY(-1px);
+    box-shadow: var(--ivory-raise-hover);
+  }
+  .intro-explore:hover span {
+    transform: translateX(3px);
+  }
+}
+.intro-explore:active,
+nav a.active:active,
+.language-switch a[aria-current="page"]:active,
+.catalog-filter.active:active,
+.catalog-view.active:active,
+.selection-link:active {
+  opacity: 1;
+  transform: translateY(1px);
+  box-shadow: var(--ivory-press);
+  transition-duration: 80ms;
+}
+.intro-explore:focus-visible,
+.selection-link:focus-visible {
+  outline-offset: 5px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .intro-explore,
+  nav a.active,
+  .language-switch a[aria-current="page"],
+  .catalog-filter.active,
+  .catalog-view.active,
+  .selection-link,
+  .intro-explore span {
+    transition: none;
+    transform: none !important;
+  }
+}
+@media (prefers-contrast: more) {
+  .intro-explore,
+  nav a.active,
+  .language-switch a[aria-current="page"],
+  .catalog-filter.active,
+  .catalog-view.active,
+  .selection-link {
+    box-shadow: none;
+    outline: 2px solid var(--color-text-head);
+    outline-offset: 2px;
+  }
+}
+/* Header controls share one height and one pill shape. The language switch
+   is a segmented control whose current segment is a small ivory button. */
+nav {
+  align-items: center;
+}
+nav > a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 14px;
+  border-radius: 999px;
+  transition:
+    background 150ms ease-out,
+    color 150ms ease-out;
+}
+.language-switch {
+  align-items: center;
+  gap: 2px;
+  margin-left: 12px;
+  padding: 3px;
+  border-radius: 999px;
+  background: rgba(255, 252, 240, 0.06);
+  box-shadow: inset 0 0 0 1px rgba(255, 252, 240, 0.06);
+  font-size: 12px;
+  line-height: 1;
+}
+.language-switch a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 34px;
+  min-height: 30px;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.language-switch a[aria-current="page"] {
+  box-shadow:
+    -1px -1px 4px rgba(255, 252, 240, 0.05),
+    2px 2px 6px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+@media (hover: hover) and (pointer: fine) {
+  nav > a:not(.active):hover,
+  .language-switch a:not([aria-current]):hover {
+    background: rgba(255, 252, 240, 0.08);
+    color: var(--color-text-head);
+  }
+  .language-switch a[aria-current="page"]:hover {
+    transform: none;
+  }
+}
+
+/* Mobile menu: plain rows with dividers; the current page is marked by
+   heavier ivory text and an ivory dot instead of a full-width button. */
+@media (max-width: 640px) {
+  .menu-open nav > a,
+  .menu-open nav > a.active {
+    min-height: 0;
+    justify-content: space-between;
+    padding: 20px 4px;
+    border-radius: 0;
+    border-bottom: 1px solid var(--color-border);
+    background: none;
+    box-shadow: none;
+    transform: none;
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--color-text-muted);
+  }
+  .menu-open nav > a.active {
+    color: var(--color-text-head);
+    font-weight: 600;
+  }
+  .menu-open nav > a.active::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--ivory-fill);
+    box-shadow: var(--ivory-raise);
+  }
+  .menu-open nav > a:active {
+    background: rgba(255, 252, 240, 0.05);
+  }
+  .menu-open nav .language-switch {
+    align-self: flex-start;
+    margin: 28px 0 0;
+    padding: 4px;
+    font-size: 15px;
+  }
+  .menu-open nav .language-switch a {
+    min-width: 56px;
+    min-height: 40px;
+    padding: 0 16px;
+    border: 0;
+    font-size: 15px;
+  }
+}
+
 .intro-stats .collection-stats > div {
   justify-content: flex-end;
 }
@@ -985,5 +1180,522 @@ footer {
   .intro-stats .collection-stats > div:nth-child(even) {
     border: 0;
     padding: 0;
+  }
+}
+
+/* Projection: selected refinement of the existing public layout. */
+/* Catalog. */
+:root {
+  --content-max: 1180px;
+}
+.page-head {
+  padding: 48px 0 8px;
+}
+.film-catalog:not([data-view="list"]) {
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 32px 22px;
+}
+.film-card {
+  position: relative;
+}
+.film-card .poster {
+  border-radius: 8px;
+  transition:
+    filter 200ms ease-out,
+    transform 220ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.film-catalog:not([data-view="list"]) .film-card-technical {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  margin: 0;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  background: rgba(16, 15, 15, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: var(--color-text-head);
+}
+.film-catalog:not([data-view="list"]) .film-card-flags:not(:empty) {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  margin: 0;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  background: rgba(16, 15, 15, 0.7);
+  color: var(--color-text-head);
+}
+.film-card-title {
+  font-size: 15px;
+  min-height: 0;
+  margin-top: 12px;
+}
+@media (hover: hover) and (pointer: fine) {
+  .film-card:hover .poster {
+    transform: scale(1.02);
+    filter: brightness(1.08);
+  }
+  .film-card:hover .film-card-title {
+    text-decoration: none;
+  }
+}
+.film-card:active .poster {
+  transform: scale(0.98);
+}
+
+/* Poster light behind the opening. */
+
+.poster-glow {
+  display: block;
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 760px;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(#000 35%, transparent);
+  mask-image: linear-gradient(#000 35%, transparent);
+}
+.poster-glow::before {
+  content: "";
+  position: absolute;
+  inset: -80px;
+  background: var(--glow-image) center 30% / cover;
+  filter: blur(70px) saturate(120%) brightness(0.36);
+  transform: scale(1.15);
+  animation: projector 700ms cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+@keyframes projector {
+  from {
+    opacity: 0;
+  }
+}
+body {
+  position: relative;
+  isolation: isolate;
+}
+.site-header:not(.menu-open) {
+  background: transparent;
+}
+
+/* Home. */
+.intro h1 {
+  color: var(--color-text-head);
+  font-size: clamp(48px, 8vw, 96px);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+  max-width: 12ch;
+  text-wrap: balance;
+}
+.intro > p {
+  font-size: 18px;
+  max-width: 46ch;
+}
+.collection-stats > div {
+  justify-content: flex-end;
+}
+.collection-stats dt {
+  min-height: 3em;
+}
+.collection-stats dd {
+  font-size: 34px;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+}
+.recent-films {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.recent-films .poster {
+  max-width: none;
+  border-radius: 6px;
+}
+.home-selections a {
+  border-left: 0 !important;
+  padding: 20px !important;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.035);
+  transition: background 150ms ease-out;
+}
+@media (hover: hover) and (pointer: fine) {
+  .home-selections a:hover {
+    background: rgba(255, 255, 255, 0.07);
+  }
+}
+.home-selections h3 {
+  font-size: 17px;
+  letter-spacing: -0.02em;
+}
+
+/* Selections. */
+.selection-row {
+  grid-template-columns: 260px minmax(0, 1fr);
+  align-items: center;
+  border-top-color: rgba(255, 255, 255, 0.06);
+}
+.selection-strip {
+  display: flex;
+  gap: 0;
+  padding: 6px 30px 6px 18px;
+}
+.selection-strip .poster {
+  width: 40%;
+  margin-left: -10%;
+  border-radius: 6px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.55);
+  transition: transform 260ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.selection-strip .poster:first-child {
+  margin-left: 0;
+  transform: rotate(-4deg);
+}
+.selection-strip .poster:nth-child(2) {
+  transform: translateY(-4px);
+  z-index: 1;
+}
+.selection-strip .poster:nth-child(3) {
+  transform: rotate(4deg);
+}
+@media (hover: hover) and (pointer: fine) {
+  .selection-row:hover .poster:first-child {
+    transform: rotate(-8deg) translateX(-10px);
+  }
+  .selection-row:hover .poster:nth-child(3) {
+    transform: rotate(8deg) translateX(10px);
+  }
+}
+.selection-row h2 {
+  font-size: 28px;
+  letter-spacing: -0.035em;
+}
+
+/* About. */
+.about-intro p:first-child {
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--color-text-head);
+  max-width: 30ch;
+}
+
+.intro.intro-with-film {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  column-gap: 56px;
+  align-items: start;
+}
+.intro-with-film > * {
+  grid-column: 1;
+  justify-self: start;
+}
+.intro-with-film > .intro-film {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  margin-top: 8px;
+}
+.intro-with-film > .intro-stats {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+.intro-film .poster {
+  border-radius: 8px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.65);
+  transition: transform 260ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.intro-film-caption {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+.intro-film-caption > span {
+  font-size: 12px;
+}
+.intro-film-caption strong {
+  color: var(--color-text-head);
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.intro-film:active .poster {
+  transform: scale(0.98);
+}
+
+.about-main {
+  position: relative;
+  isolation: isolate;
+  overflow-x: clip;
+}
+.about-collage {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  gap: 14px;
+  position: absolute;
+  inset: 30px -60px auto;
+  z-index: -1;
+  transform: rotate(-6deg);
+  opacity: 0.32;
+  filter: blur(3px) saturate(120%);
+  pointer-events: none;
+  mask-image: linear-gradient(#000 20%, transparent 75%);
+  animation: projector 900ms ease-out both;
+}
+.about-collage img {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.social-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-cards li {
+  display: flex;
+  min-width: 0;
+}
+.social-cards a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 44px;
+  padding: 14px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  transition:
+    border-color 150ms ease-out,
+    background 150ms ease-out;
+  overflow-wrap: anywhere;
+}
+@media (hover: hover) and (pointer: fine) {
+  .social-cards a:hover {
+    border-color: var(--color-text-muted);
+    background: var(--color-bg-1);
+  }
+}
+.social-cards a:active {
+  transform: scale(0.98);
+}
+.social-name {
+  color: var(--color-text-head);
+  font-weight: 600;
+  font-size: 15px;
+}
+.social-handle {
+  color: var(--color-text-muted);
+  font-size: 13px;
+}
+.social-note {
+  color: var(--color-text-body);
+  font-size: 12px;
+  margin-top: 6px;
+}
+.diary {
+  padding-block: 40px 48px;
+  border-top: 1px solid var(--color-border);
+}
+.diary ol {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 16px;
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+.diary-film {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+.diary .poster {
+  width: 100%;
+  aspect-ratio: 2/3;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+  transition: transform 220ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.diary-placeholder {
+  display: grid;
+  place-items: center;
+  background: var(--color-bg-1);
+  color: var(--color-text-muted);
+}
+.diary-title {
+  margin-top: 6px;
+  color: var(--color-text-head);
+  font-size: 12.5px;
+  line-height: 1.3;
+  font-weight: 560;
+}
+.diary-meta {
+  display: flex;
+  gap: 6px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+.diary-rating {
+  color: var(--color-diary-rating);
+}
+.diary-like {
+  color: var(--color-diary-like);
+}
+.diary-date {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+.diary-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 10.5px;
+  background: rgba(16, 15, 15, 0.92);
+  color: var(--color-text-head);
+}
+@media (hover: hover) and (pointer: fine) {
+  .film-catalog:not([data-view="list"]) .film-card-technical,
+  .film-catalog:not([data-view="list"]) .film-card-flags:not(:empty) {
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+  }
+  .film-card:hover .film-card-technical,
+  .film-card:focus-visible .film-card-technical,
+  .film-card:hover .film-card-flags,
+  .film-card:focus-visible .film-card-flags {
+    opacity: 1 !important;
+  }
+  .intro-film:hover .poster {
+    transform: translateY(-4px) rotate(-1deg);
+  }
+  .diary-film:hover .poster {
+    transform: translateY(-3px);
+  }
+}
+@media (max-width: 900px) {
+  .diary ol {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  .intro.intro-with-film {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .intro-with-film > .intro-film {
+    grid-column: 1;
+    grid-row: auto;
+    max-width: 180px;
+    margin: 24px 0 0;
+  }
+  .recent-films {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .selection-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .selection-strip {
+    max-width: 260px;
+  }
+  .film-catalog:not([data-view="list"]) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 14px;
+  }
+}
+@media (max-width: 520px) {
+  .social-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .diary ol {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+/* Preserve the mobile hierarchy instead of inheriting the desktop opening. */
+@media (max-width: 640px) {
+  .intro h1 {
+    font-size: clamp(38px, 11.3vw, 44px);
+  }
+  .intro > p {
+    font-size: 16px;
+  }
+  /* The two poster labels must not compete for a narrow card's top edge. */
+  .film-catalog:not([data-view="list"]) .film-card-technical {
+    max-width: calc(100% - 16px);
+    font-size: 10px;
+    gap: 3px;
+  }
+  .film-catalog:not([data-view="list"]) .film-card-flags:not(:empty) {
+    top: 36px;
+    left: 8px;
+    right: auto;
+    font-size: 10px;
+  }
+}
+/* Touch controls remain comfortable and do not trigger focus zoom on iOS. */
+@media (pointer: coarse) {
+  input,
+  textarea,
+  select,
+  .catalog-sort select {
+    font-size: 16px;
+  }
+  .catalog-sort select,
+  .inline-link,
+  .name {
+    min-height: 44px;
+  }
+  .inline-link,
+  .name {
+    display: inline-flex;
+    align-items: center;
+  }
+  .poster-glow::before {
+    filter: blur(40px) saturate(120%) brightness(0.36);
+    animation: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .poster-glow::before,
+  .about-collage {
+    animation: none;
+  }
+  .intro-film .poster,
+  .film-card .poster,
+  .selection-strip .poster,
+  .diary .poster,
+  .social-cards a {
+    transition: none;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .intro-film:hover .poster,
+    .film-card:hover .poster,
+    .diary-film:hover .poster {
+      transform: none;
+    }
+  }
+  .intro-film:active .poster,
+  .film-card:active .poster,
+  .social-cards a:active {
+    transform: none;
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .poster-glow,
+  .about-collage {
+    display: none;
+  }
+  .film-card-technical {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: var(--color-bg-1) !important;
   }
 }

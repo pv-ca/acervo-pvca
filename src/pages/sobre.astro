@@ -2,21 +2,56 @@
 import { getI18n, assetPath } from "../lib/i18n";
 const { t } = getI18n(Astro.url);
 
-import { isPreview } from "../data/catalog";
+import { isPreview, catalog } from "../data/catalog";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import CollectionStats from "../components/CollectionStats.astro";
+import LetterboxdDiary from "../components/LetterboxdDiary.astro";
+const posters = catalog.filter((film) => film.poster);
+const step = Math.max(1, Math.floor(posters.length / 18));
+const collage = posters.filter((_, index) => index % step === 0).slice(0, 18);
+const networks = [
+  { name: "X", handle: "@vaidadehumana", url: "https://x.com/vaidadehumana" },
+  {
+    name: "Letterboxd",
+    handle: "@pvca",
+    url: "https://letterboxd.com/pvca/",
+    note: "Diário de filmes e notas",
+  },
+  {
+    name: "Instagram",
+    handle: "@paulovcaragao",
+    url: "https://www.instagram.com/paulovcaragao/",
+  },
+  {
+    name: "Rate Your Music",
+    handle: "@pvca",
+    url: "https://rateyourmusic.com/~pvca",
+    note: "Música",
+  },
+];
 ---
 
 <BaseLayout
-  title="Sobre — Acervo PVCA"
+  title={`${t("Sobre")} — Acervo PVCA`}
   description={t(
     "Conheça a história e a organização do Acervo PVCA, minha coleção pessoal de cinema."
   )}
 >
   <Header active="about" />
-  <main id="main">
+  <main id="main" class="about-main">
+    <div class="about-collage" aria-hidden="true">
+      {collage.map((film) => (
+        <img
+          src={assetPath(film.poster!)}
+          alt=""
+          width="200"
+          height="300"
+          loading="lazy"
+        />
+      ))}
+    </div>
     <section class="wrap page-head">
       <h1>{t("Sobre")}</h1>
     </section>
@@ -51,30 +86,24 @@ import CollectionStats from "../components/CollectionStats.astro";
       </section>
       <section>
         <h2>{t("Minhas redes sociais")}</h2>
-        <ul class="social-links">
-          <li>
-            <a href="https://x.com/vaidadehumana" rel="me">
-              X ↗
-            </a>
-          </li>
-          <li>
-            <a href="https://letterboxd.com/pvca/" rel="me">
-              Letterboxd ↗
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/paulovcaragao/" rel="me">
-              Instagram ↗
-            </a>
-          </li>
-          <li>
-            <a href="https://rateyourmusic.com/~pvca" rel="me">
-              Rate Your Music ↗
-            </a>
-          </li>
+        <ul class="social-cards">
+          {networks.map((network) => (
+            <li>
+              <a href={network.url} rel="me">
+                <span class="social-name">
+                  {network.name} <span aria-hidden="true">↗</span>
+                </span>
+                <span class="social-handle">{network.handle}</span>
+                {network.note && (
+                  <span class="social-note">{t(network.note)}</span>
+                )}
+              </a>
+            </li>
+          ))}
         </ul>
       </section>
     </div>
+    <LetterboxdDiary />
     <div class="wrap rule"></div>
     <section class="wrap section">
       <h2>{t("O acervo em números")}</h2>

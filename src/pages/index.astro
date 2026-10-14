@@ -1,5 +1,5 @@
 ---
-import { getI18n, localizeFilm } from "../lib/i18n";
+import { getI18n, localizeFilm, assetPath } from "../lib/i18n";
 const { lang, t, path } = getI18n(Astro.url);
 
 import BaseLayout from "../layouts/BaseLayout.astro";
@@ -21,13 +21,14 @@ const recentFilms = sourceRecent.map((film) => localizeFilm(film, lang));
 ---
 
 <BaseLayout
+  glow={featuredFilm?.poster ? assetPath(featuredFilm.poster) : undefined}
   description={t(
     "Acervo pessoal de cinema: filmes, cópias preservadas e seleções para explorar."
   )}
 >
   <Header active="home" />
   <main id="main">
-    <section class="wrap intro">
+    <section class={`wrap intro${featuredFilm ? " intro-with-film" : ""}`}>
       <h1>{t("Meu acervo pessoal de cinema.")}</h1>
       <p>
         {t(
@@ -37,45 +38,23 @@ const recentFilms = sourceRecent.map((film) => localizeFilm(film, lang));
       <a class="intro-explore" href={path("/filmes/")}>
         {t("Filmes")} <span aria-hidden="true">→</span>
       </a>
+      {featuredFilm && (
+        <a class="intro-film" href={path(`/filmes/${featuredFilm.slug}/`)}>
+          <Poster film={featuredFilm} eager decorative />
+          <span class="intro-film-caption">
+            <span>{t("Em destaque")}</span>
+            <strong>{featuredFilm.title}</strong>
+            {featuredFilm.director} · {featuredFilm.year} ·{" "}
+            {featuredFilm.country}
+          </span>
+        </a>
+      )}
       {editorial.showStats && (
         <div class="intro-stats">
           <CollectionStats />
         </div>
       )}
     </section>
-    {featuredFilm && (
-      <>
-        <div class="wrap rule"></div>
-        <section class="wrap section">
-          <div class="section-title">
-            <h2>{t("Em destaque")}</h2>
-          </div>
-          <div class="feature">
-            <a href={path(`/filmes/${featuredFilm.slug}/`)}>
-              <Poster film={featuredFilm} eager />
-            </a>
-            <div class="feature-copy">
-              <h3>
-                <a href={path(`/filmes/${featuredFilm.slug}/`)}>
-                  {featuredFilm.title}
-                </a>
-              </h3>
-              <p class="feature-meta">
-                {featuredFilm.director} · {featuredFilm.year} ·{" "}
-                {featuredFilm.country}
-              </p>
-              {featuredFilm.synopsis && <p>{featuredFilm.synopsis}</p>}
-              <a
-                class="inline-link"
-                href={path(`/filmes/${featuredFilm.slug}/`)}
-              >
-                {t("Ver filme →")}
-              </a>
-            </div>
-          </div>
-        </section>
-      </>
-    )}
     {recentFilms.length > 0 && (
       <>
         <div class="wrap rule"></div>

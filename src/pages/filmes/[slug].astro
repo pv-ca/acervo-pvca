@@ -25,6 +25,7 @@ const film = localizeFilm(Astro.props.film, lang);
 
 <BaseLayout
   image={film.poster ? assetPath(film.poster) : undefined}
+  glow={film.poster ? assetPath(film.poster) : undefined}
   title={`${film.title} — Acervo PVCA`}
   description={`${film.title}, ${film.director}, ${film.year} ${lang === "en" ? "in" : "no"} Acervo PVCA.`}
 >

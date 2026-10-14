@@ -1,0 +1,75 @@
+---
+import { diary } from "../data/diary";
+import { getI18n, assetPath, localizeFilm } from "../lib/i18n";
+import { DIARY_URL, stars } from "../../scripts/lib/letterboxd-diary.mjs";
+const { lang, t, path } = getI18n(Astro.url);
+---
+
+{diary.length > 0 && (
+  <section class="wrap diary" aria-labelledby="diary-heading">
+    <div class="section-title">
+      <h2 id="diary-heading">{t("Assisti recentemente")}</h2>
+      <span>{t("Do meu diário no Letterboxd.")}</span>
+    </div>
+    <ol>
+      {diary.map((entry) => {
+        const film = entry.film ? localizeFilm(entry.film, lang) : undefined;
+        const poster = film?.poster ? assetPath(film.poster) : entry.poster;
+        return (
+          <li>
+            <a
+              class="diary-film"
+              href={film ? path(`/filmes/${film.slug}/`) : entry.url}
+            >
+              {poster ? (
+                <img
+                  class="poster"
+                  src={poster}
+                  alt=""
+                  width="300"
+                  height="450"
+                  loading="lazy"
+                />
+              ) : (
+                <span class="poster diary-placeholder" aria-hidden="true">
+                  {entry.year}
+                </span>
+              )}
+              <span class="diary-title">{film?.title || entry.title}</span>
+              <span class="diary-meta">
+                {entry.rating != null && (
+                  <span
+                    class="diary-rating"
+                    role="img"
+                    aria-label={`${t("Nota")}: ${entry.rating.toLocaleString(lang)} / 5`}
+                  >
+                    {stars(entry.rating)}
+                  </span>
+                )}
+                {entry.liked && (
+                  <span class="diary-like" aria-label={t("Gostei")} role="img">
+                    ♥
+                  </span>
+                )}
+              </span>
+              {entry.watched && (
+                <time class="diary-date" datetime={entry.watched}>
+                  {new Intl.DateTimeFormat(lang, {
+                    day: "numeric",
+                    month: "short",
+                    year: "numeric",
+                    timeZone: "UTC",
+                  }).format(new Date(`${entry.watched}T00:00:00Z`))}
+                </time>
+              )}
+              {film && <span class="diary-badge">{t("No acervo")}</span>}
+            </a>
+          </li>
+        );
+      })}
+    </ol>
+    <a class="inline-link" href={DIARY_URL} rel="me">
+      {t("Diário completo no Letterboxd")} ↗
+    </a>
+  </section>
+)}

@@ -30,6 +30,14 @@ export const en = {
   "Os links disponíveis levam às cópias que escolhi compartilhar.":
     "The available links lead to copies I have chosen to share.",
   "Minhas redes sociais": "My social media",
+  "Diário de filmes e notas": "Film diary and ratings",
+  Música: "Music",
+  "Assisti recentemente": "Watched recently",
+  "No acervo": "In the collection",
+  "Do meu diário no Letterboxd.": "From my Letterboxd diary.",
+  "Diário completo no Letterboxd": "Full diary on Letterboxd",
+  Nota: "Rating",
+  Gostei: "Liked",
 
   "Filmes que venho reunindo, preservando e organizando ao longo do tempo.":
     "Films I have been collecting, preserving and organizing over time.",
@@ -134,7 +142,6 @@ export const en = {
   Legendas: "Subtitles",
   Versão: "Edition",
   Sinopse: "Synopsis",
-  "No acervo": "In the collection",
   "Ainda não importada": "Not imported yet",
   "Ainda não importado": "Not imported yet",
   "Dados técnicos da cópia ainda não importados.":

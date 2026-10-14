@@ -66,3 +66,19 @@ Publishing does not certify completeness of the private collection.
 
 References: [Astro deployment guide](https://docs.astro.build/en/guides/deploy/github/)
 and [GitHub Pages publishing sources](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+## Letterboxd diary
+
+The About page renders the eight latest film entries from the public
+`https://letterboxd.com/pvca/rss/` feed at build time, once for both languages.
+Lists and review text are excluded. The diary matches each entry's TMDB ID to
+the public catalog automatically; matching entries link to the localized film
+page and use its existing local poster. Unmatched entries link to Letterboxd.
+Ratings, likes and watch dates come from the feed.
+
+The Pages workflow rebuilds daily at 09:17 UTC (06:17 in Fortaleza), in addition
+to pushes and manual runs. Scheduled runs start only when the workflow is on the
+default branch, and GitHub may delay them. The diary is a build-time snapshot;
+it does not fetch the feed in the visitor's browser. If the feed fails or times
+out, the build logs the failure and omits the diary rather than failing the
+whole site. It will try again on the next build.
