@@ -564,6 +564,43 @@ test("an Archive item becomes a film from public evidence alone; repeats and mis
     status: "ALREADY_ON_SITE",
     id: "PVCA-000001",
   });
+  // A new Archive item of the same work adds its own copy and link; the chosen copy stays.
+  const other = structuredClone(item);
+  other.metadata.identifier = "test-film-2000-remaster-pvca";
+  other.files[0].md5 = "d".repeat(32);
+  // Extras sit beside the film; the payload named after the identifier is the film.
+  other.files[0].name = "test-film-2000-remaster-pvca.mkv";
+  other.files.push({
+    name: "Test (2000) - Extras.mkv",
+    source: "original",
+    size: "5",
+    md5: "e".repeat(32),
+  });
+  const second = await observeArchive(root, other.metadata.identifier, {
+    ...options,
+    metadataOf: async () => other,
+  });
+  assert.equal(second.status, "OBSERVED");
+  await stage(root, second.receipt);
+  const [updated] = allRecords(readDatabase(root));
+  assert.deepEqual(
+    updated.copies.map((copy) => copy.id),
+    ["pvca-000001-archive", "pvca-000001-archive-2"]
+  );
+  assert.equal(updated.catalog_copy_id, "pvca-000001-archive");
+  assert.deepEqual(
+    updated.external_links.map((link) => [link.url, link.copy_id]),
+    [
+      [
+        "https://archive.org/details/test-film-2000-1080p-pvca",
+        "pvca-000001-archive",
+      ],
+      [
+        "https://archive.org/details/test-film-2000-remaster-pvca",
+        "pvca-000001-archive-2",
+      ],
+    ]
+  );
   assert.equal(
     resolutionClass({ width: 720, height: 480, field_order: "tt" }),
     "480i"

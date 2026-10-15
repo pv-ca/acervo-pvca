@@ -10,9 +10,9 @@ import urllib.request
 import time
 
 # The credential resolver lives outside this repository. PVCA_TMDB_RESOLVER names it;
-# without it, the resolver is expected beside the checkout.
+# without it, the resolver is expected in the Linux project beside this checkout.
 RESOLVER = Path(os.environ.get('PVCA_TMDB_RESOLVER') or
-                Path(__file__).resolve().parents[2] / 'repo/tmdb/pvca_tmdb_credentials.py')
+                Path(__file__).resolve().parents[2] / 'linux/repo/tmdb/pvca_tmdb_credentials.py')
 
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, *args, **kwargs):

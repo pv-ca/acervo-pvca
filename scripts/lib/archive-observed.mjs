@@ -186,10 +186,16 @@ async function receiptFor(root, source, options) {
       String(
         Math.max(0, ...films.map((film) => Number(film.id.split("-")[1]))) + 1
       ).padStart(6, "0");
-  if (
-    known?.copies.some((copy) => copy.id === `${id.toLowerCase()}-${provider}`)
-  )
+  // A provider copy already linked to another URL is a different upload (e.g. a new edition): it gets its own copy id.
+  const base = `${id.toLowerCase()}-${provider}`,
+    taken = (copyId) => known?.copies.some((copy) => copy.id === copyId),
+    linkedUrl = known?.external_links?.find(
+      (link) => link.copy_id === base
+    )?.url;
+  if (taken(base) && (!linkedUrl || linkedUrl === url))
     return { status: "ALREADY_ON_SITE", id };
+  let copyId = base;
+  for (let n = 2; taken(copyId); n++) copyId = `${base}-${n}`;
   const title = overrides.title ?? known?.title ?? source.title,
     year = known?.year ?? work.year;
   const video = ffprobe.streams.find(
@@ -241,6 +247,10 @@ async function receiptFor(root, source, options) {
     "OBSERVED_COPY_REJECTED: " + converted.failures[0]?.error
   );
   const [projected] = converted.records;
+  if (copyId !== base) {
+    for (const copy of projected.copies) if (copy.id === base) copy.id = copyId;
+    if (projected.catalog_copy_id === base) projected.catalog_copy_id = copyId;
+  }
   let slug = known?.slug ?? projected.slug;
   if (!known && films.some((film) => film.slug === slug))
     slug += "-" + id.toLowerCase();
@@ -332,9 +342,14 @@ export async function observeArchive(root, identifier, options = {}) {
     item?.metadata?.identifier === identifier && !item.is_dark,
     "ARCHIVE_ITEM_NOT_PUBLIC"
   );
-  const media = item.files.filter(
+  const originals = item.files.filter(
     (file) => file.source === "original" && MEDIA.test(file.name)
   );
+  // Items with extras carry the film under the PVCA payload name, the identifier itself.
+  const named = originals.filter(
+    (file) => file.name.replace(/\.[^.]+$/, "") === identifier
+  );
+  const media = originals.length > 1 ? named : originals;
   requireValue(media.length === 1, "EXACTLY_ONE_ORIGINAL_MEDIA_FILE_REQUIRED");
   const [file] = media,
     bytes = Number(file.size);
