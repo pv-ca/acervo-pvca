@@ -24933,21 +24933,21 @@
         "subtitle_languages": ["pt-BR", "en", "ru"]
       },
       {
-        "id": "pvca-000424-archive",
-        "resolution": "720×576",
-        "size_gib": 5.501171680167317,
-        "format": "Matroska",
+        "id": "pvca-000424-archive-2",
+        "resolution": "1080p",
+        "size_gib": 20.887131043709815,
+        "format": "MKV",
         "audio_languages": ["fr"],
-        "subtitle_languages": ["pt-BR", "en", "ru"]
+        "subtitle_languages": ["pt-BR", "fr", "en", "ru"]
       }
     ],
-    "catalog_copy_id": "pvca-000424-local",
+    "catalog_copy_id": "pvca-000424-archive-2",
     "poster": "/posters/tmdb-51228-yBBVn3wUuGkPB3ViBOs9ipjfbNf.jpg",
     "external_links": [
       {
         "provider": "internet_archive",
-        "url": "https://archive.org/details/de-bruit-et-de-fureur-1988-576p-pvca",
-        "copy_id": "pvca-000424-archive"
+        "url": "https://archive.org/details/de-bruit-et-de-fureur-1988-1080p-pvca",
+        "copy_id": "pvca-000424-archive-2"
       }
     ],
     "selections": ["Cinema francês", "Infância e formação"],
