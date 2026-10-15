@@ -24925,14 +24925,6 @@
     "year": 1988,
     "copies": [
       {
-        "id": "pvca-000424-local",
-        "resolution": "720×576",
-        "size_gib": 5.501171680167317,
-        "format": "Matroska",
-        "audio_languages": ["fr"],
-        "subtitle_languages": ["pt-BR", "en", "ru"]
-      },
-      {
         "id": "pvca-000424-archive-2",
         "resolution": "1080p",
         "size_gib": 20.887131043709815,

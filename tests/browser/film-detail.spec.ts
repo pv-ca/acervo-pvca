@@ -99,9 +99,8 @@ test("detail retains original diacritics, omits duplicate titles and preserves d
   await expect(page.locator(".original-title")).toHaveCount(0);
   await page.goto("filmes/sound-and-fury-1988/");
   await expect(page.locator("h1")).toHaveText("Som e fúria");
-  // The 1080p Archive copy replaced the 576p one; the local 576p copy stays listed without access.
-  await expect(page.locator(".archive-copy")).toHaveCount(2);
-  await expect(page.locator(".archive-copy a")).toHaveCount(1);
+  // The 1080p Archive copy replaced the 576p copies.
+  await expect(page.locator(".archive-copy")).toHaveCount(1);
   await expect(page.locator(".archive-copy a")).toHaveAttribute(
     "href",
     "https://archive.org/details/de-bruit-et-de-fureur-1988-1080p-pvca"
