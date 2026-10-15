@@ -1041,9 +1041,8 @@ nav a.active:active,
   .catalog-filter.active,
   .catalog-view.active,
   .selection-link {
+    /* Ivory on dark already contrasts; a permanent ring read as a stray white border on iOS. */
     box-shadow: none;
-    outline: 2px solid var(--color-text-head);
-    outline-offset: 2px;
   }
 }
 /* Header controls share one height and one pill shape. The language switch
