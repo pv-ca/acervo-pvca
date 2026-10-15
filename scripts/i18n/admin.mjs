@@ -5,6 +5,104 @@ import {
 } from "./public.mjs";
 export { preferredLanguage, countryHint };
 export const en = {
+  "Buscar filme para destaque": "Search for a featured film",
+  "Digite para buscar. Enter escolhe o primeiro resultado.":
+    "Type to search. Enter selects the first result.",
+  "Remover destaque": "Remove featured film",
+  "Resultados. Refine a busca se precisar.":
+    "Results. Refine your search if needed.",
+  "Nenhum filme encontrado. Tente outro título, diretor ou ano.":
+    "No films found. Try another title, director or year.",
+  Administração: "Administration",
+  "Edição local": "Local editing",
+  "Página inicial": "Home page",
+  "Salvar página inicial": "Save home page",
+  "Importar e exportar": "Import and export",
+  "Encontre uma ficha e edite seu conteúdo.":
+    "Find a record and edit its content.",
+  "Nova ficha": "New record",
+  "Buscar filmes": "Search films",
+  "Título, direção ou ano": "Title, director or year",
+  Mostrar: "Show",
+  Todos: "All",
+  "Catálogo local": "Local catalog",
+  Rascunhos: "Drafts",
+  Excluídas: "Deleted",
+  Fichas: "Records",
+  "Mostrar mais filmes": "Show more films",
+  "Fechar ficha": "Close record",
+  Ficha: "Record",
+  "Textos e pôster": "Text and poster",
+  Cópias: "Copies",
+  Links: "Links",
+  "Identificação avançada": "Advanced identification",
+  "Escolha a cópia que representa o filme no catálogo.":
+    "Choose the copy that represents the film in the catalog.",
+  "Associe cada link à sua cópia preservada.":
+    "Associate each link with its preserved copy.",
+  "Sem alterações pendentes": "No unsaved changes",
+  "Alterações não salvas": "Unsaved changes",
+  "Salvar no catálogo": "Save to catalog",
+  "Excluir ficha": "Delete record",
+  "Restaurar ficha": "Restore record",
+  Rascunho: "Draft",
+  "Sem pôster": "No poster",
+  "Nenhuma ficha encontrada. Tente outra busca ou crie uma ficha.":
+    "No records found. Try another search or create a record.",
+  "Descartar alterações?": "Discard changes?",
+  "Há alterações não salvas. Descartá-las para continuar?":
+    "There are unsaved changes. Discard them to continue?",
+  "Descartar alterações": "Discard changes",
+  Cancelar: "Cancel",
+  Confirmar: "Confirm",
+  "Crie recortes do acervo e escolha seus filmes.":
+    "Create curated selections and choose their films.",
+  "Buscar seleções": "Search selections",
+  "Título da seleção": "Selection title",
+  "Textos em inglês": "English text",
+  "Os filmes são reunidos automaticamente pela cópia que representa cada ficha.":
+    "Films are gathered automatically using each record’s representative copy.",
+  "Buscar filmes para a seleção": "Search films for the selection",
+  "Mostrar apenas escolhidos": "Show selected only",
+  "Filmes escolhidos": "Selected films",
+  "Seleção automática": "Automatic selection",
+  "Nenhuma seleção encontrada. Crie uma nova seleção.":
+    "No selections found. Create a new selection.",
+  "Excluir seleção": "Delete selection",
+  "A seleção será removida do catálogo local e da página inicial. Os filmes serão preservados.":
+    "The selection will be removed from the local catalog and home page. Films will be preserved.",
+  "A ficha sairá do catálogo, das seleções e do destaque locais. Edições não salvas serão descartadas. Os vídeos e pôsteres serão preservados. Recupere a ficha em Excluídas.":
+    "The record will be removed from the local catalog, selections and featured film. Unsaved edits will be discarded. Videos and posters will be preserved. Recover the record under Deleted.",
+  "Ficha excluída. Para recuperar, escolha Excluídas no filtro.":
+    "Record deleted. To recover it, choose Deleted in the filter.",
+  "A ficha voltará ao catálogo local. Nada será publicado.":
+    "The record will return to the local catalog. Nothing will be published.",
+  "Ficha restaurada no acervo local.": "Record restored to the local catalog.",
+  "Salve no computador. Gere a prévia para conferir. A publicação é uma etapa separada.":
+    "Save on this computer. Build the preview to review. Publication is a separate step.",
+  "Exportar catálogo": "Export catalog",
+  "Baixe os títulos para importar no Letterboxd.":
+    "Download titles to import into Letterboxd.",
+  "Sinopse de referência (legado)": "Reference synopsis (legacy)",
+  "Título (pt-BR)": "Title (pt-BR)",
+  "Os dados mudaram em outra janela. Reabra a seção antes de salvar.":
+    "Data changed in another window. Reopen this section before saving.",
+  "A ficha mudou. Reabra antes de excluir.":
+    "The record changed. Reopen it before deleting.",
+  "A ficha mudou em outra janela. Reabra antes de salvar.":
+    "The record changed in another window. Reopen it before saving.",
+  "O catálogo mudou. Reabra a seção antes de salvar.":
+    "The catalog changed. Reopen this section before saving.",
+  "Ficha inexistente. Reabra o catálogo.":
+    "Record not found. Reopen the catalog.",
+  "Identidade em uso. A ficha não foi restaurada.":
+    "Identity already in use. The record was not restored.",
+  "Escolha uma ficha salva para excluir.": "Choose a saved record to delete.",
+  "Escolha uma ficha excluída.": "Choose a deleted record.",
+  "Ficha excluída inexistente.": "Deleted record not found.",
+  "Já existe uma ficha excluída com esta identidade.":
+    "A deleted record with this identity already exists.",
+
   "Título de seleção repetido.": "Duplicate selection title.",
   "filme repetido.": "Duplicate film.",
   "filme inexistente.": "Film not found.",

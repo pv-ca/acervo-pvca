@@ -48,9 +48,28 @@ function translateDocument() {
 }
 $("#admin-language").value = lang;
 let state, currentFilm, currentSelectionId;
+let filmLimit = 48;
+let selectedOnly = false;
+let activeSection = "films";
+const dirtyForms = new Set();
+const copyData = new WeakMap();
+const normalize = (text) =>
+  String(text ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase();
+const digest = async (text) =>
+  [
+    ...new Uint8Array(
+      await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text))
+    ),
+  ]
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
 
 const status = (message) => {
   $("#status").textContent = t(message);
+  $("#status").classList.toggle("has-message", Boolean(message));
 };
 const list = (value) =>
   (value ?? "")
@@ -68,11 +87,21 @@ function option(select, value, label) {
   select.append(node);
 }
 async function api(route, value) {
+  const revisionHeaders = {};
+  if (route === "editorial")
+    revisionHeaders["X-PVCA-Editorial"] = state.editorialVersion;
+  if (route === "apply" && currentFilm?.id)
+    revisionHeaders["X-PVCA-Record"] = await digest(
+      JSON.stringify(
+        state.catalog.find((film) => film.id === currentFilm.id) ?? currentFilm
+      )
+    );
   const response = await fetch("/api/" + route, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       "X-PVCA-Token": state.token,
+      ...revisionHeaders,
     },
     body: JSON.stringify(value),
   });
@@ -81,17 +110,71 @@ async function api(route, value) {
   return result;
 }
 async function action(work) {
-  for (const button of document.querySelectorAll("button"))
-    button.disabled = true;
+  const controls = [
+    ...document.querySelectorAll("button, input, textarea, select"),
+  ];
+  const disabled = new Map(
+    controls.map((control) => [control, control.disabled])
+  );
+  for (const control of controls) control.disabled = true;
+  document.body.setAttribute("aria-busy", "true");
   try {
     await work();
   } catch (error) {
     status(error.message);
+    $("#status").focus();
   } finally {
-    for (const button of document.querySelectorAll("button"))
-      button.disabled = false;
+    for (const [control, value] of disabled)
+      if (control.isConnected) control.disabled = value;
+    document.body.removeAttribute("aria-busy");
+    syncControls();
   }
+}
+function syncControls() {
   $("#import-confirm").disabled = !importPlan;
+  $("#delete-film").disabled = !currentFilm?.id;
+  $("#remove-selection").disabled = !currentSelectionId;
+  for (const input of $("#selection-films").querySelectorAll("input"))
+    input.disabled = $("#selection-form").elements.rule.value !== "manual";
+}
+function markDirty(formId, value = true) {
+  if (value) dirtyForms.add(formId);
+  else dirtyForms.delete(formId);
+  for (const [id, target] of [
+    ["film-form", "film-dirty"],
+    ["selection-form", "selection-dirty"],
+  ])
+    $("#" + target).textContent = t(
+      dirtyForms.has(id) ? "Alterações não salvas" : "Sem alterações pendentes"
+    );
+}
+function confirmAction(title, description, label) {
+  const dialog = $("#confirm-dialog");
+  $("#confirm-title").textContent = title;
+  $("#confirm-description").textContent = description;
+  $("#confirm-accept").textContent = t(label);
+  return new Promise((resolve) => {
+    dialog.addEventListener(
+      "close",
+      () => resolve(dialog.returnValue === "confirm"),
+      { once: true }
+    );
+    dialog.returnValue = "cancel";
+    dialog.showModal();
+  });
+}
+async function canLeave(formId) {
+  const affected = formId
+    ? [formId].filter((id) => dirtyForms.has(id))
+    : [...dirtyForms];
+  if (!affected.length) return true;
+  const accepted = await confirmAction(
+    t("Descartar alterações?"),
+    t("Há alterações não salvas. Descartá-las para continuar?"),
+    "Descartar alterações"
+  );
+  if (accepted) for (const id of affected) markDirty(id, false);
+  return accepted;
 }
 function field(parent, name, label, value = "", type = "text", wide = false) {
   const wrapper = element("label", label);
@@ -115,13 +198,11 @@ function checkbox(parent, name, value, label, checked) {
   parent.append(wrapper);
 }
 function populateHome() {
-  const form = $("#home-form"),
-    select = form.elements.featuredSlug;
-  select.replaceChildren();
-  option(select, "", "Sem destaque");
-  for (const film of state.films)
-    option(select, film.slug, film.title + " · " + film.year);
-  select.value = state.editorial.featuredSlug ?? "";
+  const form = $("#home-form");
+  form.elements.featuredSlug.value = state.editorial.featuredSlug ?? "";
+  $("#featured-search").value = "";
+  renderFeaturedCurrent();
+  renderFeaturedResults();
   form.elements.featuredNote.value = state.editorial.featuredNote ?? "";
   form.elements.featuredNoteEn.value = state.editorial.featuredNotes?.en ?? "";
   form.elements.recentLimit.value = state.editorial.recentLimit;
@@ -144,22 +225,9 @@ async function load() {
     ? "O catálogo real está vazio. O site usa os exemplos da prévia; eles não são filmes importados."
     : "";
   populateHome();
-  const picker = $("#film-picker");
-  picker.replaceChildren();
-  option(picker, "", "Escolha um filme ou crie um novo");
-  for (const film of state.catalog)
-    option(picker, "catalog:" + film.id, film.title);
-  for (const film of state.drafts)
-    option(
-      picker,
-      "draft:" + film.id,
-      (film.title || "TMDB #" + film.tmdb_id) + t(" (rascunho)")
-    );
-  const selections = $("#selection-picker");
-  selections.replaceChildren();
-  option(selections, "", "Escolha uma seleção");
-  for (const selection of state.editorial.selections)
-    option(selections, selection.id, selection.title);
+  renderGallery();
+  renderSelections();
+  syncControls();
   translateDocument();
 }
 const slugify = (value) =>
@@ -194,8 +262,18 @@ function editFilm(film) {
       added_at: new Date().toISOString().slice(0, 10),
     }
   );
-  const parent = $("#film-fields");
-  parent.replaceChildren();
+  $("#film-editor").hidden = false;
+  $("#editor-title").textContent = film?.title || t("Nova ficha");
+  $("#film-state").textContent = t(
+    film && state.catalog.some((item) => item.id === film.id)
+      ? "Catálogo local"
+      : "Rascunho"
+  );
+  $("#editor-poster").hidden = !film?.poster;
+  if (film?.poster) $("#editor-poster").src = film.poster;
+  for (const id of ["film-fields", "advanced-fields", "text-fields"])
+    $("#" + id).replaceChildren();
+  showPart("identity");
   for (const [key, label, type] of [
     ["title", "Título"],
     ["tmdb_id", "TMDB ID", "number"],
@@ -210,6 +288,7 @@ function editFilm(film) {
     ["genres", "Gêneros (separe com ;)"],
     ["original_languages", "Idiomas originais (separe com ;)"],
     ["poster", "Caminho do pôster"],
+    ["title_pt", "Título (pt-BR)"],
     ["title_en", "Título (en)"],
     ["synopsis_pt", "Sinopse (pt-BR)", "textarea"],
     ["synopsis_en", "Sinopse (en)", "textarea"],
@@ -218,9 +297,24 @@ function editFilm(film) {
     ["collection_note", "Nota editorial pública", "textarea"],
   ])
     field(
-      parent,
+      $(
+        "#" +
+          (["tmdb_id", "slug", "poster"].includes(key)
+            ? "advanced-fields"
+            : [
+                  "title_pt",
+                  "title_en",
+                  "synopsis_pt",
+                  "synopsis_en",
+                  "note_en",
+                  "synopsis",
+                  "collection_note",
+                ].includes(key)
+              ? "text-fields"
+              : "film-fields")
+      ),
       key,
-      label,
+      key === "synopsis" ? "Sinopse de referência (legado)" : label,
       Array.isArray(currentFilm[key])
         ? currentFilm[key].join("; ")
         : currentFilm[key],
@@ -228,6 +322,8 @@ function editFilm(film) {
       type === "textarea"
     );
   const formFields = $("#film-form").elements;
+  formFields.title_pt.value =
+    currentFilm.translations?.["pt-BR"]?.title ?? currentFilm.title;
   formFields.title_en.value = currentFilm.translations?.en?.title ?? "";
   formFields.synopsis_pt.value =
     currentFilm.translations?.["pt-BR"]?.synopsis ?? currentFilm.synopsis ?? "";
@@ -235,7 +331,7 @@ function editFilm(film) {
   formFields.note_en.value =
     currentFilm.translations?.en?.collection_note ?? "";
   const poster = field(
-    parent,
+    $("#text-fields"),
     "poster_file",
     "Escolher imagem do pôster",
     "",
@@ -253,6 +349,9 @@ function editFilm(film) {
       for (const byte of bytes) binary += String.fromCharCode(byte);
       const result = await api("poster", { extension, base64: btoa(binary) });
       $("#film-form").elements.poster.value = result.poster;
+      markDirty("film-form");
+      $("#editor-poster").src = result.poster;
+      $("#editor-poster").hidden = false;
       status("Pôster guardado localmente. Salve o filme para associá-lo.");
     })
   );
@@ -270,6 +369,11 @@ function editFilm(film) {
   for (const copy of currentFilm.copies) addCopy(copy);
   $("#links").replaceChildren();
   for (const link of currentFilm.external_links) addLink(link);
+  markDirty("film-form", false);
+  syncControls();
+  renderGallery();
+  $("#film-editor").scrollIntoView({ block: "start" });
+  $("#editor-title").focus({ preventScroll: true });
 }
 function addCopy(
   copy = {
@@ -282,6 +386,7 @@ function addCopy(
 ) {
   const parent = element("fieldset");
   parent.dataset.copy = "true";
+  copyData.set(parent, structuredClone(copy));
   parent.append(element("legend", "Cópia preservada"));
   const fields = element("div");
   fields.className = "fields";
@@ -320,7 +425,10 @@ function addCopy(
   parent.append(label);
   const remove = element("button", "Remover cópia");
   remove.type = "button";
-  remove.addEventListener("click", () => parent.remove());
+  remove.addEventListener("click", () => {
+    parent.remove();
+    markDirty("film-form");
+  });
   parent.append(remove);
   $("#copies").append(parent);
 }
@@ -345,7 +453,10 @@ function addLink(
   field(parent, "copy_id", "Identificador da cópia (opcional)", link.copy_id);
   const remove = element("button", "Remover destino");
   remove.type = "button";
-  remove.addEventListener("click", () => parent.remove());
+  remove.addEventListener("click", () => {
+    parent.remove();
+    markDirty("film-form");
+  });
   parent.append(remove);
   $("#links").append(parent);
 }
@@ -375,7 +486,7 @@ function collectFilm() {
   result.translations = {
     "pt-BR": {
       ...result.translations?.["pt-BR"],
-      title: result.title,
+      title: form.elements.title_pt.value.trim() || result.title,
       synopsis: form.elements.synopsis_pt.value.trim() || null,
       collection_note: result.collection_note,
     },
@@ -389,7 +500,7 @@ function collectFilm() {
   result.catalog_copy_id = "";
   result.copies = [...document.querySelectorAll("[data-copy]")].map(
     (parent) => {
-      const copy = {};
+      const copy = structuredClone(copyData.get(parent) ?? {});
       for (const input of parent.querySelectorAll(".fields input"))
         copy[input.name] =
           input.name === "size_gib"
@@ -417,6 +528,8 @@ function collectFilm() {
 }
 function editSelection(selection) {
   currentSelectionId = selection?.id ?? null;
+  $("#selection-editor").hidden = false;
+  $("#selection-title").textContent = selection?.title || t("Nova seleção");
   const form = $("#selection-form");
   for (const key of ["id", "title", "description", "rule"])
     form.elements[key].value =
@@ -434,20 +547,40 @@ function editSelection(selection) {
       film.title,
       selection?.filmSlugs.includes(film.slug)
     );
+  $("#selection-film-search").value = "";
+  selectedOnly = false;
+  $("#selected-only").setAttribute("aria-pressed", "false");
   updateRule();
+  filterSelectionFilms();
+  markDirty("selection-form", false);
+  syncControls();
+  renderSelections();
+  $("#selection-title").focus();
 }
 function updateRule() {
   const automated = $("#selection-form").elements.rule.value !== "manual";
   for (const input of $("#selection-films").querySelectorAll("input"))
     input.disabled = automated;
+  $("#manual-members").hidden = automated;
+  $("#automatic-note").hidden = !automated;
 }
 for (const button of document.querySelectorAll("[data-tab]"))
-  button.addEventListener("click", () => {
+  button.addEventListener("click", async () => {
+    if (activeSection === button.dataset.tab || !(await canLeave())) return;
+    activeSection = button.dataset.tab;
+    // Discarded values must not reappear as if they were saved.
+    $("#film-editor").hidden = true;
+    currentFilm = null;
+    $("#selection-editor").hidden = true;
+    currentSelectionId = null;
+    populateHome();
     for (const id of ["home", "films", "selections", "import"])
-      $("#" + id).hidden = id !== button.dataset.tab;
+      $("#" + id).hidden = id !== activeSection;
     for (const tab of document.querySelectorAll("[data-tab]"))
       tab.setAttribute("aria-pressed", String(tab === button));
     status("");
+    $("#" + activeSection + " h1").setAttribute("tabindex", "-1");
+    $("#" + activeSection + " h1").focus();
   });
 $("#home-form").addEventListener("submit", (event) => {
   event.preventDefault();
@@ -466,30 +599,101 @@ $("#home-form").addEventListener("submit", (event) => {
       ...$("#home-selections").querySelectorAll("input:checked"),
     ].map((input) => input.value);
     await api("editorial", config);
+    markDirty("home-form", false);
     await load();
     status("Início salvo. Gere a prévia para conferir.");
   });
 });
-$("#home-form").elements.featuredSlug.addEventListener("change", () => {
-  $("#home-form").elements.featuredNote.value = "";
+function featuredTitle(film) {
+  return film.translations?.[lang]?.title || film.title;
+}
+function featuredContents(film) {
+  const content = element("span");
+  if (film.poster) {
+    const image = element("img");
+    image.src = film.poster;
+    image.alt = "";
+    content.append(image);
+  }
+  const text = element("span");
+  text.append(
+    element("strong", featuredTitle(film)),
+    element(
+      "small",
+      [film.year, film.director || (film.directors ?? []).join(", ")]
+        .filter(Boolean)
+        .join(" · ")
+    )
+  );
+  content.append(text);
+  return content;
+}
+function renderFeaturedCurrent() {
+  const slug = $("#home-form").elements.featuredSlug.value;
+  const film = state.films.find((film) => film.slug === slug);
+  $("#featured-current").replaceChildren(
+    film ? featuredContents(film) : element("p", "Sem destaque")
+  );
+  $("#clear-featured").disabled = !film;
+}
+function chooseFeatured(slug) {
+  const form = $("#home-form");
+  if (form.elements.featuredSlug.value !== slug) {
+    form.elements.featuredSlug.value = slug;
+    form.elements.featuredNote.value = "";
+    form.elements.featuredNoteEn.value = "";
+    markDirty("home-form");
+  }
+  $("#featured-search").value = "";
+  renderFeaturedCurrent();
+  renderFeaturedResults();
+  $("#featured-search").focus();
+}
+function renderFeaturedResults() {
+  const query = $("#featured-search").value.trim();
+  const list = $("#featured-results");
+  const count = $("#featured-count");
+  list.replaceChildren();
+  list.hidden = count.hidden = !query;
+  if (!query) return;
+  const films = state.films.filter((film) => filmMatches(film, query));
+  count.textContent = films.length
+    ? `${Math.min(8, films.length)} / ${films.length} · ${t("Resultados. Refine a busca se precisar.")}`
+    : t("Nenhum filme encontrado. Tente outro título, diretor ou ano.");
+  for (const film of films.slice(0, 8)) {
+    const item = element("li");
+    const button = element("button");
+    button.type = "button";
+    button.append(featuredContents(film));
+    button.addEventListener("click", () => chooseFeatured(film.slug));
+    item.append(button);
+    list.append(item);
+  }
+}
+$("#featured-search").addEventListener("input", renderFeaturedResults);
+$("#featured-search").addEventListener("keydown", (event) => {
+  const first = $("#featured-results button");
+  if (event.key === "Enter") {
+    event.preventDefault();
+    first?.click();
+  } else if (event.key === "ArrowDown" && first) {
+    event.preventDefault();
+    first.focus();
+  } else if (event.key === "Escape") {
+    event.preventDefault();
+    $("#featured-search").value = "";
+    renderFeaturedResults();
+  }
 });
+$("#clear-featured").addEventListener("click", () => chooseFeatured(""));
 $("#selection-form").elements.title.addEventListener("input", (event) => {
   if (!currentSelectionId)
     $("#selection-form").elements.id.value = slugify(event.target.value);
 });
-$("#new-film").addEventListener("click", () => {
+$("#new-film").addEventListener("click", async () => {
+  if (!(await canLeave("film-form"))) return;
   editFilm();
   status("Novo rascunho. Preencha somente informações comprovadas.");
-});
-$("#film-picker").addEventListener("change", (event) => {
-  const value = event.target.value,
-    index = value.indexOf(":"),
-    source = value.slice(0, index),
-    id = value.slice(index + 1);
-  const film = state[source === "draft" ? "drafts" : "catalog"].find(
-    (f) => f.id === id
-  );
-  if (film) editFilm(film);
 });
 $("#add-copy").addEventListener("click", () => {
   if (!currentFilm) {
@@ -497,36 +701,49 @@ $("#add-copy").addEventListener("click", () => {
     return;
   }
   addCopy();
+  markDirty("film-form");
 });
-$("#add-link").addEventListener("click", () => addLink());
-$("#film-form").addEventListener("submit", (event) => {
-  event.preventDefault();
+$("#add-link").addEventListener("click", () => {
+  addLink();
+  markDirty("film-form");
+});
+$("#save-draft").addEventListener("click", () =>
   action(async () => {
     const film = collectFilm();
     await api("draft", film);
+    markDirty("film-form", false);
     await load();
-    editFilm(film);
+    editFilm(state.drafts.find((item) => item.id === film.id) ?? film);
     status("Rascunho salvo. O catálogo do site não foi alterado.");
-  });
-});
-$("#apply").addEventListener("click", () =>
+  })
+);
+$("#film-form").addEventListener("submit", (event) => {
+  event.preventDefault();
+  const form = $("#film-form");
+  const invalid = [...form.elements].find(
+    (input) => input.willValidate && !input.validity.valid
+  );
+  if (invalid) {
+    showPart(invalid.closest("[data-film-panel]").dataset.filmPanel);
+    const details = invalid.closest("details");
+    if (details) details.open = true;
+    invalid.reportValidity();
+    return;
+  }
   action(async () => {
-    if (!$("#film-form").reportValidity()) return;
     const film = collectFilm();
     await api("apply", film);
+    markDirty("film-form", false);
     await load();
-    editFilm(film);
+    editFilm(state.catalog.find((item) => item.id === film.id));
     status(
       "Filme aplicado ao catálogo local. Gere a prévia para revisar; nada foi publicado."
     );
-  })
-);
-$("#selection-picker").addEventListener("change", (event) =>
-  editSelection(
-    state.editorial.selections.find((s) => s.id === event.target.value)
-  )
-);
-$("#new-selection").addEventListener("click", () => editSelection());
+  });
+});
+$("#new-selection").addEventListener("click", async () => {
+  if (await canLeave("selection-form")) editSelection();
+});
 $("#selection-form").elements.rule.addEventListener("change", updateRule);
 $("#selection-form").addEventListener("submit", (event) => {
   event.preventDefault();
@@ -543,9 +760,12 @@ $("#selection-form").addEventListener("submit", (event) => {
       title: form.elements.title.value.trim(),
       description: form.elements.description.value.trim(),
       rule: form.elements.rule.value,
-      filmSlugs: [
-        ...$("#selection-films").querySelectorAll("input:checked"),
-      ].map((input) => input.value),
+      filmSlugs:
+        form.elements.rule.value === "manual"
+          ? [...$("#selection-films").querySelectorAll("input:checked")].map(
+              (input) => input.value
+            )
+          : [],
     };
     if (
       state.editorial.selections.some(
@@ -562,15 +782,28 @@ $("#selection-form").addEventListener("submit", (event) => {
       id === currentSelectionId ? selected.id : id
     );
     await api("editorial", config);
+    markDirty("selection-form", false);
     await load();
     editSelection(selected);
     status("Seleção salva localmente.");
   });
 });
-$("#remove-selection").addEventListener("click", () =>
+$("#remove-selection").addEventListener("click", async () => {
+  if (!currentSelectionId) return;
+  const selection = state.editorial.selections.find(
+    (item) => item.id === currentSelectionId
+  );
+  if (
+    !(await confirmAction(
+      t("Excluir seleção") + ": " + selection.title + "?",
+      t(
+        "A seleção será removida do catálogo local e da página inicial. Os filmes serão preservados."
+      ),
+      "Excluir seleção"
+    ))
+  )
+    return;
   action(async () => {
-    if (!currentSelectionId) throw Error("Escolha uma seleção.");
-    if (!confirm("Remover esta seleção? Os filmes serão preservados.")) return;
     const config = structuredClone(state.editorial);
     config.selections = config.selections.filter(
       (s) => s.id !== currentSelectionId
@@ -579,11 +812,13 @@ $("#remove-selection").addEventListener("click", () =>
       (id) => id !== currentSelectionId
     );
     await api("editorial", config);
+    markDirty("selection-form", false);
+    currentSelectionId = null;
+    $("#selection-editor").hidden = true;
     await load();
-    editSelection();
     status("Seleção removida; filmes preservados.");
-  })
-);
+  });
+});
 $("#build").addEventListener("click", () =>
   action(async () => {
     status("Gerando prévia…");
@@ -611,7 +846,11 @@ $("#export-letterboxd").addEventListener("click", () =>
 );
 load().catch((error) => status(error.message));
 
-$("#admin-language").addEventListener("change", (event) => {
+$("#admin-language").addEventListener("change", async (event) => {
+  if (!(await canLeave())) {
+    event.target.value = lang;
+    return;
+  }
   lang = event.target.value;
   try {
     localStorage.setItem("pvca-language", lang);
@@ -703,3 +942,236 @@ $("#tmdb-status").addEventListener("click", () =>
   })
 );
 translateDocument();
+
+function showPart(part) {
+  for (const panel of document.querySelectorAll("[data-film-panel]"))
+    panel.hidden = panel.dataset.filmPanel !== part;
+  for (const button of document.querySelectorAll("[data-part]"))
+    button.setAttribute("aria-pressed", String(button.dataset.part === part));
+}
+for (const button of document.querySelectorAll("[data-part]"))
+  button.addEventListener("click", () => showPart(button.dataset.part));
+function filmMatches(film, query) {
+  return normalize(
+    [
+      film.title,
+      film.original_title,
+      film.originalTitle,
+      film.director,
+      film.translations?.["pt-BR"]?.title,
+      film.translations?.en?.title,
+      film.year,
+      ...(film.directors ?? []),
+    ].join(" ")
+  ).includes(normalize(query));
+}
+function renderGallery() {
+  const filter = $("#film-filter").value;
+  const entries =
+    filter === "deleted"
+      ? (state.deletedFilms ?? []).map((film) => ({ film, source: "deleted" }))
+      : [
+          ...(filter === "draft"
+            ? []
+            : state.catalog.map((film) => ({ film, source: "catalog" }))),
+          ...(filter === "catalog"
+            ? []
+            : state.drafts.map((film) => ({ film, source: "draft" }))),
+        ];
+  const matches = entries.filter(({ film }) =>
+    filmMatches(film, $("#film-search").value)
+  );
+  $("#film-count").textContent =
+    `${matches.length} / ${entries.length} · ${t(filter === "deleted" ? "Excluídas" : "Fichas")}`;
+  const gallery = $("#film-gallery");
+  gallery.replaceChildren();
+  for (const { film, source } of matches.slice(0, filmLimit)) {
+    const card = element("button");
+    card.className = "poster-card";
+    card.setAttribute(
+      "aria-pressed",
+      String(currentFilm?.id === film.id && source !== "deleted")
+    );
+    if (source !== "deleted" && film.poster) {
+      const image = element("img");
+      image.src = film.poster;
+      image.alt = "";
+      image.loading = "lazy";
+      card.append(image);
+    } else {
+      const cover = element(
+        "span",
+        source === "deleted" ? "Restaurar ficha" : "Sem pôster"
+      );
+      cover.className = "poster-placeholder";
+      card.append(cover);
+    }
+    card.append(
+      element(
+        "strong",
+        film.translations?.[lang]?.title ||
+          film.title ||
+          "TMDB #" + film.tmdb_id
+      ),
+      element("span", String(film.year ?? ""))
+    );
+    if (source === "draft") card.append(element("small", "Rascunho"));
+    if (source === "deleted")
+      card.addEventListener("click", async () => {
+        if (
+          !(await confirmAction(
+            t("Restaurar ficha") + ": " + film.title + "?",
+            t("A ficha voltará ao catálogo local. Nada será publicado."),
+            "Restaurar ficha"
+          ))
+        )
+          return;
+        action(async () => {
+          await api("film/restore", { id: film.id, slug: film.slug });
+          await load();
+          status("Ficha restaurada no acervo local.");
+        });
+      });
+    else
+      card.addEventListener("click", async () => {
+        if (await canLeave("film-form")) editFilm(film);
+      });
+    gallery.append(card);
+  }
+  if (!matches.length)
+    gallery.append(
+      element(
+        "p",
+        "Nenhuma ficha encontrada. Tente outra busca ou crie uma ficha."
+      )
+    );
+  $("#more-films").hidden = matches.length <= filmLimit;
+}
+$("#film-search").addEventListener("input", () => {
+  filmLimit = 48;
+  renderGallery();
+});
+$("#film-filter").addEventListener("change", () => {
+  filmLimit = 48;
+  renderGallery();
+});
+$("#more-films").addEventListener("click", () => {
+  filmLimit += 48;
+  renderGallery();
+});
+$("#close-film").addEventListener("click", async () => {
+  if (!(await canLeave("film-form"))) return;
+  currentFilm = null;
+  $("#film-editor").hidden = true;
+  renderGallery();
+  $("#film-search").focus();
+});
+$("#delete-film").addEventListener("click", async () => {
+  if (!currentFilm?.id) return;
+  const expected =
+    state.catalog.find((film) => film.id === currentFilm.id) ??
+    state.drafts.find((film) => film.id === currentFilm.id);
+  if (
+    !(await confirmAction(
+      t("Excluir ficha") +
+        ": " +
+        currentFilm.title +
+        " (" +
+        (currentFilm.year ?? "") +
+        ")?",
+      t(
+        "A ficha sairá do catálogo, das seleções e do destaque locais. Edições não salvas serão descartadas. Os vídeos e pôsteres serão preservados. Recupere a ficha em Excluídas."
+      ),
+      "Excluir ficha"
+    ))
+  )
+    return;
+  action(async () => {
+    await api("film/delete", {
+      id: currentFilm.id,
+      slug: currentFilm.slug,
+      expected,
+    });
+    markDirty("film-form", false);
+    currentFilm = null;
+    $("#film-editor").hidden = true;
+    await load();
+    status("Ficha excluída. Para recuperar, escolha Excluídas no filtro.");
+  });
+});
+function renderSelections() {
+  const parent = $("#selection-list");
+  parent.replaceChildren();
+  const selections = state.editorial.selections.filter((selection) =>
+    normalize(selection.title).includes(normalize($("#selection-search").value))
+  );
+  for (const selection of selections) {
+    const button = element("button");
+    button.className = "selection-card";
+    button.setAttribute(
+      "aria-pressed",
+      String(selection.id === currentSelectionId)
+    );
+    button.append(
+      element("strong", selection.title),
+      element(
+        "small",
+        selection.rule === "manual"
+          ? String(selection.filmSlugs.length) + " · " + t("Filmes escolhidos")
+          : t("Seleção automática")
+      )
+    );
+    button.addEventListener("click", async () => {
+      if (await canLeave("selection-form")) editSelection(selection);
+    });
+    parent.append(button);
+  }
+  if (!selections.length)
+    parent.append(
+      element("p", "Nenhuma seleção encontrada. Crie uma nova seleção.")
+    );
+}
+function filterSelectionFilms() {
+  const query = $("#selection-film-search").value;
+  const members = $("#selection-films");
+  let count = 0;
+  for (const label of [...members.querySelectorAll("label")].sort(
+    (a, b) =>
+      Number(b.querySelector("input").checked) -
+      Number(a.querySelector("input").checked)
+  )) {
+    const input = label.querySelector("input");
+    const film = state.films.find((film) => film.slug === input.value);
+    if (input.checked) count++;
+    label.hidden =
+      (selectedOnly && !input.checked) || !filmMatches(film, query);
+    members.append(label);
+  }
+  $("#member-count").textContent = count + " · " + t("Filmes escolhidos");
+}
+$("#selection-search").addEventListener("input", renderSelections);
+$("#selection-film-search").addEventListener("input", filterSelectionFilms);
+$("#selection-film-search").addEventListener("keydown", (event) => {
+  if (event.key === "Enter") event.preventDefault();
+});
+$("#selection-films").addEventListener("change", filterSelectionFilms);
+$("#selected-only").addEventListener("click", () => {
+  selectedOnly = !selectedOnly;
+  $("#selected-only").setAttribute("aria-pressed", String(selectedOnly));
+  filterSelectionFilms();
+});
+for (const id of ["film-form", "selection-form", "home-form"]) {
+  for (const event of ["input", "change"])
+    $("#" + id).addEventListener(event, (event) => {
+      if (
+        !["selection-film-search", "featured-search"].includes(event.target.id)
+      )
+        markDirty(id);
+    });
+}
+window.addEventListener("beforeunload", (event) => {
+  if (dirtyForms.size) {
+    event.preventDefault();
+    event.returnValue = "";
+  }
+});

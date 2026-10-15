@@ -1,5 +1,5 @@
 import { createServer } from "node:http";
-import { randomBytes } from "node:crypto";
+import { randomBytes, createHash } from "node:crypto";
 import {
   readFileSync,
   writeFileSync,
@@ -26,7 +26,13 @@ import {
   mergeEnrichment,
 } from "./lib/canonical.mjs";
 
-import { readDatabase, updateDatabase, fingerprint } from "./lib/store.mjs";
+import {
+  readDatabase,
+  updateDatabase,
+  fingerprint,
+  updateAdminStore,
+  editorialVersion,
+} from "./lib/store.mjs";
 
 export function createAdmin(root, port = 4323) {
   const token = randomBytes(32).toString("hex");
@@ -135,6 +141,26 @@ export function createAdmin(root, port = 4323) {
       }
       if (
         req.method === "GET" &&
+        /^\/posters\/[a-zA-Z0-9_-][a-zA-Z0-9._-]*\.(png|jpg|jpeg|webp|avif)$/i.test(
+          pathname
+        )
+      ) {
+        const file = path("public" + pathname);
+        if (!existsSync(file)) {
+          json(404, { error: "Pôster inexistente." });
+          return;
+        }
+        const extension = pathname.split(".").pop().toLowerCase();
+        res.writeHead(200, {
+          "Content-Type": "image/" + ({ jpg: "jpeg" }[extension] ?? extension),
+          "Cache-Control": "no-cache",
+          "X-Content-Type-Options": "nosniff",
+        });
+        res.end(readFileSync(file));
+        return;
+      }
+      if (
+        req.method === "GET" &&
         ["/app.js", "/style.css", "/admin-i18n.mjs", "/public.mjs"].includes(
           pathname
         )
@@ -169,7 +195,10 @@ export function createAdmin(root, port = 4323) {
           .filter((row) => !row.published)
           .map((row) => allRecords({ ...db, films: { row } })[0]);
         const editorial = read("data/public/editorial.json");
-        if (catalog.length) {
+        const version = editorialVersion(editorial);
+        const preview =
+          catalog.length === 0 && editorial.previewRecentSlugs.length > 0;
+        if (!preview) {
           const slugs = new Set(catalog.map((f) => f.slug));
           if (!slugs.has(editorial.featuredSlug)) editorial.featuredSlug = null;
           editorial.selections = editorial.selections.map((s) => ({
@@ -179,14 +208,23 @@ export function createAdmin(root, port = 4323) {
         }
         json(200, {
           token,
+          editorialVersion: version,
           editorial,
           catalog,
           drafts: [
             ...pending,
             ...drafts().filter((f) => !pending.some((row) => row.id === f.id)),
           ],
-          preview: catalog.length === 0,
-          films: catalog.length
+          deletedFilms: Object.values(db.deletedFilms ?? {}).map((entry) => ({
+            id: entry.record.id,
+            slug: entry.record.slug,
+            title: entry.record.title,
+            translations: entry.record.translations,
+            directors: entry.record.directors,
+            year: entry.record.year,
+          })),
+          preview,
+          films: !preview
             ? catalog.map(toRuntimeFilm)
             : read("data/public/catalog.preview.json"),
           entities: db.entities,
@@ -316,9 +354,10 @@ export function createAdmin(root, port = 4323) {
         const errors = validateEditorial(data);
         assert(!errors.length, errors.join("\n"));
         const catalog = read("data/public/catalog.json");
-        const films = catalog.length
-          ? catalog
-          : read("data/public/catalog.preview.json");
+        const films =
+          catalog.length || !data.previewRecentSlugs.length
+            ? catalog
+            : read("data/public/catalog.preview.json");
         const referenceErrors = validateEditorial(data, films);
         assert(!referenceErrors.length, referenceErrors.join("\n"));
         assert(
@@ -348,18 +387,173 @@ export function createAdmin(root, port = 4323) {
             ]),
           ],
         }));
-        save("data/public/editorial.json", data);
         const changed = updated.filter(
           (film, index) =>
             JSON.stringify(film.selections) !==
             JSON.stringify(catalog[index].selections)
         );
-        if (changed.length) {
-          updateDatabase(root, (db) => {
-            for (const film of changed) db = saveManual(db, film, true);
-            return db;
-          });
-        }
+        updateAdminStore(
+          root,
+          (transaction) => {
+            // Reject stale whole-form saves instead of overwriting another editor's work.
+            const active = new Map(
+              allRecords(transaction.database).map((record) => [
+                record.id,
+                record,
+              ])
+            );
+            assert(
+              catalog.every(
+                (record) =>
+                  fingerprint(active.get(record.id)) === fingerprint(record)
+              ) &&
+                Object.values(transaction.database.films).filter(
+                  (row) => row.published
+                ).length === catalog.length,
+              "O catálogo mudou. Reabra a seção antes de salvar."
+            );
+            for (const film of changed)
+              transaction.database = saveManual(
+                transaction.database,
+                film,
+                true
+              );
+            transaction.editorial = data;
+            return transaction;
+          },
+          req.headers["x-pvca-editorial"]
+        );
+      } else if (pathname === "/api/film/delete") {
+        assert(
+          typeof data.id === "string" &&
+            typeof data.slug === "string" &&
+            data.expected,
+          "Escolha uma ficha salva para excluir."
+        );
+        updateAdminStore(root, (transaction) => {
+          const db = transaction.database;
+          const record = allRecords(db).find(
+            (film) => film.id === data.id && film.slug === data.slug
+          );
+          assert(record, "Ficha inexistente. Reabra o catálogo.");
+          assert(
+            fingerprint(record) === fingerprint(data.expected),
+            "A ficha mudou. Reabra antes de excluir."
+          );
+          const pair = Object.entries(db.films).find(
+            ([, row]) => row.fields.id === data.id
+          );
+          db.deletedFilms ??= {};
+          assert(
+            !db.deletedFilms[data.id],
+            "Já existe uma ficha excluída com esta identidade."
+          );
+          db.deletedFilms[data.id] = {
+            key: pair[0],
+            row: pair[1],
+            record,
+            editorial: structuredClone(transaction.editorial),
+            drafts: transaction.drafts.filter((film) => film.id === data.id),
+          };
+          delete db.films[pair[0]];
+          db.revision++;
+          transaction.drafts = transaction.drafts.filter(
+            (film) => film.id !== data.id
+          );
+          const editorial = transaction.editorial;
+          if (editorial.featuredSlug === data.slug) {
+            editorial.featuredSlug = null;
+            editorial.featuredNote = null;
+            editorial.featuredNotes = { "pt-BR": null, en: null };
+          }
+          editorial.previewRecentSlugs = Object.values(db.films).some(
+            (row) => row.published
+          )
+            ? editorial.previewRecentSlugs.filter((slug) => slug !== data.slug)
+            : [];
+          for (const selection of editorial.selections)
+            selection.filmSlugs = selection.filmSlugs.filter(
+              (slug) => slug !== data.slug
+            );
+          return transaction;
+        });
+      } else if (pathname === "/api/film/restore") {
+        assert(
+          typeof data.id === "string" && typeof data.slug === "string",
+          "Escolha uma ficha excluída."
+        );
+        updateAdminStore(root, (transaction) => {
+          const db = transaction.database,
+            entry = db.deletedFilms?.[data.id];
+          assert(
+            entry && entry.record.slug === data.slug,
+            "Ficha excluída inexistente."
+          );
+          assert(
+            !allRecords(db).some(
+              (film) =>
+                film.id === data.id ||
+                film.slug === data.slug ||
+                (entry.record.tmdb_id && film.tmdb_id === entry.record.tmdb_id)
+            ) &&
+              !transaction.drafts.some(
+                (film) => film.id === data.id || film.slug === data.slug
+              ),
+            "Identidade em uso. A ficha não foi restaurada."
+          );
+          db.films[entry.key] = entry.row;
+          delete db.deletedFilms[data.id];
+          db.revision++;
+          transaction.drafts.push(...entry.drafts);
+          const editorial = transaction.editorial;
+          if (
+            !editorial.featuredSlug &&
+            entry.editorial.featuredSlug === data.slug &&
+            entry.row.published
+          ) {
+            editorial.featuredSlug = data.slug;
+            editorial.featuredNote = entry.editorial.featuredNote;
+            editorial.featuredNotes = entry.editorial.featuredNotes;
+          }
+          for (const selection of editorial.selections) {
+            if (
+              selection.rule === "manual" &&
+              entry.row.published &&
+              entry.editorial.selections.some(
+                (old) =>
+                  old.id === selection.id && old.filmSlugs.includes(data.slug)
+              )
+            )
+              selection.filmSlugs = [
+                ...new Set([...selection.filmSlugs, data.slug]),
+              ];
+          }
+          // Reconcile memberships to selection titles as they exist now.
+          const restored = allRecords(db).find((film) => film.id === data.id);
+          const oldTitles = new Set(
+            entry.editorial.selections.map((selection) => selection.title)
+          );
+          restored.selections = [
+            ...new Set([
+              ...(restored.selections ?? []).filter(
+                (title) => !oldTitles.has(title)
+              ),
+              ...editorial.selections
+                .filter(
+                  (selection) =>
+                    selection.rule === "manual" &&
+                    selection.filmSlugs.includes(data.slug)
+                )
+                .map((selection) => selection.title),
+            ]),
+          ];
+          transaction.database = saveManual(db, restored, entry.row.published);
+          if (entry.row.published) {
+            const errors = validateCatalog([restored], schema, path("public"));
+            assert(!errors.length, errors.join("\n"));
+          }
+          return transaction;
+        });
       } else if (pathname === "/api/draft") {
         validateDraft(data);
         const records = drafts();
@@ -396,7 +590,21 @@ export function createAdmin(root, port = 4323) {
         );
         const mergedErrors = validateCatalog(catalog, schema, path("public"));
         assert(!mergedErrors.length, mergedErrors.join("\n"));
-        updateDatabase(root, (current) => saveManual(current, data, true));
+        updateDatabase(root, (current) => {
+          if (req.headers["x-pvca-record"]) {
+            const existing = allRecords(current).find(
+              (record) => record.id === data.id
+            );
+            assert(
+              existing &&
+                createHash("sha256")
+                  .update(fingerprint(existing))
+                  .digest("hex") === req.headers["x-pvca-record"],
+              "A ficha mudou em outra janela. Reabra antes de salvar."
+            );
+          }
+          return saveManual(current, data, true);
+        });
         save(
           ".local-admin/drafts.json",
           drafts().filter((f) => f.id !== data.id)

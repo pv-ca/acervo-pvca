@@ -11,7 +11,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "admin": "node scripts/admin.mjs",
-    "admin:test": "node --test scripts/admin.test.mjs",
+    "admin:test": "node --test scripts/admin.test.mjs scripts/admin-lifecycle.test.mjs",
     "presentation:test": "node --experimental-strip-types --test scripts/presentation.test.mjs",
     "data:test": "node --test scripts/database.test.mjs",
     "tmdb:test": "python3 scripts/tmdb_test.py",

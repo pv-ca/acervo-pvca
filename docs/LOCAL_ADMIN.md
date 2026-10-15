@@ -37,7 +37,9 @@ then compiled for review; no upload, commit, push or deployment happens.
   TypeScript without adding facts. Used only when the real source is empty.
 - `.local-admin/drafts.json`: incomplete, uncommitted draft forms; excluded from
   Git and static output. Do not put operational secrets in any form.
-- `.local-admin/backups/`: automatic copies of public JSON before panel writes.
+- `.local-admin/backups/`: automatic copies of data before panel writes. New admin transactions
+  include the private database, editorial definitions and drafts; retain the
+  complete bundle when recovering linked edits.
   Review the dated backup and restore the chosen JSON locally if recovery is
   needed; do not silently overwrite subsequent edits.
 
@@ -54,8 +56,10 @@ by the editable definitions. Automatic pt-BR/4K rules use the selected copy.
 Create an editorial definition before expecting a new imported selection title
 to have a public entry. Home selection order follows `homeSelectionIds`.
 
-The panel writes complete validated film records, preserving identity. It does
-not remove films, delete poster files or automatically download media. Uploaded
+The panel writes complete validated film records, preserving identity. It supports recoverable film removal through **Excluir ficha**. Removed records
+are stored in the private database and can be restored from **Excluídas**. Removal
+reconciles selection and featured-film references in the same recoverable
+transaction. Poster files and media are preserved; no media is downloaded. Uploaded
 poster files receive unique names and basic image-signature checks; their visual
 correctness and provenance still require the owner's review.
 
@@ -71,3 +75,15 @@ git diff --check
 Admin tests use temporary data and a loopback listener. Catalog tests include
 an isolated static build. Neither test imports a film into the real project.
 Verify controls in the browser as well; HTTP tests do not prove visual usability.
+
+## Navigation and concurrent edits
+
+The default film gallery supports title, director and year search, with separate
+filters for catalog records, drafts and removed records. The detail editor groups
+identity, editorial text/poster, copies and links. Unsaved forms require an explicit
+discard decision before switching editors.
+
+**Seleções** supports creating, editing and deleting manual or automatic selections.
+Manual membership offers search and a selected-only view. Deleting a selection
+preserves films and removes its home reference. Existing-record saves and editorial
+saves reject stale versions sent by another open browser window.

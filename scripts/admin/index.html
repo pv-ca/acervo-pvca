@@ -8,170 +8,336 @@
     <script type="module" src="/app.js"></script>
   </head>
   <body>
-    <header>
-      <a href="/">Acervo PVCA</a><span>Painel local</span
-      ><label
-        >Idioma<select id="admin-language">
-          <option value="pt-BR">PT</option>
-          <option value="en">EN</option>
-        </select></label
-      >
-    </header>
-    <main>
-      <h1>Seu acervo, organizado por você.</h1>
-      <p>
-        Edite aqui e confira a prévia. As alterações ficam neste computador até
-        você publicar o site.
-      </p>
-      <nav aria-label="Painel">
-        <button data-tab="home" aria-pressed="true">Início</button
-        ><button data-tab="films" aria-pressed="false">Filmes</button
-        ><button data-tab="selections" aria-pressed="false">Seleções</button
-        ><button data-tab="import" aria-pressed="false">Importar JSON</button
+    <header class="app-header">
+      <a href="/" class="brand">Acervo PVCA <span>Administração</span></a>
+      <div class="header-tools">
+        <span class="local-label">Edição local</span
+        ><label class="language"
+          >Idioma<select id="admin-language">
+            <option value="pt-BR">PT</option>
+            <option value="en">EN</option>
+          </select></label
         ><button id="build">Gerar prévia</button
-        ><button id="export-letterboxd">Exportar CSV do Letterboxd</button
-        ><a href="http://127.0.0.1:4322/" target="_blank" rel="noopener"
-          >Abrir prévia ↗</a
+        ><a
+          class="button"
+          href="http://127.0.0.1:4322/"
+          target="_blank"
+          rel="noopener"
+          >Abrir prévia</a
         >
+      </div>
+    </header>
+    <div class="app-shell">
+      <nav class="sidebar" aria-label="Painel">
+        <button data-tab="films" aria-pressed="true">Filmes</button
+        ><button data-tab="selections" aria-pressed="false">Seleções</button
+        ><button data-tab="home" aria-pressed="false">Página inicial</button
+        ><button data-tab="import" aria-pressed="false">
+          Importar e exportar
+        </button>
+        <p>
+          Salve no computador. Gere a prévia para conferir. A publicação é uma
+          etapa separada.
+        </p>
       </nav>
-      <p id="status" role="status" aria-live="polite"></p>
-      <p id="preview-note"></p>
-      <section id="home">
-        <h2>Início</h2>
-        <form id="home-form">
-          <label>Filme em destaque<select name="featuredSlug"></select></label
-          ><label
-            >Nota do destaque<textarea
-              name="featuredNote"
-              placeholder="Vazio: usa a nota editorial do filme"
-            ></textarea>
-          </label>
+      <main>
+        <p id="status" role="status" aria-live="polite" tabindex="-1"></p>
+        <p id="preview-note"></p>
+        <section id="films">
+          <div class="section-heading">
+            <div>
+              <h1>Filmes</h1>
+              <p>Encontre uma ficha e edite seu conteúdo.</p>
+            </div>
+            <button id="new-film" class="primary">Nova ficha</button>
+          </div>
+          <div class="catalog-toolbar">
+            <label class="search-label"
+              >Buscar filmes<input
+                id="film-search"
+                type="search"
+                placeholder="Título, direção ou ano" /></label
+            ><label
+              >Mostrar<select id="film-filter">
+                <option value="all">Todos</option>
+                <option value="catalog">Catálogo local</option>
+                <option value="draft">Rascunhos</option>
+                <option value="deleted">Excluídas</option>
+              </select></label
+            >
+          </div>
+          <p id="film-count" class="count" aria-live="polite"></p>
+          <div class="gallery-layout">
+            <div class="catalog-results">
+              <div id="film-gallery" class="poster-grid"></div>
+              <button id="more-films" hidden>Mostrar mais filmes</button>
+            </div>
+            <aside
+              id="film-editor"
+              class="editor"
+              hidden
+              aria-labelledby="editor-title"
+            >
+              <div class="editor-heading">
+                <div>
+                  <h2 id="editor-title" tabindex="-1">Nova ficha</h2>
+                  <p id="film-state"></p>
+                </div>
+                <button id="close-film">Fechar ficha</button>
+              </div>
+              <img id="editor-poster" class="editor-poster" alt="" hidden />
+              <form id="film-form" novalidate>
+                <nav class="editor-tabs" aria-label="Partes da ficha">
+                  <button
+                    type="button"
+                    data-part="identity"
+                    aria-pressed="true"
+                  >
+                    Ficha</button
+                  ><button type="button" data-part="texts" aria-pressed="false">
+                    Textos e pôster</button
+                  ><button
+                    type="button"
+                    data-part="copies"
+                    aria-pressed="false"
+                  >
+                    Cópias</button
+                  ><button type="button" data-part="links" aria-pressed="false">
+                    Links
+                  </button>
+                </nav>
+                <div data-film-panel="identity">
+                  <div id="film-fields" class="fields"></div>
+                  <details>
+                    <summary>Identificação avançada</summary>
+                    <div id="advanced-fields" class="fields"></div>
+                  </details>
+                </div>
+                <div data-film-panel="texts" hidden>
+                  <div id="text-fields" class="fields"></div>
+                </div>
+                <div data-film-panel="copies" hidden>
+                  <h3>Cópias preservadas</h3>
+                  <p>Escolha a cópia que representa o filme no catálogo.</p>
+                  <div id="copies"></div>
+                  <button id="add-copy" type="button">Adicionar cópia</button>
+                </div>
+                <div data-film-panel="links" hidden>
+                  <h3>Destinos compartilhados</h3>
+                  <p>Associe cada link à sua cópia preservada.</p>
+                  <div id="links"></div>
+                  <button id="add-link" type="button">Adicionar destino</button>
+                </div>
+                <div class="savebar">
+                  <span id="film-dirty" class="save-state"
+                    >Sem alterações pendentes</span
+                  ><button id="apply" class="primary" type="submit">
+                    Salvar no catálogo
+                  </button>
+                </div>
+                <div class="secondary-actions">
+                  <button type="button" id="save-draft">Salvar rascunho</button
+                  ><button type="button" id="delete-film" class="danger">
+                    Excluir ficha
+                  </button>
+                </div>
+              </form>
+            </aside>
+          </div>
+        </section>
+        <section id="selections" hidden>
+          <div class="section-heading">
+            <div>
+              <h1>Seleções</h1>
+              <p>Crie recortes do acervo e escolha seus filmes.</p>
+            </div>
+            <button id="new-selection" class="primary">Nova seleção</button>
+          </div>
+          <div class="selections-layout">
+            <div>
+              <label
+                >Buscar seleções<input
+                  id="selection-search"
+                  type="search"
+                  placeholder="Título da seleção"
+              /></label>
+              <div id="selection-list" class="selection-list"></div>
+            </div>
+            <div id="selection-editor" class="editor" hidden>
+              <h2 id="selection-title" tabindex="-1">Nova seleção</h2>
+              <form id="selection-form">
+                <div class="fields">
+                  <label>Título<input name="title" required /></label
+                  ><label
+                    >Endereço<input
+                      name="id"
+                      required
+                      pattern="[-a-z0-9]+" /></label
+                  ><label class="wide"
+                    >Descrição<textarea name="description"></textarea>
+                  </label>
+                </div>
+                <details>
+                  <summary>Textos em inglês</summary>
+                  <label>Título (en)<input name="title_en" /></label
+                  ><label
+                    >Descrição (en)<textarea name="description_en"></textarea>
+                  </label>
+                </details>
+                <label
+                  >Como reunir os filmes<select name="rule">
+                    <option value="manual">Escolher os filmes</option>
+                    <option value="pt-br">
+                      Legendas em Português (Brasil)
+                    </option>
+                    <option value="4k">Cópia selecionada em 2160p</option>
+                  </select></label
+                >
+                <p id="automatic-note" hidden>
+                  Os filmes são reunidos automaticamente pela cópia que
+                  representa cada ficha.
+                </p>
+                <div id="manual-members">
+                  <label
+                    >Buscar filmes para a seleção<input
+                      id="selection-film-search"
+                      type="search"
+                      placeholder="Título, direção ou ano"
+                  /></label>
+                  <p id="member-count" class="count" aria-live="polite"></p>
+                  <button type="button" id="selected-only" aria-pressed="false">
+                    Mostrar apenas escolhidos
+                  </button>
+                  <fieldset id="selection-films">
+                    <legend>Filmes desta seleção</legend>
+                  </fieldset>
+                </div>
+                <div class="savebar">
+                  <span id="selection-dirty" class="save-state"
+                    >Sem alterações pendentes</span
+                  ><button class="primary" type="submit">Salvar seleção</button>
+                </div>
+                <div class="secondary-actions">
+                  <button type="button" id="remove-selection" class="danger">
+                    Excluir seleção
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section id="home" hidden>
+          <h1>Página inicial</h1>
+          <form id="home-form">
+            <fieldset class="featured-picker">
+              <legend>Filme em destaque</legend>
+              <input type="hidden" name="featuredSlug" />
+              <div id="featured-current" class="featured-current"></div>
+              <label for="featured-search">Buscar filme para destaque</label>
+              <input
+                id="featured-search"
+                type="search"
+                autocomplete="off"
+                placeholder="Título, direção ou ano"
+                aria-controls="featured-results"
+                aria-describedby="featured-help"
+              />
+              <p id="featured-help">
+                Digite para buscar. Enter escolhe o primeiro resultado.
+              </p>
+              <p id="featured-count" role="status" hidden></p>
+              <ul id="featured-results" class="featured-results" hidden></ul>
+              <button id="clear-featured" type="button">
+                Remover destaque
+              </button>
+            </fieldset>
+            <label
+              >Nota do destaque<textarea
+                name="featuredNote"
+                placeholder="Vazio: usa a nota editorial do filme"
+              ></textarea>
+            </label>
+            <label
+              >Nota do destaque (en)<textarea
+                name="featuredNoteEn"
+              ></textarea></label
+            ><label
+              >Quantidade em Recentemente<input
+                name="recentLimit"
+                type="number"
+                min="1"
+                max="12"
+                required
+            /></label>
+            <p>
+              O catálogo real usa a data de entrada de cada filme, com os mais
+              novos primeiro. A prévia atual ainda usa exemplos sem datas reais.
+            </p>
+            <fieldset id="home-selections">
+              <legend>Seleções na home</legend>
+            </fieldset>
+            <label class="check"
+              ><input name="showStats" type="checkbox" />Mostrar os números do
+              acervo</label
+            >
+            <p>Os números são calculados pelos filmes e cópias cadastrados.</p>
+            <button type="submit">Salvar página inicial</button>
+          </form>
+        </section>
+        <section id="import" hidden>
+          <h1>Importar e exportar</h1>
+          <p>
+            A importação preserva campos editados manualmente. Registros
+            incompletos entram como rascunhos.
+          </p>
           <label
-            >Nota do destaque (en)<textarea
-              name="featuredNoteEn"
-            ></textarea></label
-          ><label
-            >Quantidade em Recentemente<input
-              name="recentLimit"
-              type="number"
-              min="1"
-              max="12"
-              required
-          /></label>
+            >Arquivo JSON<input
+              type="file"
+              id="import-file"
+              accept="application/json,.json" /></label
+          ><label class="check"
+            ><input type="checkbox" id="enrich-tmdb" checked />Enriquecer pelo
+            TMDB</label
+          >
           <p>
-            O catálogo real usa a data de entrada de cada filme, com os mais
-            novos primeiro. A prévia atual ainda usa exemplos sem datas reais.
+            Também aceita o catálogo canônico PVCA 6.1. Nesse formato, somente
+            links do Internet Archive são incluídos; dados operacionais e links
+            de Drive ficam fora.
           </p>
-          <fieldset id="home-selections">
-            <legend>Seleções na home</legend>
-          </fieldset>
           <label class="check"
-            ><input name="showStats" type="checkbox" />Mostrar os números do
-            acervo</label
+            ><input type="checkbox" id="portuguese-is-brazilian" />Confirmo que
+            as legendas em português deste arquivo são pt-BR</label
           >
-          <p>Os números são calculados pelos filmes e cópias cadastrados.</p>
-          <button type="submit">Salvar início</button>
-        </form>
-      </section>
-      <section id="films" hidden>
-        <h2>Filmes</h2>
-        <div class="actions">
-          <select id="film-picker" aria-label="Escolher filme"></select
-          ><button id="new-film">Novo filme</button>
-        </div>
-        <p>
-          Rascunhos podem ficar incompletos. “Aplicar ao catálogo” exige os
-          dados necessários e não publica o site.
-        </p>
-        <form id="film-form">
-          <div id="film-fields" class="fields"></div>
-          <h3>Cópias preservadas</h3>
-          <p>
-            Resolução, tamanho, áudios e legendas pertencem à cópia. Marque qual
-            representa o filme na grade.
-          </p>
-          <div id="copies"></div>
-          <button id="add-copy" type="button">Adicionar cópia</button>
-          <h3>Destinos compartilhados</h3>
-          <p>
-            Inclua somente links que você decidiu compartilhar. Os campos podem
-            ficar vazios.
-          </p>
-          <div id="links"></div>
-          <button id="add-link" type="button">Adicionar destino</button>
           <div class="actions">
-            <button type="submit">Salvar rascunho</button
-            ><button id="apply" type="button">Aplicar ao catálogo</button>
+            <button id="import-preview">Validar e mostrar prévia</button
+            ><button id="tmdb-status">Verificar conexão TMDB</button
+            ><button id="import-confirm" disabled>Confirmar importação</button>
           </div>
-        </form>
-      </section>
-      <section id="selections" hidden>
-        <h2>Seleções</h2>
-        <div class="actions">
-          <select id="selection-picker" aria-label="Escolher seleção"></select
-          ><button id="new-selection">Nova seleção</button>
-        </div>
-        <form id="selection-form">
-          <label>Título<input name="title" required /></label
-          ><label
-            >Endereço<input name="id" required pattern="[-a-z0-9]+" /></label
-          ><label>Descrição<textarea name="description"></textarea></label
-          ><label>Título (en)<input name="title_en" /></label
-          ><label
-            >Descrição (en)<textarea name="description_en"></textarea></label
-          ><label
-            >Como reunir os filmes<select name="rule">
-              <option value="manual">Escolher os filmes</option>
-              <option value="pt-br">Legendas em Português (Brasil)</option>
-              <option value="4k">Cópia selecionada em 2160p</option>
-            </select></label
-          >
-          <fieldset id="selection-films">
-            <legend>Filmes desta seleção</legend>
-          </fieldset>
-          <div class="actions">
-            <button type="submit">Salvar seleção</button
-            ><button type="button" id="remove-selection">
-              Remover seleção
-            </button>
-          </div>
-        </form>
-      </section>
-      <section id="import" hidden>
-        <h2>Importar JSON</h2>
-        <p>
-          A importação preserva campos editados manualmente. Registros
-          incompletos entram como rascunhos.
-        </p>
-        <label
-          >Arquivo JSON<input
-            type="file"
-            id="import-file"
-            accept="application/json,.json" /></label
-        ><label class="check"
-          ><input type="checkbox" id="enrich-tmdb" checked />Enriquecer pelo
-          TMDB</label
-        >
-        <p>
-          Também aceita o catálogo canônico PVCA 6.1. Nesse formato, somente
-          links do Internet Archive são incluídos; dados operacionais e links de
-          Drive ficam fora.
-        </p>
-        <label class="check"
-          ><input type="checkbox" id="portuguese-is-brazilian" />Confirmo que as
-          legendas em português deste arquivo são pt-BR</label
-        >
-        <div class="actions">
-          <button id="import-preview">Validar e mostrar prévia</button
-          ><button id="tmdb-status">Verificar conexão TMDB</button
-          ><button id="import-confirm" disabled>Confirmar importação</button>
-        </div>
-        <div id="import-results"></div>
-      </section>
-    </main>
+          <div id="import-results"></div>
+          <hr />
+          <h2>Exportar catálogo</h2>
+          <p>Baixe os títulos para importar no Letterboxd.</p>
+          <button id="export-letterboxd">Exportar CSV do Letterboxd</button>
+        </section>
+      </main>
+    </div>
     <footer>
       Ferramenta privada de edição local. Não faz parte das páginas geradas para
       visitantes.
     </footer>
+    <dialog
+      id="confirm-dialog"
+      aria-labelledby="confirm-title"
+      aria-describedby="confirm-description"
+    >
+      <h2 id="confirm-title"></h2>
+      <p id="confirm-description"></p>
+      <form method="dialog" class="dialog-actions">
+        <button value="cancel" autofocus>Cancelar</button
+        ><button id="confirm-accept" value="confirm" class="danger">
+          Confirmar
+        </button>
+      </form>
+    </dialog>
   </body>
 </html>

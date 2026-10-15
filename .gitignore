@@ -56,3 +56,6 @@ references/**/node_modules/
 playwright-report/
 test-results/
 reports/
+
+# Disposable work artifacts
+trabalhos/

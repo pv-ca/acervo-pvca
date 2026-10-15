@@ -4,9 +4,11 @@ O painel é uma ferramenta separada do site dos visitantes. Ele funciona no seu
 computador, sem conta online. Seu endereço é <http://127.0.0.1:4323/>.
 Ele precisa estar iniciado para esse endereço funcionar.
 
-## Início
+## Página inicial
 
-Em **Filme em destaque**, escolha um filme e salve. Você pode trocar Napoléon por
+Em **Filme em destaque**, busque por título, diretor ou ano. Confira o pôster e
+clique no resultado; Enter escolhe o primeiro. Depois clique em **Salvar página
+inicial**. Use **Remover destaque** para deixar a home sem filme em destaque. Você pode trocar Napoléon por
 outro, escolher nenhum destaque e escrever uma nota para a home. Se a nota ficar
 vazia, aparece a nota editorial do filme, quando houver.
 
@@ -20,13 +22,21 @@ aparecem. Os números são calculados, não digitados manualmente.
 
 ## Filmes
 
-**Novo filme** abre um formulário com dados da obra e das cópias. Diretores,
+A galeria abre com os pôsteres. Busque por título, diretor ou ano e clique numa
+ficha. Use **Ficha**, **Textos e pôster**, **Cópias** e **Links** para editar por
+parte. O painel avisa antes de descartar alterações que você ainda não salvou.
+
+**Excluir ficha** pede confirmação e retira a ficha do catálogo, do destaque e
+das seleções locais. Vídeos e pôsteres permanecem guardados. Para desfazer, escolha
+**Excluídas** no filtro **Mostrar**, clique na ficha e confirme **Restaurar ficha**.
+
+**Nova ficha** abre um formulário com dados da obra e das cópias. Diretores,
 países e idiomas podem ser separados por ponto e vírgula. Para cada cópia, há
 resolução, tamanho em GiB, formato, áudios, legendas e edição. Marque qual cópia
 representa o filme no catálogo. Os botões de destino vêm das URLs compartilhadas.
 
 **Salvar rascunho** guarda o formulário mesmo incompleto, sem colocá-lo no site.
-**Aplicar ao catálogo** confere os dados obrigatórios e altera somente o catálogo
+**Salvar no catálogo** confere os dados obrigatórios e altera somente o catálogo
 local. Para atualizar uma ficha, escolha o filme já cadastrado; suas outras cópias
 e links continuam no formulário. O endereço da ficha fica preservado.
 
@@ -40,7 +50,11 @@ os dados e aplicar o cadastro.
 
 ## Seleções
 
-Você pode criar ou editar título e descrição, escolher filmes e remover seleções
+Clique em **Nova seleção**, preencha título e descrição e busque os filmes que
+quer reunir. Marque os escolhidos e use **Mostrar apenas escolhidos** para conferir o conjunto.
+Clique em **Salvar seleção**. Para editar, escolha uma seleção na lista.
+
+**Excluir seleção** pede confirmação e remove a seleção e sua referência na home,
 sem apagar as obras. As seleções de legendas em Português (Brasil) e de 4K também
 podem usar regras automáticas, sempre baseadas na cópia representativa.
 
@@ -61,7 +75,7 @@ O seletor PT / EN funciona também no painel. As fichas permitem editar título 
 sinopse em português e inglês, além da nota editorial em inglês. A home e as
 seleções também possuem campos de texto em inglês.
 
-Na aba **Importar JSON**, escolha o arquivo, valide e confira o resumo. Só
+Na aba **Importar e exportar**, escolha o arquivo, valide e confira o resumo. Só
 **Confirmar importação** altera a base. A opção TMDB busca metadados para os
 registros com `tmdb_id`; as informações técnicas da cópia continuam sendo suas.
 Itens incompletos ficam como rascunhos. Importar o mesmo arquivo novamente não

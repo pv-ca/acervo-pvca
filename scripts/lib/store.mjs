@@ -12,7 +12,7 @@ import {
   closeSync,
 } from "node:fs";
 import { resolve } from "node:path";
-import { randomUUID } from "node:crypto";
+import { randomUUID, createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import {
@@ -21,6 +21,8 @@ import {
   publicRecords,
   saveManual,
 } from "./database.mjs";
+export const editorialVersion = (value) =>
+  createHash("sha256").update(JSON.stringify(value)).digest("hex");
 export const fingerprint = (db) => JSON.stringify(db);
 export const atomicJson = (file, value) =>
   atomicText(file, JSON.stringify(value, null, 2) + "\n");
@@ -102,12 +104,21 @@ const read = (file) => JSON.parse(readFileSync(file, "utf8"));
 function recover(root) {
   const journal = resolve(root, ".local-admin/transaction.json");
   if (!existsSync(journal)) return;
-  const pending = read(journal);
+  const transaction = read(journal);
+  const pending =
+    transaction.kind === "admin-v1" ? transaction.database : transaction;
   atomicJson(resolve(root, ".local-admin/database.json"), pending);
   writeCatalog(
     resolve(root, "data/public/catalog.json"),
     publicRecords(pending)
   );
+  if (transaction.kind === "admin-v1") {
+    atomicJson(
+      resolve(root, "data/public/editorial.json"),
+      transaction.editorial
+    );
+    atomicJson(resolve(root, ".local-admin/drafts.json"), transaction.drafts);
+  }
   unlinkSync(journal);
 }
 function load(root) {
@@ -133,6 +144,39 @@ export function updateDatabase(root, change, expected) {
       resolve(
         root,
         `.local-admin/backups/database-${Date.now()}-${randomUUID()}.json`
+      ),
+      before
+    );
+    atomicJson(resolve(root, ".local-admin/transaction.json"), next);
+    recover(root);
+    return next;
+  });
+}
+
+// Keep catalog, editorial references and drafts behind the same recoverable writer boundary.
+export function updateAdminStore(root, change, expectedEditorial) {
+  return withStoreLock(root, () => {
+    const database = load(root);
+    const editorial = read(resolve(root, "data/public/editorial.json"));
+    if (
+      expectedEditorial !== undefined &&
+      editorialVersion(editorial) !== expectedEditorial
+    )
+      throw Error(
+        "Os dados mudaram em outra janela. Reabra a seção antes de salvar."
+      );
+    const draftFile = resolve(root, ".local-admin/drafts.json");
+    const before = {
+      kind: "admin-v1",
+      database,
+      editorial,
+      drafts: existsSync(draftFile) ? read(draftFile) : [],
+    };
+    const next = change(structuredClone(before));
+    atomicJson(
+      resolve(
+        root,
+        `.local-admin/backups/admin-${Date.now()}-${randomUUID()}.json`
       ),
       before
     );
