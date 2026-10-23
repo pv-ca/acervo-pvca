@@ -114,5 +114,13 @@ const socialImageAlt = image
         });
       }
     </script>
+    {import.meta.env.PROD && (
+      <script
+        is:inline
+        data-goatcounter="https://pvca.goatcounter.com/count"
+        async
+        src="//gc.zgo.at/count.js"
+      ></script>
+    )}
   </body>
 </html>
