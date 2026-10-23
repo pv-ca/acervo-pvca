@@ -23,7 +23,7 @@ for (const width of [375, 1440]) {
       /^https:\/\/drive\.google\.com\//
     );
     await expect(copies.nth(1).locator("h3")).toHaveText("Cópia do Archive");
-    await expect(copies.nth(1).locator("a")).toHaveAttribute(
+    await expect(copies.nth(1).locator("a.archive-action")).toHaveAttribute(
       "href",
       /^https:\/\/archive\.org\//
     );
@@ -101,7 +101,7 @@ test("detail retains original diacritics, omits duplicate titles and preserves d
   await expect(page.locator("h1")).toHaveText("Som e fúria");
   // The 1080p Archive copy replaced the 576p copies.
   await expect(page.locator(".archive-copy")).toHaveCount(1);
-  await expect(page.locator(".archive-copy a")).toHaveAttribute(
+  await expect(page.locator(".archive-copy a.archive-action")).toHaveAttribute(
     "href",
     "https://archive.org/details/de-bruit-et-de-fureur-1988-1080p-pvca"
   );
