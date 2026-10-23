@@ -189,7 +189,7 @@ def validate(root, base, site):
                 return True
         return False
 
-    expected_routes = 2 * (len(records) + 4 + sum(selection_exists(s) for s in editorial['selections'])) + 2
+    expected_routes = 2 * (len(records) + 5 + sum(selection_exists(s) for s in editorial['selections'])) + 2
     if len(pages) != expected_routes:
         errors.append(f'unexpected route count: {len(pages)} instead of {expected_routes}')
     for locale in ('', '/en'):

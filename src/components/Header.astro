@@ -3,13 +3,14 @@ import { getI18n } from "../lib/i18n";
 const { lang, t, path, languageHref } = getI18n(Astro.url);
 
 interface Props {
-  active?: "home" | "films" | "selections" | "about" | "none";
+  active?: "home" | "films" | "selections" | "howto" | "about" | "none";
 }
 const { active = "home" } = Astro.props;
 const links = [
   { id: "home", href: "/", label: t("Início") },
   { id: "films", href: "/filmes/", label: t("Filmes") },
   { id: "selections", href: "/selecoes/", label: t("Seleções") },
+  { id: "howto", href: "/como-baixar/", label: t("Como baixar") },
   { id: "about", href: "/sobre/", label: t("Sobre") },
 ];
 ---

@@ -13,6 +13,7 @@ const routes = [
   `filmes/${slug}/`,
   "selecoes/",
   `selecoes/${selection}/`,
+  "como-baixar/",
   "sobre/",
   "404.html",
 ];
