@@ -7,3 +7,6 @@ The normalized private database is authoritative. Use the shared transaction lay
 Preserve Flexoki Dark, bilingual static rendering and unrelated local work. Publication finishes with successful Pages deployment and live bilingual ficha verification, not a push or upload progress indicator.
 
 Commands: `npm run dev`, `npm run build`; `npm run quality` (format, lint, types, tests, catalog) before any commit; `npm run e2e` for the browser tests.
+
+`scripts/browser-behavior.test.mjs` runs the first `<script>` in `src/layouts/BaseLayout.astro`: add new scripts after it. Visit analytics (GoatCounter, `pvca.goatcounter.com`) loads only in production builds (`import.meta.env.PROD`).
+Pages deploys from `main` (the "Publish Acervo PVCA" workflow).
