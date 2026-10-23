@@ -83,13 +83,10 @@ export const en = {
   Seleções: "Selections",
   Sobre: "About",
   "Como baixar": "How to download",
-  "Como baixar um filme": "How to download a film",
+  "Como baixar um filme pelo Internet Archive":
+    "How to download a film from the Internet Archive",
   "Passo a passo, com prints, para baixar um filme do Acervo PVCA no Internet Archive.":
     "A step-by-step guide, with screenshots, to downloading an Acervo PVCA film from the Internet Archive.",
-  "Quatro passos, sem cadastro e sem programa extra. O exemplo usa":
-    "Four steps, no sign-up and no extra software. The example uses",
-  "(1959), enviado ao Internet Archive pelo perfil":
-    "(1959), uploaded to the Internet Archive by the profile",
   "Chegue à página do filme": "Go to the film’s page",
   "Na ficha do filme aqui no Acervo, use o link do Internet Archive: ele abre a página certa e você pode pular para o passo 2. Se preferir, abra o":
     "On the film’s page here in the collection, use the Internet Archive link: it opens the right page and you can skip to step 2. Otherwise, open the",

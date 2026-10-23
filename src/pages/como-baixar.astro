@@ -11,7 +11,7 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
 ---
 
 <BaseLayout
-  title={`${t("Como baixar um filme")} — Acervo PVCA`}
+  title={`${t("Como baixar um filme pelo Internet Archive")} — Acervo PVCA`}
   description={t(
     "Passo a passo, com prints, para baixar um filme do Acervo PVCA no Internet Archive."
   )}
@@ -19,13 +19,7 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
   <Header active="howto" />
   <main id="main">
     <section class="wrap page-head">
-      <h1>{t("Como baixar um filme")}</h1>
-      <p>
-        {t("Quatro passos, sem cadastro e sem programa extra. O exemplo usa")}
-        <em>Black Orpheus</em>
-        {t("(1959), enviado ao Internet Archive pelo perfil")}
-        <a href={profile}>pv_ca</a>.
-      </p>
+      <h1>{t("Como baixar um filme pelo Internet Archive")}</h1>
     </section>
     <div class="wrap">
       <ol class="steps">
@@ -34,8 +28,8 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
           <p>
             {t(
               "Na ficha do filme aqui no Acervo, use o link do Internet Archive: ele abre a página certa e você pode pular para o passo 2. Se preferir, abra o"
-            )}
-            <a href={profile}>{t("perfil pv_ca")}</a>
+            )}{" "}
+            <a href={profile}>{t("perfil pv_ca")}</a>{" "}
             {t("e procure o título na caixa “Search uploads”.")}
           </p>
           <figure>
@@ -53,7 +47,7 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
                 class="hl"
                 style="left:70.3%;top:46.5%;width:25.5%;height:5.5%"
               >
-                <span class="below">{t("Busque o título aqui")}</span>
+                <span class="below end">{t("Busque o título aqui")}</span>
               </div>
             </div>
             <figcaption>
@@ -66,7 +60,7 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
         <li>
           <h2>{t("Veja o tamanho antes de baixar")}</h2>
           <p>
-            {t("Na página do filme, confira o")} <b>Item Size</b>.
+            {t("Na página do filme, confira o")} <b>Item Size</b>.{" "}
             {t(
               "Os filmes do Acervo costumam ser de alta qualidade, mas o tamanho muda de filme para filme: pode ser pequeno, grande ou muito grande. Saber antes evita ficar sem espaço no disco no meio do download."
             )}
@@ -91,10 +85,9 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
         <li>
           <h2>{t("Veja as opções em “Download Options”")}</h2>
           <p>
-            {t("No painel à direita ficam os formatos disponíveis")}
-            <b>{t("para aquele filme")}</b>.
-            {t("Nem todos os filmes têm as mesmas opções, e o")}
-            <b>MATROSKA</b>
+            {t("No painel à direita ficam os formatos disponíveis")}{" "}
+            <b>{t("para aquele filme")}</b>.{" "}
+            {t("Nem todos os filmes têm as mesmas opções, e o")} <b>MATROSKA</b>{" "}
             {t(
               "(.mkv), que aparece neste exemplo, pode não ser o único. Veja o que existe e confira o tamanho de cada opção para saber se está baixando a coisa certa."
             )}
@@ -114,7 +107,7 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
                 class="hl"
                 style="left:67.8%;top:47.6%;width:25.4%;height:27.4%"
               >
-                <span>{t("Formatos disponíveis")}</span>
+                <span class="end">{t("Formatos disponíveis")}</span>
               </div>
             </div>
           </figure>
@@ -170,11 +163,11 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
           <p>
             {t(
               "Ao clicar em um formato (ou em “7 Original” ou “7 Files”), o navegador abre a lista de arquivos, com o tamanho de cada um na coluna “Size”. Clique no nome do arquivo do filme, aqui terminado em"
-            )}
+            )}{" "}
             <code>.mkv</code>
             {t(
               ", e o download começa. Se o navegador tentar abrir em vez de baixar, clique com o botão direito no link e escolha"
-            )}
+            )}{" "}
             <b>{t("Salvar link como…")}</b>.
           </p>
           <figure>
@@ -203,7 +196,7 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
             </figcaption>
           </figure>
           <p class="tip">
-            <b>{t("Pronto.")}</b>
+            <b>{t("Pronto.")}</b>{" "}
             {t(
               "O arquivo vai para a pasta Downloads. Se a conexão cair, clique no mesmo link de novo: o navegador costuma retomar de onde parou."
             )}
@@ -246,7 +239,7 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
 
 <style>
   .page-head h1 {
-    max-width: 16ch;
+    max-width: 22ch;
   }
   .page-head a,
   li p a,
@@ -342,6 +335,10 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
     top: auto;
     bottom: -34px;
   }
+  .hl span.end {
+    left: auto;
+    right: -3px;
+  }
   figcaption {
     font-size: 12px;
     color: var(--color-text-muted);
@@ -427,6 +424,10 @@ const shot = (name: string) => assetPath(`/images/como-baixar/${name}.png`);
     }
     td:first-child {
       white-space: normal;
+    }
+    .hl span {
+      font-size: 11px;
+      padding: 5px 7px;
     }
   }
 </style>

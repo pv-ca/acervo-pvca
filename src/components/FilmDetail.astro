@@ -132,12 +132,19 @@ const memberSelections = selections.filter((selection) =>
               {Boolean(copyLinks.get(copy.id)?.length) && (
                 <div class="copy-access-actions">
                   {(copyLinks.get(copy.id) ?? []).map((link) => (
-                    <a href={link.url} rel="external" class="archive-action">
-                      <span>
-                        {t("Ver no")} {t(link.provider)}
-                      </span>
-                      <span aria-hidden="true">↗</span>
-                    </a>
+                    <>
+                      <a href={link.url} rel="external" class="archive-action">
+                        <span>
+                          {t("Ver no")} {t(link.provider)}
+                        </span>
+                        <span aria-hidden="true">↗</span>
+                      </a>
+                      {link.provider === "Internet Archive" && (
+                        <a class="howto-link" href={path("/como-baixar/")}>
+                          {t("Como baixar um filme pelo Internet Archive")}
+                        </a>
+                      )}
+                    </>
                   ))}
                 </div>
               )}
@@ -404,6 +411,18 @@ const memberSelections = selections.filter((selection) =>
     display: grid;
     gap: 12px;
     margin-top: 24px;
+  }
+  .howto-link {
+    margin-top: -4px;
+    padding: 0 12px;
+    font-size: 12px;
+    text-wrap: balance;
+    color: var(--color-text-muted);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  .howto-link:hover {
+    color: var(--color-text-head);
   }
   .archive-actions {
     border-top: 1px solid var(--color-border);
