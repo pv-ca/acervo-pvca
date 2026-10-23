@@ -24,13 +24,14 @@ const {
   glow,
 } = Astro.props;
 const defaultSocialImage =
-  import.meta.env.BASE_URL.replace(/\/$/, "") + "/images/acervo-pvca-share.png";
+  import.meta.env.BASE_URL.replace(/\/$/, "") +
+  "/images/acervo-pvca-share-ap.png";
 const socialImage = new URL(image ?? defaultSocialImage, site);
 const socialImageAlt = image
   ? t(title)
   : lang === "en"
-    ? "Acervo PVCA illustration"
-    : "Ilustração do Acervo PVCA";
+    ? "Acervo PVCA AP monogram"
+    : "Monograma AP do Acervo PVCA";
 ---
 
 <!doctype html>
