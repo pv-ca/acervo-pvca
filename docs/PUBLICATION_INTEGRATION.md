@@ -71,6 +71,8 @@ Stats and decade charts derive from the public catalog at build time. Homepage/e
 
 A film without an official pt-BR synopsis on TMDB is still published. When the caller supplies the translation through `--overrides`, the private database records it under `sources.portugueseSynopsis` with `method: "unreviewed_translation"`, and the command reports the notice; the public catalog carries no review marker.
 
+A ficha must never reach the site with an empty or non-Latin pt-BR text. When TMDB has no pt-BR title (it returns the original-script title) or no pt-BR synopsis, translate the English title and the English synopsis into Brazilian Portuguese yourself and pass both in `--overrides` (`{"translations": {"pt-BR": {"title": "...", "synopsis": "..."}}, "synopsis": "..."}`) on the first `archive` run. If a ficha already went out without them, set them through the private database (`saveManual`, with `sources.portugueseTitle` and `sources.portugueseSynopsis` marked `editorial_translation`) and publish the catalog change. Do this even for a film that was never released in Brazil.
+
 ## Acceptance
 
 Run the site's `site:sync:test`, catalog/database/panel regressions, static build and route validator; run Local adapter/coordinator tests. Cover idempotency, two destinations on one copy, distinct copies, editorial protection, private Drive, missing metadata, evidence drift, concurrent writers, partial batches, isolated staging and failed-push recovery. Structural checks of skill exposures are separate from native model invocation. Real upload-to-public-site acceptance occurs on the next authorized upload; local fixtures never establish remote operational success.
