@@ -32430,5 +32430,119 @@
     "countries": ["United States of America"],
     "genres": ["Drama", "Romance"],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000552",
+    "slug": "mermaid-legend-1984",
+    "title": "Mermaid Legend",
+    "year": 1984,
+    "copies": [
+      {
+        "id": "pvca-000552-archive",
+        "resolution": "720p",
+        "size_gib": 5.201508456841111,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "en", "ru"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000552-archive",
+    "poster": "/posters/tmdb-167439-cIbW9LZ580292MQDm8fBfHjTNzQ.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/ningyo-densetsu-1984-pvca",
+        "copy_id": "pvca-000552-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 167439,
+    "added_at": "2026-10-24",
+    "original_title": "人魚伝説",
+    "release_date": "1984-04-14",
+    "runtime_minutes": 110,
+    "imdb_id": "tt0174918",
+    "translations": {
+      "pt-BR": {
+        "title": "人魚伝説",
+        "synopsis": null
+      },
+      "en": {
+        "title": "Mermaid Legend",
+        "synopsis": "A married couple of abalone divers must confront ruthless investors taking over their coastline."
+      }
+    },
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Thriller", "Crime", "Drama"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Thriller", "Crime", "Drama"]
+      }
+    },
+    "directors": ["Toshiharu Ikeda"],
+    "countries": ["Japan"],
+    "genres": ["Thriller", "Crime", "Drama"],
+    "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000553",
+    "slug": "traveling-in-party-1967",
+    "title": "Traveling in Party",
+    "year": 1967,
+    "copies": [
+      {
+        "id": "pvca-000553-archive",
+        "resolution": "1080p",
+        "size_gib": 6.472076702862978,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "ja", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000553-archive",
+    "poster": "/posters/tmdb-391141-w4MSsKI7H7Sjj2QRQZsnt7kPXHT.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/kigeki-dantai-ressha-1967-pvca",
+        "copy_id": "pvca-000553-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 391141,
+    "added_at": "2026-10-24",
+    "original_title": "喜劇　団体列車",
+    "release_date": "1967-11-12",
+    "runtime_minutes": 91,
+    "imdb_id": "tt6011512",
+    "translations": {
+      "pt-BR": {
+        "title": "喜劇　団体列車",
+        "synopsis": null
+      },
+      "en": {
+        "title": "Traveling in Party",
+        "synopsis": "A comedy about Hikoichi, a mediocre train conductor who falls in love with a beautiful widow Sayuri."
+      }
+    },
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Comédia"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Comedy"]
+      }
+    },
+    "directors": ["Masaharu Segawa"],
+    "countries": ["Japan"],
+    "genres": ["Comedy"],
+    "original_languages": ["ja"]
   }
 ]
