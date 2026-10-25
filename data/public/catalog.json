@@ -32727,5 +32727,62 @@
     "countries": ["Japan"],
     "genres": ["Thriller", "Horror"],
     "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000557",
+    "slug": "ghost-story-of-yotsuya-1959",
+    "title": "Ghost Story of Yotsuya",
+    "year": 1959,
+    "copies": [
+      {
+        "id": "pvca-000557-archive",
+        "resolution": "1080p",
+        "size_gib": 18.84002915583551,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000557-archive",
+    "poster": "/posters/tmdb-84508-oCAXpI8RYevKK6oV5uZv7wcB8iH.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/ghost-story-of-yotsuya-1959-pvca",
+        "copy_id": "pvca-000557-archive"
+      }
+    ],
+    "selections": ["Anos 1950"],
+    "tmdb_id": 84508,
+    "added_at": "2026-10-25",
+    "original_title": "東海道四谷怪談",
+    "release_date": "1959-07-11",
+    "runtime_minutes": 77,
+    "imdb_id": "tt0155278",
+    "translations": {
+      "pt-BR": {
+        "title": "Ghost Story of Yotsuya",
+        "synopsis": "Esta história de terror adapta a lenda japonesa de um homem que enfrenta as consequências de trair a esposa para adquirir riqueza e poder."
+      },
+      "en": {
+        "title": "Ghost Story of Yotsuya",
+        "synopsis": "This horror tale adapts the Japanese legend about a man who faces the consequences of betraying his wife in order to acquire wealth and power."
+      }
+    },
+    "synopsis": "Esta história de terror adapta a lenda japonesa de um homem que enfrenta as consequências de trair a esposa para adquirir riqueza e poder.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Terror"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Horror"]
+      }
+    },
+    "directors": ["Nobuo Nakagawa"],
+    "countries": ["Japan"],
+    "genres": ["Horror"],
+    "original_languages": ["ja"]
   }
 ]
