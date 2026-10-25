@@ -32784,5 +32784,62 @@
     "countries": ["Japan"],
     "genres": ["Horror"],
     "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000558",
+    "slug": "um-homem-para-todas-as-estacoes-1966",
+    "title": "Um Homem para Todas as Estações",
+    "year": 1966,
+    "copies": [
+      {
+        "id": "pvca-000558-archive",
+        "resolution": "1080p",
+        "size_gib": 11.448166427202523,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000558-archive",
+    "poster": "/posters/tmdb-874-fKdIMxsxt2PQlHGqmnl8uSS2C54.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/a-man-for-all-seasons-1966-pvca",
+        "copy_id": "pvca-000558-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 874,
+    "added_at": "2026-10-25",
+    "translations": {
+      "pt-BR": {
+        "synopsis": "Um retrato do conflito entre o rei Henrique VIII da Inglaterra e seu Lorde Chanceler, Sir Thomas More, que se recusa a prestar o Juramento de Supremacia declarando Henrique o Chefe Supremo da Igreja na Inglaterra.",
+        "title": "O Homem Que Não Vendeu Sua Alma"
+      },
+      "en": {
+        "synopsis": "A depiction of the conflict between King Henry VIII of England and his Lord Chancellor, Sir Thomas More, who refuses to swear the Oath of Supremacy declaring Henry Supreme Head of the Church in England.",
+        "title": "A Man for All Seasons"
+      }
+    },
+    "original_title": "A Man for All Seasons",
+    "release_date": "1966-12-13",
+    "runtime_minutes": 120,
+    "imdb_id": "tt0060665",
+    "synopsis": "Na Inglaterra do século XVI, Henrique VIII (Robert Shaw) planeja se separar de sua primeira esposa para se casar com Ana Bolena (Vanessa Redgrave), mas não recebe a aprovação de Thomas More (Paul Scofield), um fervoroso católico que se tornou Lord Chanceler, um altíssimo posto que ele preferiu renunciar a trair suas convicções. Entretanto, a importância de Sir Thomas é tão grande que mesmo após sua renúncia o rei continua lhe perseguindo. Até que surgem “provas” que o incriminam como alta traição, um crime punido com a morte.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Reino Unido"],
+        "genres": ["Drama", "História"]
+      },
+      "en": {
+        "countries": ["United Kingdom"],
+        "genres": ["Drama", "History"]
+      }
+    },
+    "directors": ["Fred Zinnemann"],
+    "countries": ["Reino Unido"],
+    "genres": ["Drama", "História"],
+    "original_languages": ["en"]
   }
 ]
