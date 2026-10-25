@@ -32544,5 +32544,188 @@
     "countries": ["Japan"],
     "genres": ["Comedy"],
     "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000554",
+    "slug": "r-point-2004",
+    "title": "R-Point",
+    "year": 2004,
+    "copies": [
+      {
+        "id": "pvca-000554-archive",
+        "resolution": "1080p",
+        "size_gib": 6.185987836681306,
+        "format": "MKV",
+        "audio_languages": ["ko"],
+        "subtitle_languages": [
+          "pt-BR",
+          "ko",
+          "en",
+          "ar",
+          "zh",
+          "fr",
+          "de",
+          "it",
+          "pt-PT",
+          "es",
+          "tr"
+        ]
+      }
+    ],
+    "catalog_copy_id": "pvca-000554-archive",
+    "poster": "/posters/tmdb-16138-ljZebL8Mw3731ZNUNr3owRfqgkr.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/r-point-2004-pvca",
+        "copy_id": "pvca-000554-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 16138,
+    "added_at": "2026-10-25",
+    "original_title": "알포인트",
+    "release_date": "2004-08-13",
+    "runtime_minutes": 107,
+    "imdb_id": "tt0417072",
+    "translations": {
+      "pt-BR": {
+        "title": "Fantasmas de Guerra",
+        "synopsis": "Durante a guerra do Vietnã, uma base da Coréia do Sul começa a receber misteriosas transmissões de rádio de soldados que estão desaparecidos há mais de seis meses. Mesmo assustada com os acontecimentos uma tropa militar é enviada para uma terra conhecida como R-Point para colher pistas sobre a localização dos soldados perdidos, o que parecia ser uma busca tranquila e uma simples missão de resgate se torna algo muito mais terrível do que qualquer batalha."
+      },
+      "en": {
+        "title": "R-Point",
+        "synopsis": "On 07 January 1972, the South Korean base in Nha-Trang, Vietnam, receives a radio transmission from a missing platoon presumed dead."
+      }
+    },
+    "synopsis": "Durante a guerra do Vietnã, uma base da Coréia do Sul começa a receber misteriosas transmissões de rádio de soldados que estão desaparecidos há mais de seis meses. Mesmo assustada com os acontecimentos uma tropa militar é enviada para uma terra conhecida como R-Point para colher pistas sobre a localização dos soldados perdidos, o que parecia ser uma busca tranquila e uma simples missão de resgate se torna algo muito mais terrível do que qualquer batalha.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Coreia do Sul"],
+        "genres": ["Ação", "História", "Terror"]
+      },
+      "en": {
+        "countries": ["South Korea"],
+        "genres": ["Action", "History", "Horror"]
+      }
+    },
+    "directors": ["Kong Su-chang"],
+    "countries": ["South Korea"],
+    "genres": ["Action", "History", "Horror"],
+    "original_languages": ["ko"]
+  },
+  {
+    "id": "PVCA-000555",
+    "slug": "the-inugami-family-1976",
+    "title": "The Inugami Family",
+    "year": 1976,
+    "copies": [
+      {
+        "id": "pvca-000555-archive",
+        "resolution": "1080p",
+        "size_gib": 14.07621539477259,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000555-archive",
+    "poster": "/posters/tmdb-76715-o7P6HgIJfjPe6vbRwh60T73VUKc.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/inugami-family-1976-pvca",
+        "copy_id": "pvca-000555-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 76715,
+    "added_at": "2026-10-25",
+    "original_title": "犬神家の一族",
+    "release_date": "1976-10-16",
+    "runtime_minutes": 146,
+    "imdb_id": "tt0074691",
+    "translations": {
+      "pt-BR": {
+        "title": "A Família Inugami",
+        "synopsis": "O patriarca da família Inugami morreu e em seu testamento deixou toda a sua fortuna sob controle de uma garota sem parentesco sanguíneo, causando muita polêmica entre as suas filhas legítimas, e logo a família se envolve em uma cadeia de assassinatos que torna a situação muito mais complexa. Contratado para auxiliar o advogado responsável pelo testamento, o detetive Kosuke Kindaichi acaba se envolvendo mais do que esperava nessa trama, com o intuito de ajudar o seu cliente e a polícia na investigação."
+      },
+      "en": {
+        "title": "The Inugami Family",
+        "synopsis": "When a tycoon passes away, he unexpectedly leaves the family fortune to outsider Tamayo on the condition that she marries one of the grandsons, pitting blood against blood."
+      }
+    },
+    "synopsis": "O patriarca da família Inugami morreu e em seu testamento deixou toda a sua fortuna sob controle de uma garota sem parentesco sanguíneo, causando muita polêmica entre as suas filhas legítimas, e logo a família se envolve em uma cadeia de assassinatos que torna a situação muito mais complexa. Contratado para auxiliar o advogado responsável pelo testamento, o detetive Kosuke Kindaichi acaba se envolvendo mais do que esperava nessa trama, com o intuito de ajudar o seu cliente e a polícia na investigação.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Terror", "Mistério"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Horror", "Mystery"]
+      }
+    },
+    "directors": ["Kon Ichikawa"],
+    "countries": ["Japan"],
+    "genres": ["Horror", "Mystery"],
+    "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000556",
+    "slug": "blind-beast-1969",
+    "title": "Blind Beast",
+    "year": 1969,
+    "copies": [
+      {
+        "id": "pvca-000556-archive",
+        "resolution": "1080p",
+        "size_gib": 20.888230314478278,
+        "format": "MKV",
+        "audio_languages": ["ja", "en"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000556-archive",
+    "poster": "/posters/tmdb-27425-jyh96uKE5SQBnVi1gLSSzDgq9TE.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/blind-beast-1969-pvca",
+        "copy_id": "pvca-000556-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 27425,
+    "added_at": "2026-10-25",
+    "original_title": "盲獣",
+    "release_date": "1969-01-25",
+    "runtime_minutes": 84,
+    "imdb_id": "tt0140384",
+    "translations": {
+      "pt-BR": {
+        "title": "Cega Obsessão",
+        "synopsis": "Um escultor cego obcecado por uma modelo, a aprisiona em seu ateliê. Acreditando ter criado uma nova forma de arte tátil, ele e a modelo se envolvem numa alucinada e sadomasoquista relação, entre o erotismo, arte e a morte."
+      },
+      "en": {
+        "title": "Blind Beast",
+        "synopsis": "A blind sculptor kidnaps an artists' model and imprisons her in his warehouse studio – a shadowland of perverse monuments to the female form. Here a deranged passion play of sensual and sexual obsession is acted out in world where sight is replaced by touch."
+      }
+    },
+    "synopsis": "Um escultor cego obcecado por uma modelo, a aprisiona em seu ateliê. Acreditando ter criado uma nova forma de arte tátil, ele e a modelo se envolvem numa alucinada e sadomasoquista relação, entre o erotismo, arte e a morte.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Thriller", "Terror"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Thriller", "Horror"]
+      }
+    },
+    "directors": ["Yasuzō Masumura"],
+    "countries": ["Japan"],
+    "genres": ["Thriller", "Horror"],
+    "original_languages": ["ja"]
   }
 ]
