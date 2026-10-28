@@ -2107,11 +2107,25 @@
         "format": "Matroska",
         "audio_languages": ["ja"],
         "subtitle_languages": ["en", "ja"]
+      },
+      {
+        "id": "pvca-000037-archive",
+        "resolution": "1080p",
+        "size_gib": 29.551599132828414,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "ja", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000037-local",
     "poster": "/posters/tmdb-12622-lqqYxV1MJnCmPg7Na4XBupeAEDV.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/violent-cop-1989-1080p",
+        "copy_id": "pvca-000037-archive"
+      }
+    ],
     "selections": ["Cinema japonês"],
     "tmdb_id": 12622,
     "original_title": "その男、凶暴につき",
