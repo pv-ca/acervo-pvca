@@ -32848,5 +32848,119 @@
     "countries": ["Reino Unido"],
     "genres": ["Drama", "História"],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000559",
+    "slug": "aco-e-chumbo-1997",
+    "title": "Aço e Chumbo",
+    "year": 1997,
+    "copies": [
+      {
+        "id": "pvca-000559-archive",
+        "resolution": "1080p",
+        "size_gib": 8.394791280850768,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000559-archive",
+    "poster": "/posters/tmdb-1018487-etdnSFGvQHKlfreS0hQTkKnaifI.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/steel-and-lead-1997",
+        "copy_id": "pvca-000559-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 1018487,
+    "added_at": "2026-10-29",
+    "translations": {
+      "pt-BR": {
+        "title": "Aço e Chumbo",
+        "synopsis": "Um detetive será morto na manhã seguinte se não cumprir sua missão. Ao lado do yakuza encarregado de vigiá-lo, ele desenvolve uma amizade enquanto os dois trabalham juntos."
+      },
+      "en": {
+        "title": "Steel & Lead",
+        "synopsis": "A hard-boiled film that follows a detective who will be killed the next morning should he fail his mission, the yakuza assigned to watch over him, and the friendship that develops as they work together."
+      }
+    },
+    "original_title": "鉄と鉛",
+    "release_date": "1997-11-15",
+    "runtime_minutes": 95,
+    "imdb_id": "tt33164892",
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Drama", "Crime"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Drama", "Crime"]
+      }
+    },
+    "directors": ["Kazuhiro Kiuchi"],
+    "countries": ["Japão"],
+    "genres": ["Drama", "Crime"],
+    "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000560",
+    "slug": "dentro-da-noite-1940",
+    "title": "Dentro da Noite",
+    "year": 1940,
+    "copies": [
+      {
+        "id": "pvca-000560-archive",
+        "resolution": "1080p",
+        "size_gib": 6.126041461713612,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en", "nl", "fr", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000560-archive",
+    "poster": "/posters/tmdb-16933-VOZx5cY3le1jrcHsvssssCfJhq.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/they-drive-by-night-1940-pvca",
+        "copy_id": "pvca-000560-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 16933,
+    "added_at": "2026-10-29",
+    "translations": {
+      "pt-BR": {
+        "title": "Dentro da Noite",
+        "synopsis": "Joe Fabrini (George Raft) e Paul Fabrini (Humphrey Bogart) são dois irmãos motoristas de caminhão que levam uma acidentada e explorada vida como caminhoneiros. Joe sonha com o dia em que terão seu próprio negócio. Eles acabam sendo demitidos do serviço de um patrão corrupto. Um acidente com Paul mudará os sonhos dessa dupla, e para tentar manter um emprego, Joe se vê envolvido em uma trama de crime com a mal-intencionada Lana Carlsen (Ida Lupino), mulher de seu patrão."
+      },
+      "en": {
+        "title": "They Drive by Night",
+        "synopsis": "Joe and Paul Fabrini are Wildcat, or independent, truck drivers who have their own small one-truck business. The Fabrini boys constantly battle distributors, rivals and loan collectors, while trying to make a success of their transport company."
+      }
+    },
+    "original_title": "They Drive by Night",
+    "release_date": "1940-07-26",
+    "runtime_minutes": 91,
+    "imdb_id": "tt0033149",
+    "synopsis": "Joe Fabrini (George Raft) e Paul Fabrini (Humphrey Bogart) são dois irmãos motoristas de caminhão que levam uma acidentada e explorada vida como caminhoneiros. Joe sonha com o dia em que terão seu próprio negócio. Eles acabam sendo demitidos do serviço de um patrão corrupto. Um acidente com Paul mudará os sonhos dessa dupla, e para tentar manter um emprego, Joe se vê envolvido em uma trama de crime com a mal-intencionada Lana Carlsen (Ida Lupino), mulher de seu patrão.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos"],
+        "genres": ["Drama", "Crime", "Thriller"]
+      },
+      "en": {
+        "countries": ["United States"],
+        "genres": ["Drama", "Crime", "Thriller"]
+      }
+    },
+    "directors": ["Raoul Walsh"],
+    "countries": ["Estados Unidos"],
+    "genres": ["Drama", "Crime", "Thriller"],
+    "original_languages": ["en"]
   }
 ]
