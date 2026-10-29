@@ -2101,14 +2101,6 @@
     "year": 1989,
     "copies": [
       {
-        "id": "pvca-000037-local",
-        "resolution": "1080p",
-        "size_gib": 29.566745062358677,
-        "format": "Matroska",
-        "audio_languages": ["ja"],
-        "subtitle_languages": ["en", "ja"]
-      },
-      {
         "id": "pvca-000037-archive",
         "resolution": "1080p",
         "size_gib": 29.551599132828414,
@@ -2117,7 +2109,7 @@
         "subtitle_languages": ["pt-BR", "ja", "en"]
       }
     ],
-    "catalog_copy_id": "pvca-000037-local",
+    "catalog_copy_id": "pvca-000037-archive",
     "poster": "/posters/tmdb-12622-lqqYxV1MJnCmPg7Na4XBupeAEDV.jpg",
     "added_at": "2026-10-28",
     "external_links": [
