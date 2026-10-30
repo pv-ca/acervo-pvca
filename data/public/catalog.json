@@ -32962,5 +32962,62 @@
     "countries": ["Estados Unidos"],
     "genres": ["Drama", "Crime", "Thriller"],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000561",
+    "slug": "the-scavengers-1992",
+    "title": "The Scavengers",
+    "year": 1992,
+    "copies": [
+      {
+        "id": "pvca-000561-archive",
+        "resolution": "480p",
+        "size_gib": 0.8621456110849977,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000561-archive",
+    "poster": "/posters/tmdb-257158-1QRvLzaHEAjRAruYkp34oa6sIXO.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-scavengers-1992-474p",
+        "copy_id": "pvca-000561-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 257158,
+    "added_at": "2026-10-30",
+    "original_title": "Boca de Lixo",
+    "release_date": "1992-10-16",
+    "runtime_minutes": 50,
+    "imdb_id": "tt0321487",
+    "translations": {
+      "pt-BR": {
+        "title": "Boca de Lixo",
+        "synopsis": "A rotina dos catadores que sobrevivem recolhendo dejetos no lixão de Itaoca, em São Gonçalo, Rio de Janeiro."
+      },
+      "en": {
+        "title": "The Scavengers",
+        "synopsis": "In this documentary Coutinho examines the plight of the people who live off the waste of the Brazilian cities. These people make their living by scavenging the immense urban garbage dumps searching for whatever they can find to sell as well as whatever they can find to eat."
+      }
+    },
+    "synopsis": "A rotina dos catadores que sobrevivem recolhendo dejetos no lixão de Itaoca, em São Gonçalo, Rio de Janeiro.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
