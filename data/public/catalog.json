@@ -33133,5 +33133,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000564",
+    "slug": "the-murdered-house-1971",
+    "title": "The Murdered House",
+    "year": 1971,
+    "copies": [
+      {
+        "id": "pvca-000564-archive",
+        "resolution": "720p",
+        "size_gib": 2.3179431576281786,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000564-archive",
+    "poster": "/posters/tmdb-172270-mU6ubgReOsysQDCJZPmawASU07j.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-murdered-house-1971-542p",
+        "copy_id": "pvca-000564-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 172270,
+    "added_at": "2026-10-31",
+    "original_title": "A Casa Assassinada",
+    "release_date": "1971-02-21",
+    "runtime_minutes": 103,
+    "imdb_id": "tt0198360",
+    "translations": {
+      "pt-BR": {
+        "title": "A Casa Assassinada",
+        "synopsis": "A ruína econômica de uma família tradicional do sul de Minas Gerais, dá forma a sua hipocrisia com a chegada de uma mulher que enfrenta toda o grupo para preservar a própria dignidade."
+      },
+      "en": {
+        "title": "The Murdered House",
+        "synopsis": "Nina, a typical woman of the big city, marries a powerful farmer and goes to live in the countryside of Minas Gerais. There, however, she is faced with a decomposing, decadent family who seems to dislike her."
+      }
+    },
+    "synopsis": "A ruína econômica de uma família tradicional do sul de Minas Gerais, dá forma a sua hipocrisia com a chegada de uma mulher que enfrenta toda o grupo para preservar a própria dignidade.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Paulo César Saraceni"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
