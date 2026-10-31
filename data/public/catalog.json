@@ -33361,5 +33361,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000568",
+    "slug": "the-nun-and-the-torture-1984",
+    "title": "The Nun and the Torture",
+    "year": 1984,
+    "copies": [
+      {
+        "id": "pvca-000568-archive",
+        "resolution": "720p",
+        "size_gib": 1.5375148449093103,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000568-archive",
+    "poster": "/posters/tmdb-194738-ewGrG0sffLE8GHJIImTEOfhTUrS.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-nun-and-the-torture-1984-708p",
+        "copy_id": "pvca-000568-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 194738,
+    "added_at": "2026-10-31",
+    "translations": {
+      "pt-BR": {
+        "title": "A Freira e a Tortura",
+        "synopsis": "O delegado Rui, homem de princípios e feliz no casamento, fica encarregado de investigar Joana, uma professora acusada de crimes políticos. Depois de alguns começos em falso, consegue prendê-la, mas se surpreende ao descobrir que ela também é freira. A revelação não muda o curso natural dos acontecimentos: ele precisa torturá-la para obter uma confissão, e sente-se cada vez mais atraído por ela."
+      },
+      "en": {
+        "title": "The Nun and the Torture",
+        "synopsis": "Chief of Police Rui, a happily married man of principles, is in charge of investigating Joana, a teacher who's accused of political crimes. After some false starts, he manages to arrest her, but is startled to learn that she's also a nun. The revelation doesn't alter the natural course of events: he must torture her in order to obtain a confession, and gets increasingly attracted to her."
+      }
+    },
+    "synopsis": "O delegado Rui, homem de princípios e feliz no casamento, fica encarregado de investigar Joana, uma professora acusada de crimes políticos. Depois de alguns começos em falso, consegue prendê-la, mas se surpreende ao descobrir que ela também é freira. A revelação não muda o curso natural dos acontecimentos: ele precisa torturá-la para obter uma confissão, e sente-se cada vez mais atraído por ela.",
+    "original_title": "A Freira e a Tortura",
+    "release_date": "1984-03-07",
+    "runtime_minutes": 85,
+    "imdb_id": "tt0256762",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Ação", "Crime", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Action", "Crime", "Drama"]
+      }
+    },
+    "directors": ["Ozualdo Ribeiro Candeias"],
+    "countries": ["Brasil"],
+    "genres": ["Ação", "Crime", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
