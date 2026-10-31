@@ -33304,5 +33304,62 @@
     "countries": ["Brasil", "Estados Unidos"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000567",
+    "slug": "a-day-in-the-life-2010",
+    "title": "A Day in the Life",
+    "year": 2010,
+    "copies": [
+      {
+        "id": "pvca-000567-archive",
+        "resolution": "480p",
+        "size_gib": 0.36639254540205,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000567-archive",
+    "poster": "/posters/tmdb-253958-7IxzsA6KlhsFLN6evMzsKzDslRW.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/a-day-in-the-life-2010-360p",
+        "copy_id": "pvca-000567-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 253958,
+    "added_at": "2026-10-31",
+    "original_title": "Um Dia na Vida",
+    "release_date": "2010-10-28",
+    "runtime_minutes": 95,
+    "imdb_id": "tt3310974",
+    "translations": {
+      "pt-BR": {
+        "title": "Um Dia na Vida",
+        "synopsis": "O documentário acompanha 19 horas de transmissão de diversos canais de TV brasileiros fazendo navegação ao vivo entre canais. O resultado foi editado posteriormente."
+      },
+      "en": {
+        "title": "A Day in the Life",
+        "synopsis": "The documentary tracks 19 hours of broadcasting from several brazilian TV channels making live surfing between channels. The result was edited latter."
+      }
+    },
+    "synopsis": "O documentário acompanha 19 horas de transmissão de diversos canais de TV brasileiros fazendo navegação ao vivo entre canais. O resultado foi editado posteriormente.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
