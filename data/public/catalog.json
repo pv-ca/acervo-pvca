@@ -33418,5 +33418,62 @@
     "countries": ["Brasil"],
     "genres": ["Ação", "Crime", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000569",
+    "slug": "the-inheritance-1970",
+    "title": "The Inheritance",
+    "year": 1970,
+    "copies": [
+      {
+        "id": "pvca-000569-archive",
+        "resolution": "1080p",
+        "size_gib": 2.6705119041725993,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000569-archive",
+    "poster": "/posters/tmdb-143918-2Sb0yG6f5CQYntAazEL2ELgmROV.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-inheritance-1970-1080p",
+        "copy_id": "pvca-000569-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 143918,
+    "added_at": "2026-10-31",
+    "original_title": "A Herança",
+    "release_date": "1970-11-05",
+    "runtime_minutes": 90,
+    "imdb_id": "tt0065831",
+    "translations": {
+      "pt-BR": {
+        "title": "A Herança",
+        "synopsis": "Uma adaptação experimental de Hamlet para as áreas rurais do Brasil.\r Adaptação da história clássica de \"Hamlet\" para o ambiente rural brasileiro. Filho de um fazendeiro retorna para casa após a morte de seu pai e não suporta a idéia de que sua mãe quer se casar com seu tio."
+      },
+      "en": {
+        "title": "The Inheritance",
+        "synopsis": "An experimental adaptation of Hamlet to Brazil's rural areas. Farmer's son returns home after his father's death and can't stand the thought of his mother marrying his uncle."
+      }
+    },
+    "synopsis": "Uma adaptação experimental de Hamlet para as áreas rurais do Brasil.\r Adaptação da história clássica de \"Hamlet\" para o ambiente rural brasileiro. Filho de um fazendeiro retorna para casa após a morte de seu pai e não suporta a idéia de que sua mãe quer se casar com seu tio.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Faroeste"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Western"]
+      }
+    },
+    "directors": ["Ozualdo Ribeiro Candeias"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Faroeste"],
+    "original_languages": ["pt"]
   }
 ]
