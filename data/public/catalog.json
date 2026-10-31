@@ -33076,5 +33076,62 @@
     "countries": ["Brasil"],
     "genres": ["Comédia", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000563",
+    "slug": "the-wrung-out-man-1980",
+    "title": "The Wrung-Out Man",
+    "year": 1980,
+    "copies": [
+      {
+        "id": "pvca-000563-archive",
+        "resolution": "480p",
+        "size_gib": 1.19342453032732,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000563-archive",
+    "poster": "/posters/tmdb-166184-sGU5vUy7R68Q9MWJx1aQjkFsQY8.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-wrung-out-man-1980-390p",
+        "copy_id": "pvca-000563-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 166184,
+    "added_at": "2026-10-31",
+    "translations": {
+      "pt-BR": {
+        "title": "O Homem que Virou Suco",
+        "synopsis": "Deraldo, poeta popular do Nordeste, chega a São Paulo e vive apenas de sua poesia e de seus folhetos. Tudo vai bem até ele ser confundido com um operário de uma multinacional que matou o patrão numa festa em que recebeu o título de trabalhador simbólico."
+      },
+      "en": {
+        "title": "The Wrung-Out Man",
+        "synopsis": "Deraldo, a popular poet from Northeast Brazil, arrives in the capital of São Paulo, making a living only from his poetry and pamphlets. All is well until he is mistaken for a multinational worker who killed the boss at a party where he received the title of symbolic worker."
+      }
+    },
+    "synopsis": "Deraldo, poeta popular do Nordeste, chega a São Paulo e vive apenas de sua poesia e de seus folhetos. Tudo vai bem até ele ser confundido com um operário de uma multinacional que matou o patrão numa festa em que recebeu o título de trabalhador simbólico.",
+    "original_title": "O Homem que Virou Suco",
+    "release_date": "1980-12-13",
+    "runtime_minutes": 97,
+    "imdb_id": "tt0178585",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["João Batista de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
