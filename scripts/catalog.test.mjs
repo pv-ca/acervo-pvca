@@ -281,6 +281,7 @@ test("a real projection drives static pages without preview films or invented ed
     en: { title: "English fixture", synopsis: "English synopsis" },
   };
   writeFileSync(join(site, "data/public/catalog.json"), JSON.stringify([film]));
+  writeFileSync(join(site, "data/letterboxd-uris.json"), "{}");
   cpSync(
     join(temp, "public/posters/fixture.png"),
     join(site, "public/posters/fixture.png")
@@ -298,6 +299,11 @@ test("a real projection drives static pages without preview films or invented ed
   );
   assert.equal(built.status, 0, built.stdout + "\n" + built.stderr);
   assert.ok(existsSync(join(site, "dist/filmes/fixture-2000/index.html")));
+  // The admin's Letterboxd export reads this file: films and uris are its contract.
+  const exported = JSON.parse(
+    readFileSync(join(site, "dist/letterboxd.json"), "utf8")
+  );
+  assert.ok(Array.isArray(exported.films) && typeof exported.uris === "object");
   assert.ok(!existsSync(join(site, "dist/filmes/tokyo-story-1953/index.html")));
   const catalog = readFileSync(
     join(site, "dist/filmes/index.html"),

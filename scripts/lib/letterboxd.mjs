@@ -1,10 +1,14 @@
 // Letterboxd import export: one row per catalog film. The Review links to the
-// film's ficha, which always shows the current copies, and describes the best
-// public copy (size, resolution, subtitles).
-const SITE = "https://pv-ca.github.io/acervo-pvca";
-const AVAILABLE = "Disponível no Acervo PVCA";
-// A film with no public copy is not available: its link names the ficha only.
+// film's public copies (Google Drive, then Internet Archive) and describes the
+// best one (size, resolution, subtitles of each source).
+export const SITE = "https://pv-ca.github.io/acervo-pvca";
+// A film with no public copy has nothing to link: its link names the ficha only.
 const FICHA = "Ficha no Acervo PVCA";
+// Display order of the sources: [catalog provider, link text, subtitle label].
+const SOURCES = [
+  ["google_drive", "Google Drive", "Drive"],
+  ["internet_archive", "Internet Archive", "Archive"],
+];
 const BYTES_PER_GIB = 1.073741824;
 const LANGUAGE_CODES = {
   may: "MS",
@@ -48,17 +52,41 @@ function publicCopy(film) {
 
 export function reviewFor(film) {
   const copy = publicCopy(film);
-  const anchor = `<a href="${SITE}/filmes/${film.slug}/">${copy ? AVAILABLE : FICHA}</a>`;
-  if (!copy) return anchor;
-  const subtitles = formatSubtitles(copy.subtitle_languages ?? []);
+  const sources = SOURCES.flatMap(([provider, name, label]) => {
+    const links = (film.external_links ?? []).filter(
+      (l) => l.provider === provider
+    );
+    // The link of the copy the note describes; another link of the same source would show a different file.
+    const link = links.find((l) => l.copy_id === copy?.id) ?? links[0];
+    return link ? [{ link, name, label }] : [];
+  });
+  if (!sources.length)
+    return `<a href="${SITE}/filmes/${film.slug}/">${FICHA}</a>`;
+  const anchors = sources
+    .map(({ link, name }) => `<a href="${link.url}">${name}</a>`)
+    .join(" · ");
+  if (!copy) return anchors;
+  // Each source lists the subtitles of its own copy; with one source the label adds nothing.
+  const subtitles = sources
+    .map(({ link, label }) => [
+      label,
+      formatSubtitles(
+        film.copies.find((c) => c.id === link.copy_id)?.subtitle_languages ?? []
+      ),
+    ])
+    .filter(([, list]) => list);
+  const legend =
+    sources.length > 1
+      ? subtitles.map(([label, list]) => `${list} (${label})`).join(" / ")
+      : subtitles[0]?.[1];
   const meta = [
     formatSize(copy.size_gib),
     formatResolution(copy.resolution),
-    subtitles && `Legendas: ${subtitles}`,
+    legend && `Legendas: ${legend}`,
   ]
     .filter(Boolean)
     .join(" · ");
-  return `${anchor}<br>${meta}`;
+  return `${anchors}<br>${meta}`;
 }
 
 const quote = (value) =>

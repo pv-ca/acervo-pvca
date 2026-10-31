@@ -10,7 +10,7 @@ import {
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
-import { letterboxdCsv, letterboxdFilename } from "./lib/letterboxd.mjs";
+import { letterboxdCsv, letterboxdFilename, SITE } from "./lib/letterboxd.mjs";
 import {
   validateCatalog,
   mergeCatalog,
@@ -34,7 +34,32 @@ import {
   editorialVersion,
 } from "./lib/store.mjs";
 
-export function createAdmin(root, port = 4323) {
+// The export reads what the site publishes (catalog and Letterboxd URIs), so
+// it never depends on this machine's checkout.
+export async function publishedLetterboxd() {
+  try {
+    // The timestamp skips Pages' ten-minute cache.
+    const response = await fetch(`${SITE}/letterboxd.json?t=${Date.now()}`, {
+      signal: AbortSignal.timeout(60000),
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    if (!Array.isArray(data.films))
+      throw new Error("resposta sem a lista de filmes");
+    return data;
+  } catch (error) {
+    throw new Error(
+      `Não foi possível ler os dados publicados em ${SITE}/letterboxd.json: ${error.message}`,
+      { cause: error }
+    );
+  }
+}
+
+export function createAdmin(
+  root,
+  port = 4323,
+  loadPublished = publishedLetterboxd
+) {
   const token = randomBytes(32).toString("hex");
   const origin = `http://127.0.0.1:${port}`;
   const path = (name) => resolve(root, name);
@@ -645,10 +670,8 @@ export function createAdmin(root, port = 4323) {
         json(200, { poster: "/posters/" + filename });
         return;
       } else if (pathname === "/api/export/letterboxd") {
-        const { csv, count } = letterboxdCsv(
-          read("data/public/catalog.json"),
-          read("data/letterboxd-uris.json")
-        );
+        const { films, uris } = await loadPublished();
+        const { csv, count } = letterboxdCsv(films, uris);
         json(200, { csv, filename: letterboxdFilename(count), count });
         return;
       } else if (pathname === "/api/build") {
