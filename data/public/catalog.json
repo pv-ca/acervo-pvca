@@ -33475,5 +33475,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Faroeste"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000570",
+    "slug": "the-history-of-eternity-2014",
+    "title": "The History of Eternity",
+    "year": 2014,
+    "copies": [
+      {
+        "id": "pvca-000570-archive",
+        "resolution": "720p",
+        "size_gib": 1.6550039807334542,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000570-archive",
+    "poster": "/posters/tmdb-288286-mcJscYse8IyzEMcmbQUWaexksWy.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-history-of-eternity-2014-720p",
+        "copy_id": "pvca-000570-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 288286,
+    "added_at": "2026-10-31",
+    "original_title": "A História da Eternidade",
+    "release_date": "2014-07-26",
+    "runtime_minutes": 120,
+    "imdb_id": "tt3565050",
+    "translations": {
+      "pt-BR": {
+        "title": "A História da Eternidade",
+        "synopsis": "Em um pequeno vilarejo no Sertão, três histórias de amor e desejo revolucionam a paisagem afetiva de seus moradores. Personagens de um mundo romanesco, no qual suas concepções da vida estão limitadas, de um lado pelos instintos humanos, do outro por um destino cego e fatalista."
+      },
+      "en": {
+        "title": "The History of Eternity",
+        "synopsis": "In a small village in the hinterland, three stories of love and desire are changing the emotional landscape of its residents. Characters of a romanesque world in which their conceptions of life are limited on one side by human instincts, on the other by a blind and fatalist fate."
+      }
+    },
+    "synopsis": "Em um pequeno vilarejo no Sertão, três histórias de amor e desejo revolucionam a paisagem afetiva de seus moradores. Personagens de um mundo romanesco, no qual suas concepções da vida estão limitadas, de um lado pelos instintos humanos, do outro por um destino cego e fatalista.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Música", "Romance"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Music", "Romance"]
+      }
+    },
+    "directors": ["Camilo Cavalcante"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Música", "Romance"],
+    "original_languages": ["pt"]
   }
 ]
