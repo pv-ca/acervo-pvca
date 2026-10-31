@@ -33019,5 +33019,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000562",
+    "slug": "buccaneer-soul-1993",
+    "title": "Buccaneer Soul",
+    "year": 1993,
+    "copies": [
+      {
+        "id": "pvca-000562-archive",
+        "resolution": "720p",
+        "size_gib": 2.1703107822686434,
+        "format": "MKV",
+        "audio_languages": [],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000562-archive",
+    "poster": "/posters/tmdb-183023-e5PH5dMynxcUrjTrio57qvym1Ng.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/buccaneer-soul-1993-720p",
+        "copy_id": "pvca-000562-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 183023,
+    "added_at": "2026-10-31",
+    "original_title": "Alma Corsária",
+    "release_date": "1993-07-07",
+    "runtime_minutes": 112,
+    "imdb_id": "tt0109084",
+    "translations": {
+      "pt-BR": {
+        "title": "Alma Corsária",
+        "synopsis": "Rivaldo Torres e Teodoro Xavier são poetas e amigos de infância, que lançam um livro numa pastelaria no centro de São Paulo e convidam pessoas dos mais variados estilos para o evento, incluindo um suicida que Torres salvou, prostitutas e desocupados."
+      },
+      "en": {
+        "title": "Buccaneer Soul",
+        "synopsis": "50 years of Brazilian history seen from the point of view of a friendship among two intellectuals."
+      }
+    },
+    "synopsis": "Rivaldo Torres e Teodoro Xavier são poetas e amigos de infância, que lançam um livro numa pastelaria no centro de São Paulo e convidam pessoas dos mais variados estilos para o evento, incluindo um suicida que Torres salvou, prostitutas e desocupados.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Drama"]
+      }
+    },
+    "directors": ["Carlos Reichenbach"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
