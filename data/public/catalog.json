@@ -33247,5 +33247,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000566",
+    "slug": "lady-on-the-bus-1978",
+    "title": "Lady on the Bus",
+    "year": 1978,
+    "copies": [
+      {
+        "id": "pvca-000566-archive",
+        "resolution": "1080p",
+        "size_gib": 4.460134403780103,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000566-archive",
+    "poster": "/posters/tmdb-84255-1zWy4Uh1Y6ugF9fiXeDD3jeonE7.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/lady-on-the-bus-1978-1080p",
+        "copy_id": "pvca-000566-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 84255,
+    "added_at": "2026-10-31",
+    "original_title": "A Dama do Lotação",
+    "release_date": "1978-04-17",
+    "runtime_minutes": 96,
+    "imdb_id": "tt0077393",
+    "translations": {
+      "pt-BR": {
+        "title": "A Dama do Lotação",
+        "synopsis": "Solange e Carlos se conhecem desde a infância e se casam. Na noite de núpcias, Solange resiste ao seu marido, que, impaciente, acaba estuprando-a. Solange fica traumatizada e, apesar de desejar Carlos, não quer mais nada com ele. Para se satisfazer, ela começa a fazer sexo com homens que não conhece, que encontra andando de lotação."
+      },
+      "en": {
+        "title": "Lady on the Bus",
+        "synopsis": "Solange is a recently married young woman whose wedding night did not end well. After constant fights with her husband, she decides to live through her sexual frustration by sleeping with strangers she picks up on crowded buses in Rio de Janeiro."
+      }
+    },
+    "synopsis": "Solange e Carlos se conhecem desde a infância e se casam. Na noite de núpcias, Solange resiste ao seu marido, que, impaciente, acaba estuprando-a. Solange fica traumatizada e, apesar de desejar Carlos, não quer mais nada com ele. Para se satisfazer, ela começa a fazer sexo com homens que não conhece, que encontra andando de lotação.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Estados Unidos"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "United States"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Neville D'Almeida"],
+    "countries": ["Brasil", "Estados Unidos"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
