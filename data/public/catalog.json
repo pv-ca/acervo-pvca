@@ -33874,5 +33874,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário", "Música"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000577",
+    "slug": "assault-on-the-pay-train-1962",
+    "title": "Assault on the Pay Train",
+    "year": 1962,
+    "copies": [
+      {
+        "id": "pvca-000577-archive",
+        "resolution": "1080p",
+        "size_gib": 2.0291356770321727,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000577-archive",
+    "poster": "/posters/tmdb-86379-mOGYyHVB2SHxKAeYPDaGSKMZpGl.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/assault-on-the-pay-train-1962-1080p",
+        "copy_id": "pvca-000577-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 86379,
+    "added_at": "2026-11-01",
+    "original_title": "O Assalto ao Trem Pagador",
+    "release_date": "1962-09-02",
+    "runtime_minutes": 98,
+    "imdb_id": "tt0056582",
+    "translations": {
+      "pt-BR": {
+        "title": "O Assalto ao Trem Pagador",
+        "synopsis": "No interior do Estado do Rio de Janeiro, um grupo de seis homens assalta o trem pagador na estrada de ferro Central do Brasil. Eles decidem só gastar, no máximo, dez por cento do produto roubado, para não despertar suspeitas da polícia. Só que Grilo Peru (Reginaldo Faria) resolve se entregar ao luxo da zona sul carioca, sendo assassinado por Tião Medonho (Eliezer Gomes), o líder da quadrilha. Ao mesmo tempo, a polícia fecha o cerco sobre os outros assaltantes, quase todos favelados."
+      },
+      "en": {
+        "title": "Assault on the Pay Train",
+        "synopsis": "Based on true events in Rio de Janeiro, in 1960, when a gang having the infamous outlaw Tião Medonho as a leader performed a sensational railroad hold-up on a train carrying a small fortune."
+      }
+    },
+    "synopsis": "No interior do Estado do Rio de Janeiro, um grupo de seis homens assalta o trem pagador na estrada de ferro Central do Brasil. Eles decidem só gastar, no máximo, dez por cento do produto roubado, para não despertar suspeitas da polícia. Só que Grilo Peru (Reginaldo Faria) resolve se entregar ao luxo da zona sul carioca, sendo assassinado por Tião Medonho (Eliezer Gomes), o líder da quadrilha. Ao mesmo tempo, a polícia fecha o cerco sobre os outros assaltantes, quase todos favelados.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Crime", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Crime", "Drama"]
+      }
+    },
+    "directors": ["Roberto Farias"],
+    "countries": ["Brasil"],
+    "genres": ["Crime", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
