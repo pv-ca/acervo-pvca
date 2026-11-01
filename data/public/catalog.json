@@ -34102,5 +34102,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000581",
+    "slug": "araby-2018",
+    "title": "Araby",
+    "year": 2018,
+    "copies": [
+      {
+        "id": "pvca-000581-archive",
+        "resolution": "1080p",
+        "size_gib": 4.8968774899840355,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "fr", "de", "it", "ru", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000581-archive",
+    "poster": "/posters/tmdb-434370-2k36QHFX6Q3LsvDNB7vjdaFUxjR.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/araby-2018-1040p",
+        "copy_id": "pvca-000581-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 434370,
+    "added_at": "2026-11-01",
+    "original_title": "Arábia",
+    "release_date": "2018-04-05",
+    "runtime_minutes": 98,
+    "imdb_id": "tt6400280",
+    "translations": {
+      "pt-BR": {
+        "title": "Arábia",
+        "synopsis": "Em uma fábrica de alumínio em Ouro Preto, Minas Gerais, jovem encontra o diário de um trabalhador que sofreu um acidente."
+      },
+      "en": {
+        "title": "Araby",
+        "synopsis": "André, a teenager, lives in an industrial town in Brazil near an old aluminum factory. One day, a factory worker, Cristiano, suffers an accident. Asked to go to Cristiano’s house to pick up clothes and documents, André stumbles on a notebook, and it’s here that Araby begins — or, rather, transforms. As André reads from the journal entries, we are plunged into Cristiano’s life, into stories of his wanderings, adventures, and loves."
+      }
+    },
+    "synopsis": "Em uma fábrica de alumínio em Ouro Preto, Minas Gerais, jovem encontra o diário de um trabalhador que sofreu um acidente.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["João Dumans", "Affonso Uchôa"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
