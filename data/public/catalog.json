@@ -34216,5 +34216,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000583",
+    "slug": "brasilia-contradictions-of-a-new-city-1968",
+    "title": "Brasilia, Contradictions of a New City",
+    "year": 1968,
+    "copies": [
+      {
+        "id": "pvca-000583-archive",
+        "resolution": "1080p",
+        "size_gib": 1.9292207537218928,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000583-archive",
+    "poster": "/posters/tmdb-258071-iw6yXrFen1RuMqQOyhwEnAm7mh3.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/brasilia-contradictions-of-a-new-city-1968-1080p",
+        "copy_id": "pvca-000583-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 258071,
+    "added_at": "2026-11-01",
+    "original_title": "Brasília, Contradições de uma Cidade Nova",
+    "release_date": "1968-01-01",
+    "runtime_minutes": 24,
+    "imdb_id": "tt0210587",
+    "translations": {
+      "pt-BR": {
+        "title": "Brasília, Contradições de uma Cidade Nova",
+        "synopsis": "Seis anos após a inauguração de Brasília, Joaquim Pedro de Andrade investiga o desenvolvimento da cidade registrando sua arquitetura e entrevistando habitantes de diferentes extratos sociais."
+      },
+      "en": {
+        "title": "Brasilia, Contradictions of a New City",
+        "synopsis": "In 1967, de Andrade was invited by the Italian company Olivetti to produce a documentary on the new Brazilian capital city of Brasília. Constructed during the latter half of the 1950s and founded in 1960, the city was part of an effort to populate Brazil’s vast interior region and was to be the embodiment of democratic urban planning, free from the class divisions and inequalities that characterize so many metropolises. Unsurprisingly, Brasília, Contradições de uma Cidade Nova (Brasília, Contradictions of a New City, 1968) revealed Brasília to be utopic only for the wealthy, replicating the same social problems present in every Brazilian city. (Senses of Cinema)"
+      }
+    },
+    "synopsis": "Seis anos após a inauguração de Brasília, Joaquim Pedro de Andrade investiga o desenvolvimento da cidade registrando sua arquitetura e entrevistando habitantes de diferentes extratos sociais.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
