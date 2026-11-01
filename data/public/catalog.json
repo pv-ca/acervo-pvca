@@ -34656,5 +34656,62 @@
     "countries": ["Brasil", "México", "Reino Unido"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000590",
+    "slug": "cinemateca-brasileira-1993",
+    "title": "Cinemateca Brasileira",
+    "year": 1993,
+    "copies": [
+      {
+        "id": "pvca-000590-archive",
+        "resolution": "720p",
+        "size_gib": 0.19533068593591452,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000590-archive",
+    "poster": "/posters/tmdb-804438-fWIc4aQXK7ulwGCywQYTSNeqS5Z.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/cinemateca-brasileira-1993-720p",
+        "copy_id": "pvca-000590-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 804438,
+    "added_at": "2026-11-01",
+    "original_title": "Cinemateca Brasileira",
+    "release_date": "1993-05-03",
+    "runtime_minutes": 13,
+    "imdb_id": "tt14213102",
+    "translations": {
+      "pt-BR": {
+        "title": "Cinemateca Brasileira",
+        "synopsis": "Documentário sobre as atividades da Cinemateca Brasileira, acompanha o início da transferência para a sede atual. O filme apresenta uma Cinemateca Brasileira ainda dividida por diferentes locais, assim como já esteve em inúmeros outros, sempre de maneira provisória e em depósitos muito longe do ideal e necessário."
+      },
+      "en": {
+        "title": "Cinemateca Brasileira",
+        "synopsis": "A documentary short on Brazil's National Film Archive, the Cinemateca Brasileira, based in the city of São Paulo."
+      }
+    },
+    "synopsis": "Documentário sobre as atividades da Cinemateca Brasileira, acompanha o início da transferência para a sede atual. O filme apresenta uma Cinemateca Brasileira ainda dividida por diferentes locais, assim como já esteve em inúmeros outros, sempre de maneira provisória e em depósitos muito longe do ideal e necessário.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Ozualdo Ribeiro Candeias"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
