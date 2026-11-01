@@ -34530,5 +34530,74 @@
     "countries": ["Brasil", "Argentina"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000588",
+    "slug": "central-station-1998",
+    "title": "Central Station",
+    "year": 1998,
+    "copies": [
+      {
+        "id": "pvca-000588-archive",
+        "resolution": "1080p",
+        "size_gib": 17.699503199197352,
+        "format": "MKV",
+        "audio_languages": ["pt", "en"],
+        "subtitle_languages": [
+          "pt-BR",
+          "en",
+          "zh",
+          "nl",
+          "fr",
+          "de",
+          "el",
+          "it",
+          "pl",
+          "ro",
+          "es"
+        ]
+      }
+    ],
+    "catalog_copy_id": "pvca-000588-archive",
+    "poster": "/posters/tmdb-666-lA3G7hR3p27xvcRWazoVSCelPVg.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/central-station-1998-816p",
+        "copy_id": "pvca-000588-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 666,
+    "added_at": "2026-11-01",
+    "original_title": "Central do Brasil",
+    "release_date": "1998-04-03",
+    "runtime_minutes": 110,
+    "imdb_id": "tt0140888",
+    "translations": {
+      "pt-BR": {
+        "title": "Central do Brasil",
+        "synopsis": "Dora escreve cartas para analfabetos na estação Central do Brasil. Uma das clientes de Dora é Ana, que vem escrever uma carta com o seu filho, Josué, um garoto de nove anos, que sonha encontrar o pai que nunca conheceu. Na saída da estação, Ana é atropelada e Josué fica abandonado. Mesmo a contragosto, Dora acaba acolhendo o menino e envolvendo-se com ele. Termina por levar Josué para o interior do Nordeste, à procura do pai. À medida em que vão entrando país adentro, esses dois personagens, tão diferentes, vão se aproximando... Começa então uma viagem fascinate ao coração do Brasil, à procura do pai desaparecido, e uma viagem profundamente emotiva ao coração de cada um dos personagens do filme."
+      },
+      "en": {
+        "title": "Central Station",
+        "synopsis": "An emotional journey of a former school teacher, who writes letters for illiterate people, and a young boy, whose mother has just died, as they search for the father he never knew."
+      }
+    },
+    "synopsis": "Dora escreve cartas para analfabetos na estação Central do Brasil. Uma das clientes de Dora é Ana, que vem escrever uma carta com o seu filho, Josué, um garoto de nove anos, que sonha encontrar o pai que nunca conheceu. Na saída da estação, Ana é atropelada e Josué fica abandonado. Mesmo a contragosto, Dora acaba acolhendo o menino e envolvendo-se com ele. Termina por levar Josué para o interior do Nordeste, à procura do pai. À medida em que vão entrando país adentro, esses dois personagens, tão diferentes, vão se aproximando... Começa então uma viagem fascinate ao coração do Brasil, à procura do pai desaparecido, e uma viagem profundamente emotiva ao coração de cada um dos personagens do filme.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "França"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "France"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Walter Salles"],
+    "countries": ["Brasil", "França"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
