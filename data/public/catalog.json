@@ -34444,5 +34444,91 @@
     "countries": ["Brasil", "França"],
     "genres": ["Mistério", "Faroeste", "Thriller"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000587",
+    "slug": "carandiru-2003",
+    "title": "Carandiru",
+    "year": 2003,
+    "copies": [
+      {
+        "id": "pvca-000587-archive",
+        "resolution": "1080p",
+        "size_gib": 10.848906362429261,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": [
+          "pt-BR",
+          "pt-PT",
+          "en",
+          "ar",
+          "cs",
+          "da",
+          "nl",
+          "fi",
+          "fr",
+          "de",
+          "el",
+          "he",
+          "hi",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "nob",
+          "pl",
+          "ro",
+          "ru",
+          "es",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi"
+        ]
+      }
+    ],
+    "catalog_copy_id": "pvca-000587-archive",
+    "poster": "/posters/tmdb-8440-dvL05T9KtkY6oPpMvrAmu18Nds3.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/carandiru-2003-1040p",
+        "copy_id": "pvca-000587-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 8440,
+    "added_at": "2026-11-01",
+    "original_title": "Carandiru",
+    "release_date": "2003-04-11",
+    "runtime_minutes": 146,
+    "imdb_id": "tt0293007",
+    "translations": {
+      "pt-BR": {
+        "title": "Carandiru",
+        "synopsis": "Um médico se oferece para realizar um trabalho de prevenção a AIDS no maior presídio da América Latina, o Carandiru. Lá ele convive com a realidade dos cárceres, que inclui violência, superlotação das celas e instalações precárias. Porém, apesar de todos os problemas, o médico logo percebe que os prisioneiros não são figuras demoníacas, existindo dentro da prisão solidariedade, organização e uma grande vontade de viver."
+      },
+      "en": {
+        "title": "Carandiru",
+        "synopsis": "When a doctor decides to carry out an AIDS prevention program inside Latin America’s largest prison: the Casa de Detenção de São Paulo – Carandiru, he meets the future victims of one of the darkest days in Brazilian history."
+      }
+    },
+    "synopsis": "Um médico se oferece para realizar um trabalho de prevenção a AIDS no maior presídio da América Latina, o Carandiru. Lá ele convive com a realidade dos cárceres, que inclui violência, superlotação das celas e instalações precárias. Porém, apesar de todos os problemas, o médico logo percebe que os prisioneiros não são figuras demoníacas, existindo dentro da prisão solidariedade, organização e uma grande vontade de viver.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Argentina"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "Argentina"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Héctor Babenco"],
+    "countries": ["Brasil", "Argentina"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
