@@ -33532,5 +33532,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Música", "Romance"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000571",
+    "slug": "a-missa-do-galo-1982",
+    "title": "A Missa do Galo",
+    "year": 1982,
+    "copies": [
+      {
+        "id": "pvca-000571-archive",
+        "resolution": "480p",
+        "size_gib": 0.4170757979154587,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000571-archive",
+    "poster": "/posters/tmdb-249545-aICNDNLwBanhgZPbz86oEMxlp32.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/a-missa-do-galo-1982-476p",
+        "copy_id": "pvca-000571-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 249545,
+    "added_at": "2026-11-01",
+    "translations": {
+      "pt-BR": {
+        "title": "A Missa do Galo",
+        "synopsis": "É véspera de Natal, e uma tia e seu sobrinho precisam lidar com o relacionamento platônico que existe entre eles."
+      },
+      "en": {
+        "title": "A Missa do Galo",
+        "synopsis": "It's Christmas Eve and an aunt and her nephew have to deal with their platonic relationship."
+      }
+    },
+    "synopsis": "É véspera de Natal, e uma tia e seu sobrinho precisam lidar com o relacionamento platônico que existe entre eles.",
+    "original_title": "A Missa do Galo",
+    "release_date": "1982-01-01",
+    "runtime_minutes": 25,
+    "imdb_id": "tt0292598",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Romance"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Romance"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Romance"],
+    "original_languages": ["pt"]
   }
 ]
