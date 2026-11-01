@@ -34387,5 +34387,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000586",
+    "slug": "bacurau-2019",
+    "title": "Bacurau",
+    "year": 2019,
+    "copies": [
+      {
+        "id": "pvca-000586-archive",
+        "resolution": "1080p",
+        "size_gib": 12.7642443170771,
+        "format": "MKV",
+        "audio_languages": ["pt", "en"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000586-archive",
+    "poster": "/posters/tmdb-446159-jntcCfiecqryUZl3GA6C7C1YgC1.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/bacurau-2019-800p",
+        "copy_id": "pvca-000586-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 446159,
+    "added_at": "2026-11-01",
+    "original_title": "Bacurau",
+    "release_date": "2019-08-29",
+    "runtime_minutes": 131,
+    "imdb_id": "tt2762506",
+    "translations": {
+      "pt-BR": {
+        "title": "Bacurau",
+        "synopsis": "Num futuro recente, Bacurau, um povoado do sertão de Pernambuco, some misteriosamente do mapa. Quando uma série de assassinatos inexplicáveis começam a acontecer, os moradores da cidade tentam reagir. Mas como se defender de um inimigo desconhecido e implacável?"
+      },
+      "en": {
+        "title": "Bacurau",
+        "synopsis": "Bacurau, a small town in the Brazilian sertão, mourns the loss of its matriarch, Carmelita, who lived to be 94. Days later, its inhabitants notice that their community has vanished from most maps."
+      }
+    },
+    "synopsis": "Num futuro recente, Bacurau, um povoado do sertão de Pernambuco, some misteriosamente do mapa. Quando uma série de assassinatos inexplicáveis começam a acontecer, os moradores da cidade tentam reagir. Mas como se defender de um inimigo desconhecido e implacável?",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "França"],
+        "genres": ["Mistério", "Faroeste", "Thriller"]
+      },
+      "en": {
+        "countries": ["Brazil", "France"],
+        "genres": ["Mystery", "Western", "Thriller"]
+      }
+    },
+    "directors": ["Kleber Mendonça Filho", "Juliano Dornelles"],
+    "countries": ["Brasil", "França"],
+    "genres": ["Mistério", "Faroeste", "Thriller"],
+    "original_languages": ["pt"]
   }
 ]
