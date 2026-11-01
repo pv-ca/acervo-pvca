@@ -33931,5 +33931,62 @@
     "countries": ["Brasil"],
     "genres": ["Crime", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000578",
+    "slug": "bang-bang-1971",
+    "title": "Bang Bang",
+    "year": 1971,
+    "copies": [
+      {
+        "id": "pvca-000578-archive",
+        "resolution": "480p",
+        "size_gib": 1.1696496866643429,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000578-archive",
+    "poster": "/posters/tmdb-173732-srojb5b5MO4akgn2bsYw85oj7Gf.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/bang-bang-1971-408p",
+        "copy_id": "pvca-000578-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 173732,
+    "added_at": "2026-11-01",
+    "original_title": "Bang Bang",
+    "release_date": "1971-02-11",
+    "runtime_minutes": 80,
+    "imdb_id": "tt0201450",
+    "translations": {
+      "pt-BR": {
+        "title": "Bang Bang",
+        "synopsis": "Um homem, envolvido em várias situações que não consegue controlar, serve de fio condutor para ação que se desenrola em torno de uma quadrilha maluca, composta de um bandido cego, surdo e mudo, cuja pistola dispara a esmo, outro bandido narcisista e um terceiro, a mãe de todos, que come o tempo todo."
+      },
+      "en": {
+        "title": "Bang Bang",
+        "synopsis": "An anonymous urban protagonist experiences a series of absurd situations--including a crazy cab ride, an encounter with a wacky criminal gang, and lots of gunplay--infused with a unique anarchic energy, eventually suggesting our true animal nature."
+      }
+    },
+    "synopsis": "Um homem, envolvido em várias situações que não consegue controlar, serve de fio condutor para ação que se desenrola em torno de uma quadrilha maluca, composta de um bandido cego, surdo e mudo, cuja pistola dispara a esmo, outro bandido narcisista e um terceiro, a mãe de todos, que come o tempo todo.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Fantasia", "Crime"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Fantasy", "Crime"]
+      }
+    },
+    "directors": ["Andrea Tonacci"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Fantasia", "Crime"],
+    "original_languages": ["pt"]
   }
 ]
