@@ -33589,5 +33589,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Romance"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000572",
+    "slug": "a-public-opinion-1967",
+    "title": "A Public Opinion",
+    "year": 1967,
+    "copies": [
+      {
+        "id": "pvca-000572-archive",
+        "resolution": "1080p",
+        "size_gib": 5.01409322861582,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000572-archive",
+    "poster": "/posters/tmdb-230723-uniTqFGbRuJE9oSPW8YWQND2m7O.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/a-public-opinion-1967-1080p",
+        "copy_id": "pvca-000572-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 230723,
+    "added_at": "2026-11-01",
+    "original_title": "A Opinião Pública",
+    "release_date": "1967-01-01",
+    "runtime_minutes": 78,
+    "imdb_id": "tt0144542",
+    "translations": {
+      "pt-BR": {
+        "title": "A Opinião Pública",
+        "synopsis": "Documentário sobre a classe média carioca, examinada através dos depoimentos dos seus próprios membros, que abordam assuntos como a juventude, a família burguesa, fenômenos sensacionalistas, misticismo, política e meios de comunicação de massa. Filme de tese, gravado segundo as regras do cinema-verdade da década de 60."
+      },
+      "en": {
+        "title": "A Public Opinion",
+        "synopsis": "Documentary about middle-class people in Rio de Janeiro, in the 1960s, when Brazil was going through a hard period in its history, with the military coup and the following dictatorship. Interviews with people in the street disclose their fears, aspirations and political alienation."
+      }
+    },
+    "synopsis": "Documentário sobre a classe média carioca, examinada através dos depoimentos dos seus próprios membros, que abordam assuntos como a juventude, a família burguesa, fenômenos sensacionalistas, misticismo, política e meios de comunicação de massa. Filme de tese, gravado segundo as regras do cinema-verdade da década de 60.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Arnaldo Jabor"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
