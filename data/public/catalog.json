@@ -33760,5 +33760,62 @@
     "countries": ["Brasil", "França"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000575",
+    "slug": "behind-the-sun-2001",
+    "title": "Behind the Sun",
+    "year": 2001,
+    "copies": [
+      {
+        "id": "pvca-000575-archive",
+        "resolution": "1080p",
+        "size_gib": 7.9138438776135445,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000575-archive",
+    "poster": "/posters/tmdb-36093-9GVEX1VC4iEh5t5T7YNDU9P8zKQ.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/behind-the-sun-2001-1080p",
+        "copy_id": "pvca-000575-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 36093,
+    "added_at": "2026-11-01",
+    "original_title": "Abril Despedaçado",
+    "release_date": "2001-12-12",
+    "runtime_minutes": 95,
+    "imdb_id": "tt0291003",
+    "translations": {
+      "pt-BR": {
+        "title": "Abril Despedaçado",
+        "synopsis": "Uma família que sobrevive no  sertão através do cultivo de cana-de-açúcar está há tempos em guerra com a família da propriedade vizinha. O conflito dura tanto tempo que até mesmo um ritual meticuloso foi estabelecido, dando direitos de \"cobrar o sangue\" do familiar morto apenas após respeitado o tempo de luto. Tonho sofreu a morte do irmão mais velho, e agora tem a obrigação de vingar-se."
+      },
+      "en": {
+        "title": "Behind the Sun",
+        "synopsis": "Brazilian badlands, April 1910. Tonho is ordered by his father to avenge the death of his older brother. The young man knows that if he commits this crime, his life will be divided in two: the twenty years he has already lived and the few days he has left to live, before the other family avenges their son's death. He is torn between fulfilling his ancestral duty and rebelling against it, urged by his younger brother Pacu. That's when a tiny travelling circus passes through the vast badlands where Tonho's family lives."
+      }
+    },
+    "synopsis": "Uma família que sobrevive no  sertão através do cultivo de cana-de-açúcar está há tempos em guerra com a família da propriedade vizinha. O conflito dura tanto tempo que até mesmo um ritual meticuloso foi estabelecido, dando direitos de \"cobrar o sangue\" do familiar morto apenas após respeitado o tempo de luto. Tonho sofreu a morte do irmão mais velho, e agora tem a obrigação de vingar-se.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["França", "Suíça", "Brasil"],
+        "genres": ["Drama", "Thriller", "Romance"]
+      },
+      "en": {
+        "countries": ["France", "Switzerland", "Brazil"],
+        "genres": ["Drama", "Thriller", "Romance"]
+      }
+    },
+    "directors": ["Walter Salles"],
+    "countries": ["França", "Suíça", "Brasil"],
+    "genres": ["Drama", "Thriller", "Romance"],
+    "original_languages": ["pt"]
   }
 ]
