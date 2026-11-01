@@ -33703,5 +33703,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000574",
+    "slug": "aquarius-2016",
+    "title": "Aquarius",
+    "year": 2016,
+    "copies": [
+      {
+        "id": "pvca-000574-archive",
+        "resolution": "1080p",
+        "size_gib": 14.251614825800061,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000574-archive",
+    "poster": "/posters/tmdb-377273-szvJDNBx9xYcZsqRSbYA3I03dza.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/aquarius-2016-802p",
+        "copy_id": "pvca-000574-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 377273,
+    "added_at": "2026-11-01",
+    "original_title": "Aquarius",
+    "release_date": "2016-09-01",
+    "runtime_minutes": 145,
+    "imdb_id": "tt5221584",
+    "translations": {
+      "pt-BR": {
+        "title": "Aquarius",
+        "synopsis": "Clara mora de frente para o mar no Aquarius, último prédio de estilo antigo da Av. Boa Viagem, no Recife. Jornalista aposentada e escritora, viúva com três filhos adultos e dona de um aconchegante apartamento repleto de discos e livros, ela irá enfrentar as investidas de uma construtora que tem outros planos para aquele terreno: demolir o Aquarius e dar lugar a um novo empreendimento."
+      },
+      "en": {
+        "title": "Aquarius",
+        "synopsis": "Clara, a vibrant former music critic and widow with flowing tresses is the only remaining apartment owner in a beautiful older building targeted for demolition by ruthless luxury high-rise developers. Clara proves to be a force to be reckoned with as she thwarts the builders plans to kick her out of the apartment."
+      }
+    },
+    "synopsis": "Clara mora de frente para o mar no Aquarius, último prédio de estilo antigo da Av. Boa Viagem, no Recife. Jornalista aposentada e escritora, viúva com três filhos adultos e dona de um aconchegante apartamento repleto de discos e livros, ela irá enfrentar as investidas de uma construtora que tem outros planos para aquele terreno: demolir o Aquarius e dar lugar a um novo empreendimento.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "França"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "France"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Kleber Mendonça Filho"],
+    "countries": ["Brasil", "França"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
