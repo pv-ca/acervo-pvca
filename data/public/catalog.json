@@ -34045,5 +34045,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000580",
+    "slug": "brasilia-18-2006",
+    "title": "Brasília 18%",
+    "year": 2006,
+    "copies": [
+      {
+        "id": "pvca-000580-archive",
+        "resolution": "1080p",
+        "size_gib": 6.1701276646927,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000580-archive",
+    "poster": "/posters/tmdb-249538-6hxLXnqtbetWgOWSZ73ssuE8zm8.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/brasilia-18-2006-1080p",
+        "copy_id": "pvca-000580-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 249538,
+    "added_at": "2026-11-01",
+    "original_title": "Brasília 18%",
+    "release_date": "2006-04-21",
+    "runtime_minutes": 102,
+    "imdb_id": "tt0485366",
+    "translations": {
+      "pt-BR": {
+        "title": "Brasília 18%",
+        "synopsis": "Olavo Bilac (Carlos Alberto Riccelli) é um renomado médico legista que trabalha em Los Angeles. Bilac é convidado pelo Instituto Médico Legal de Brasília a dar seu parecer na perícia de identificação de uma ossada, que supostamente pertence à jovem economista Eugênia Câmara (Karine Carvalho), desaparecida há meses. A decisão de Bilac é cercada de expectativa, pois se for constatado que a ossada é de Eugênia, isto significa que ela foi morta por seu namorado, o cineasta Augusto dos Anjos (Michel Melamed), última pessoa a vê-la antes de seu desaparecimento. Existe o interesse político que Augusto permaneça na cadeia e, em meio às pesquisas através de fotos, vídeos e comentários contraditórios, Bilac termina se apaixonando por Eugênia."
+      },
+      "en": {
+        "title": "Brasília 18%",
+        "synopsis": "A star medical examiner is called to Brasília, the administrative capital of Brazil, to confirm the identity of a beautiful, young congressional aide's dead body. But his scientific rigor soon leads him to details of a multi-layered political scandal."
+      }
+    },
+    "synopsis": "Olavo Bilac (Carlos Alberto Riccelli) é um renomado médico legista que trabalha em Los Angeles. Bilac é convidado pelo Instituto Médico Legal de Brasília a dar seu parecer na perícia de identificação de uma ossada, que supostamente pertence à jovem economista Eugênia Câmara (Karine Carvalho), desaparecida há meses. A decisão de Bilac é cercada de expectativa, pois se for constatado que a ossada é de Eugênia, isto significa que ela foi morta por seu namorado, o cineasta Augusto dos Anjos (Michel Melamed), última pessoa a vê-la antes de seu desaparecimento. Existe o interesse político que Augusto permaneça na cadeia e, em meio às pesquisas através de fotos, vídeos e comentários contraditórios, Bilac termina se apaixonando por Eugênia.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
