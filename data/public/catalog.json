@@ -34599,5 +34599,62 @@
     "countries": ["Brasil", "França"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000589",
+    "slug": "cinema-of-tears-1995",
+    "title": "Cinema of Tears",
+    "year": 1995,
+    "copies": [
+      {
+        "id": "pvca-000589-archive",
+        "resolution": "720p",
+        "size_gib": 1.3192411148920655,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000589-archive",
+    "poster": "/posters/tmdb-341432-hAC7iuYB71Gg1gHClLlJyBw3Hsc.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/cinema-of-tears-1995-720p",
+        "copy_id": "pvca-000589-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 341432,
+    "added_at": "2026-11-01",
+    "original_title": "Cinema de Lágrimas",
+    "release_date": "1995-11-28",
+    "runtime_minutes": 97,
+    "imdb_id": "tt0112676",
+    "translations": {
+      "pt-BR": {
+        "title": "Cinema de Lágrimas",
+        "synopsis": "O ator e diretor Rodrigo, para abstrair do fracasso de seu último trabalho, decide investigar mais a fundo o suicídio de sua mãe que acontecera quando ele ainda era criança. Para isso, ele vai até o México tentar encontrar o filme que sua mãe assistiu antes de se matar, acreditando que os dois eventos estariam relacionados."
+      },
+      "en": {
+        "title": "Cinema of Tears",
+        "synopsis": "An aging Brazilian actor teams up with a film student on a trip to Mexico, in order to find out an unknown movie his mother allegedly watched before she committed suicide."
+      }
+    },
+    "synopsis": "O ator e diretor Rodrigo, para abstrair do fracasso de seu último trabalho, decide investigar mais a fundo o suicídio de sua mãe que acontecera quando ele ainda era criança. Para isso, ele vai até o México tentar encontrar o filme que sua mãe assistiu antes de se matar, acreditando que os dois eventos estariam relacionados.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "México", "Reino Unido"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "Mexico", "United Kingdom"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil", "México", "Reino Unido"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
