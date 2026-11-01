@@ -34273,5 +34273,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000584",
+    "slug": "at-play-in-the-fields-of-the-lord-1991",
+    "title": "At Play in the Fields of the Lord",
+    "year": 1991,
+    "copies": [
+      {
+        "id": "pvca-000584-archive",
+        "resolution": "720p",
+        "size_gib": 4.860793303698301,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000584-archive",
+    "poster": "/posters/tmdb-51515-m9IfIOZtwJPx8bYzbH08Q2JT26F.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/at-play-in-the-fields-of-the-lord-1991-720p",
+        "copy_id": "pvca-000584-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 51515,
+    "added_at": "2026-11-01",
+    "original_title": "At Play in the Fields of the Lord",
+    "release_date": "1991-12-06",
+    "runtime_minutes": 189,
+    "imdb_id": "tt0101373",
+    "translations": {
+      "pt-BR": {
+        "title": "Brincando nos Campos do Senhor",
+        "synopsis": "Um grupo de missionários evangélicos vai para selva amazônica tentar \"pacificar\" a tribo dos Niaruna, um grupo pequeno porém impenetrável de índios que habitam a selva amazônica. Enquanto os religiosos buscam fazer com que os indígenas \"aceitem Jesus\", poderosos estão atrás das terras para explorar o ouro presente na área."
+      },
+      "en": {
+        "title": "At Play in the Fields of the Lord",
+        "synopsis": "Martin and Hazel Quarrier are small-town fundamentalist missionaries sent to the jungles of South America to convert the Indians. Their remote mission was previously run by the Catholics, before the natives murdered them all. They are sent by the pompous Leslie Huben, who runs the missionary effort in the area but who seems more concerned about competing with his Catholic 'rivals' than in the Indians themselves. Hazel is terrified of the Indians while Martin is fascinated. Soon American pilot Lewis Moon joins the Indian tribe but is attracted by Leslie's young wife, Andy. Can the interaction of these characters and cultures, and the advancing bulldozers of civilization, avoid disaster?"
+      }
+    },
+    "synopsis": "Um grupo de missionários evangélicos vai para selva amazônica tentar \"pacificar\" a tribo dos Niaruna, um grupo pequeno porém impenetrável de índios que habitam a selva amazônica. Enquanto os religiosos buscam fazer com que os indígenas \"aceitem Jesus\", poderosos estão atrás das terras para explorar o ouro presente na área.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos"],
+        "genres": ["Drama", "Romance"]
+      },
+      "en": {
+        "countries": ["United States"],
+        "genres": ["Drama", "Romance"]
+      }
+    },
+    "directors": ["Héctor Babenco"],
+    "countries": ["Estados Unidos"],
+    "genres": ["Drama", "Romance"],
+    "original_languages": ["en"]
   }
 ]
