@@ -33646,5 +33646,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000573",
+    "slug": "amazonas-amazonas-1966",
+    "title": "Amazonas, Amazonas",
+    "year": 1966,
+    "copies": [
+      {
+        "id": "pvca-000573-archive",
+        "resolution": "480p",
+        "size_gib": 0.12035599071532488,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000573-archive",
+    "poster": "/posters/tmdb-255926-tJCxKqH6mgjlN7oumLGbjzwP1Vb.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/amazonas-amazonas-1966-368p",
+        "copy_id": "pvca-000573-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 255926,
+    "added_at": "2026-11-01",
+    "original_title": "Amazonas, Amazonas",
+    "release_date": "1966-01-01",
+    "runtime_minutes": 15,
+    "imdb_id": "tt0139832",
+    "translations": {
+      "pt-BR": {
+        "title": "Amazonas, Amazonas",
+        "synopsis": "\"O filme sobre o Amazonas é meu primeiro ensaio em cores. Cheguei no Amazonas com uma idéia preconcebida e descobri que não existia a Amazônia lendária e mágica, a Amazônia dos crocodilos, dos tigres, dos índios etc..\" (GR/RCN, p. 79)  \"(...) as belezas e riquezas naturais da região amazônica. Podemos considerar tipicamente glauberianos: o arrebatamento lírico das tomadas, e a insistência bem característica sobre as preocupações nacionalistas e progressistas do diretor, com a presença muito concreta da imagem das pessoas no trabalho, nas sequências urbanas, e do produto, da mercadoria.\" (SP/GR) (Cinemateca Brasileira)"
+      },
+      "en": {
+        "title": "Amazonas, Amazonas",
+        "synopsis": "A brief look at Amazonas, its population, their costumes, the rich nature and its importance to Brazil and the world."
+      }
+    },
+    "synopsis": "\"O filme sobre o Amazonas é meu primeiro ensaio em cores. Cheguei no Amazonas com uma idéia preconcebida e descobri que não existia a Amazônia lendária e mágica, a Amazônia dos crocodilos, dos tigres, dos índios etc..\" (GR/RCN, p. 79)  \"(...) as belezas e riquezas naturais da região amazônica. Podemos considerar tipicamente glauberianos: o arrebatamento lírico das tomadas, e a insistência bem característica sobre as preocupações nacionalistas e progressistas do diretor, com a presença muito concreta da imagem das pessoas no trabalho, nas sequências urbanas, e do produto, da mercadoria.\" (SP/GR) (Cinemateca Brasileira)",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Glauber Rocha"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
