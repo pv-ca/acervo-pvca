@@ -34330,5 +34330,62 @@
     "countries": ["Estados Unidos"],
     "genres": ["Drama", "Romance"],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000585",
+    "slug": "cat-skin-1962",
+    "title": "Cat Skin",
+    "year": 1962,
+    "copies": [
+      {
+        "id": "pvca-000585-archive",
+        "resolution": "1080p",
+        "size_gib": 1.5147642083466053,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000585-archive",
+    "poster": "/posters/tmdb-258108-fosHDcEJgqq41mQo4wqGy7uDMxI.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/cat-skin-1962-1078p",
+        "copy_id": "pvca-000585-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 258108,
+    "added_at": "2026-11-01",
+    "original_title": "Couro de Gato",
+    "release_date": "1962-05-07",
+    "runtime_minutes": 12,
+    "imdb_id": "tt0054766",
+    "translations": {
+      "pt-BR": {
+        "title": "Couro de Gato",
+        "synopsis": "Na época do carnaval, garotos da favela roubam gatos para vender porque os couros são usados na confecção de tamborins pelas escolas de samba. São mostradas várias situações em que os gatos são alimentados e capturados; um dos garotos pega um gato angorá de uma madame; brinca e divide a sua comida com ele. Ele hesita em vende-lo para o fabricante de tamborins, mas a fome se torna maior que o amor. Vende o gato e desce para a cidade com sua caixa de engraxate."
+      },
+      "en": {
+        "title": "Cat Skin",
+        "synopsis": "A few weeks before Carnival, slum boys organize huntings for stray cats, whose leather can be used in Samba percussion instruments, like the Tamborim, a small drum."
+      }
+    },
+    "synopsis": "Na época do carnaval, garotos da favela roubam gatos para vender porque os couros são usados na confecção de tamborins pelas escolas de samba. São mostradas várias situações em que os gatos são alimentados e capturados; um dos garotos pega um gato angorá de uma madame; brinca e divide a sua comida com ele. Ele hesita em vende-lo para o fabricante de tamborins, mas a fome se torna maior que o amor. Vende o gato e desce para a cidade com sua caixa de engraxate.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
