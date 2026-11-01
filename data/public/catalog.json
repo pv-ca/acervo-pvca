@@ -33817,5 +33817,62 @@
     "countries": ["França", "Suíça", "Brasil"],
     "genres": ["Drama", "Thriller", "Romance"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000576",
+    "slug": "songs-2011",
+    "title": "Songs",
+    "year": 2011,
+    "copies": [
+      {
+        "id": "pvca-000576-archive",
+        "resolution": "1080p",
+        "size_gib": 5.040831232443452,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000576-archive",
+    "poster": "/posters/tmdb-254527-8NGuEg3vPDzk0xNGn287lsI47KP.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/songs-2011-1080p",
+        "copy_id": "pvca-000576-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 254527,
+    "added_at": "2026-11-01",
+    "original_title": "As Canções",
+    "release_date": "2011-12-09",
+    "runtime_minutes": 91,
+    "imdb_id": "tt2139601",
+    "translations": {
+      "pt-BR": {
+        "title": "As Canções",
+        "synopsis": "Simples, documentário cativantemente emocional que mergulha nas canções que marcaram a vida das pessoas. É composto de 18 entrevistas onde o diretor leva os entrevistados a contarem sobre suas vidas através das canções que escolheram.  O produto final são histórias profundas sobre música e sua íntima conexão com a memória, amor, perda, auto-descoberta, arrependimento, morte e a vida."
+      },
+      "en": {
+        "title": "Songs",
+        "synopsis": "Simple, emotionally compelling documentary that delves into the songs that hold meaning in people's lives. It is composed of 18 sessions where the director engages his subjects in conversation about the song they picked. The end product is deeply personal stories about music and its intimate connection to memory, love, loss, self-discovery, regret, death, and life."
+      }
+    },
+    "synopsis": "Simples, documentário cativantemente emocional que mergulha nas canções que marcaram a vida das pessoas. É composto de 18 entrevistas onde o diretor leva os entrevistados a contarem sobre suas vidas através das canções que escolheram.  O produto final são histórias profundas sobre música e sua íntima conexão com a memória, amor, perda, auto-descoberta, arrependimento, morte e a vida.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário", "Música"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary", "Music"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário", "Música"],
+    "original_languages": ["pt"]
   }
 ]
