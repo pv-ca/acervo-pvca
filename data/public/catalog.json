@@ -34713,5 +34713,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000591",
+    "slug": "copacabana-mon-amour-1970",
+    "title": "Copacabana Mon Amour",
+    "year": 1970,
+    "copies": [
+      {
+        "id": "pvca-000591-archive",
+        "resolution": "1080p",
+        "size_gib": 3.3240194488316774,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000591-archive",
+    "poster": "/posters/tmdb-192568-rK8MkVUHV3rPZSLLn21EAkCSV26.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/copacabana-mon-amour-1970-1080p",
+        "copy_id": "pvca-000591-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 192568,
+    "added_at": "2026-11-02",
+    "original_title": "Copacabana Mon Amour",
+    "release_date": "1970-02-13",
+    "runtime_minutes": 85,
+    "imdb_id": "tt0259944",
+    "translations": {
+      "pt-BR": {
+        "title": "Copacabana Mon Amour",
+        "synopsis": "Sônia sonha ser cantora da Rádio Nacional e para conseguir sobreviver se entrega a turistas em Copacabana. Seu irmão Vidimar, empregado doméstico do Dr. Grilo e homossexual, apaixona-se pelo patrão. A mãe de Sônia e Vidimar, uma favelada, acha que ambos estão possuídos pelo demônio. Sônia, que vê espíritos baixarem em seres e objetos os mais estranhos, resolve procurar o pai de Santo Joãozinho da Goméia."
+      },
+      "en": {
+        "title": "Copacabana Mon Amour",
+        "synopsis": "Sônia and her homosexual brother are both believed by their mother to be possessed by the devil. She works as a prostitute in the streets of Copacabana and he’s a servant who falls madly in love with his employer."
+      }
+    },
+    "synopsis": "Sônia sonha ser cantora da Rádio Nacional e para conseguir sobreviver se entrega a turistas em Copacabana. Seu irmão Vidimar, empregado doméstico do Dr. Grilo e homossexual, apaixona-se pelo patrão. A mãe de Sônia e Vidimar, uma favelada, acha que ambos estão possuídos pelo demônio. Sônia, que vê espíritos baixarem em seres e objetos os mais estranhos, resolve procurar o pai de Santo Joãozinho da Goméia.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Comédia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Comedy"]
+      }
+    },
+    "directors": ["Rogério Sganzerla"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Comédia"],
+    "original_languages": ["pt"]
   }
 ]
