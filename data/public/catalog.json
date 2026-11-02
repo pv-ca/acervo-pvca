@@ -34941,5 +34941,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000595",
+    "slug": "my-sweet-orange-tree-2012",
+    "title": "My Sweet Orange Tree",
+    "year": 2012,
+    "copies": [
+      {
+        "id": "pvca-000595-archive",
+        "resolution": "720p",
+        "size_gib": 4.369785778224468,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000595-archive",
+    "poster": "/posters/tmdb-191185-jJYND699sY9XGZfe6om8opueWCC.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/my-sweet-orange-tree-2012-720p",
+        "copy_id": "pvca-000595-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 191185,
+    "added_at": "2026-11-02",
+    "original_title": "Meu Pé de Laranja Lima",
+    "release_date": "2012-09-29",
+    "runtime_minutes": 99,
+    "imdb_id": "tt2402186",
+    "translations": {
+      "pt-BR": {
+        "title": "Meu Pé de Laranja Lima",
+        "synopsis": "Zezé (João Guilherme de Ávila) é um garoto de oito anos que, apesar de levado, tem um bom coração. Ele leva uma vida bem modesta, devido ao fato de que seu pai está desempregado há bastante tempo, e tem o costume de ter longas conversas com um pé de laranja lima que fica no quintal de sua casa. Até que, um dia, conhece Portuga (José de Abreu), um senhor que passa a ajudá-lo e logo se torna seu melhor amigo."
+      },
+      "en": {
+        "title": "My Sweet Orange Tree",
+        "synopsis": "Zezé is an 8 year old boy who, although a naughty boy, has a good heart. He leads a very modest life, due to the fact that his father has been unemployed for a long time, and has the habit of having long conversations with a sweet orange tree which is in his backyard. Until one day he meets Portuga, a man who begins to help him and soon becomes his best friend."
+      }
+    },
+    "synopsis": "Zezé (João Guilherme de Ávila) é um garoto de oito anos que, apesar de levado, tem um bom coração. Ele leva uma vida bem modesta, devido ao fato de que seu pai está desempregado há bastante tempo, e tem o costume de ter longas conversas com um pé de laranja lima que fica no quintal de sua casa. Até que, um dia, conhece Portuga (José de Abreu), um senhor que passa a ajudá-lo e logo se torna seu melhor amigo.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Família"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Family"]
+      }
+    },
+    "directors": ["Marcos Bernstein"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Família"],
+    "original_languages": ["pt"]
   }
 ]
