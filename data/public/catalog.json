@@ -34770,5 +34770,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Comédia"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000592",
+    "slug": "the-alienist-1970",
+    "title": "The Alienist",
+    "year": 1970,
+    "copies": [
+      {
+        "id": "pvca-000592-archive",
+        "resolution": "480p",
+        "size_gib": 1.2819715589284897,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000592-archive",
+    "poster": "/posters/tmdb-147874-ebtCIyezFFoNJow33JTWyCCEord.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-alienist-1970-478p",
+        "copy_id": "pvca-000592-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 147874,
+    "added_at": "2026-11-02",
+    "original_title": "Azyllo Muito Louco",
+    "release_date": "1970-09-21",
+    "runtime_minutes": 100,
+    "imdb_id": "tt0065430",
+    "translations": {
+      "pt-BR": {
+        "title": "Azyllo Muito Louco",
+        "synopsis": "Em outra adaptação literária - desta vez a novela O Alienista de Machado de Assis - e seu primeiro filme colorido, Nelson Pereira dos Santos desencadeia um ataque extravagante e enlouquecedor da ditadura militar brasileira dos anos 1970. Como de costume, o diretor explora todos os elementos cinematográficos em sua paleta - uma trilha sonora radicalmente intrusiva e discordante, edição non sequitur, ângulos de câmera exagerados e todo tipo de espetáculo carnavalesco - para ilustrar a história de um médico."
+      },
+      "en": {
+        "title": "The Alienist",
+        "synopsis": "Father Simão Bacamarte arrives in the small town of Serafim to investigate a certain phenomenon of madness."
+      }
+    },
+    "synopsis": "Em outra adaptação literária - desta vez a novela O Alienista de Machado de Assis - e seu primeiro filme colorido, Nelson Pereira dos Santos desencadeia um ataque extravagante e enlouquecedor da ditadura militar brasileira dos anos 1970. Como de costume, o diretor explora todos os elementos cinematográficos em sua paleta - uma trilha sonora radicalmente intrusiva e discordante, edição non sequitur, ângulos de câmera exagerados e todo tipo de espetáculo carnavalesco - para ilustrar a história de um médico.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia"],
+    "original_languages": ["pt"]
   }
 ]
