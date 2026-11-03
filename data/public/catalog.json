@@ -35226,5 +35226,62 @@
     "countries": ["Brasil"],
     "genres": ["Comédia", "Música", "Romance", "Fantasia"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000600",
+    "slug": "twenty-years-later-1984",
+    "title": "Twenty Years Later",
+    "year": 1984,
+    "copies": [
+      {
+        "id": "pvca-000600-archive",
+        "resolution": "1080p",
+        "size_gib": 10.51972936745733,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000600-archive",
+    "poster": "/posters/tmdb-86320-fdll4h8DHM4W1AXDh44WlfvY1rC.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/twenty-years-later-1984-1080p",
+        "copy_id": "pvca-000600-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 86320,
+    "added_at": "2026-11-03",
+    "original_title": "Cabra Marcado Para Morrer",
+    "release_date": "1984-12-03",
+    "runtime_minutes": 119,
+    "imdb_id": "tt0134402",
+    "translations": {
+      "pt-BR": {
+        "title": "Cabra Marcado Para Morrer",
+        "synopsis": "Um camponês é assassinado e sua história vira tema de um filme. Porém, com o golpe de 1964, a filmagem é suspensa. Dezessete anos depois, o diretor retorna ao local e desperta questões que até então estavam adormecidas."
+      },
+      "en": {
+        "title": "Twenty Years Later",
+        "synopsis": "Eduardo Coutinho was filming a movie with the same name in the Northeast of Brazil, in 1964, when there came the military coup. He had to interrupt the project, and came back to it in 1981, looking for the same places and people, showing what had ocurred since then, and trying to gather a family whose patriarch, a political leader fighting for rights of country people, had been murdered."
+      }
+    },
+    "synopsis": "Um camponês é assassinado e sua história vira tema de um filme. Porém, com o golpe de 1964, a filmagem é suspensa. Dezessete anos depois, o diretor retorna ao local e desperta questões que até então estavam adormecidas.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário", "História"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary", "History"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário", "História"],
+    "original_languages": ["pt"]
   }
 ]
