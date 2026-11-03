@@ -35283,5 +35283,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário", "História"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000601",
+    "slug": "the-palace-of-angels-1970",
+    "title": "The Palace of Angels",
+    "year": 1970,
+    "copies": [
+      {
+        "id": "pvca-000601-archive",
+        "resolution": "480p",
+        "size_gib": 1.2624064777046442,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000601-archive",
+    "poster": "/posters/tmdb-195455-7tug4vN8rPztkYMwRNjAyEq8O6h.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-palace-of-angels-1970-480p",
+        "copy_id": "pvca-000601-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 195455,
+    "added_at": "2026-11-03",
+    "original_title": "O Palácio dos Anjos",
+    "release_date": "1970-05-25",
+    "runtime_minutes": 96,
+    "imdb_id": "tt0189887",
+    "translations": {
+      "pt-BR": {
+        "title": "O Palácio dos Anjos",
+        "synopsis": "Bárbara, uma garota francesa que vive em São Paulo, e duas amigas decidem transformar um pequeno apartamento em um luxuoso bordel, \"O Palácio dos Anjos,\" garantindo dinheiro e sucesso, mas também alguns problemas."
+      },
+      "en": {
+        "title": "The Palace of Angels",
+        "synopsis": "Bárbara, a French girl living in São Paulo, and two friends transform a small apartment into a luxury bordello, \"The Palace of Angels\", at first securing money and success, but..."
+      }
+    },
+    "synopsis": "Bárbara, uma garota francesa que vive em São Paulo, e duas amigas decidem transformar um pequeno apartamento em um luxuoso bordel, \"O Palácio dos Anjos,\" garantindo dinheiro e sucesso, mas também alguns problemas.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "França"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "France"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Walter Hugo Khouri"],
+    "countries": ["Brasil", "França"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
