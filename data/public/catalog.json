@@ -35568,5 +35568,91 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000606",
+    "slug": "apocalypse-in-the-tropics-2025",
+    "title": "Apocalypse in the Tropics",
+    "year": 2025,
+    "copies": [
+      {
+        "id": "pvca-000606-archive",
+        "resolution": "1080p",
+        "size_gib": 4.22581847384572,
+        "format": "MKV",
+        "audio_languages": ["mul"],
+        "subtitle_languages": [
+          "pt-BR",
+          "en",
+          "ar",
+          "hr",
+          "cs",
+          "da",
+          "nl",
+          "fil",
+          "fi",
+          "fr",
+          "de",
+          "el",
+          "he",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "may",
+          "nob",
+          "pl",
+          "ro",
+          "es",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi"
+        ]
+      }
+    ],
+    "catalog_copy_id": "pvca-000606-archive",
+    "poster": "/posters/tmdb-1320400-azeGbAUMGQesSCRMYkUZ6C9y70E.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/apocalypse-in-the-tropics-2025-1080p",
+        "copy_id": "pvca-000606-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 1320400,
+    "added_at": "2026-11-03",
+    "original_title": "Apocalipse nos Trópicos",
+    "release_date": "2025-07-03",
+    "runtime_minutes": 109,
+    "imdb_id": "tt30012657",
+    "translations": {
+      "pt-BR": {
+        "title": "Apocalipse nos Trópicos",
+        "synopsis": "Este documentário de Petra Costa, indicada ao Oscar®, explora o profundo impacto da religião evangélica no cenário político brasileiro."
+      },
+      "en": {
+        "title": "Apocalypse in the Tropics",
+        "synopsis": "Through deep examination, this documentary from Oscar nominee Petra Costa explores the profound impact of evangelism on Brazil's political landscape."
+      }
+    },
+    "synopsis": "Este documentário de Petra Costa, indicada ao Oscar®, explora o profundo impacto da religião evangélica no cenário político brasileiro.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Estados Unidos", "Reino Unido"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil", "United States", "United Kingdom"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Petra Costa"],
+    "countries": ["Brasil", "Estados Unidos", "Reino Unido"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
