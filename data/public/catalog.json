@@ -35454,5 +35454,62 @@
     "countries": ["Brasil", "Itália"],
     "genres": ["Drama", "Documentário"],
     "original_languages": ["it"]
+  },
+  {
+    "id": "PVCA-000604",
+    "slug": "cutting-heads-1970",
+    "title": "Cutting Heads",
+    "year": 1970,
+    "copies": [
+      {
+        "id": "pvca-000604-archive",
+        "resolution": "480p",
+        "size_gib": 0.6766346506774426,
+        "format": "MKV",
+        "audio_languages": ["es"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000604-archive",
+    "poster": "/posters/cutting-heads-1970-368p.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/cutting-heads-1970-368p",
+        "copy_id": "pvca-000604-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 222843,
+    "added_at": "2026-11-03",
+    "original_title": "Cabezas cortadas",
+    "release_date": "1970-10-16",
+    "runtime_minutes": 95,
+    "imdb_id": "tt0065512",
+    "translations": {
+      "pt-BR": {
+        "title": "Cabeças Cortadas",
+        "synopsis": "Cabeças Cortadas é um filme hispano-brasileiro de 1970, do gênero ficção, cuja direção e roteiro são do cineasta Glauber Rocha."
+      },
+      "en": {
+        "title": "Cutting Heads",
+        "synopsis": "In a castle, somewhere in the Thirld World, Diaz is delirious, dreaming of the power he had in Eldorado, while oppressing the indians, workers and peasants. He is well aware of the menace his old victims represent, while a miracle-making shepherd fascinates and frightens him. Diaz finds a countrywoman, symbol of purity, and prepares a ceremony in his castle resembling his own funeral."
+      }
+    },
+    "synopsis": "Cabeças Cortadas é um filme hispano-brasileiro de 1970, do gênero ficção, cuja direção e roteiro são do cineasta Glauber Rocha.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Espanha"],
+        "genres": ["História", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "Spain"],
+        "genres": ["History", "Drama"]
+      }
+    },
+    "directors": ["Glauber Rocha"],
+    "countries": ["Brasil", "Espanha"],
+    "genres": ["História", "Drama"],
+    "original_languages": ["es"]
   }
 ]
