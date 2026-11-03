@@ -34998,5 +34998,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Família"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000596",
+    "slug": "in-the-heart-of-the-world-2019",
+    "title": "In the Heart of the World",
+    "year": 2019,
+    "copies": [
+      {
+        "id": "pvca-000596-archive",
+        "resolution": "1080p",
+        "size_gib": 6.404327992349863,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000596-archive",
+    "poster": "/posters/tmdb-573661-3joNfpbBYLZo81FkU12jRfjVqRw.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/in-the-heart-of-the-world-2019-1080p",
+        "copy_id": "pvca-000596-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 573661,
+    "added_at": "2026-11-03",
+    "original_title": "No Coração do Mundo",
+    "release_date": "2019-08-01",
+    "runtime_minutes": 121,
+    "imdb_id": "tt9646768",
+    "translations": {
+      "pt-BR": {
+        "title": "No Coração do Mundo",
+        "synopsis": "Na periferia de Contagem, Marcos busca uma saída para sua rotina de bicos e pequenos delitos. Surge uma oportunidade arriscada, mas que pode solucionar todos seus problemas. Para isso, ele precisa convencer sua namorada, Ana, a se juntarem a Selma e executarem o plano que pode mudar suas vidas para sempre."
+      },
+      "en": {
+        "title": "In the Heart of the World",
+        "synopsis": "The inhabitants of the Brazilian city of Contagem yearn for a better life. At the core of it all is Selma, a woman dreaming about the heart of the world: it could be anywhere, as long as it's a place where to feel happier."
+      }
+    },
+    "synopsis": "Na periferia de Contagem, Marcos busca uma saída para sua rotina de bicos e pequenos delitos. Surge uma oportunidade arriscada, mas que pode solucionar todos seus problemas. Para isso, ele precisa convencer sua namorada, Ana, a se juntarem a Selma e executarem o plano que pode mudar suas vidas para sempre.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Crime"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Crime"]
+      }
+    },
+    "directors": ["Gabriel Martins", "Maurílio Martins"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Crime"],
+    "original_languages": ["pt"]
   }
 ]
