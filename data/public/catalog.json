@@ -35112,5 +35112,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000598",
+    "slug": "the-sign-of-chaos-2003",
+    "title": "The Sign of Chaos",
+    "year": 2003,
+    "copies": [
+      {
+        "id": "pvca-000598-archive",
+        "resolution": "720p",
+        "size_gib": 2.087798303924501,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000598-archive",
+    "poster": "/posters/tmdb-183059-tsT6xjexwybfXuEmedmGQDV5y0r.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-sign-of-chaos-2003-720p",
+        "copy_id": "pvca-000598-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 183059,
+    "added_at": "2026-11-03",
+    "original_title": "O Signo do Caos",
+    "release_date": "2003-09-25",
+    "runtime_minutes": 80,
+    "imdb_id": "tt0389377",
+    "translations": {
+      "pt-BR": {
+        "title": "O Signo do Caos",
+        "synopsis": "Chega na alfândega do Rio de Janeiro uma carga cinematográfica, que precisa ser analisada pelo serviço de censura do governo. O responsável pela análise é o Dr. Amnésio, que impõe sua falta de idéias aos funcionários do local, que se divertem mutilando um material considerado realista demais."
+      },
+      "en": {
+        "title": "The Sign of Chaos",
+        "synopsis": "A customs agent, Dr. Amnésio, examines some reels of film, a documentary Orson Welles made about Brazil, and tries to confiscate the material. Then, a party in which repression agents celebrate their victory against freedom and creativity."
+      }
+    },
+    "synopsis": "Chega na alfândega do Rio de Janeiro uma carga cinematográfica, que precisa ser analisada pelo serviço de censura do governo. O responsável pela análise é o Dr. Amnésio, que impõe sua falta de idéias aos funcionários do local, que se divertem mutilando um material considerado realista demais.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Rogério Sganzerla"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
