@@ -35711,5 +35711,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000608",
+    "slug": "raizes-do-brasil-2004",
+    "title": "Raízes do Brasil",
+    "year": 2004,
+    "copies": [
+      {
+        "id": "pvca-000608-archive",
+        "resolution": "480p",
+        "size_gib": 1.956399105489254,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000608-archive",
+    "poster": "/posters/tmdb-272404-qMDdu2xkh4K9OuiJbXQ2GclVnhb.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/raizes-do-brasil-2004-364p",
+        "copy_id": "pvca-000608-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 272404,
+    "added_at": "2026-11-03",
+    "translations": {
+      "pt-BR": {
+        "title": "Raízes do Brasil",
+        "synopsis": "Documentário em duas partes sobre o escritor, jornalista e sociólogo brasileiro Sérgio Buarque de Holanda. A primeira parte mostra como o autor passava os dias com a família e os amigos; a segunda oferece um panorama histórico da época, incluindo sua reação ao nazismo e os anos da ditadura de Vargas, e a chegada do movimento modernista ao Brasil."
+      },
+      "en": {
+        "title": "Raízes do Brasil",
+        "synopsis": "Documentary in two parts about Brazilian writer, journalist and sociologist Sérgio Buarque de Holanda. The first part describes how the author used to pass his days with family and friends, while the second offers a historical panorama of the times, including his reaction to Nazism and the years of Vargas’ dictatorship, and the arrival of the modernist movement in Brazil."
+      }
+    },
+    "original_title": "Raízes do Brasil",
+    "release_date": "2004-03-19",
+    "runtime_minutes": 150,
+    "imdb_id": "tt0826612",
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
