@@ -35511,5 +35511,62 @@
     "countries": ["Brasil", "Espanha"],
     "genres": ["História", "Drama"],
     "original_languages": ["es"]
+  },
+  {
+    "id": "PVCA-000605",
+    "slug": "santa-marta-duas-semanas-no-morro-1987",
+    "title": "Santa Marta: Duas Semanas no Morro",
+    "year": 1987,
+    "copies": [
+      {
+        "id": "pvca-000605-archive",
+        "resolution": "480p",
+        "size_gib": 0.7248325338587165,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000605-archive",
+    "poster": "/posters/tmdb-254751-jBehhVRMHIFAFYHkb2wIWOSsE3O.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/santa-marta-duas-semanas-no-morro-1987-464p",
+        "copy_id": "pvca-000605-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 254751,
+    "added_at": "2026-11-03",
+    "translations": {
+      "pt-BR": {
+        "title": "Santa Marta: Duas Semanas no Morro",
+        "synopsis": "O cotidiano de uma favela na Zona Norte do Rio de Janeiro, onde vivem 10 mil pessoas em condições precárias, seus problemas e a questão da violência policial."
+      },
+      "en": {
+        "title": "Santa Marta: Duas Semanas no Morro",
+        "synopsis": "The daily life in a shantytown in the north part of Rio de Janeiro, with 10,000 people living in bad conditions, their problems and the issue of police violence."
+      }
+    },
+    "original_title": "Santa Marta: Duas Semanas no Morro",
+    "release_date": "1987-12-31",
+    "runtime_minutes": 54,
+    "imdb_id": "tt0308845",
+    "synopsis": null,
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
