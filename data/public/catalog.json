@@ -35169,5 +35169,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000599",
+    "slug": "necropolis-symphony-2014",
+    "title": "Necropolis Symphony",
+    "year": 2014,
+    "copies": [
+      {
+        "id": "pvca-000599-archive",
+        "resolution": "720p",
+        "size_gib": 1.2812931276857853,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000599-archive",
+    "poster": "/posters/tmdb-288436-IGRxaEUtxTzLI0P5lnXhbIg1QN.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/necropolis-symphony-2014-720p",
+        "copy_id": "pvca-000599-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 288436,
+    "added_at": "2026-11-03",
+    "original_title": "Sinfonia da Necrópole",
+    "release_date": "2014-11-28",
+    "runtime_minutes": 86,
+    "imdb_id": "tt3906650",
+    "translations": {
+      "pt-BR": {
+        "title": "Sinfonia da Necrópole",
+        "synopsis": "Deodato é um coveiro em São Paulo. Sua rotina muda com a chegada de uma funcionária do serviço funerário. Para maximizar os lucros, devem remover os restos mortais de certos túmulos para voltar a colocá-los no mercado. Estranhos eventos os obrigam a pensar duas vezes sobre mexer com os mortos."
+      },
+      "en": {
+        "title": "Necropolis Symphony",
+        "synopsis": "In the city of São Paulo, the routine of gravedigger apprentice Deodato changes when a new working girl arrives at the cemetery. Together, they must re-register the abandoned tombs, but strange events make the apprentice wonder about the consequences of messing with the dead."
+      }
+    },
+    "synopsis": "Deodato é um coveiro em São Paulo. Sua rotina muda com a chegada de uma funcionária do serviço funerário. Para maximizar os lucros, devem remover os restos mortais de certos túmulos para voltar a colocá-los no mercado. Estranhos eventos os obrigam a pensar duas vezes sobre mexer com os mortos.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Música", "Romance", "Fantasia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Music", "Romance", "Fantasy"]
+      }
+    },
+    "directors": ["Juliana Rojas"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Música", "Romance", "Fantasia"],
+    "original_languages": ["pt"]
   }
 ]
