@@ -36308,5 +36308,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000618",
+    "slug": "el-justicero-1967",
+    "title": "El Justicero",
+    "year": 1967,
+    "copies": [
+      {
+        "id": "pvca-000618-archive",
+        "resolution": "480p",
+        "size_gib": 1.4336754409596324,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000618-archive",
+    "poster": "/posters/el-justicero-1967-384p.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/el-justicero-1967-384p",
+        "copy_id": "pvca-000618-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 147314,
+    "added_at": "2026-11-04",
+    "original_title": "El Justicero",
+    "release_date": "1967-04-13",
+    "runtime_minutes": 80,
+    "imdb_id": "tt0061853",
+    "translations": {
+      "pt-BR": {
+        "title": "El Justicero",
+        "synopsis": "Um sequencia estranhamente irreverente da austeridade rural de Vidas Secas, a sátira social Godardiana de Nelson Pereira dos Santos deve mais do que um aceno para as antics autoconscientes da nova onda francesa. O filho mimado de um general, El Justicero é um playboy hipster que se imagina um herói urbano, uma mistura de James Bond com Paul Paul Sartre. \"Arqueológico\" ainda \"cheio de contradições\", ele vê que a justiça é alcançada para os desfavorecidos, aproveitando certas vantagens burguesas. Suas façanhas são seguidas de perto e eventualmente dirigidas pelo biógrafo que decide que um filme não é apenas mais lucrativo do que um livro, mas dá-lhe o luxo de revisar as cenas anteriores. Ao contrário de Bond, El Jus eventualmente experimenta um despertar que ameaça comprometer o valor do entretenimento e o glamour da história de sua vida. - Harvard Film Archive"
+      },
+      "en": {
+        "title": "El Justicero",
+        "synopsis": "A shockingly irreverent follow-up to the rural austerity of Barren Lives, dos Santos’ Godardian social satire owes more than a nod to the self-conscious antics of the French New Wave. The pampered son of a general, El Justicero is a hipster playboy who fancies himself a James Bond/Jean Paul Sartre urban hero. “Archetypical” yet “full of contradictions,” he sees that justice is achieved for the disadvantaged while taking advantage of certain bourgeois perks. His exploits are closely followed and eventually directed by his biographer who decides a film is not only more lucrative than a book, but it gives him the luxury of reviewing previous scenes. Unlike Bond, El Jus eventually experiences an awakening which threatens to compromise the entertainment value and glamour of his life story. - Harvard Film Archive"
+      }
+    },
+    "synopsis": "Um sequencia estranhamente irreverente da austeridade rural de Vidas Secas, a sátira social Godardiana de Nelson Pereira dos Santos deve mais do que um aceno para as antics autoconscientes da nova onda francesa. O filho mimado de um general, El Justicero é um playboy hipster que se imagina um herói urbano, uma mistura de James Bond com Paul Paul Sartre. \"Arqueológico\" ainda \"cheio de contradições\", ele vê que a justiça é alcançada para os desfavorecidos, aproveitando certas vantagens burguesas. Suas façanhas são seguidas de perto e eventualmente dirigidas pelo biógrafo que decide que um filme não é apenas mais lucrativo do que um livro, mas dá-lhe o luxo de revisar as cenas anteriores. Ao contrário de Bond, El Jus eventualmente experimenta um despertar que ameaça comprometer o valor do entretenimento e o glamour da história de sua vida. - Harvard Film Archive",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Romance"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Romance"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Romance"],
+    "original_languages": ["pt"]
   }
 ]
