@@ -37049,5 +37049,62 @@
     "countries": ["Brasil"],
     "genres": ["Comédia"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000631",
+    "slug": "ironweed-1987",
+    "title": "Ironweed",
+    "year": 1987,
+    "copies": [
+      {
+        "id": "pvca-000631-archive",
+        "resolution": "1080p",
+        "size_gib": 19.323695862665772,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["en", "ro"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000631-archive",
+    "poster": "/posters/tmdb-40962-gqugkL0Ommznugmb0Tdl3NMhMMx.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/ironweed-1987-1038p",
+        "copy_id": "pvca-000631-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 40962,
+    "added_at": "2026-11-04",
+    "original_title": "Ironweed",
+    "release_date": "1987-12-18",
+    "runtime_minutes": 143,
+    "imdb_id": "tt0093277",
+    "translations": {
+      "pt-BR": {
+        "title": "Ironweed",
+        "synopsis": "Um vagabundo alcoólatra passa o Dia das Bruxas em sua cidade natal, Albany, Nova York, depois de voltar para lá pela primeira vez em décadas.  Albany, Nova York, Halloween, 1938. Francis Phelan e Helen Archer são vagabundos, de volta à cidade natal. Ela era uma cantora no rádio, ele um arremessador da liga principal. A morte os rodeia: ela está doente, um amigo tem câncer, ele cava covas no cemitério e visita a cova de seu filho recém-nascido, a quem ele deixou cair; visões de seu passado o assombram, incluindo fantasmas de dois homens que ele matou. Naquela noite, bebendo, Helen tenta cantar em um bar. No dia seguinte, Fran visita sua esposa e filhos e conhece um neto. Ele poderia ficar, mas decide que não é para ele. Helen tira suas coisas do estoque e encontra um hotel. Entre seus erros e negligência, o filme explora seu código de justiça e lealdade. (e 16 - Estimado 16 Anos)"
+      },
+      "en": {
+        "title": "Ironweed",
+        "synopsis": "An alcoholic drifter spends Halloween in his hometown of Albany, New York after returning there for the first time in decades."
+      }
+    },
+    "synopsis": "Um vagabundo alcoólatra passa o Dia das Bruxas em sua cidade natal, Albany, Nova York, depois de voltar para lá pela primeira vez em décadas.  Albany, Nova York, Halloween, 1938. Francis Phelan e Helen Archer são vagabundos, de volta à cidade natal. Ela era uma cantora no rádio, ele um arremessador da liga principal. A morte os rodeia: ela está doente, um amigo tem câncer, ele cava covas no cemitério e visita a cova de seu filho recém-nascido, a quem ele deixou cair; visões de seu passado o assombram, incluindo fantasmas de dois homens que ele matou. Naquela noite, bebendo, Helen tenta cantar em um bar. No dia seguinte, Fran visita sua esposa e filhos e conhece um neto. Ele poderia ficar, mas decide que não é para ele. Helen tira suas coisas do estoque e encontra um hotel. Entre seus erros e negligência, o filme explora seu código de justiça e lealdade. (e 16 - Estimado 16 Anos)",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["United States"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Héctor Babenco"],
+    "countries": ["Estados Unidos"],
+    "genres": ["Drama"],
+    "original_languages": ["en"]
   }
 ]
