@@ -35825,5 +35825,62 @@
     "countries": ["Brasil"],
     "genres": ["Comédia", "Aventura", "História"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000610",
+    "slug": "unlearning-to-sleep-2021",
+    "title": "Unlearning to Sleep",
+    "year": 2021,
+    "copies": [
+      {
+        "id": "pvca-000610-archive",
+        "resolution": "1080p",
+        "size_gib": 1.7637523729354143,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000610-archive",
+    "poster": "/posters/tmdb-821232-ob0EHwBrRk1fEUS7VEEScuYwAeu.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/unlearning-to-sleep-2021-1080p",
+        "copy_id": "pvca-000610-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 821232,
+    "added_at": "2026-11-04",
+    "original_title": "Desaprender a Dormir",
+    "release_date": "2021-07-15",
+    "runtime_minutes": 96,
+    "imdb_id": "tt14867180",
+    "translations": {
+      "pt-BR": {
+        "title": "Desaprender a Dormir",
+        "synopsis": "Flávio perde o apetite sexual editando vídeos pornográficos. José, seu marido, está tentando criar uma equação que determine quando os humanos colonizarão Marte. Flávio está focado em uma jornada mais interna, e José está tentando encontrar maneiras de trazer de volta a luxúria de Flávio. Enquanto isso, Hypnos, deus do sono e YouTuber, tenta devolver às pessoas a arte..."
+      },
+      "en": {
+        "title": "Unlearning to Sleep",
+        "synopsis": "Flávio loses his sexual appetite editing porn videos. José, his husband, is trying to create an equation that determines when humans will colonize Mars. Flávio is focused on a more internal journey, and José is trying to find ways to bring Flávio's lust back. Meanwhile, Hypnos, god of sleep and youtuber, tries to give people back the art of rest."
+      }
+    },
+    "synopsis": "Flávio perde o apetite sexual editando vídeos pornográficos. José, seu marido, está tentando criar uma equação que determine quando os humanos colonizarão Marte. Flávio está focado em uma jornada mais interna, e José está tentando encontrar maneiras de trazer de volta a luxúria de Flávio. Enquanto isso, Hypnos, deus do sono e YouTuber, tenta devolver às pessoas a arte...",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy"]
+      }
+    },
+    "directors": ["Gustavo Vinagre"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia"],
+    "original_languages": ["pt"]
   }
 ]
