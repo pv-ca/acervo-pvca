@@ -36194,5 +36194,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000616",
+    "slug": "the-end-of-man-1971",
+    "title": "The End of Man",
+    "year": 1971,
+    "copies": [
+      {
+        "id": "pvca-000616-archive",
+        "resolution": "1080p",
+        "size_gib": 14.694016206078231,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000616-archive",
+    "poster": "/posters/tmdb-51733-aEnHSpPQl8mMjNlNrZtZ5NDYvkb.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-end-of-man-1971-1080p",
+        "copy_id": "pvca-000616-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 51733,
+    "added_at": "2026-11-04",
+    "original_title": "Finis Hominis",
+    "release_date": "1971-12-18",
+    "runtime_minutes": 79,
+    "imdb_id": "tt0067099",
+    "translations": {
+      "pt-BR": {
+        "title": "Finis Hominis",
+        "synopsis": "Um homem completamente nu emerge do mar e caminha tranquilamente pelas ruas da cidade, causando espanto geral e interferindo de várias maneiras em episódios cotidianos, sempre em busca da justiça. Por acaso, evita o rapto de uma criança e a mãe da menina, em reconhecimento, leva-o para casa e lhe dá uma roupa, que ele mesmo escolhe dentre muitas - uma fantasia. Fantasiado, continua sua caminhada pelas ruas, chamando novamente sobre si a atenção de todos que o tomam como um novo Cristo. Assumindo o nome Finis Hominis (\"O Fim do Homem\" em latim), ele é tido pela população como um messias moderno, capaz de operar milagres."
+      },
+      "en": {
+        "title": "The End of Man",
+        "synopsis": "A naked stranger emerges from the sea to perform miracles in a nearby town and become a modern messiah whose deeds will affect the whole world."
+      }
+    },
+    "synopsis": "Um homem completamente nu emerge do mar e caminha tranquilamente pelas ruas da cidade, causando espanto geral e interferindo de várias maneiras em episódios cotidianos, sempre em busca da justiça. Por acaso, evita o rapto de uma criança e a mãe da menina, em reconhecimento, leva-o para casa e lhe dá uma roupa, que ele mesmo escolhe dentre muitas - uma fantasia. Fantasiado, continua sua caminhada pelas ruas, chamando novamente sobre si a atenção de todos que o tomam como um novo Cristo. Assumindo o nome Finis Hominis (\"O Fim do Homem\" em latim), ele é tido pela população como um messias moderno, capaz de operar milagres.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Mistério", "Comédia", "Fantasia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Mystery", "Comedy", "Fantasy"]
+      }
+    },
+    "directors": ["José Mojica Marins"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Mistério", "Comédia", "Fantasia"],
+    "original_languages": ["pt"]
   }
 ]
