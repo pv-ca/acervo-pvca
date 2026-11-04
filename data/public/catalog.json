@@ -36365,5 +36365,62 @@
     "countries": ["Brasil"],
     "genres": ["Comédia", "Romance"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000619",
+    "slug": "fake-blonde-2007",
+    "title": "Fake Blonde",
+    "year": 2007,
+    "copies": [
+      {
+        "id": "pvca-000619-archive",
+        "resolution": "480p",
+        "size_gib": 2.2305176639929414,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000619-archive",
+    "poster": "/posters/tmdb-169497-L2dOCvyvMnXGhgIt2kjnkKw6cU.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/fake-blonde-2007-364p",
+        "copy_id": "pvca-000619-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 169497,
+    "added_at": "2026-11-04",
+    "original_title": "Falsa Loura",
+    "release_date": "2007-11-24",
+    "runtime_minutes": 105,
+    "imdb_id": "tt1059921",
+    "translations": {
+      "pt-BR": {
+        "title": "Falsa Loura",
+        "synopsis": "Silmara é uma bela operária que sustenta seu pai, Antero, um ex-presidiário que foi deformado pelo fogo. Ela tenta a todo custo manter um relacionamento amigável com ele e com seu irmão caçula, Tê, ao mesmo tempo em que mantém um relacionamento ambíguo com a professora de dança Regina. Na fábrica em que trabalha Silmara é incentivada a ajudar Briducha, uma mulher tímida e solitária. As duas e Regina vão ao show do grupo Bruno e os Andrés, onde Silmara conhece e se envolve com Bruno de André, ídolo da banda. Logo Silmara se torna o sonho de suas amigas, por representar a chance de uma rápida ascensão social."
+      },
+      "en": {
+        "title": "Fake Blonde",
+        "synopsis": "Silmara, an industrial worker and a woman of exuberant beauty, supports her arsonist father and gets involved with two different pop stars, from whom she learns traumatic life lessons."
+      }
+    },
+    "synopsis": "Silmara é uma bela operária que sustenta seu pai, Antero, um ex-presidiário que foi deformado pelo fogo. Ela tenta a todo custo manter um relacionamento amigável com ele e com seu irmão caçula, Tê, ao mesmo tempo em que mantém um relacionamento ambíguo com a professora de dança Regina. Na fábrica em que trabalha Silmara é incentivada a ajudar Briducha, uma mulher tímida e solitária. As duas e Regina vão ao show do grupo Bruno e os Andrés, onde Silmara conhece e se envolve com Bruno de André, ídolo da banda. Logo Silmara se torna o sonho de suas amigas, por representar a chance de uma rápida ascensão social.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Drama"]
+      }
+    },
+    "directors": ["Carlos Reichenbach"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
