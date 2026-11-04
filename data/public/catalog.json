@@ -35768,5 +35768,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000609",
+    "slug": "how-tasty-was-my-little-frenchman-1971",
+    "title": "How Tasty Was My Little Frenchman",
+    "year": 1971,
+    "copies": [
+      {
+        "id": "pvca-000609-archive",
+        "resolution": "1080p",
+        "size_gib": 6.534392466768622,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000609-archive",
+    "poster": "/posters/tmdb-105347-8tH8tfxJWkJIAA4TqLN0TVFctMe.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/how-tasty-was-my-little-frenchman-1971-1080p",
+        "copy_id": "pvca-000609-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 105347,
+    "added_at": "2026-11-04",
+    "original_title": "Como Era Gostoso o Meu Francês",
+    "release_date": "1971-06-01",
+    "runtime_minutes": 84,
+    "imdb_id": "tt0066936",
+    "translations": {
+      "pt-BR": {
+        "title": "Como Era Gostoso o Meu Francês",
+        "synopsis": "No Brasil de 1594, um aventureiro francês prisioneiro dos Tupinambás escapa da morte graças aos seus conhecimentos de artilharia. Segundo a cultura Tupinambás, é preciso devorar o inimigo para adquirir todos os seus poderes, no caso saber utilizar a pólvora e os canhões. Enquanto aguarda ser executado, o francês aprende os hábitos dos Tupinambás e se une a uma índia e através dela toma conhecimento de um tesouro enterrado e decide fugir. A índia se recusa a segui-lo e após a batalha com a tribo inimiga, o chefe Cunhambebe marca a data da execução: o ritual antropofágico será parte das comemorações pela vitória."
+      },
+      "en": {
+        "title": "How Tasty Was My Little Frenchman",
+        "synopsis": "In 1594 Brazil, a frenchman becomes a prisoner of the Tupinambás. While waiting to be executed, the foreigner learns the habits of the indigenous people and joins a woman who tries to help him escape."
+      }
+    },
+    "synopsis": "No Brasil de 1594, um aventureiro francês prisioneiro dos Tupinambás escapa da morte graças aos seus conhecimentos de artilharia. Segundo a cultura Tupinambás, é preciso devorar o inimigo para adquirir todos os seus poderes, no caso saber utilizar a pólvora e os canhões. Enquanto aguarda ser executado, o francês aprende os hábitos dos Tupinambás e se une a uma índia e através dela toma conhecimento de um tesouro enterrado e decide fugir. A índia se recusa a segui-lo e após a batalha com a tribo inimiga, o chefe Cunhambebe marca a data da execução: o ritual antropofágico será parte das comemorações pela vitória.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Aventura", "História"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Adventure", "History"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Aventura", "História"],
+    "original_languages": ["pt"]
   }
 ]
