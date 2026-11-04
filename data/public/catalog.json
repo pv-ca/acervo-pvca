@@ -35939,5 +35939,89 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000612",
+    "slug": "divine-love-2019",
+    "title": "Divine Love",
+    "year": 2019,
+    "copies": [
+      {
+        "id": "pvca-000612-archive",
+        "resolution": "1080p",
+        "size_gib": 11.143578101880848,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000612-archive",
+    "poster": "/posters/tmdb-504592-drfb2OVV6mKnJqY4EUl6OHREk2l.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/divine-love-2019-806p",
+        "copy_id": "pvca-000612-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 504592,
+    "added_at": "2026-11-04",
+    "original_title": "Divino Amor",
+    "release_date": "2019-06-27",
+    "runtime_minutes": 100,
+    "imdb_id": "tt8311958",
+    "translations": {
+      "pt-BR": {
+        "title": "Divino Amor",
+        "synopsis": "Brasil, 2027. Uma mulher profundamente religiosa usa sua posição em um cartório para evitar o divórcio entre casais em dificuldades. Enquanto espera por um sinal de reconhecimento pelos seus esforços, ela se vê confrontada com uma crise no seu próprio casamento que a aproxima ainda mais de Deus."
+      },
+      "en": {
+        "title": "Divine Love",
+        "synopsis": "In 2027 Brazil, civil servant Joana mainly deals with divorce cases. As a member of a branch of evangelical Christians known as the Divino Amor group, she uses her position to offer a kind of physical therapy to couples who want to separate. Although Joana and  her husband Danilo regularly consummate their marriage, neither her constant prayers nor any other methods of assistance seem to be able to fulfill their desire for a child."
+      }
+    },
+    "synopsis": "Brasil, 2027. Uma mulher profundamente religiosa usa sua posição em um cartório para evitar o divórcio entre casais em dificuldades. Enquanto espera por um sinal de reconhecimento pelos seus esforços, ela se vê confrontada com uma crise no seu próprio casamento que a aproxima ainda mais de Deus.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": [
+          "Brasil",
+          "Chile",
+          "Dinamarca",
+          "Noruega",
+          "Suécia",
+          "Uruguai",
+          "Suíça",
+          "França"
+        ],
+        "genres": ["Drama", "Ficção científica"]
+      },
+      "en": {
+        "countries": [
+          "Brazil",
+          "Chile",
+          "Denmark",
+          "Norway",
+          "Sweden",
+          "Uruguay",
+          "Switzerland",
+          "France"
+        ],
+        "genres": ["Drama", "Science Fiction"]
+      }
+    },
+    "directors": ["Gabriel Mascaro"],
+    "countries": [
+      "Brasil",
+      "Chile",
+      "Dinamarca",
+      "Noruega",
+      "Suécia",
+      "Uruguai",
+      "Suíça",
+      "França"
+    ],
+    "genres": ["Drama", "Ficção científica"],
+    "original_languages": ["pt"]
   }
 ]
