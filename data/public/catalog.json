@@ -36422,5 +36422,62 @@
     "countries": ["Brasil"],
     "genres": ["Comédia", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000620",
+    "slug": "movie-dementia-1986",
+    "title": "Movie Dementia",
+    "year": 1986,
+    "copies": [
+      {
+        "id": "pvca-000620-archive",
+        "resolution": "480p",
+        "size_gib": 1.7773881424218416,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000620-archive",
+    "poster": "/posters/tmdb-167468-t9pGS7czbALKSr1hQ8dZ4IzZEzk.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/movie-dementia-1986-476p",
+        "copy_id": "pvca-000620-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 167468,
+    "added_at": "2026-11-04",
+    "original_title": "Filme Demência",
+    "release_date": "1986-10-15",
+    "runtime_minutes": 92,
+    "imdb_id": "tt0091049",
+    "translations": {
+      "pt-BR": {
+        "title": "Filme Demência",
+        "synopsis": "Um pequeno industrial de cigarros, falido economicamente e em crise doméstica, é praticamente exilado da casa pela mulher e passa a refugiar-se em visões e alucinações. Como na lenda de Fausto, terá de encontrar seu correspondente Mefisto, que durante a história lhe aparecerá de várias formas e personalidades."
+      },
+      "en": {
+        "title": "Movie Dementia",
+        "synopsis": "Transposition of the myth of Faust to modern Brazil. The heir to a bankrupt cigarette factory, amidst a personal crisis, leaves everything behind and heads for a supposed paradise he has seen in a tourist agency, where he believes he could find self-knowledge. In his search, he is inspired by a Mephisto-like character."
+      }
+    },
+    "synopsis": "Um pequeno industrial de cigarros, falido economicamente e em crise doméstica, é praticamente exilado da casa pela mulher e passa a refugiar-se em visões e alucinações. Como na lenda de Fausto, terá de encontrar seu correspondente Mefisto, que durante a história lhe aparecerá de várias formas e personalidades.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Fantasia", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Fantasy", "Drama"]
+      }
+    },
+    "directors": ["Carlos Reichenbach"],
+    "countries": ["Brasil"],
+    "genres": ["Fantasia", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
