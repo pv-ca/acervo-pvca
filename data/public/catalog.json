@@ -36593,5 +36593,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Romance"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000623",
+    "slug": "glauber-rocha-the-movie-brazil-s-labyrinth-2003",
+    "title": "Glauber Rocha - The Movie, Brazil's Labyrinth",
+    "year": 2003,
+    "copies": [
+      {
+        "id": "pvca-000623-archive",
+        "resolution": "480p",
+        "size_gib": 2.1434610737487674,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000623-archive",
+    "poster": "/posters/tmdb-317994-kspE38nbLOLLmJe7T52ya3U2Xqi.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/glauber-rocha-the-movie-brazil-s-labyrinth-2003-480p",
+        "copy_id": "pvca-000623-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 317994,
+    "added_at": "2026-11-04",
+    "original_title": "Glauber o Filme, Labirinto do Brasil",
+    "release_date": "2003-09-17",
+    "runtime_minutes": 97,
+    "imdb_id": "tt0395560",
+    "translations": {
+      "pt-BR": {
+        "title": "Glauber o Filme, Labirinto do Brasil",
+        "synopsis": "A vida e a morte, aos 42 anos, do polêmico Glauber Rocha, mito do cinema nacional e diretor de \"Deus e o Diabo na Terra do Sol\", entre outras obras célebres. Com depoimentos de colegas e amigos do diretor."
+      },
+      "en": {
+        "title": "Glauber Rocha - The Movie, Brazil's Labyrinth",
+        "synopsis": "Documentary about Brazilian filmmaker Glauber Rocha, one of the most important names in the Cinema Novo, with interviews with some of his friends and colleagues."
+      }
+    },
+    "synopsis": "A vida e a morte, aos 42 anos, do polêmico Glauber Rocha, mito do cinema nacional e diretor de \"Deus e o Diabo na Terra do Sol\", entre outras obras célebres. Com depoimentos de colegas e amigos do diretor.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Silvio Tendler"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
