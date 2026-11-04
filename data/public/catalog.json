@@ -36536,5 +36536,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000622",
+    "slug": "gabriela-1983",
+    "title": "Gabriela",
+    "year": 1983,
+    "copies": [
+      {
+        "id": "pvca-000622-archive",
+        "resolution": "1080p",
+        "size_gib": 6.962954196147621,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000622-archive",
+    "poster": "/posters/tmdb-42109-Ap0Vxi2AtXXsbYIPmpB2LCrVva7.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/gabriela-1983-1080p",
+        "copy_id": "pvca-000622-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 42109,
+    "added_at": "2026-11-04",
+    "original_title": "Gabriela",
+    "release_date": "1983-03-24",
+    "runtime_minutes": 99,
+    "imdb_id": "tt0085575",
+    "translations": {
+      "pt-BR": {
+        "title": "Gabriela, Cravo e Canela",
+        "synopsis": "O cenário principal é a Bahia. Em 1925, uma retirante chamada Gabriela (Sônia Braga) chega a Ilhéus, fugindo de uma das maiores secas da história do Nordeste. Com sua beleza e sensualidade, ela conquista a todos, especialmente Nacib, o proprietário do bar mais popular da cidade. Gabriela vai trabalhar para Nacib e os dois iniciam um relacionamento que fica tão intenso que eles acabam por se casar. Porém, tudo muda quando Gabriela o trai com o maior conquistador da cidade. Paralelamente, um \"coronel\" vai ser julgado por ter matado sua mulher com o amante. Os outros \"coronéis\" acham que ele tem de ser inocentado, pois houve um forte motivo para o crime, mas os tempos mudaram e determinados conceitos do passado acabam por cair."
+      },
+      "en": {
+        "title": "Gabriela",
+        "synopsis": "In 1925, Gabriela, a poor, uneducated, yet charming woman becomes cook, mistress, and then wife of Nacib, a bar owner in Ilhéus, a small Brazilian coastal town run by the local colonels."
+      }
+    },
+    "synopsis": "O cenário principal é a Bahia. Em 1925, uma retirante chamada Gabriela (Sônia Braga) chega a Ilhéus, fugindo de uma das maiores secas da história do Nordeste. Com sua beleza e sensualidade, ela conquista a todos, especialmente Nacib, o proprietário do bar mais popular da cidade. Gabriela vai trabalhar para Nacib e os dois iniciam um relacionamento que fica tão intenso que eles acabam por se casar. Porém, tudo muda quando Gabriela o trai com o maior conquistador da cidade. Paralelamente, um \"coronel\" vai ser julgado por ter matado sua mulher com o amante. Os outros \"coronéis\" acham que ele tem de ser inocentado, pois houve um forte motivo para o crime, mas os tempos mudaram e determinados conceitos do passado acabam por cair.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Romance"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Romance"]
+      }
+    },
+    "directors": ["Bruno Barreto"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Romance"],
+    "original_languages": ["pt"]
   }
 ]
