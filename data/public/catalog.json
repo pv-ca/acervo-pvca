@@ -36080,5 +36080,62 @@
     "countries": ["Brasil"],
     "genres": ["Comédia", "Drama", "Fantasia", "Romance"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000614",
+    "slug": "durval-discos-2002",
+    "title": "Durval Discos",
+    "year": 2002,
+    "copies": [
+      {
+        "id": "pvca-000614-archive",
+        "resolution": "720p",
+        "size_gib": 2.2351445807144046,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000614-archive",
+    "poster": "/posters/tmdb-74901-mZA4QiyKoVPSzPwr9JfJz75UHW5.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/durval-discos-2002-720p",
+        "copy_id": "pvca-000614-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 74901,
+    "added_at": "2026-11-04",
+    "original_title": "Durval Discos",
+    "release_date": "2002-03-27",
+    "runtime_minutes": 89,
+    "imdb_id": "tt0314009",
+    "translations": {
+      "pt-BR": {
+        "title": "Durval Discos",
+        "synopsis": "Durval mora com sua mãe no local onde também funciona uma loja de discos, a Durval Discos. Devido ao cansaço da mãe, eles contratam uma empregada que aceita trabalhar por apenas 100 reais. Contudo, alguns dias depois ela desaparece, deixando para trás uma menina e um bilhete, pedindo para que eles cuidem da garota por dois dias. Os dois acolhem a jovem, mas acabam tendo uma grande surpresa."
+      },
+      "en": {
+        "title": "Durval Discos",
+        "synopsis": "Durval and his mother Carmita live at the back of a record store they own in São Paulo specializing in vinyl records. They lead a boring and unattractive life, until the day Durval hires a maid, Celia, to help his mother with the housekeeping. However, on her second day, Celia goes away leaving a 5-year-old child behind, Kiki, and a note promising to be back in a couple of days. Durval and Celia are charmed by the child at first, but soon they see some sad news about Celia and Kiki on TV that change the whole situation."
+      }
+    },
+    "synopsis": "Durval mora com sua mãe no local onde também funciona uma loja de discos, a Durval Discos. Devido ao cansaço da mãe, eles contratam uma empregada que aceita trabalhar por apenas 100 reais. Contudo, alguns dias depois ela desaparece, deixando para trás uma menina e um bilhete, pedindo para que eles cuidem da garota por dois dias. Os dois acolhem a jovem, mas acabam tendo uma grande surpresa.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Comédia", "Música", "Thriller"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Comedy", "Music", "Thriller"]
+      }
+    },
+    "directors": ["Anna Muylaert"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Comédia", "Música", "Thriller"],
+    "original_languages": ["pt"]
   }
 ]
