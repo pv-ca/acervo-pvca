@@ -36650,5 +36650,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000624",
+    "slug": "homing-2019",
+    "title": "Homing",
+    "year": 2019,
+    "copies": [
+      {
+        "id": "pvca-000624-archive",
+        "resolution": "1080p",
+        "size_gib": 3.1745197409763932,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000624-archive",
+    "poster": "/posters/tmdb-576079-v4JSriQrXQKgqMRoWZxzh8Ew4J9.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/homing-2019-1080p",
+        "copy_id": "pvca-000624-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 576079,
+    "added_at": "2026-11-04",
+    "original_title": "Querência",
+    "release_date": "2019-11-21",
+    "runtime_minutes": 90,
+    "imdb_id": "tt9657946",
+    "translations": {
+      "pt-BR": {
+        "title": "Querência",
+        "synopsis": "Marcelo vive no sertão de Minas Gerais. Ama a vida no campo e trabalha como vaqueiro, mas quer se tornar narrador profissional de rodeios. Um dia a fazenda em que vive sofre um grave assalto. O incidente o impacta profundamente. Com a ajuda de seus melhores amigos, encara o desafio de se reerguer para realizar seu maior sonho: o desafio de se tornar um grande narrador de rodeios."
+      },
+      "en": {
+        "title": "Homing",
+        "synopsis": "In the bucolic countryside of Brazil, Marcelo, an easygoing cowboy at a cattle farm lives for one passion: rodeos. One tragic incident affects him deeply. Little by little he overcomes the trauma and is ready to dream again."
+      }
+    },
+    "synopsis": "Marcelo vive no sertão de Minas Gerais. Ama a vida no campo e trabalha como vaqueiro, mas quer se tornar narrador profissional de rodeios. Um dia a fazenda em que vive sofre um grave assalto. O incidente o impacta profundamente. Com a ajuda de seus melhores amigos, encara o desafio de se reerguer para realizar seu maior sonho: o desafio de se tornar um grande narrador de rodeios.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Helvécio Marins Jr."],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
