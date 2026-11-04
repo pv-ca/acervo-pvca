@@ -36935,5 +36935,62 @@
     "countries": ["Argentina", "Brasil", "França"],
     "genres": ["Drama"],
     "original_languages": ["es"]
+  },
+  {
+    "id": "PVCA-000629",
+    "slug": "extremes-of-pleasure-1984",
+    "title": "Extremes of Pleasure",
+    "year": 1984,
+    "copies": [
+      {
+        "id": "pvca-000629-archive",
+        "resolution": "480p",
+        "size_gib": 1.3907255586236715,
+        "format": "MKV",
+        "audio_languages": [],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000629-archive",
+    "poster": "/posters/tmdb-383019-ymjF1eyuQVsvWz1F4vt9GVhmR2V.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/extremes-of-pleasure-1984-480p",
+        "copy_id": "pvca-000629-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 383019,
+    "added_at": "2026-11-04",
+    "translations": {
+      "pt-BR": {
+        "title": "Extremos do Prazer",
+        "synopsis": "Luiz Antônio, sociólogo, teve os direitos políticos cassados durante a ditadura militar brasileira, e sua esposa Ruth foi torturada e morta. Ele decide se esconder por um tempo na casa de campo de sua sobrinha Natércia e do marido dela, Felipe. Mas ela convida a intelectual Marcela e o corretor Ricardo para passar um fim de semana juntos. O mundo de Luiz é abalado, e os problemas existenciais de todos se enroscam, com resultados inesperados."
+      },
+      "en": {
+        "title": "Extremes of Pleasure",
+        "synopsis": "Luiz Antônio, a sociologist, had his political rights suppressed, during the Brazilian military dictatorship. Also, his wife Ruth had been tortured and killed. So he decides to hide in his niece Natércia and her husband Felipe's country house for a while. But she invites the intellectual Marcela and broker Ricardo for a weekend together. Luiz's world is upset and the existential problems of all get entangled, with unexpected results."
+      }
+    },
+    "synopsis": "Luiz Antônio, sociólogo, teve os direitos políticos cassados durante a ditadura militar brasileira, e sua esposa Ruth foi torturada e morta. Ele decide se esconder por um tempo na casa de campo de sua sobrinha Natércia e do marido dela, Felipe. Mas ela convida a intelectual Marcela e o corretor Ricardo para passar um fim de semana juntos. O mundo de Luiz é abalado, e os problemas existenciais de todos se enroscam, com resultados inesperados.",
+    "original_title": "Extremos do Prazer",
+    "release_date": "1984-01-30",
+    "runtime_minutes": 94,
+    "imdb_id": "tt0259301",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Carlos Reichenbach"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
