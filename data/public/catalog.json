@@ -35882,5 +35882,62 @@
     "countries": ["Brasil"],
     "genres": ["Comédia"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000611",
+    "slug": "di-cavalcanti-di-glauber-1977",
+    "title": "Di Cavalcanti Di Glauber",
+    "year": 1977,
+    "copies": [
+      {
+        "id": "pvca-000611-archive",
+        "resolution": "480p",
+        "size_gib": 0.25346798915416,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000611-archive",
+    "poster": "/posters/tmdb-74364-sxnzCbw9UV5O7saSFkB3vvU5FTD.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/di-cavalcanti-di-glauber-1977-478p",
+        "copy_id": "pvca-000611-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 74364,
+    "added_at": "2026-11-04",
+    "original_title": "Di Cavalcanti Di Glauber",
+    "release_date": "1977-03-11",
+    "runtime_minutes": 16,
+    "imdb_id": "tt0075937",
+    "translations": {
+      "pt-BR": {
+        "title": "Di Cavalcanti Di Glauber",
+        "synopsis": "Com seu estilo explosivo, Glauber Rocha filma o funeral do artista plástico modernista Di Cavalcanti. Intercalando essas gravações com obras e memórias do pintor, o diretor discorre sobre uma série de assuntos artísticos, políticos e pessoais ao prestar um tributo ao amigo morto."
+      },
+      "en": {
+        "title": "Di Cavalcanti Di Glauber",
+        "synopsis": "This controversial film from director Glauber Rocha records the funeral of his friend, major Brazilian painter Emiliano Di Cavalcanti."
+      }
+    },
+    "synopsis": "Com seu estilo explosivo, Glauber Rocha filma o funeral do artista plástico modernista Di Cavalcanti. Intercalando essas gravações com obras e memórias do pintor, o diretor discorre sobre uma série de assuntos artísticos, políticos e pessoais ao prestar um tributo ao amigo morto.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Glauber Rocha"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
