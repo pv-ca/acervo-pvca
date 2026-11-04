@@ -36137,5 +36137,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Comédia", "Música", "Thriller"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000615",
+    "slug": "master-a-building-in-copacabana-2002",
+    "title": "Master, a Building in Copacabana",
+    "year": 2002,
+    "copies": [
+      {
+        "id": "pvca-000615-archive",
+        "resolution": "1080p",
+        "size_gib": 3.210451110266149,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000615-archive",
+    "poster": "/posters/tmdb-60142-n3Nf5XD3PjoQoX0z41bNBwOC8Kx.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/master-a-building-in-copacabana-2002-1080p",
+        "copy_id": "pvca-000615-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 60142,
+    "added_at": "2026-11-04",
+    "original_title": "Edifício Master",
+    "release_date": "2002-11-22",
+    "runtime_minutes": 110,
+    "imdb_id": "tt0333388",
+    "translations": {
+      "pt-BR": {
+        "title": "Edifício Master",
+        "synopsis": "O grande documentarista Eduardo Coutinho usa como mote um enorme edifício em Copacabana, como se fosse falar ou fazer os moradores falarem sobre o dia-a-dia do lugar mas, de forma espontânea, recebe e nos passa histórias de vidas, segredos e confidências, deixando mais claro ainda o tamanho da diversidade de rumos que tomamos neste mundo, separados apenas por umas paredes."
+      },
+      "en": {
+        "title": "Master, a Building in Copacabana",
+        "synopsis": "The daily lives and routine of 37 families living in a huge 12-story building in Copacabana, Rio de Janeiro: their drama, aspirations, intimate revelations, loneliness, dreams..."
+      }
+    },
+    "synopsis": "O grande documentarista Eduardo Coutinho usa como mote um enorme edifício em Copacabana, como se fosse falar ou fazer os moradores falarem sobre o dia-a-dia do lugar mas, de forma espontânea, recebe e nos passa histórias de vidas, segredos e confidências, deixando mais claro ainda o tamanho da diversidade de rumos que tomamos neste mundo, separados apenas por umas paredes.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
