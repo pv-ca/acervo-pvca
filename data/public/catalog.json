@@ -36707,5 +36707,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000625",
+    "slug": "improvised-and-purposeful-cinema-novo-1967",
+    "title": "Improvised and Purposeful: Cinema Novo",
+    "year": 1967,
+    "copies": [
+      {
+        "id": "pvca-000625-archive",
+        "resolution": "1080p",
+        "size_gib": 2.6458894899114966,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000625-archive",
+    "poster": "/posters/tmdb-321143-mpNRavrdRpoHEwq4i1lQeaSjJcK.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/improvised-and-purposeful-cinema-novo-1967-1080p",
+        "copy_id": "pvca-000625-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 321143,
+    "added_at": "2026-11-04",
+    "original_title": "Improvisiert und zielbewusst: Cinema Novo",
+    "release_date": "1967-04-16",
+    "runtime_minutes": 33,
+    "imdb_id": "tt1333643",
+    "translations": {
+      "pt-BR": {
+        "title": "Cinema Novo",
+        "synopsis": "Documentário alemão para a TV sobre o movimento \"Cinema Novo\". O diretor Joaquim Pedro de Andrade concentra-se em seis cineastas do Cinema Novo que trabalham no Rio em 1967."
+      },
+      "en": {
+        "title": "Improvised and Purposeful: Cinema Novo",
+        "synopsis": "Originally produced for German TV, Improvised and Purposeful is a firsthand look at the \"Cinema Novo\" movement (otherwise known as the 'Brazilian New Wave'). Director Joaquim Pedro de Andrade focuses on six Cinema Novo filmmakers working in Rio in 1967."
+      }
+    },
+    "synopsis": "Documentário alemão para a TV sobre o movimento \"Cinema Novo\". O diretor Joaquim Pedro de Andrade concentra-se em seis cineastas do Cinema Novo que trabalham no Rio em 1967.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Alemanha"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil", "Germany"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil", "Alemanha"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
