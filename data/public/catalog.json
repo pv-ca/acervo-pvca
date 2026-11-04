@@ -36764,5 +36764,62 @@
     "countries": ["Brasil", "Alemanha"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000626",
+    "slug": "excitation-1977",
+    "title": "Excitation",
+    "year": 1977,
+    "copies": [
+      {
+        "id": "pvca-000626-archive",
+        "resolution": "720p",
+        "size_gib": 1.6092854989692569,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000626-archive",
+    "poster": "/posters/tmdb-195165-iBzld8Q1ySL8wfZ56Gld646k0eS.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/excitation-1977-710p",
+        "copy_id": "pvca-000626-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 195165,
+    "added_at": "2026-11-04",
+    "original_title": "Excitação",
+    "release_date": "1977-05-30",
+    "runtime_minutes": 90,
+    "imdb_id": "tt0260893",
+    "translations": {
+      "pt-BR": {
+        "title": "Excitação",
+        "synopsis": "Helena e Renato são um casal que deixa a grande cidade para viver no conforto de uma casa de praia e ajudar Helena a se recuperar de suas crises nervosas. Mas, em pouco tempo, ela começa a sofrer com alucinações cada vez mais preocupantes, e os eletrodomésticos da casa parecem ganhar vida."
+      },
+      "en": {
+        "title": "Excitation",
+        "synopsis": "Helena and Renato are a couple who leave the big city to live in the comfort of a beach house and help Helena recover from her nervous breakdowns. But before long, she begins to suffer from increasingly disturbing hallucinations, and the household appliances seem to come to life."
+      }
+    },
+    "synopsis": "Helena e Renato são um casal que deixa a grande cidade para viver no conforto de uma casa de praia e ajudar Helena a se recuperar de suas crises nervosas. Mas, em pouco tempo, ela começa a sofrer com alucinações cada vez mais preocupantes, e os eletrodomésticos da casa parecem ganhar vida.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Terror", "Thriller"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Horror", "Thriller"]
+      }
+    },
+    "directors": ["Jean Garrett"],
+    "countries": ["Brasil"],
+    "genres": ["Terror", "Thriller"],
+    "original_languages": ["pt"]
   }
 ]
