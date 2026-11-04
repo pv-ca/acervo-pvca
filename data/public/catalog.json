@@ -36023,5 +36023,62 @@
     ],
     "genres": ["Drama", "Ficção científica"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000613",
+    "slug": "dona-flor-and-her-two-husbands-1976",
+    "title": "Dona Flor and Her Two Husbands",
+    "year": 1976,
+    "copies": [
+      {
+        "id": "pvca-000613-archive",
+        "resolution": "1080p",
+        "size_gib": 9.343405742198229,
+        "format": "MKV",
+        "audio_languages": ["pt", "en"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000613-archive",
+    "poster": "/posters/tmdb-42234-kwktJBPNMyYuMvR6x2bH6bXUFuh.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/dona-flor-and-her-two-husbands-1976-1080p",
+        "copy_id": "pvca-000613-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 42234,
+    "added_at": "2026-11-04",
+    "original_title": "Dona Flor e Seus Dois Maridos",
+    "release_date": "1976-11-22",
+    "runtime_minutes": 118,
+    "imdb_id": "tt0077452",
+    "translations": {
+      "pt-BR": {
+        "title": "Dona Flor e Seus Dois Maridos",
+        "synopsis": "Dona Flor se casa com um farmacêutico estável, mas entediante, sem qualquer interesse em sexo. Ao descobrir que sua nova vida sexual não é nada gratificante, o fantasma sensual de seu falecido marido lhe faz uma visita."
+      },
+      "en": {
+        "title": "Dona Flor and Her Two Husbands",
+        "synopsis": "After the death of her handsome but good-for-nothing husband Vadinho, Flor, a widow, marries Dr. Teodoro, a respectable gentleman. Hilarity ensues when Vadinho's spirit returns into her life."
+      }
+    },
+    "synopsis": "Dona Flor se casa com um farmacêutico estável, mas entediante, sem qualquer interesse em sexo. Ao descobrir que sua nova vida sexual não é nada gratificante, o fantasma sensual de seu falecido marido lhe faz uma visita.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Drama", "Fantasia", "Romance"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Drama", "Fantasy", "Romance"]
+      }
+    },
+    "directors": ["Bruno Barreto"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Drama", "Fantasia", "Romance"],
+    "original_languages": ["pt"]
   }
 ]
