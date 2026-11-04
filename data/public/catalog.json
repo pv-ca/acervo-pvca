@@ -36878,5 +36878,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000628",
+    "slug": "foolish-heart-1998",
+    "title": "Foolish Heart",
+    "year": 1998,
+    "copies": [
+      {
+        "id": "pvca-000628-archive",
+        "resolution": "1080p",
+        "size_gib": 8.415055415593088,
+        "format": "MKV",
+        "audio_languages": ["es"],
+        "subtitle_languages": ["pt-BR"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000628-archive",
+    "poster": "/posters/foolish-heart-1998-1080p.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/foolish-heart-1998-1080p",
+        "copy_id": "pvca-000628-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 198427,
+    "added_at": "2026-11-04",
+    "original_title": "Corazón iluminado",
+    "release_date": "1998-06-02",
+    "runtime_minutes": 130,
+    "imdb_id": "tt0120674",
+    "translations": {
+      "pt-BR": {
+        "title": "Coração Iluminado",
+        "synopsis": "Após 20 anos, Juan (Miguel Angel Solá) retorna a Buenos Aires para visitar seu pai que está morrendo. Lá, tenta encontrar Ana (Maria Luísa Mendonça), seu antigo amor, e conhece Lilith (Xuxa Lopes), uma mulher com quem revive a mesma paixão. Filme autobiográfico de Hector Babenco, cineasta argentino naturalizado brasileiro. Participou da Mostra Competitiva do Festival de Cannes em 1998."
+      },
+      "en": {
+        "title": "Foolish Heart",
+        "synopsis": "Living with his parents, 17-year-old Juan hangs out with several intellectuals who would like to photograph the human soul. The girlfriend of the group's financier is Ana, and Juan is attracted to her, despite the knowledge that she spent two years at a clinic because she was \"crazy.\" Juan sees Ana when he can and trains as a door-to-door salesman, but when the German photographer on the soul project gives him a viewfinder, it changes his life, putting him on the path to his later success as a Hollywood director."
+      }
+    },
+    "synopsis": "Após 20 anos, Juan (Miguel Angel Solá) retorna a Buenos Aires para visitar seu pai que está morrendo. Lá, tenta encontrar Ana (Maria Luísa Mendonça), seu antigo amor, e conhece Lilith (Xuxa Lopes), uma mulher com quem revive a mesma paixão. Filme autobiográfico de Hector Babenco, cineasta argentino naturalizado brasileiro. Participou da Mostra Competitiva do Festival de Cannes em 1998.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Argentina", "Brasil", "França"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Argentina", "Brazil", "France"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Héctor Babenco"],
+    "countries": ["Argentina", "Brasil", "França"],
+    "genres": ["Drama"],
+    "original_languages": ["es"]
   }
 ]
