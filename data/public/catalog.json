@@ -38426,5 +38426,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000655",
+    "slug": "manas-2025",
+    "title": "Manas",
+    "year": 2025,
+    "copies": [
+      {
+        "id": "pvca-000655-archive",
+        "resolution": "1080p",
+        "size_gib": 7.441197531297803,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000655-archive",
+    "poster": "/posters/tmdb-1256408-fOCafeE8Wj0qpIm6RZJhg5pZHNW.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/manas-2025-1080p",
+        "copy_id": "pvca-000655-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 1256408,
+    "added_at": "2026-11-05",
+    "original_title": "Manas",
+    "release_date": "2025-03-26",
+    "runtime_minutes": 101,
+    "imdb_id": "tt27911420",
+    "translations": {
+      "pt-BR": {
+        "title": "Manas",
+        "synopsis": "Marcielle é uma jovem de 13 anos que vive em uma comunidade ribeirinha na Ilha do Marajó (PA) com o pai, a mãe e três irmãos. Instigada pelas falas da mãe, ela cultua a imagem de Claudinha, sua irmã mais velha, que teria partido para bem longe após “arrumar um homem bom” nas balsas que passam pela região. Conforme amadurece, Tielle vê ruírem muitas das suas idealizações e se percebe presa entre dois ambientes abusivos. Ciente de que o futuro não lhe reserva muitas opções, ela decide confrontar a engrenagem violenta que rege a sua família e as mulheres da sua comunidade."
+      },
+      "en": {
+        "title": "Manas",
+        "synopsis": "Thirteen-year-old Marcielle lives on Marajó Island in the heart of the Amazon rainforest. To break a terrible cycle that imprisons the women around her in an isolated region, she must do the impossible to liberate herself and her younger sister from a dark abyss of silence held by her own family."
+      }
+    },
+    "synopsis": "Marcielle é uma jovem de 13 anos que vive em uma comunidade ribeirinha na Ilha do Marajó (PA) com o pai, a mãe e três irmãos. Instigada pelas falas da mãe, ela cultua a imagem de Claudinha, sua irmã mais velha, que teria partido para bem longe após “arrumar um homem bom” nas balsas que passam pela região. Conforme amadurece, Tielle vê ruírem muitas das suas idealizações e se percebe presa entre dois ambientes abusivos. Ciente de que o futuro não lhe reserva muitas opções, ela decide confrontar a engrenagem violenta que rege a sua família e as mulheres da sua comunidade.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Portugal", "França", "Bélgica"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "Portugal", "France", "Belgium"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Mariana Brennand"],
+    "countries": ["Brasil", "Portugal", "França", "Bélgica"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
