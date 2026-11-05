@@ -37163,5 +37163,62 @@
     "countries": ["Brasil"],
     "genres": ["Faroeste"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000633",
+    "slug": "the-fourteenth-chick-1998",
+    "title": "The Fourteenth Chick",
+    "year": 1998,
+    "copies": [
+      {
+        "id": "pvca-000633-archive",
+        "resolution": "576p",
+        "size_gib": 1.43630790989846,
+        "format": "MKV",
+        "audio_languages": ["nl"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000633-archive",
+    "poster": "/posters/tmdb-426773-fqPyUQGv6hZEHAhxGHGqWX6FiHg.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-fourteenth-chick-1998-558p",
+        "copy_id": "pvca-000633-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 426773,
+    "added_at": "2026-11-05",
+    "translations": {
+      "pt-BR": {
+        "title": "O 14º Pintinho",
+        "synopsis": "Quando um jovem casal se perde em Amsterdã a caminho do próprio jantar de noivado, a tensão cresce no restaurante onde amigos e familiares ficam esperando por eles."
+      },
+      "en": {
+        "title": "The Fourteenth Chick",
+        "synopsis": "As a young couple find themselves lost in Amsterdam en route to their own engagement dinner, tensions arise at the restaurant where their friends and family are left waiting for them."
+      }
+    },
+    "synopsis": "Quando um jovem casal se perde em Amsterdã a caminho do próprio jantar de noivado, a tensão cresce no restaurante onde amigos e familiares ficam esperando por eles.",
+    "original_title": "Het 14e kippetje",
+    "release_date": "1998-10-01",
+    "runtime_minutes": 88,
+    "imdb_id": "tt0149556",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Países Baixos"],
+        "genres": ["Drama", "Comédia"]
+      },
+      "en": {
+        "countries": ["Netherlands"],
+        "genres": ["Drama", "Comedy"]
+      }
+    },
+    "directors": ["Hany Abu-Assad"],
+    "countries": ["Países Baixos"],
+    "genres": ["Drama", "Comédia"],
+    "original_languages": ["nl"]
   }
 ]
