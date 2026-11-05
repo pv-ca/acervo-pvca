@@ -38540,5 +38540,76 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "História", "Ação"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000657",
+    "slug": "kiss-of-the-spider-woman-1985",
+    "title": "Kiss of the Spider Woman",
+    "year": 1985,
+    "copies": [
+      {
+        "id": "pvca-000657-archive",
+        "resolution": "1080p",
+        "size_gib": 18.308814239688218,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": [
+          "en",
+          "da",
+          "fi",
+          "fr",
+          "de",
+          "el",
+          "it",
+          "no",
+          "pt-PT",
+          "ro",
+          "es",
+          "sv",
+          "tr"
+        ]
+      }
+    ],
+    "catalog_copy_id": "pvca-000657-archive",
+    "poster": "/posters/tmdb-11703-xvKVV1plZeJmwUZT9fMoUIugsCx.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/kiss-of-the-spider-woman-1985-1038p",
+        "copy_id": "pvca-000657-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 11703,
+    "added_at": "2026-11-05",
+    "original_title": "Kiss of the Spider Woman",
+    "release_date": "1985-07-26",
+    "runtime_minutes": 120,
+    "imdb_id": "tt0089424",
+    "translations": {
+      "pt-BR": {
+        "title": "O Beijo da Mulher-Aranha",
+        "synopsis": "Em uma prisão na América do Sul, dois prisioneiros dividem a mesma cela.  Um é homossexual e está preso por comportamento imoral e o outro é um prisioneiro político.  O primeiro, para fugir da triste realidade que o cerca, inventa filmes cheios de mistério e romance, mas o outro tenta se manter o mais politizado possível em relação ao momento que vive.  Mas esta convivência faz com que os dois homens se compreendam e se respeitem."
+      },
+      "en": {
+        "title": "Kiss of the Spider Woman",
+        "synopsis": "The story of two radically different men thrown together in a Latin American prison cell. One is Valentin, a journalist being tortured for his political beliefs. The other is Molina, a gay window-dresser who fills their lonely nights by spinning romantic fantasies drawn from memories of old movies."
+      }
+    },
+    "synopsis": "Em uma prisão na América do Sul, dois prisioneiros dividem a mesma cela.  Um é homossexual e está preso por comportamento imoral e o outro é um prisioneiro político.  O primeiro, para fugir da triste realidade que o cerca, inventa filmes cheios de mistério e romance, mas o outro tenta se manter o mais politizado possível em relação ao momento que vive.  Mas esta convivência faz com que os dois homens se compreendam e se respeitem.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Estados Unidos"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "United States"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Héctor Babenco"],
+    "countries": ["Brasil", "Estados Unidos"],
+    "genres": ["Drama"],
+    "original_languages": ["en"]
   }
 ]
