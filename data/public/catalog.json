@@ -37391,5 +37391,62 @@
     "countries": ["Brasil", "Itália"],
     "genres": ["Drama", "Comédia", "Mistério", "Crime"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000637",
+    "slug": "krajcberg-o-poeta-dos-vestigios-1987",
+    "title": "Krajcberg - O Poeta dos Vestígios",
+    "year": 1987,
+    "copies": [
+      {
+        "id": "pvca-000637-archive",
+        "resolution": "480p",
+        "size_gib": 0.4374443255364895,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000637-archive",
+    "poster": "/posters/tmdb-1407293-1QItC33NYi72sRuJL2xnVsAOV6e.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/krajcberg-o-poeta-dos-vestigios-1987-360p",
+        "copy_id": "pvca-000637-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 1407293,
+    "added_at": "2026-11-05",
+    "original_title": "Krajcberg - O Poeta dos Vestígios",
+    "release_date": "1987-01-01",
+    "runtime_minutes": 48,
+    "imdb_id": "tt0996448",
+    "translations": {
+      "pt-BR": {
+        "title": "Krajcberg - O Poeta dos Vestígios",
+        "synopsis": "Frans Krajcberg, um dos maiores escultores contemporâneos, imigrou para o Brasil fugindo da Segunda Guerra Mundia e acompanhou passo a passo o roteiro do fogo e da destruição das matas tropicais amazônicas. Há 30 anos ele faz de sua arte um manifesto solitário contra essa destruição fazendo esculturas a partir dos troncos resultantes das imensas queimadas clandestinas que ocorrem na Amazônia. Este documentário dá voz a esse artista plástico e ao seu trabalho como escultor e como ativista pela preservação do meio ambiente."
+      },
+      "en": {
+        "title": "Krajcberg - O Poeta dos Vestígios",
+        "synopsis": "A touching documentary about artist Franz Krajcberg who moved from his home country to Brazil and started a life of environment activist."
+      }
+    },
+    "synopsis": "Frans Krajcberg, um dos maiores escultores contemporâneos, imigrou para o Brasil fugindo da Segunda Guerra Mundia e acompanhou passo a passo o roteiro do fogo e da destruição das matas tropicais amazônicas. Há 30 anos ele faz de sua arte um manifesto solitário contra essa destruição fazendo esculturas a partir dos troncos resultantes das imensas queimadas clandestinas que ocorrem na Amazônia. Este documentário dá voz a esse artista plástico e ao seu trabalho como escultor e como ativista pela preservação do meio ambiente.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Walter Salles"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
