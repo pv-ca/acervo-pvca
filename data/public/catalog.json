@@ -38483,5 +38483,62 @@
     "countries": ["Brasil", "Portugal", "França", "Bélgica"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000656",
+    "slug": "marighella-2021",
+    "title": "Marighella",
+    "year": 2021,
+    "copies": [
+      {
+        "id": "pvca-000656-archive",
+        "resolution": "1080p",
+        "size_gib": 5.82320074364543,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000656-archive",
+    "poster": "/posters/tmdb-500458-oqHLyxKGhlGe1S2S9X8hragmNQl.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/marighella-2021-1080p",
+        "copy_id": "pvca-000656-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 500458,
+    "added_at": "2026-11-05",
+    "original_title": "Marighella",
+    "release_date": "2021-01-29",
+    "runtime_minutes": 155,
+    "imdb_id": "tt7825208",
+    "translations": {
+      "pt-BR": {
+        "title": "Marighella",
+        "synopsis": "Em 1969, Carlos Marighella foi um homem que não teve tempo pra ter medo. De um lado, uma violenta ditadura militar. Do outro, uma esquerda intimidada. Cercado por guerrilheiros 30 anos mais novos e dispostos a reagir, o líder revolucionário escolheu a ação."
+      },
+      "en": {
+        "title": "Marighella",
+        "synopsis": "Afro-Brazilian poet and politician, the legendary Carlos Marighella. Driven to fight against the erosion of civil and human rights following the CIA-backed military coup of 1964 and the brutal, racist right-wing dictatorship that followed, the revolutionary leaves behind his wife and son to take up arms, becoming a notorious enemy to the power structure."
+      }
+    },
+    "synopsis": "Em 1969, Carlos Marighella foi um homem que não teve tempo pra ter medo. De um lado, uma violenta ditadura militar. Do outro, uma esquerda intimidada. Cercado por guerrilheiros 30 anos mais novos e dispostos a reagir, o líder revolucionário escolheu a ação.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "História", "Ação"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "History", "Action"]
+      }
+    },
+    "directors": ["Wagner Moura"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "História", "Ação"],
+    "original_languages": ["pt"]
   }
 ]
