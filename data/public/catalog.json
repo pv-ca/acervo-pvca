@@ -37619,5 +37619,62 @@
     "countries": ["Brasil", "Itália", "Cuba"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000641",
+    "slug": "jubiaba-1987",
+    "title": "Jubiabá",
+    "year": 1987,
+    "copies": [
+      {
+        "id": "pvca-000641-archive",
+        "resolution": "480p",
+        "size_gib": 1.2876751339063048,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000641-archive",
+    "poster": "/posters/tmdb-159118-oF94byqebvumtJPAoKDZ5a8n1XB.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/jubiaba-1987-374p",
+        "copy_id": "pvca-000641-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 159118,
+    "added_at": "2026-11-05",
+    "original_title": "Jubiabá",
+    "release_date": "1987-09-17",
+    "runtime_minutes": 100,
+    "imdb_id": "tt0091304",
+    "translations": {
+      "pt-BR": {
+        "title": "Jubiabá",
+        "synopsis": "O amor do negro Antônio Balduíno pela loura Lindinalva. Tudo começou quando ele, ainda criança, foi morar na casa do Comendador Ferreira, pai de Lindinalva. O pequeno órfão ganhou a proteção do chefe da casa e o ódio da empregada portuguesa, Amélia. Expulso da casa dos ricos protetores, Balduíno torna-se um homem famoso entre os malandros e marinheiros da beira do cais, lutador imbatível e amante famoso. Torna-se o imperador das ruas da Bahia. Mas o gigante negro tinha o coração escravo de Lindinalva e a cabeça de Jubiabá, o pai-de-santo."
+      },
+      "en": {
+        "title": "Jubiabá",
+        "synopsis": "Jubiabá is a French-Brazilian film based on  the homonymous novel by Jorge Amado. The film tells the story of the interracial love between the daughter of a rich Commander and Antonio Balduíno, a rascal, fighter and famous lover from Salvador."
+      }
+    },
+    "synopsis": "O amor do negro Antônio Balduíno pela loura Lindinalva. Tudo começou quando ele, ainda criança, foi morar na casa do Comendador Ferreira, pai de Lindinalva. O pequeno órfão ganhou a proteção do chefe da casa e o ódio da empregada portuguesa, Amélia. Expulso da casa dos ricos protetores, Balduíno torna-se um homem famoso entre os malandros e marinheiros da beira do cais, lutador imbatível e amante famoso. Torna-se o imperador das ruas da Bahia. Mas o gigante negro tinha o coração escravo de Lindinalva e a cabeça de Jubiabá, o pai-de-santo.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "França"],
+        "genres": ["Drama", "Romance"]
+      },
+      "en": {
+        "countries": ["Brazil", "France"],
+        "genres": ["Drama", "Romance"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil", "França"],
+    "genres": ["Drama", "Romance"],
+    "original_languages": ["pt"]
   }
 ]
