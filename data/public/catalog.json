@@ -38198,5 +38198,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Terror", "Fantasia"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000651",
+    "slug": "volta-redonda-memorial-da-greve-1989",
+    "title": "Volta Redonda – Memorial Da Greve",
+    "year": 1989,
+    "copies": [
+      {
+        "id": "pvca-000651-archive",
+        "resolution": "720p",
+        "size_gib": 0.6843076320365071,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000651-archive",
+    "poster": "/posters/tmdb-645950-oJJO0gacK8m4tXxenlRI8NO13hx.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/volta-redonda-memorial-da-greve-1989-720p",
+        "copy_id": "pvca-000651-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 645950,
+    "added_at": "2026-11-05",
+    "original_title": "Volta Redonda – Memorial Da Greve",
+    "release_date": "1989-01-01",
+    "runtime_minutes": 39,
+    "imdb_id": "tt27409121",
+    "translations": {
+      "pt-BR": {
+        "title": "Volta Redonda – Memorial Da Greve",
+        "synopsis": "No final da década de 1970, o movimento operário começa a ganhar força. Em 1988, os trabalhadores da Companhia Siderúrgica Nacional, em Volta Redonda, decretam uma grande greve. A intervenção militar é imediata; a repressão assassina três jovens operários e fere dezenas."
+      },
+      "en": {
+        "title": "Volta Redonda – Memorial Da Greve",
+        "synopsis": "In the late 1970s, the labor movement began to gain strength. In 1988, the workers of the National Steel Company (CSN) in the city of Volta Redonda decreed a great strike. Military intervention is immediate; repression kills three young workers and injures dozens."
+      }
+    },
+    "synopsis": "No final da década de 1970, o movimento operário começa a ganhar força. Em 1988, os trabalhadores da Companhia Siderúrgica Nacional, em Volta Redonda, decretam uma grande greve. A intervenção militar é imediata; a repressão assassina três jovens operários e fere dezenas.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Sérgio Goldenberg", "Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
