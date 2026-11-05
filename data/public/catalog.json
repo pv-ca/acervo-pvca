@@ -38132,5 +38132,71 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Faroeste"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000650",
+    "slug": "green-vinyl-2004",
+    "title": "Green Vinyl",
+    "year": 2004,
+    "copies": [
+      {
+        "id": "pvca-000650-archive",
+        "resolution": "1080p",
+        "size_gib": 0.9553418140858412,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": [
+          "pt-BR",
+          "en",
+          "nl",
+          "fr",
+          "de",
+          "it",
+          "es",
+          "tr"
+        ]
+      }
+    ],
+    "catalog_copy_id": "pvca-000650-archive",
+    "poster": "/posters/tmdb-172513-2PRWITBuJv6mYwucxHn2sB9gPO3.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/green-vinyl-2004-1080p",
+        "copy_id": "pvca-000650-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 172513,
+    "added_at": "2026-11-05",
+    "original_title": "Vinil Verde",
+    "release_date": "2004-11-25",
+    "runtime_minutes": 16,
+    "imdb_id": "tt1817292",
+    "translations": {
+      "pt-BR": {
+        "title": "Vinil Verde",
+        "synopsis": "Uma mãe e sua filha vivem em um apartamento em Recife. A mãe presenteia a filha com uma caixa cheia de antigos discos de vinil com músicas infantis. Ela pode ouvir o que quiser, menos o disco de cor verde. Se ela ouvir, terá consequências trágicas."
+      },
+      "en": {
+        "title": "Green Vinyl",
+        "synopsis": "A mother gives her daughter a box full of old, coloured little vinyl records. The daughter may listen to them, but she should never, ever, play the green one."
+      }
+    },
+    "synopsis": "Uma mãe e sua filha vivem em um apartamento em Recife. A mãe presenteia a filha com uma caixa cheia de antigos discos de vinil com músicas infantis. Ela pode ouvir o que quiser, menos o disco de cor verde. Se ela ouvir, terá consequências trágicas.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Terror", "Fantasia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Horror", "Fantasy"]
+      }
+    },
+    "directors": ["Kleber Mendonça Filho"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Terror", "Fantasia"],
+    "original_languages": ["pt"]
   }
 ]
