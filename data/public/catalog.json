@@ -38896,5 +38896,62 @@
     "countries": ["Estados Unidos", "Brasil"],
     "genres": ["Documentário", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000663",
+    "slug": "ginga-2005",
+    "title": "Ginga",
+    "year": 2005,
+    "copies": [
+      {
+        "id": "pvca-000663-archive",
+        "resolution": "480p",
+        "size_gib": 1.4182707136496902,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000663-archive",
+    "poster": "/posters/tmdb-273619-bnETmardC6O3iRyjTx6dbBhK67R.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/ginga-2005-436p",
+        "copy_id": "pvca-000663-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 273619,
+    "added_at": "2026-11-05",
+    "translations": {
+      "pt-BR": {
+        "title": "Ginga",
+        "synopsis": "Um documentário impressionante sobre o que faz do Brasil uma das maiores nações do futebol: a ginga, aquela qualidade mágica, misteriosa e indefinível de ritmo e movimento que distingue o jogo brasileiro de todos os outros. Produzido por Fernando Meirelles (Cidade de Deus, O Jardineiro Fiel) e dirigido por três jovens cineastas em ascensão, Ginga acompanha sete jovens jogadores de origens sociais e étnicas diversas e oferece um vislumbre da cultura apaixonada que forma alguns dos melhores jogadores do mundo."
+      },
+      "en": {
+        "title": "Ginga",
+        "synopsis": "An awe-inspiring documentary exploring what makes Brazil one of the greatest footballing nations ever: ‘ginga’, the mysterious, indefinable magical quality of rhythm and movement which sets the Brazilian game apart from the rest.  Produced by Fernando Mereilles (City of God, The Constant Gardener) and directed by three up-and-coming young filmmakers, Ginga follows seven young footballers from a diverse range of social and ethnic backgrounds, providing a glimpse into the passionate culture that produces some of the world’s finest footballers."
+      }
+    },
+    "synopsis": "Um documentário impressionante sobre o que faz do Brasil uma das maiores nações do futebol: a ginga, aquela qualidade mágica, misteriosa e indefinível de ritmo e movimento que distingue o jogo brasileiro de todos os outros. Produzido por Fernando Meirelles (Cidade de Deus, O Jardineiro Fiel) e dirigido por três jovens cineastas em ascensão, Ginga acompanha sete jovens jogadores de origens sociais e étnicas diversas e oferece um vislumbre da cultura apaixonada que forma alguns dos melhores jogadores do mundo.",
+    "original_title": "Ginga",
+    "release_date": "2005-07-30",
+    "runtime_minutes": 79,
+    "imdb_id": "tt1058533",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": [],
+        "genres": []
+      },
+      "en": {
+        "countries": [],
+        "genres": []
+      }
+    },
+    "directors": ["Marcelo Machado", "Tocha Alves", "Hank Levine"],
+    "countries": [],
+    "genres": [],
+    "original_languages": ["en"]
   }
 ]
