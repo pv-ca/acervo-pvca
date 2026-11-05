@@ -37106,5 +37106,62 @@
     "countries": ["Estados Unidos"],
     "genres": ["Drama"],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000632",
+    "slug": "faustao-1971",
+    "title": "Faustão",
+    "year": 1971,
+    "copies": [
+      {
+        "id": "pvca-000632-archive",
+        "resolution": "480p",
+        "size_gib": 0.6744482629001141,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000632-archive",
+    "poster": "/posters/tmdb-254345-PeFmmLgSWpjstftOGW7wpUrYqP.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/faustao-1971-256p",
+        "copy_id": "pvca-000632-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 254345,
+    "added_at": "2026-11-05",
+    "translations": {
+      "pt-BR": {
+        "title": "Faustão",
+        "synopsis": "Um bando de bandidos liderado por Faustão intervém numa briga entre dois membros de famílias rivais, os Pereira e os Araújo. Henrique Pereira, filho do coronel Pereira, é ferido numa emboscada. Faustão o salva e exige que o pai pague um resgate pela vida do filho. O bandido deixa claro a Henrique que ele não é prisioneiro e que apenas obedece à lei do sertão. Lucena, um capanga dos Araújo, encontra Faustão e oferece o dobro do valor pedido ao coronel para levar Henrique como prisioneiro, mas o bandido recusa. O coronel paga o resgate, mas o filho se recusa a voltar para casa, mesmo ciente da rixa entre sua família e os Araújo. O rapaz decide se juntar ao bando."
+      },
+      "en": {
+        "title": "Faustão",
+        "synopsis": "A gang of bandits led by Faustão intervene in a fight between two members of rival families, the Pereiras and the Araújos. Henrique Pereira, son of Colonel Pereira, is wounded in an ambush. Faustão rescues him and demands the father to pay a ransom in exchange for the life of his son. The bandit makes it clear to Henrique that he is not a prisoner and that he is only obeying the law of the backlands. Lucena, a henchman working for the Araújos, finds Faustão and offers twice the amount being asked to the colonel in order to take Henrique as a prisoner, but the bandit refuses the offer. Colonel Henrique pays the ransom, but the son refuses to return home, even being aware of the feud between his family and the Araújos. The young man chooses to join the gang."
+      }
+    },
+    "synopsis": "Um bando de bandidos liderado por Faustão intervém numa briga entre dois membros de famílias rivais, os Pereira e os Araújo. Henrique Pereira, filho do coronel Pereira, é ferido numa emboscada. Faustão o salva e exige que o pai pague um resgate pela vida do filho. O bandido deixa claro a Henrique que ele não é prisioneiro e que apenas obedece à lei do sertão. Lucena, um capanga dos Araújo, encontra Faustão e oferece o dobro do valor pedido ao coronel para levar Henrique como prisioneiro, mas o bandido recusa. O coronel paga o resgate, mas o filho se recusa a voltar para casa, mesmo ciente da rixa entre sua família e os Araújo. O rapaz decide se juntar ao bando.",
+    "original_title": "Faustão",
+    "release_date": "1971-01-01",
+    "runtime_minutes": 103,
+    "imdb_id": "tt0264611",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Faroeste"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Western"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Faroeste"],
+    "original_languages": ["pt"]
   }
 ]
