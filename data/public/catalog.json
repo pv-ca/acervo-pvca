@@ -38782,5 +38782,62 @@
     "countries": ["Espanha"],
     "genres": ["Comédia"],
     "original_languages": ["es"]
+  },
+  {
+    "id": "PVCA-000661",
+    "slug": "dry-ground-burning-2023",
+    "title": "Dry Ground Burning",
+    "year": 2023,
+    "copies": [
+      {
+        "id": "pvca-000661-archive",
+        "resolution": "1080p",
+        "size_gib": 22.021370015107095,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000661-archive",
+    "poster": "/posters/tmdb-928001-znMXzu2CvvATZEv1azCl7sgn9n5.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/dry-ground-burning-2023-1080p",
+        "copy_id": "pvca-000661-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 928001,
+    "added_at": "2026-11-05",
+    "original_title": "Mato Seco em Chamas",
+    "release_date": "2023-02-23",
+    "runtime_minutes": 153,
+    "imdb_id": "tt17550726",
+    "translations": {
+      "pt-BR": {
+        "title": "Mato Seco em Chamas",
+        "synopsis": "Na favela de Sol Nascente, na Ceilândia, a principal moeda de troca entre grupos inimigos é o petróleo. Chitara, grande gasolineira da região, tenta fidelizar a clientela junto ao seu poço particular com a ajuda da irmã. Quando o Brasil se torna mais conservador e ameaça votar na extrema-direita, o posicionamento de Chitara se transforma em um ato político."
+      },
+      "en": {
+        "title": "Dry Ground Burning",
+        "synopsis": "Just released from prison, Léa returns home to the Brasilia favela of Sol Nascente and joins up with her half-sister Chitara, the fearless leader of an all-female gang that steals and refines oil from underground pipes and sells gasoline to a clandestine network of motorcyclists. Living in constant opposition to Jair Bolsonaro’s fiercely authoritarian and militarized government, Chitara’s women claim the streets for themselves as a declaration of radical political resistance on behalf of ex-cons and the oppressed."
+      }
+    },
+    "synopsis": "Na favela de Sol Nascente, na Ceilândia, a principal moeda de troca entre grupos inimigos é o petróleo. Chitara, grande gasolineira da região, tenta fidelizar a clientela junto ao seu poço particular com a ajuda da irmã. Quando o Brasil se torna mais conservador e ameaça votar na extrema-direita, o posicionamento de Chitara se transforma em um ato político.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Portugal", "Estados Unidos"],
+        "genres": ["Drama", "Crime", "Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil", "Portugal", "United States"],
+        "genres": ["Drama", "Crime", "Documentary"]
+      }
+    },
+    "directors": ["Adirley Queirós", "Joana Pimenta"],
+    "countries": ["Brasil", "Portugal", "Estados Unidos"],
+    "genres": ["Drama", "Crime", "Documentário"],
+    "original_languages": ["pt"]
   }
 ]
