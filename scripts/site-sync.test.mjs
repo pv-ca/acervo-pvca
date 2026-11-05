@@ -601,6 +601,61 @@ test("an Archive item becomes a film from public evidence alone; repeats and mis
       ],
     ]
   );
+  // An authorized replacement rewrites the copy of the same item in place; without it the item stays untouched.
+  const bigger = 5 * 2 ** 30;
+  const replaced = structuredClone(item);
+  replaced.files[0].size = String(bigger);
+  replaced.files[0].md5 = "f".repeat(32);
+  const replaceOptions = {
+    ...options,
+    metadataOf: async () => replaced,
+    probe: async () => ({
+      ...ffprobe,
+      format: { ...ffprobe.format, size: String(bigger) },
+    }),
+  };
+  assert.equal(
+    (await observeArchive(root, item.metadata.identifier, replaceOptions))
+      .status,
+    "ALREADY_ON_SITE"
+  );
+  await assert.rejects(
+    observeArchive(root, other.metadata.identifier, {
+      ...options,
+      replace: true,
+      metadataOf: async () => other,
+    }),
+    /REPLACE_NEEDS_THE_COPY/
+  );
+  const swap = await observeArchive(root, item.metadata.identifier, {
+    ...replaceOptions,
+    replace: true,
+    batch: "batch-replace",
+  });
+  assert.equal(swap.receipt.replaces_copy, "pvca-000001-archive");
+  await prepare(root, swap.receipt, { enrich: false });
+  assert.equal(
+    Object.values(apply(root, "batch-replace").events)[0].status,
+    "APPLIED"
+  );
+  const [after] = allRecords(readDatabase(root));
+  assert.deepEqual(
+    after.copies.map((copy) => [copy.id, copy.size_gib]),
+    [
+      ["pvca-000001-archive", 5],
+      ["pvca-000001-archive-2", 3],
+    ]
+  );
+  assert.equal(after.external_links.length, 2);
+  assert.equal(
+    (
+      await observeArchive(root, item.metadata.identifier, {
+        ...replaceOptions,
+        replace: true,
+      })
+    ).status,
+    "ALREADY_ON_SITE"
+  );
   assert.equal(
     resolutionClass({ width: 720, height: 480, field_order: "tt" }),
     "480i"

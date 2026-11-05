@@ -245,7 +245,8 @@ export function apply(root, batch) {
           schema,
           resolve(root, "public"),
           copyProof(event.receipt.verification),
-          event.receipt.provenance
+          event.receipt.provenance,
+          event.receipt.replaces_copy
         );
         return plan.database;
       });

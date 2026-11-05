@@ -360,7 +360,8 @@ export function planPublication(
   schema,
   publicDir,
   sha256,
-  provenance = {}
+  provenance = {},
+  replacesCopy
 ) {
   const matches = Object.entries(db.films).filter(
     ([, row]) =>
@@ -382,6 +383,11 @@ export function planPublication(
     incoming.copies = structuredClone(old.copies);
     for (const copy of record.copies ?? []) {
       const known = incoming.copies.find((c) => c.id === copy.id);
+      // An authorized replacement overwrites that one copy: the same item now holds other bytes.
+      if (known && copy.id === replacesCopy) {
+        incoming.copies[incoming.copies.indexOf(known)] = copy;
+        continue;
+      }
       const proof = row.sources?.copySha256?.[copy.id];
       if (proof && proof !== sha256)
         throw Error("PUBLICATION_COPY_IDENTITY_CONFLICT");

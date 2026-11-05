@@ -138,6 +138,7 @@ async function receiptFor(root, source, options) {
     authorization,
     batch,
     overrides = {},
+    replace = false,
     today = new Date().toISOString().slice(0, 10),
     enrich = enrichTmdb,
     search = searchTmdb,
@@ -192,10 +193,20 @@ async function receiptFor(root, source, options) {
     linkedUrl = known?.external_links?.find(
       (link) => link.copy_id === base
     )?.url;
-  if (taken(base) && (!linkedUrl || linkedUrl === url))
+  // An authorized replacement: the same item (same URL) now holds other bytes, so its copy is rewritten in place.
+  const replacing =
+    replace && taken(base) && linkedUrl === url ? base : undefined;
+  if (replace && !replacing)
+    throw Error("REPLACE_NEEDS_THE_COPY_ALREADY_LINKED_TO_THIS_ITEM");
+  if (
+    replacing &&
+    known.copies.find((copy) => copy.id === base).size_gib === bytes / 2 ** 30
+  )
+    return { status: "ALREADY_ON_SITE", id };
+  if (!replacing && taken(base) && (!linkedUrl || linkedUrl === url))
     return { status: "ALREADY_ON_SITE", id };
   let copyId = base;
-  for (let n = 2; taken(copyId); n++) copyId = `${base}-${n}`;
+  for (let n = 2; !replacing && taken(copyId); n++) copyId = `${base}-${n}`;
   const title = overrides.title ?? known?.title ?? source.title,
     year = known?.year ?? work.year;
   const video = ffprobe.streams.find(
@@ -309,6 +320,7 @@ async function receiptFor(root, source, options) {
       event_id: `${provider}-${source.key}`,
       batch_id: batch ?? `site-${today.replaceAll("-", "")}`,
       authorization: { site: true, reference: authorization },
+      ...(replacing ? { replaces_copy: replacing } : {}),
       record,
       ...(provenance ? { provenance } : {}),
       destination: source.destination,
@@ -335,7 +347,8 @@ export async function observeArchive(root, identifier, options = {}) {
   const linked = allRecords(readDatabase(root)).find((film) =>
     film.external_links?.some((link) => link.url === url)
   );
-  if (linked) return { status: "ALREADY_ON_SITE", id: linked.id };
+  if (linked && !options.replace)
+    return { status: "ALREADY_ON_SITE", id: linked.id };
 
   const item = await metadataOf(identifier);
   requireValue(

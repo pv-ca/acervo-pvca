@@ -33,11 +33,14 @@ try {
     if (
       !args[0] ||
       Object.keys(options).some(
-        (name) => !["tmdb", "authorized", "overrides", "batch"].includes(name)
+        (name) =>
+          !["tmdb", "authorized", "overrides", "batch", "replace"].includes(
+            name
+          )
       )
     )
       throw Error(
-        "archive IDENTIFIER | drive REMOTE_FILM_FOLDER, then --authorized REFERENCE [--tmdb ID] [--overrides FILE] [--batch BATCH]"
+        "archive IDENTIFIER | drive REMOTE_FILM_FOLDER, then --authorized REFERENCE [--tmdb ID] [--overrides FILE] [--batch BATCH] [--replace 1]"
       );
     const observed = await (
       action === "archive" ? observeArchive : observeDrive
@@ -45,6 +48,7 @@ try {
       tmdbId: options.tmdb ? Number(options.tmdb) : undefined,
       authorization: options.authorized,
       batch: options.batch,
+      replace: options.replace === "1",
       overrides: options.overrides ? read(resolve(options.overrides)) : {},
     });
     if (observed.status === "ALREADY_ON_SITE") result = observed;
