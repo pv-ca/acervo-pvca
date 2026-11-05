@@ -38611,5 +38611,62 @@
     "countries": ["Brasil", "Estados Unidos"],
     "genres": ["Drama"],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000658",
+    "slug": "a-wolf-at-the-door-2013",
+    "title": "A Wolf at the Door",
+    "year": 2013,
+    "copies": [
+      {
+        "id": "pvca-000658-archive",
+        "resolution": "1080p",
+        "size_gib": 6.109461683779955,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000658-archive",
+    "poster": "/posters/tmdb-214135-64a7yu3vEEnvN1hwbODDQb8cap1.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/a-wolf-at-the-door-2013-1080p",
+        "copy_id": "pvca-000658-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 214135,
+    "added_at": "2026-11-05",
+    "original_title": "O Lobo Atrás da Porta",
+    "release_date": "2013-10-03",
+    "runtime_minutes": 100,
+    "imdb_id": "tt2861532",
+    "translations": {
+      "pt-BR": {
+        "title": "O Lobo Atrás da Porta",
+        "synopsis": "O desaparecimento de uma criança faz com que seus pais, Bernardo e Sylvia, vão até uma delegacia. O caso fica a cargo do delegado, que resolve interrogá-los separadamente. Logo descobre que Bernardo mantinha uma amante, Rosa, que é levada à delegacia para averiguações. A partir de depoimentos do trio, o delegado descobre uma rede de mentiras, amor, vingança e ciúmes envolvendo o trio."
+      },
+      "en": {
+        "title": "A Wolf at the Door",
+        "synopsis": "Love turns to hate and panic breeds suspicion as two parents deal with the kidnapping of their child."
+      }
+    },
+    "synopsis": "O desaparecimento de uma criança faz com que seus pais, Bernardo e Sylvia, vão até uma delegacia. O caso fica a cargo do delegado, que resolve interrogá-los separadamente. Logo descobre que Bernardo mantinha uma amante, Rosa, que é levada à delegacia para averiguações. A partir de depoimentos do trio, o delegado descobre uma rede de mentiras, amor, vingança e ciúmes envolvendo o trio.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Thriller", "Crime"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Thriller", "Crime"]
+      }
+    },
+    "directors": ["Fernando Coimbra"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Thriller", "Crime"],
+    "original_languages": ["pt"]
   }
 ]
