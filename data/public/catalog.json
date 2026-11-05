@@ -37676,5 +37676,62 @@
     "countries": ["Brasil", "França"],
     "genres": ["Drama", "Romance"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000642",
+    "slug": "light-in-the-tropics-2020",
+    "title": "Light in the Tropics",
+    "year": 2020,
+    "copies": [
+      {
+        "id": "pvca-000642-archive",
+        "resolution": "1080p",
+        "size_gib": 9.66781588178128,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000642-archive",
+    "poster": "/posters/tmdb-665406-yYT9mhFp14QsrQPd4KK3akcqnV0.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/light-in-the-tropics-2020-1038p",
+        "copy_id": "pvca-000642-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 665406,
+    "added_at": "2026-11-05",
+    "original_title": "Luz nos Trópicos",
+    "release_date": "2020-02-25",
+    "runtime_minutes": 255,
+    "imdb_id": "tt9790536",
+    "translations": {
+      "pt-BR": {
+        "title": "Luz nos Trópicos",
+        "synopsis": "Um jovem de ascendência indígena parte de onde mora, no norte, para descobrir a história de seu povo, no coração da América do Sul. Ao redescobrir a memória de seus antepassados, ele sonha com a história das conquistas e a decadência dos homens brancos. Em uma jornada transformadora da natureza, homens e luz, onde há uma interseção entre esses múltiplos universos e um ensaio sobre os territórios complexos e as pessoas das Américas. Luz nos Trópicos é um filme sobre a marcha da humanidade através do tempo e do espaço."
+      },
+      "en": {
+        "title": "Light in the Tropics",
+        "synopsis": "A film like a monument: Luz nos Trópicos is a tribute to the rich greens of the Amazon and the forests of New England in winter, celebrating the indigenous peoples of continental America and flowing as a film as freely as a winding river."
+      }
+    },
+    "synopsis": "Um jovem de ascendência indígena parte de onde mora, no norte, para descobrir a história de seu povo, no coração da América do Sul. Ao redescobrir a memória de seus antepassados, ele sonha com a história das conquistas e a decadência dos homens brancos. Em uma jornada transformadora da natureza, homens e luz, onde há uma interseção entre esses múltiplos universos e um ensaio sobre os territórios complexos e as pessoas das Américas. Luz nos Trópicos é um filme sobre a marcha da humanidade através do tempo e do espaço.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Paula Gaitán"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
