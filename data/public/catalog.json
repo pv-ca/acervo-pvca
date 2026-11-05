@@ -37220,5 +37220,62 @@
     "countries": ["Países Baixos"],
     "genres": ["Drama", "Comédia"],
     "original_languages": ["nl"]
+  },
+  {
+    "id": "PVCA-000634",
+    "slug": "playing-2007",
+    "title": "Playing",
+    "year": 2007,
+    "copies": [
+      {
+        "id": "pvca-000634-archive",
+        "resolution": "480p",
+        "size_gib": 1.6556522315368056,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "fr", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000634-archive",
+    "poster": "/posters/tmdb-86321-abdJT8J5wRLwx7MBYj3OudLdU0Q.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/playing-2007-356p",
+        "copy_id": "pvca-000634-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 86321,
+    "added_at": "2026-11-05",
+    "original_title": "Jogo de Cena",
+    "release_date": "2007-11-09",
+    "runtime_minutes": 105,
+    "imdb_id": "tt1165293",
+    "translations": {
+      "pt-BR": {
+        "title": "Jogo de Cena",
+        "synopsis": "Atendendo a um anúncio de jornal, 83 mulheres contaram sua história de vida em um estúdio. Vinte e três delas foram selecionadas e filmadas em junho de 2006. Em setembro do mesmo ano, várias atrizes interpretaram, a seu modo, as mesmas histórias."
+      },
+      "en": {
+        "title": "Playing",
+        "synopsis": "Following a newspaper ad, ordinary women tell part of their life stories to director Eduardo Coutinho, which are then re-enacted by actresses, blurring the barriers between truth, fiction and interpretation."
+      }
+    },
+    "synopsis": "Atendendo a um anúncio de jornal, 83 mulheres contaram sua história de vida em um estúdio. Vinte e três delas foram selecionadas e filmadas em junho de 2006. Em setembro do mesmo ano, várias atrizes interpretaram, a seu modo, as mesmas histórias.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
