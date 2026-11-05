@@ -1474,10 +1474,10 @@
       {
         "id": "pvca-000026-archive",
         "resolution": "1080p",
-        "size_gib": 4.364690546877682,
-        "format": "Matroska",
+        "size_gib": 8.894803279079497,
+        "format": "MKV",
         "audio_languages": ["pt"],
-        "subtitle_languages": ["pt-BR", "en", "es", "fr"]
+        "subtitle_languages": ["pt-BR", "en", "es"]
       }
     ],
     "catalog_copy_id": "pvca-000026-archive",
