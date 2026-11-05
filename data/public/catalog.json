@@ -38953,5 +38953,62 @@
     "countries": [],
     "genres": [],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000664",
+    "slug": "mariner-of-the-mountains-2023",
+    "title": "Mariner of the Mountains",
+    "year": 2023,
+    "copies": [
+      {
+        "id": "pvca-000664-archive",
+        "resolution": "1080p",
+        "size_gib": 4.749239548109472,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000664-archive",
+    "poster": "/posters/tmdb-662714-pag4KMpnGEcYV8oQN1ROopBVcyJ.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/mariner-of-the-mountains-2023-800p",
+        "copy_id": "pvca-000664-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 662714,
+    "added_at": "2026-11-05",
+    "original_title": "Algerien par accident",
+    "release_date": "2023-09-28",
+    "runtime_minutes": 95,
+    "imdb_id": "tt9619234",
+    "translations": {
+      "pt-BR": {
+        "title": "Marinheiro das Montanhas",
+        "synopsis": "Ainouz se baseou na história de seus pais, Iracema, uma brasileira, e Majid, um argelino, que se conheceram nos Estados Unidos. Eles se separaram em 1965, quando ele retornou à Argélia e ela, ao Brasil, grávida. Karim só conheceu o pai aos 20 anos. O filme é um inventário afetivo dessa relação. “O Marinheiro das Montanhas” integra a seleção Sessões Especiais da 74ª edição do Festival de Cannes."
+      },
+      "en": {
+        "title": "Mariner of the Mountains",
+        "synopsis": "Filmmaker Karim Aïnouz decides to take a boat, cross the Mediterranean, and embark on his first journey to Algeria. Accompanied by the memory of his mother, Iracema, and his camera, Aïnouz gives a detailed account of the journey to his father’s homeland, interweaving present, past, and future."
+      }
+    },
+    "synopsis": "Ainouz se baseou na história de seus pais, Iracema, uma brasileira, e Majid, um argelino, que se conheceram nos Estados Unidos. Eles se separaram em 1965, quando ele retornou à Argélia e ela, ao Brasil, grávida. Karim só conheceu o pai aos 20 anos. O filme é um inventário afetivo dessa relação. “O Marinheiro das Montanhas” integra a seleção Sessões Especiais da 74ª edição do Festival de Cannes.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Argélia", "Brasil", "França", "Alemanha"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Algeria", "Brazil", "France", "Germany"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Karim Aïnouz"],
+    "countries": ["Argélia", "Brasil", "França", "Alemanha"],
+    "genres": ["Documentário"],
+    "original_languages": ["fr"]
   }
 ]
