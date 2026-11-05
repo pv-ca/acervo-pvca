@@ -38839,5 +38839,62 @@
     "countries": ["Brasil", "Portugal", "Estados Unidos"],
     "genres": ["Drama", "Crime", "Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000662",
+    "slug": "elena-2013",
+    "title": "Elena",
+    "year": 2013,
+    "copies": [
+      {
+        "id": "pvca-000662-archive",
+        "resolution": "1080p",
+        "size_gib": 6.628850049339235,
+        "format": "MKV",
+        "audio_languages": ["mul"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000662-archive",
+    "poster": "/posters/tmdb-160859-41lsqOhF67DfTXZ2i77dtWQFI8U.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/elena-2013-1080p",
+        "copy_id": "pvca-000662-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 160859,
+    "added_at": "2026-11-05",
+    "original_title": "Elena",
+    "release_date": "2013-04-11",
+    "runtime_minutes": 82,
+    "imdb_id": "tt2475154",
+    "translations": {
+      "pt-BR": {
+        "title": "Elena",
+        "synopsis": "Ao viajar para Nova York, Elena segue o sonho de se tornar atriz de cinema e deixa no Brasil uma infância vivida na clandestinidade, devido à ditadura militar implantada no país, e também a irmã mais nova, Petra, de apenas sete anos. Duas décadas depois, Petra, já atriz, embarca para Nova York atrás da irmã. Em sua busca Petra apenas tem algumas pistas, como cartas, diários e filmes caseiros. Ela acaba percorrendo os passos da irmã até encontrá-la em um lugar inesperado."
+      },
+      "en": {
+        "title": "Elena",
+        "synopsis": "A Brazilian actress travels to New York in search of her long-lost sister, piecing together fragments of the past while confronting the lasting scars of the Brazilian dictatorship."
+      }
+    },
+    "synopsis": "Ao viajar para Nova York, Elena segue o sonho de se tornar atriz de cinema e deixa no Brasil uma infância vivida na clandestinidade, devido à ditadura militar implantada no país, e também a irmã mais nova, Petra, de apenas sete anos. Duas décadas depois, Petra, já atriz, embarca para Nova York atrás da irmã. Em sua busca Petra apenas tem algumas pistas, como cartas, diários e filmes caseiros. Ela acaba percorrendo os passos da irmã até encontrá-la em um lugar inesperado.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos", "Brasil"],
+        "genres": ["Documentário", "Drama"]
+      },
+      "en": {
+        "countries": ["United States", "Brazil"],
+        "genres": ["Documentary", "Drama"]
+      }
+    },
+    "directors": ["Petra Costa"],
+    "countries": ["Estados Unidos", "Brasil"],
+    "genres": ["Documentário", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
