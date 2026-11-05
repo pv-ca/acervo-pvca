@@ -38668,5 +38668,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Thriller", "Crime"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000659",
+    "slug": "lula-2024",
+    "title": "Lula",
+    "year": 2024,
+    "copies": [
+      {
+        "id": "pvca-000659-archive",
+        "resolution": "720p",
+        "size_gib": 1.7089630756527185,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000659-archive",
+    "poster": "/posters/tmdb-1278335-yzPvOomzVuxP306KJmzyH7ZjIu0.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/lula-2024-720p",
+        "copy_id": "pvca-000659-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 1278335,
+    "added_at": "2026-11-05",
+    "original_title": "Lula",
+    "release_date": "2024-05-19",
+    "runtime_minutes": 90,
+    "imdb_id": "tt32186444",
+    "translations": {
+      "pt-BR": {
+        "title": "Lula",
+        "synopsis": "Um retrato íntimo e revelador de uma das figuras políticas mais influentes do mundo, \"Lula\" explora a ascensão, a queda e o retorno triunfante do querido líder brasileiro Luiz Inácio Lula da Silva, narrando sua trajetória extraordinária em 2022 para reconquistar a presidência do Brasil após passar dezenove meses na prisão."
+      },
+      "en": {
+        "title": "Lula",
+        "synopsis": "An intimate and revelatory portrait of one of the world’s most influential political figures, Lula explores the rise, fall and triumphant return of beloved Brazilian leader Luiz Inácio “Lula” da Silva, chronicling his extraordinary journey in 2022 to regain the Brazilian presidency after spending nineteen months in prison."
+      }
+    },
+    "synopsis": "Um retrato íntimo e revelador de uma das figuras políticas mais influentes do mundo, \"Lula\" explora a ascensão, a queda e o retorno triunfante do querido líder brasileiro Luiz Inácio Lula da Silva, narrando sua trajetória extraordinária em 2022 para reconquistar a presidência do Brasil após passar dezenove meses na prisão.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Estados Unidos"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil", "United States"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Oliver Stone", "Rob Wilson"],
+    "countries": ["Brasil", "Estados Unidos"],
+    "genres": ["Documentário"],
+    "original_languages": ["en"]
   }
 ]
