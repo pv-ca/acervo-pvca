@@ -38312,5 +38312,62 @@
     "countries": ["Brasil"],
     "genres": [],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000653",
+    "slug": "red-mandacaru-1961",
+    "title": "Red Mandacaru",
+    "year": 1961,
+    "copies": [
+      {
+        "id": "pvca-000653-archive",
+        "resolution": "480p",
+        "size_gib": 1.374494363553822,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000653-archive",
+    "poster": "/posters/tmdb-249425-hRyo6HpGbVbNDEgL4px91UWV3zL.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/red-mandacaru-1961-434p",
+        "copy_id": "pvca-000653-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 249425,
+    "added_at": "2026-11-05",
+    "original_title": "Mandacaru Vermelho",
+    "release_date": "1961-11-27",
+    "runtime_minutes": 80,
+    "imdb_id": "tt0055135",
+    "translations": {
+      "pt-BR": {
+        "title": "Mandacaru Vermelho",
+        "synopsis": "Apesar de ter sido prometido a outro homem, uma jovem órfã se apaixona pelo homem que trabalha na fazenda em que vive, e juntos escapam. Segundo a tradição no Nordeste do Brasil, seu tio vai atrás deles, para matá-los por vingança."
+      },
+      "en": {
+        "title": "Red Mandacaru",
+        "synopsis": "Despite being promised to another man, a young orphaned woman falls in love with man working at the farm she lives in , and together they escape. According tradition in Northeast Brazil, her aunt goes after them, in order to kill them for revenge."
+      }
+    },
+    "synopsis": "Apesar de ter sido prometido a outro homem, uma jovem órfã se apaixona pelo homem que trabalha na fazenda em que vive, e juntos escapam. Segundo a tradição no Nordeste do Brasil, seu tio vai atrás deles, para matá-los por vingança.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Faroeste", "Romance", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Western", "Romance", "Drama"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Faroeste", "Romance", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
