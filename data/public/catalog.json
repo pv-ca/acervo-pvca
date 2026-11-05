@@ -37961,5 +37961,62 @@
     "countries": ["Brasil", "França"],
     "genres": ["Crime", "Drama", "Romance", "História"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000647",
+    "slug": "maids-2001",
+    "title": "Maids",
+    "year": 2001,
+    "copies": [
+      {
+        "id": "pvca-000647-archive",
+        "resolution": "1080p",
+        "size_gib": 6.150559822097421,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000647-archive",
+    "poster": "/posters/tmdb-8444-mk793EQlS6LshtUOe0M3aatwBoy.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/maids-2001-1040p",
+        "copy_id": "pvca-000647-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 8444,
+    "added_at": "2026-11-05",
+    "original_title": "Domésticas - O Filme",
+    "release_date": "2001-01-25",
+    "runtime_minutes": 88,
+    "imdb_id": "tt0279783",
+    "translations": {
+      "pt-BR": {
+        "title": "Domésticas - O Filme",
+        "synopsis": "No meio da nossa sociedade, existe um Brasil notado por poucos. Um Brasil formado por pessoas que, apesar de morar dentro de sua casa e fazer parte de seu dia a dia, vivem como se não estivessem lá. Cinco das integrantes deste Brasil são mostradas em \"Domésticas - O Filme\": Cida, Roxane, Quitéria, Raimunda e Créo. Uma quer se casar, a outra é casada mas sonha com um marido melhor. Uma sonha em ser artista de novela e outra acredita que tem por missão na Terra servir a Deus e à sua patroa. Todas têm sonhos distintos mas vivem a mesma realidade: trabalham como empregada doméstica."
+      },
+      "en": {
+        "title": "Maids",
+        "synopsis": "Five maids in São Paulo are observed in this episodic, impressionistic film. The women interact with each other, ride busses, work, and have longings: Rai for a husband, Créo for her lost daughter, Roxane for a career in modeling. Quitéria is naive, a gull for thieves. Cida has a husband and also a lover. While each woman gets what she wishes for (more or less), it doesn't always make things better."
+      }
+    },
+    "synopsis": "No meio da nossa sociedade, existe um Brasil notado por poucos. Um Brasil formado por pessoas que, apesar de morar dentro de sua casa e fazer parte de seu dia a dia, vivem como se não estivessem lá. Cinco das integrantes deste Brasil são mostradas em \"Domésticas - O Filme\": Cida, Roxane, Quitéria, Raimunda e Créo. Uma quer se casar, a outra é casada mas sonha com um marido melhor. Uma sonha em ser artista de novela e outra acredita que tem por missão na Terra servir a Deus e à sua patroa. Todas têm sonhos distintos mas vivem a mesma realidade: trabalham como empregada doméstica.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Comédia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Comedy"]
+      }
+    },
+    "directors": ["Nando Olival", "Fernando Meirelles"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Comédia"],
+    "original_languages": ["pt"]
   }
 ]
