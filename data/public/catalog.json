@@ -37847,5 +37847,62 @@
     "countries": ["Brasil"],
     "genres": ["Crime", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000645",
+    "slug": "macunaima-1969",
+    "title": "Macunaima",
+    "year": 1969,
+    "copies": [
+      {
+        "id": "pvca-000645-archive",
+        "resolution": "1080p",
+        "size_gib": 9.122960244305432,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000645-archive",
+    "poster": "/posters/tmdb-68173-sljH9IqGlLGybyGahoaCQzWg8uq.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/macunaima-1969-1080p",
+        "copy_id": "pvca-000645-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 68173,
+    "added_at": "2026-11-05",
+    "original_title": "Macunaíma",
+    "release_date": "1969-09-03",
+    "runtime_minutes": 110,
+    "imdb_id": "tt0064616",
+    "translations": {
+      "pt-BR": {
+        "title": "Macunaíma",
+        "synopsis": "Macunaíma é um herói preguiçoso, safado e sem nenhum caráter. Ele nasceu na selva e de preto, virou branco. Depois de adulto, deixa o sertão em companhia dos irmãos. Macunaíma vive várias aventuras na cidade, conhecendo e amando guerrilheiras e prostitutas, enfrentando vilões milionários, policiais, personagens de todos os tipos."
+      },
+      "en": {
+        "title": "Macunaima",
+        "synopsis": "Born a fully grown black man in a village in the Brazilian jungle, Macunaíma later magically transforms into a white man before making an adventure-filled trip to the city of São Paulo. Once there, he becomes something of a dandy, falling in love with Ci, a revolutionary who dies in an accidental bombing. After robbing a ruthless industrialist, Macunaima returns to his village where he finds his newly acquired knowledge and possessions of little use."
+      }
+    },
+    "synopsis": "Macunaíma é um herói preguiçoso, safado e sem nenhum caráter. Ele nasceu na selva e de preto, virou branco. Depois de adulto, deixa o sertão em companhia dos irmãos. Macunaíma vive várias aventuras na cidade, conhecendo e amando guerrilheiras e prostitutas, enfrentando vilões milionários, policiais, personagens de todos os tipos.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Fantasia", "Aventura"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Fantasy", "Adventure"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Fantasia", "Aventura"],
+    "original_languages": ["pt"]
   }
 ]
