@@ -37448,5 +37448,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000638",
+    "slug": "to-the-left-of-the-father-2001",
+    "title": "To the Left of the Father",
+    "year": 2001,
+    "copies": [
+      {
+        "id": "pvca-000638-archive",
+        "resolution": "1080p",
+        "size_gib": 11.027718434110284,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000638-archive",
+    "poster": "/posters/tmdb-60141-orRApy2BHy99HyWf7PwzHtoZRd1.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/to-the-left-of-the-father-2001-1080p",
+        "copy_id": "pvca-000638-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 60141,
+    "added_at": "2026-11-05",
+    "original_title": "Lavoura Arcaica",
+    "release_date": "2001-10-29",
+    "runtime_minutes": 171,
+    "imdb_id": "tt0241663",
+    "translations": {
+      "pt-BR": {
+        "title": "Lavoura Arcaica",
+        "synopsis": "André (Selton Mello) é um filho desgarrado, que saiu de casa devido à severa lei paterna e o sufocamento da ternura materna. Pedro (Leonardo Medeiros), seu irmão mais velho, recebe de sua mãe a missão de trazê-lo de volta ao lar. Cedendo aos apelos da mãe e de Pedro, André resolve voltar para a casa dos seus pais, mas irá quebrar definitivamente os alicerces da família ao se apaixonar por sua bela irmã Ana (Simone Spoladore)."
+      },
+      "en": {
+        "title": "To the Left of the Father",
+        "synopsis": "In 1940s São Paulo, Pedro’s tasked to retrieve his estranged brother André. André’s departure stems from a domineering father, an overly affectionate mother, and Pedro’s jealousy over the father’s favoritism. Further complicating matters is André’s unconventional relationship with their sister, Ana."
+      }
+    },
+    "synopsis": "André (Selton Mello) é um filho desgarrado, que saiu de casa devido à severa lei paterna e o sufocamento da ternura materna. Pedro (Leonardo Medeiros), seu irmão mais velho, recebe de sua mãe a missão de trazê-lo de volta ao lar. Cedendo aos apelos da mãe e de Pedro, André resolve voltar para a casa dos seus pais, mas irá quebrar definitivamente os alicerces da família ao se apaixonar por sua bela irmã Ana (Simone Spoladore).",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Romance", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Romance", "Drama"]
+      }
+    },
+    "directors": ["Luiz Fernando Carvalho"],
+    "countries": ["Brasil"],
+    "genres": ["Romance", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
