@@ -38018,5 +38018,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Comédia"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000648",
+    "slug": "mars-one-2022",
+    "title": "Mars One",
+    "year": 2022,
+    "copies": [
+      {
+        "id": "pvca-000648-archive",
+        "resolution": "1080p",
+        "size_gib": 5.703434229828417,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000648-archive",
+    "poster": "/posters/tmdb-913816-6AcoZ8aodKgVuOrYPTpc4NmjSue.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/mars-one-2022-1080p",
+        "copy_id": "pvca-000648-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 913816,
+    "added_at": "2026-11-05",
+    "original_title": "Marte Um",
+    "release_date": "2022-08-25",
+    "runtime_minutes": 115,
+    "imdb_id": "tt16377816",
+    "translations": {
+      "pt-BR": {
+        "title": "Marte Um",
+        "synopsis": "Uma família de classe média baixa passa por uma série de mudanças profundas e desafiadoras, reinventando a si mesmos e os seus laços familiares durante o processo. Tércia, a mãe, reinterpreta seu mundo depois que um encontro inesperado a deixa se perguntando se ela é amaldiçoada. Seu marido, Wellington, coloca todas as suas esperanças na carreira de seu filho, Deivinho, que relutantemente segue as ambições de seu pai, apesar de secretamente aspirar a estudar astrofísica e colonizar Marte. Enquanto isso, sua filha mais velha, Eunice, se apaixona por uma jovem de espírito livre e pondera se é hora de sair de casa."
+      },
+      "en": {
+        "title": "Mars One",
+        "synopsis": "A middle-class Black family in Brazil copes with the election of a far-right extremist president. The mother believes that she's cursed after an unexpected encounter, while her husband puts all of his hopes into their son's soccer career."
+      }
+    },
+    "synopsis": "Uma família de classe média baixa passa por uma série de mudanças profundas e desafiadoras, reinventando a si mesmos e os seus laços familiares durante o processo. Tércia, a mãe, reinterpreta seu mundo depois que um encontro inesperado a deixa se perguntando se ela é amaldiçoada. Seu marido, Wellington, coloca todas as suas esperanças na carreira de seu filho, Deivinho, que relutantemente segue as ambições de seu pai, apesar de secretamente aspirar a estudar astrofísica e colonizar Marte. Enquanto isso, sua filha mais velha, Eunice, se apaixona por uma jovem de espírito livre e pondera se é hora de sair de casa.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Gabriel Martins"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
