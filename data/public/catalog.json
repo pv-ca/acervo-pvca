@@ -37904,5 +37904,62 @@
     "countries": ["Brasil"],
     "genres": ["Comédia", "Fantasia", "Aventura"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000646",
+    "slug": "madame-sata-2002",
+    "title": "Madame Satã",
+    "year": 2002,
+    "copies": [
+      {
+        "id": "pvca-000646-archive",
+        "resolution": "720p",
+        "size_gib": 2.237443738617003,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000646-archive",
+    "poster": "/posters/tmdb-46993-73wB0Z8UlmVoOKbBZj5yhgsxK3U.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/madame-sata-2002-720p",
+        "copy_id": "pvca-000646-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 46993,
+    "added_at": "2026-11-05",
+    "original_title": "Madame Satã",
+    "release_date": "2002-10-03",
+    "runtime_minutes": 100,
+    "imdb_id": "tt0317887",
+    "translations": {
+      "pt-BR": {
+        "title": "Madame Satã",
+        "synopsis": "Rio de Janeiro, 1932.  No bairro da Lapa vive encarcerado na prisão João Francisco (Lázaro Ramos), artista transformista que sonha em se tornar um grande astro dos palcos.  Após deixar o cárcere, João passa a viver com Laurita (Marcélia Cartaxo), prostituta e sua \"esposa\"; Firmina, a filha de Laurita; Tabu (Flávio Bauraqui), seu cúmplice; Renatinho (Felippe Marques), sem amante e também traidor; e ainda Amador (Emiliano Queiroz), dono do bar Danúbio Azul.  É neste ambiente que João Francisco irá se transformar no mito Madame Satã, nome retirado do filme (1932), dirigido por Cecil B. deMille, que João Francisco viu e adorou."
+      },
+      "en": {
+        "title": "Madame Satã",
+        "synopsis": "In the favelas of Rio de Janeiro of the 1930s, João Francisco dos Santos is several things — son of slaves, ex-convict, thug, homosexual and adopted father for a number of pariahs. João expresses himself on the stage of a cabaret as Madame Satã."
+      }
+    },
+    "synopsis": "Rio de Janeiro, 1932.  No bairro da Lapa vive encarcerado na prisão João Francisco (Lázaro Ramos), artista transformista que sonha em se tornar um grande astro dos palcos.  Após deixar o cárcere, João passa a viver com Laurita (Marcélia Cartaxo), prostituta e sua \"esposa\"; Firmina, a filha de Laurita; Tabu (Flávio Bauraqui), seu cúmplice; Renatinho (Felippe Marques), sem amante e também traidor; e ainda Amador (Emiliano Queiroz), dono do bar Danúbio Azul.  É neste ambiente que João Francisco irá se transformar no mito Madame Satã, nome retirado do filme (1932), dirigido por Cecil B. deMille, que João Francisco viu e adorou.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "França"],
+        "genres": ["Crime", "Drama", "Romance", "História"]
+      },
+      "en": {
+        "countries": ["Brazil", "France"],
+        "genres": ["Crime", "Drama", "Romance", "History"]
+      }
+    },
+    "directors": ["Karim Aïnouz"],
+    "countries": ["Brasil", "França"],
+    "genres": ["Crime", "Drama", "Romance", "História"],
+    "original_languages": ["pt"]
   }
 ]
