@@ -38255,5 +38255,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000652",
+    "slug": "joe-zero-1974",
+    "title": "Joe Zero",
+    "year": 1974,
+    "copies": [
+      {
+        "id": "pvca-000652-archive",
+        "resolution": "1080p",
+        "size_gib": 1.1297176508232951,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000652-archive",
+    "poster": "/posters/tmdb-173739-5WfilLlyAD3x1mLAwkbJOEdo2Ev.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/joe-zero-1974-1080p",
+        "copy_id": "pvca-000652-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 173739,
+    "added_at": "2026-11-05",
+    "original_title": "Zézero",
+    "release_date": "1974-01-01",
+    "runtime_minutes": 32,
+    "imdb_id": "tt0320796",
+    "translations": {
+      "pt-BR": {
+        "title": "Zézero",
+        "synopsis": "Um campônes parte de sua terra em busca dos prazeres da metrópole. O trabalho, a moradia, o sexo e a subsistência logo se revelam difíceis e brutais. Ganha na loteria, volta ao campo e encontra morta a família. Pergunta-se, agora, o que fará com o dinheiro."
+      },
+      "en": {
+        "title": "Joe Zero",
+        "synopsis": "Man leaves the country and heads for the big city, where in middle of deprivation, he wins a lottery."
+      }
+    },
+    "synopsis": "Um campônes parte de sua terra em busca dos prazeres da metrópole. O trabalho, a moradia, o sexo e a subsistência logo se revelam difíceis e brutais. Ganha na loteria, volta ao campo e encontra morta a família. Pergunta-se, agora, o que fará com o dinheiro.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": []
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": []
+      }
+    },
+    "directors": ["Ozualdo Ribeiro Candeias"],
+    "countries": ["Brasil"],
+    "genres": [],
+    "original_languages": ["pt"]
   }
 ]
