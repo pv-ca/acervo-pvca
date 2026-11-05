@@ -38369,5 +38369,62 @@
     "countries": ["Brasil"],
     "genres": ["Faroeste", "Romance", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000654",
+    "slug": "jorge-amado-no-cinema-1979",
+    "title": "Jorge Amado no Cinema",
+    "year": 1979,
+    "copies": [
+      {
+        "id": "pvca-000654-archive",
+        "resolution": "480p",
+        "size_gib": 0.5834307130426168,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000654-archive",
+    "poster": "/posters/tmdb-74365-aKVwIEdchfC9APMDUeXWfMK8PSk.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/jorge-amado-no-cinema-1979-480p",
+        "copy_id": "pvca-000654-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 74365,
+    "added_at": "2026-11-05",
+    "translations": {
+      "pt-BR": {
+        "title": "Jorge Amado no Cinema",
+        "synopsis": "Jorge Amado no Cinema foi feito para um programa de televisão dedicado ao escritor Jorge Amado. Neste documentário, Jorge Amado é filmado em casa, cercado por sua numerosa família; numa livraria, durante uma sessão de autógrafos; e num cinema de Salvador, na pré-estreia de Tenda dos Milagres, de Nelson Pereira dos Santos, adaptação do livro homônimo de Jorge Amado. Glauber filma o amigo com muito humor e carinho. A câmera percorre o escritor, os familiares e os atores e atrizes do filme de Nelson de maneira lenta, incessante e ágil, e passa ainda por objetos de rituais de candomblé que compõem o museu de Jorge Amado."
+      },
+      "en": {
+        "title": "Jorge Amado no Cinema",
+        "synopsis": "Jorge Amado no Cinema was made for a television program dedicated to the writer Jorge Amado. In this documentary, Jorge Amado is filmed in his home, surrounded by his large family; in a bookstore, during an autograph session of one of his books, in a cinema in Salvador, at the avant-première of the film Tenda dos Milagres, by Nelson Pereira dos Santos, an adaptation of the book of the same name by Jorge Amado. Glauber films his friend with a lot of humor and affection. The camera evolves slowly, incessantly and quickly over the writer, his family members, actors and actresses from Nelson's film, in addition to passing through objects of candomblé rituals that make up Jorge Amado's museum."
+      }
+    },
+    "synopsis": "Jorge Amado no Cinema foi feito para um programa de televisão dedicado ao escritor Jorge Amado. Neste documentário, Jorge Amado é filmado em casa, cercado por sua numerosa família; numa livraria, durante uma sessão de autógrafos; e num cinema de Salvador, na pré-estreia de Tenda dos Milagres, de Nelson Pereira dos Santos, adaptação do livro homônimo de Jorge Amado. Glauber filma o amigo com muito humor e carinho. A câmera percorre o escritor, os familiares e os atores e atrizes do filme de Nelson de maneira lenta, incessante e ágil, e passa ainda por objetos de rituais de candomblé que compõem o museu de Jorge Amado.",
+    "original_title": "Jorge Amado no Cinema",
+    "release_date": "1979-01-01",
+    "runtime_minutes": 37,
+    "imdb_id": "tt0079373",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Glauber Rocha"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
