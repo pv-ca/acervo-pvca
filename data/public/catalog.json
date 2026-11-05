@@ -38725,5 +38725,62 @@
     "countries": ["Brasil", "Estados Unidos"],
     "genres": ["Documentário"],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000660",
+    "slug": "placido-1962",
+    "title": "Placido",
+    "year": 1962,
+    "copies": [
+      {
+        "id": "pvca-000660-archive",
+        "resolution": "1080p",
+        "size_gib": 16.77246650122106,
+        "format": "MKV",
+        "audio_languages": ["es"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000660-archive",
+    "poster": "/posters/tmdb-51317-9xzbq4B8z9i53KGvIhBIKSDyoCa.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/placido-1962-1080p",
+        "copy_id": "pvca-000660-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 51317,
+    "added_at": "2026-11-05",
+    "translations": {
+      "pt-BR": {
+        "title": "Plácido",
+        "synopsis": "Em uma pequena cidade espanhola, durante as festas de Natal, um grupo de senhoras ricas e idosas organiza um evento peculiar que consiste em convidar uma pessoa sem-teto para sentar-se à mesa farta delas. Plácido, um humilde trabalhador, é contratado pelas organizadoras para participar de um desfile com seu motocarro, uma tarefa aparentemente simples que, no entanto, não lhe será fácil cumprir."
+      },
+      "en": {
+        "title": "Placido",
+        "synopsis": "In a small Spanish town, during the Christmas holidays, a group of rich old ladies organize a peculiar event that consists of inviting a homeless person to sit down to dinner at their wealthy table. Plácido, a humble worker, is hired by the organizers to participate in a parade with his three-wheeled vehicle, a seemingly simple mission that will not be easy for him to accomplish."
+      }
+    },
+    "synopsis": "Em uma pequena cidade espanhola, durante as festas de Natal, um grupo de senhoras ricas e idosas organiza um evento peculiar que consiste em convidar uma pessoa sem-teto para sentar-se à mesa farta delas. Plácido, um humilde trabalhador, é contratado pelas organizadoras para participar de um desfile com seu motocarro, uma tarefa aparentemente simples que, no entanto, não lhe será fácil cumprir.",
+    "original_title": "Plácido",
+    "release_date": "1962-06-27",
+    "runtime_minutes": 84,
+    "imdb_id": "tt0055310",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Espanha"],
+        "genres": ["Comédia"]
+      },
+      "en": {
+        "countries": ["Spain"],
+        "genres": ["Comedy"]
+      }
+    },
+    "directors": ["Luis García Berlanga"],
+    "countries": ["Espanha"],
+    "genres": ["Comédia"],
+    "original_languages": ["es"]
   }
 ]
