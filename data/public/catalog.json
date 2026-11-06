@@ -39010,5 +39010,62 @@
     "countries": ["Argélia", "Brasil", "França", "Alemanha"],
     "genres": ["Documentário"],
     "original_languages": ["fr"]
+  },
+  {
+    "id": "PVCA-000665",
+    "slug": "limite-1931",
+    "title": "Limite",
+    "year": 1931,
+    "copies": [
+      {
+        "id": "pvca-000665-archive",
+        "resolution": "1080p",
+        "size_gib": 15.428302077576518,
+        "format": "MKV",
+        "audio_languages": ["zxx"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000665-archive",
+    "poster": "/posters/tmdb-8353-cnpkG0xCnjA2NcNSKhW1A66pyte.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/limite-1931-1080p",
+        "copy_id": "pvca-000665-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 8353,
+    "added_at": "2026-11-06",
+    "original_title": "Limite",
+    "release_date": "1931-05-17",
+    "runtime_minutes": 114,
+    "imdb_id": "tt0022080",
+    "translations": {
+      "pt-BR": {
+        "title": "Limite",
+        "synopsis": "Três estranhos flutuam à deriva em um pequeno barco no vasto oceano. Exaustos e aparentemente sem esperança, cada um carrega segredos e memórias de suas vidas anteriores. Enquanto o barco vaga sem rumo pelo mar infinito, suas histórias pessoais se entrelaçam em um ciclo que parece não ter fim."
+      },
+      "en": {
+        "title": "Limite",
+        "synopsis": "Adrift in the vast expanse of the ocean, a solitary boat carries three castaways—a man and two women. Stranded and devoid of any glimmer of rescue, they find solace in recounting the tales of their lives to one another. As they delve into their personal narratives, reminiscing about the circumstances that led them to this desolate predicament, they navigate through the depths of three distinct destinies. Bound by the confines of their shared space, every aspect of their existence becomes a boundary, underscoring their plight."
+      }
+    },
+    "synopsis": "Três estranhos flutuam à deriva em um pequeno barco no vasto oceano. Exaustos e aparentemente sem esperança, cada um carrega segredos e memórias de suas vidas anteriores. Enquanto o barco vaga sem rumo pelo mar infinito, suas histórias pessoais se entrelaçam em um ciclo que parece não ter fim.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Aventura"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Adventure"]
+      }
+    },
+    "directors": ["Mário Peixoto"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Aventura"],
+    "original_languages": ["pt"]
   }
 ]
