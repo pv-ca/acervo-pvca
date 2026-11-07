@@ -7017,11 +7017,25 @@
         "format": "Matroska",
         "audio_languages": [],
         "subtitle_languages": []
+      },
+      {
+        "id": "pvca-000120-archive",
+        "resolution": "576i",
+        "size_gib": 4.106129904277623,
+        "format": "MKV",
+        "audio_languages": ["fr"],
+        "subtitle_languages": ["pt-BR", "ru", "es"]
       }
     ],
     "catalog_copy_id": "pvca-000120-local",
     "poster": "/posters/tmdb-43101-1bTE3tN9cy2Cu8L6Opkr9EKIZeh.jpg",
-    "external_links": [],
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/picnic-on-the-grass-1959-576p",
+        "copy_id": "pvca-000120-archive"
+      }
+    ],
     "selections": ["Anos 1950", "Cinema francês"],
     "tmdb_id": 43101,
     "original_title": "Le Déjeuner sur l'herbe",
@@ -39067,5 +39081,290 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Aventura"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000666",
+    "slug": "raise-the-red-lantern-1991",
+    "title": "Raise the Red Lantern",
+    "year": 1991,
+    "copies": [
+      {
+        "id": "pvca-000666-archive",
+        "resolution": "1080p",
+        "size_gib": 12.24171882495284,
+        "format": "MKV",
+        "audio_languages": ["zh"],
+        "subtitle_languages": ["pt-BR", "zh", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000666-archive",
+    "poster": "/posters/tmdb-10404-c8e6H3G3RNRsBQrSPv3yxUhblXZ.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/raise-the-red-lantern-1991-1034p",
+        "copy_id": "pvca-000666-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 10404,
+    "added_at": "2026-11-07",
+    "original_title": "大红灯笼高高挂",
+    "release_date": "1991-10-10",
+    "runtime_minutes": 125,
+    "imdb_id": "tt0101640",
+    "translations": {
+      "pt-BR": {
+        "title": "Lanternas Vermelhas",
+        "synopsis": "Song-lian perde o pai e as dificuldades financeiras a obrigam a abandonar os estudos e a se tornar concubina de um homem rico. Ao mudar-se para sua mansão ela descobre que o senhor já possui outras três esposas, e que escolhe todos os dias uma delas para passar a noite, colocando lanternas vermelhas na porta de seu quarto. Aos poucos Song-lian vai começar a entender as intrigas e sabotagens, o jogo que acontece entre as mulheres que competem pela atenção do marido."
+      },
+      "en": {
+        "title": "Raise the Red Lantern",
+        "synopsis": "In 1920s China, 19-year-old Songlian becomes a concubine of a powerful lord and is forced to compete with his three wives for the privileges gained."
+      }
+    },
+    "synopsis": "Song-lian perde o pai e as dificuldades financeiras a obrigam a abandonar os estudos e a se tornar concubina de um homem rico. Ao mudar-se para sua mansão ela descobre que o senhor já possui outras três esposas, e que escolhe todos os dias uma delas para passar a noite, colocando lanternas vermelhas na porta de seu quarto. Aos poucos Song-lian vai começar a entender as intrigas e sabotagens, o jogo que acontece entre as mulheres que competem pela atenção do marido.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["China", "Hong Kong, RAE da China"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["China", "Hong Kong SAR China"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Yimou Zhang"],
+    "countries": ["China", "Hong Kong, RAE da China"],
+    "genres": ["Drama"],
+    "original_languages": ["zh"]
+  },
+  {
+    "id": "PVCA-000667",
+    "slug": "taipei-story-1985",
+    "title": "Taipei Story",
+    "year": 1985,
+    "copies": [
+      {
+        "id": "pvca-000667-archive",
+        "resolution": "1080p",
+        "size_gib": 30.67974663618952,
+        "format": "MKV",
+        "audio_languages": ["zh", "ko"],
+        "subtitle_languages": ["pt-BR", "en", "fr", "ja", "ko"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000667-archive",
+    "poster": "/posters/tmdb-106380-xZoYrnsgMuuPY5j2L5wsJWxKb6X.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/taipei-story-1985-1080p",
+        "copy_id": "pvca-000667-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 106380,
+    "added_at": "2026-11-07",
+    "original_title": "青梅竹馬",
+    "release_date": "1985-05-01",
+    "runtime_minutes": 120,
+    "imdb_id": "tt0089866",
+    "translations": {
+      "pt-BR": {
+        "title": "História de Taipei",
+        "synopsis": "Uma jovem busca urgentemente navegar pelo labirinto da Taipei contemporânea e encontrar um futuro. Ela espera que seu namorado Lung seja a chave para o futuro, mas Lung está preso a um passado que combina beisebol e lealdade tradicional, o que o leva a desperdiçar seu pé-de-meia para salvar o pai dela de problemas financeiros."
+      },
+      "en": {
+        "title": "Taipei Story",
+        "synopsis": "A young woman urgently seeks to navigate the maze of contemporary Taipei and find a future. She hopes that her boyfriend Lung is the key to the future, but Lung is stuck in a past that combines baseball and traditional loyalty that leads him to squander his nest egg bailing her father out of financial trouble."
+      }
+    },
+    "synopsis": "Uma jovem busca urgentemente navegar pelo labirinto da Taipei contemporânea e encontrar um futuro. Ela espera que seu namorado Lung seja a chave para o futuro, mas Lung está preso a um passado que combina beisebol e lealdade tradicional, o que o leva a desperdiçar seu pé-de-meia para salvar o pai dela de problemas financeiros.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Taiwan"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Taiwan"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Edward Yang"],
+    "countries": ["Taiwan"],
+    "genres": ["Drama"],
+    "original_languages": ["zh"]
+  },
+  {
+    "id": "PVCA-000668",
+    "slug": "chronicle-of-anna-magdalena-bach-1968",
+    "title": "Chronicle of Anna Magdalena Bach",
+    "year": 1968,
+    "copies": [
+      {
+        "id": "pvca-000668-archive",
+        "resolution": "1080p",
+        "size_gib": 24.17406607232988,
+        "format": "MKV",
+        "audio_languages": ["mul"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000668-archive",
+    "poster": "/posters/tmdb-95600-pxnBM0BiSFChJGFPoUScMcqjDTm.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/chronicle-of-anna-magdalena-bach-1968-1080p",
+        "copy_id": "pvca-000668-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 95600,
+    "added_at": "2026-11-07",
+    "original_title": "Chronik der Anna Magdalena Bach",
+    "release_date": "1968-02-03",
+    "runtime_minutes": 94,
+    "imdb_id": "tt0062804",
+    "translations": {
+      "pt-BR": {
+        "title": "Crônica de Anna Magdalena Bach",
+        "synopsis": "A vida de Johann Sebastian Bach sob o olhar de sua esposa Anna Magdalena."
+      },
+      "en": {
+        "title": "Chronicle of Anna Magdalena Bach",
+        "synopsis": "The life and music of Johann Sebastian Bach as presented by his wife, Anna."
+      }
+    },
+    "synopsis": "A vida de Johann Sebastian Bach sob o olhar de sua esposa Anna Magdalena.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Alemanha", "Itália"],
+        "genres": ["Música", "Drama"]
+      },
+      "en": {
+        "countries": ["Germany", "Italy"],
+        "genres": ["Music", "Drama"]
+      }
+    },
+    "directors": ["Danièle Huillet", "Jean-Marie Straub"],
+    "countries": ["Alemanha", "Itália"],
+    "genres": ["Música", "Drama"],
+    "original_languages": ["de"]
+  },
+  {
+    "id": "PVCA-000669",
+    "slug": "the-funeral-1984",
+    "title": "The Funeral",
+    "year": 1984,
+    "copies": [
+      {
+        "id": "pvca-000669-archive",
+        "resolution": "480p",
+        "size_gib": 5.6784274922683835,
+        "format": "MKV",
+        "audio_languages": ["ja"],
+        "subtitle_languages": ["pt-BR", "ja", "en", "ru"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000669-archive",
+    "poster": "/posters/tmdb-42095-jIHpdBKFLBXmorfILe7kzLk0NY5.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-funeral-1984-480p",
+        "copy_id": "pvca-000669-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 42095,
+    "added_at": "2026-11-07",
+    "original_title": "お葬式",
+    "release_date": "1984-11-17",
+    "runtime_minutes": 125,
+    "imdb_id": "tt0089746",
+    "translations": {
+      "pt-BR": {
+        "title": "O Funeral",
+        "synopsis": "Quando o sogro de Wabisuke morre inesperadamente, a família passa por uma série de eventos e ocorrências aleatórias enquanto o funeral se desenrola durante três dias em sua casa."
+      },
+      "en": {
+        "title": "The Funeral",
+        "synopsis": "When Wabisuke's father-in-law unexpectedly dies, the family goes through a series of random events and occurrences as the funeral unfolds over three days in their home."
+      }
+    },
+    "synopsis": "Quando o sogro de Wabisuke morre inesperadamente, a família passa por uma série de eventos e ocorrências aleatórias enquanto o funeral se desenrola durante três dias em sua casa.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Japão"],
+        "genres": ["Comédia", "Drama"]
+      },
+      "en": {
+        "countries": ["Japan"],
+        "genres": ["Comedy", "Drama"]
+      }
+    },
+    "directors": ["伊丹十三"],
+    "countries": ["Japão"],
+    "genres": ["Comédia", "Drama"],
+    "original_languages": ["ja"]
+  },
+  {
+    "id": "PVCA-000670",
+    "slug": "the-killing-of-a-chinese-bookie-1976",
+    "title": "The Killing of a Chinese Bookie",
+    "year": 1976,
+    "copies": [
+      {
+        "id": "pvca-000670-archive",
+        "resolution": "1080p",
+        "size_gib": 5.714029831811786,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000670-archive",
+    "poster": "/posters/tmdb-32040-clQgmbmBOxvA2NepvijoL7YUCvr.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-killing-of-a-chinese-bookie-1976-1038p",
+        "copy_id": "pvca-000670-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 32040,
+    "added_at": "2026-11-07",
+    "translations": {
+      "pt-BR": {
+        "title": "A Morte de um Bookmaker Chinês",
+        "synopsis": "Cosmo Vittelli, dono de um cabaré decadente e barato em Hollywood, tem verdadeira afeição pelas mulheres que fazem strip em seus shows e pelos funcionários que mantêm de pé o seu estabelecimento miserável. Ele também tem um grave problema com jogo, que já o meteu em encrenca antes. Quando perde uma fortuna em um cassino clandestino do mafioso Mort, não consegue pagar. Mort então lhe oferece a chance de quitar a dívida eliminando um bookmaker incômodo, protegido pela máfia."
+      },
+      "en": {
+        "title": "The Killing of a Chinese Bookie",
+        "synopsis": "Cosmo Vittelli, the proprietor of a sleazy, low-rent Hollywood cabaret, has a real affection for the women who strip in his peepshows and the staff who keep up his dingy establishment. He also has a major gambling problem that has gotten him in trouble before. When Cosmo loses big-time at an underground casino run by mobster Mort, he isn't able to pay up. Mort then offers Cosmo the chance to pay back his debt by knocking off a pesky, Mafia-protected bookie."
+      }
+    },
+    "synopsis": "Cosmo Vittelli, dono de um cabaré decadente e barato em Hollywood, tem verdadeira afeição pelas mulheres que fazem strip em seus shows e pelos funcionários que mantêm de pé o seu estabelecimento miserável. Ele também tem um grave problema com jogo, que já o meteu em encrenca antes. Quando perde uma fortuna em um cassino clandestino do mafioso Mort, não consegue pagar. Mort então lhe oferece a chance de quitar a dívida eliminando um bookmaker incômodo, protegido pela máfia.",
+    "original_title": "The Killing of a Chinese Bookie",
+    "release_date": "1976-02-15",
+    "runtime_minutes": 135,
+    "imdb_id": "tt0074749",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos"],
+        "genres": ["Thriller", "Crime", "Drama"]
+      },
+      "en": {
+        "countries": ["United States"],
+        "genres": ["Thriller", "Crime", "Drama"]
+      }
+    },
+    "directors": ["John Cassavetes"],
+    "countries": ["Estados Unidos"],
+    "genres": ["Thriller", "Crime", "Drama"],
+    "original_languages": ["en"]
   }
 ]
