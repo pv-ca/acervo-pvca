@@ -39366,5 +39366,347 @@
     "countries": ["Estados Unidos"],
     "genres": ["Thriller", "Crime", "Drama"],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000671",
+    "slug": "the-death-of-maria-malibran-1972",
+    "title": "The Death of Maria Malibran",
+    "year": 1972,
+    "copies": [
+      {
+        "id": "pvca-000671-archive",
+        "resolution": "576i",
+        "size_gib": 4.506236149929464,
+        "format": "MKV",
+        "audio_languages": ["de"],
+        "subtitle_languages": ["pt-BR", "en", "fr", "it", "ru"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000671-archive",
+    "poster": "/posters/tmdb-137037-z8ovhqVaQkiq0HrUgCxJdOIHFqx.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-death-of-maria-malibran-1972-576p",
+        "copy_id": "pvca-000671-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 137037,
+    "added_at": "2026-11-08",
+    "translations": {
+      "pt-BR": {
+        "title": "A Morte de Maria Malibran",
+        "synopsis": "Uma série de quadros que ilustram a vida e a morte de uma célebre cantora de ópera do século XIX."
+      },
+      "en": {
+        "title": "The Death of Maria Malibran",
+        "synopsis": "A series of tableaux illustrating the life and death of a celebrated 19th century German opera singer."
+      }
+    },
+    "synopsis": "Uma série de quadros que ilustram a vida e a morte de uma célebre cantora de ópera do século XIX.",
+    "original_title": "Der Tod der Maria Malibran",
+    "release_date": "1972-03-02",
+    "runtime_minutes": 104,
+    "imdb_id": "tt0067861",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Alemanha"],
+        "genres": ["Drama", "Comédia"]
+      },
+      "en": {
+        "countries": ["Germany"],
+        "genres": ["Drama", "Comedy"]
+      }
+    },
+    "directors": ["Werner Schroeter"],
+    "countries": ["Alemanha"],
+    "genres": ["Drama", "Comédia"],
+    "original_languages": ["de"]
+  },
+  {
+    "id": "PVCA-000672",
+    "slug": "infernal-affairs-2002",
+    "title": "Infernal Affairs",
+    "year": 2002,
+    "copies": [
+      {
+        "id": "pvca-000672-archive",
+        "resolution": "2160p",
+        "size_gib": 50.060998955741525,
+        "format": "MKV",
+        "audio_languages": ["zh"],
+        "subtitle_languages": ["pt-BR", "en", "fr", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000672-archive",
+    "poster": "/posters/infernal-affairs-2002-2160p.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/infernal-affairs-2002-2160p",
+        "copy_id": "pvca-000672-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 10775,
+    "added_at": "2026-11-08",
+    "original_title": "無間道",
+    "release_date": "2002-12-12",
+    "runtime_minutes": 101,
+    "imdb_id": "tt0338564",
+    "translations": {
+      "pt-BR": {
+        "title": "Conflitos Internos",
+        "synopsis": "Chan Wing Yan é um policial experiente, enviado sob disfarce para infiltrar-se em um perigoso círculo criminoso. Especialista em desfazer quadrilhas, ele acredita que esta será mais uma missão rotineira. Mas um espião foi plantado no departamento de polícia... e agora Chang corre perigo."
+      },
+      "en": {
+        "title": "Infernal Affairs",
+        "synopsis": "Chan Wing Yan, a young police officer, has been sent undercover as a mole in the local mafia. Lau Kin Ming, a young mafia member, infiltrates the police force. Years later, their older counterparts, Chen Wing Yan and Inspector Lau Kin Ming, respectively, race against time to expose the mole within their midst."
+      }
+    },
+    "synopsis": "Chan Wing Yan é um policial experiente, enviado sob disfarce para infiltrar-se em um perigoso círculo criminoso. Especialista em desfazer quadrilhas, ele acredita que esta será mais uma missão rotineira. Mas um espião foi plantado no departamento de polícia... e agora Chang corre perigo.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Hong Kong, RAE da China"],
+        "genres": ["Drama", "Thriller", "Crime"]
+      },
+      "en": {
+        "countries": ["Hong Kong SAR China"],
+        "genres": ["Drama", "Thriller", "Crime"]
+      }
+    },
+    "directors": ["麥兆輝", "劉偉強"],
+    "countries": ["Hong Kong, RAE da China"],
+    "genres": ["Drama", "Thriller", "Crime"],
+    "original_languages": ["cn"]
+  },
+  {
+    "id": "PVCA-000673",
+    "slug": "fantastic-night-1942",
+    "title": "Fantastic Night",
+    "year": 1942,
+    "copies": [
+      {
+        "id": "pvca-000673-archive",
+        "resolution": "480i",
+        "size_gib": 3.907024814747274,
+        "format": "MKV",
+        "audio_languages": ["fr"],
+        "subtitle_languages": ["pt-BR", "en", "ru"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000673-archive",
+    "poster": "/posters/tmdb-67455-3Q7Ofz17lTXEgERyeDdRlOWU1sq.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/fantastic-night-1942-480p",
+        "copy_id": "pvca-000673-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 67455,
+    "added_at": "2026-11-08",
+    "translations": {
+      "pt-BR": {
+        "title": "A Noite Fantástica",
+        "synopsis": "Denis é estudante de filosofia e trabalha à noite no mercado Les Halles, em Paris. Exausto, adormece com frequência e vê sempre a mesma mulher em sonho, vestida de branco, que lhe escapa. Obcecado por essa imagem e vencido pelo cansaço, deixa cada vez mais de lado a companheira. Numa noite, durante um sono mais profundo, segue a mulher de branco, que o conduz a um universo fantástico…"
+      },
+      "en": {
+        "title": "Fantastic Night",
+        "synopsis": "Denis, a poor student in philosophy, works as a night porter in the Paris market of Les Halles in order to pay for his studies. Constantly weary, he falls asleep and dreams of a beautiful girl in white, Irène, with whom he falls in love."
+      }
+    },
+    "synopsis": "Denis é estudante de filosofia e trabalha à noite no mercado Les Halles, em Paris. Exausto, adormece com frequência e vê sempre a mesma mulher em sonho, vestida de branco, que lhe escapa. Obcecado por essa imagem e vencido pelo cansaço, deixa cada vez mais de lado a companheira. Numa noite, durante um sono mais profundo, segue a mulher de branco, que o conduz a um universo fantástico…",
+    "original_title": "La Nuit fantastique",
+    "release_date": "1942-07-10",
+    "runtime_minutes": 90,
+    "imdb_id": "tt0041705",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["França"],
+        "genres": ["Comédia", "Fantasia", "Romance"]
+      },
+      "en": {
+        "countries": ["France"],
+        "genres": ["Comedy", "Fantasy", "Romance"]
+      }
+    },
+    "directors": ["Marcel L'Herbier"],
+    "countries": ["França"],
+    "genres": ["Comédia", "Fantasia", "Romance"],
+    "original_languages": ["fr"]
+  },
+  {
+    "id": "PVCA-000674",
+    "slug": "nights-of-cabiria-1957",
+    "title": "Nights of Cabiria",
+    "year": 1957,
+    "copies": [
+      {
+        "id": "pvca-000674-archive",
+        "resolution": "1080p",
+        "size_gib": 27.272658883593976,
+        "format": "MKV",
+        "audio_languages": ["it"],
+        "subtitle_languages": ["pt-BR", "en", "ru"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000674-archive",
+    "poster": "/posters/tmdb-19426-lcKOSCzyzDMsrj7lNMtEl1YcXFG.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/nights-of-cabiria-1957-1080p",
+        "copy_id": "pvca-000674-archive"
+      }
+    ],
+    "selections": ["Anos 1950"],
+    "tmdb_id": 19426,
+    "added_at": "2026-11-08",
+    "original_title": "Le notti di Cabiria",
+    "release_date": "1957-10-03",
+    "runtime_minutes": 118,
+    "imdb_id": "tt0050783",
+    "translations": {
+      "pt-BR": {
+        "title": "Noites de Cabíria",
+        "synopsis": "Cabiria é uma prostituta baixinha e elétrica que vaga pelas ruas de Roma procurando o verdadeiro amor. Após ter tentado tudo, inclusive ajuda divina, ela acha seu pretendente dos sonhos no local e hora mais inapropriados. Mas, seria ele tão perfeito assim?"
+      },
+      "en": {
+        "title": "Nights of Cabiria",
+        "synopsis": "Rome, 1957. A woman, Cabiria, is robbed and left to drown by her boyfriend, Giorgio. Rescued, she resumes her life and tries her best to find happiness in a cynical world. Even when she thinks her struggles are over and she has found happiness and contentment, things may not be what they seem."
+      }
+    },
+    "synopsis": "Cabiria é uma prostituta baixinha e elétrica que vaga pelas ruas de Roma procurando o verdadeiro amor. Após ter tentado tudo, inclusive ajuda divina, ela acha seu pretendente dos sonhos no local e hora mais inapropriados. Mas, seria ele tão perfeito assim?",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Itália", "França"],
+        "genres": ["Drama", "Comédia"]
+      },
+      "en": {
+        "countries": ["Italy", "France"],
+        "genres": ["Drama", "Comedy"]
+      }
+    },
+    "directors": ["Federico Fellini"],
+    "countries": ["Itália", "França"],
+    "genres": ["Drama", "Comédia"],
+    "original_languages": ["it"]
+  },
+  {
+    "id": "PVCA-000675",
+    "slug": "october-sky-1999",
+    "title": "October Sky",
+    "year": 1999,
+    "copies": [
+      {
+        "id": "pvca-000675-archive",
+        "resolution": "1080p",
+        "size_gib": 28.249413293786347,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000675-archive",
+    "poster": "/posters/tmdb-13466-rm8sda9sNb2bn8SJEIWwTbpfUZR.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/october-sky-1999-1080p",
+        "copy_id": "pvca-000675-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 13466,
+    "added_at": "2026-11-08",
+    "original_title": "October Sky",
+    "release_date": "1999-02-19",
+    "runtime_minutes": 108,
+    "imdb_id": "tt0132477",
+    "translations": {
+      "pt-BR": {
+        "title": "O Céu de Outubro",
+        "synopsis": "No final dos anos 50, o adolescente Homer Hickam (Jake Gyllenhaal) vive em uma cidade onde a mineração é a maior empregadora local. Ao saber que os russos colocaram o satélite Sputnik em órbita, Homer começa a sonhar em também colocar um foguete seu em órbita. Logo ele convence alguns amigos a participarem do projeto e, com o apoio de uma professora, dá início ao projeto que irá mudar sua vida para sempre."
+      },
+      "en": {
+        "title": "October Sky",
+        "synopsis": "The true story of Homer Hickam, a coal miner's son who was inspired by the first Sputnik launch to take up rocketry against his father's wishes."
+      }
+    },
+    "synopsis": "No final dos anos 50, o adolescente Homer Hickam (Jake Gyllenhaal) vive em uma cidade onde a mineração é a maior empregadora local. Ao saber que os russos colocaram o satélite Sputnik em órbita, Homer começa a sonhar em também colocar um foguete seu em órbita. Logo ele convence alguns amigos a participarem do projeto e, com o apoio de uma professora, dá início ao projeto que irá mudar sua vida para sempre.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos"],
+        "genres": ["Drama", "História", "Família"]
+      },
+      "en": {
+        "countries": ["United States"],
+        "genres": ["Drama", "History", "Family"]
+      }
+    },
+    "directors": ["Joe Johnston"],
+    "countries": ["Estados Unidos"],
+    "genres": ["Drama", "História", "Família"],
+    "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000676",
+    "slug": "the-sicilian-1987",
+    "title": "The Sicilian",
+    "year": 1987,
+    "copies": [
+      {
+        "id": "pvca-000676-archive",
+        "resolution": "1080p",
+        "size_gib": 20.98225073236972,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en", "ru"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000676-archive",
+    "poster": "/posters/tmdb-31945-1Nzg9ehvC1eptrnovLdJUGwcjlA.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-sicilian-1987-818p",
+        "copy_id": "pvca-000676-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 31945,
+    "added_at": "2026-11-08",
+    "original_title": "The Sicilian",
+    "release_date": "1987-10-07",
+    "runtime_minutes": 116,
+    "imdb_id": "tt0093966",
+    "translations": {
+      "pt-BR": {
+        "title": "O Siciliano",
+        "synopsis": "Narra a trajetória e história verídica de Salvatore Giuliano, o líder e bandido siciliano que ousou enfrentar a igreja, o estado e a máfia, na esperança de tornar a Sicília independente, no final dos anos 40. Giuliano rouba dos ricos proprietários de terra para dar aos aflitos e humildes camponeses, e os instrui a comprar terras com esse dinheiro."
+      },
+      "en": {
+        "title": "The Sicilian",
+        "synopsis": "Egocentric bandit Salvatore Giuliano fights the Church, the Mafia, and the landed gentry while leading a populist movement for Sicilian independence."
+      }
+    },
+    "synopsis": "Narra a trajetória e história verídica de Salvatore Giuliano, o líder e bandido siciliano que ousou enfrentar a igreja, o estado e a máfia, na esperança de tornar a Sicília independente, no final dos anos 40. Giuliano rouba dos ricos proprietários de terra para dar aos aflitos e humildes camponeses, e os instrui a comprar terras com esse dinheiro.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Estados Unidos"],
+        "genres": ["Drama", "Crime", "Thriller"]
+      },
+      "en": {
+        "countries": ["United States"],
+        "genres": ["Drama", "Crime", "Thriller"]
+      }
+    },
+    "directors": ["Michael Cimino"],
+    "countries": ["Estados Unidos"],
+    "genres": ["Drama", "Crime", "Thriller"],
+    "original_languages": ["en"]
   }
 ]
