@@ -146,6 +146,27 @@ export async function publish(
         resolve(staging, "data/public/catalog.json"),
         snapshot.records
       );
+      // Selection mirrors must land with the film or the staged tests fail; only lines naming the batch's own films may differ.
+      const editorial = "data/public/editorial.json";
+      if (existsSync(resolve(staging, editorial))) {
+        const batchSlugs = new Set(
+            snapshot.records
+              .filter((f) => allowed.has(f.tmdb_id))
+              .map((f) => `"${f.slug}",`)
+          ),
+          stagedLines = new Set(
+            readFileSync(resolve(staging, editorial), "utf8").split("\n")
+          );
+        if (
+          readFileSync(resolve(root, editorial), "utf8")
+            .split("\n")
+            .some(
+              (line) => !stagedLines.has(line) && !batchSlugs.has(line.trim())
+            )
+        )
+          throw Error("UNRELATED_EDITORIAL_CHANGES");
+        cpSync(resolve(root, editorial), resolve(staging, editorial));
+      }
       for (const film of snapshot.records) {
         if (
           !/^\/posters\/[a-zA-Z0-9/_-]+\.(jpg|jpeg|png|webp|avif)$/.test(
@@ -222,7 +243,14 @@ export async function publish(
           });
         }
       await run(
-        ["git", "add", "--", "data/public/catalog.json", "public/posters"],
+        [
+          "git",
+          "add",
+          "--",
+          "data/public/catalog.json",
+          ...(existsSync(resolve(staging, editorial)) ? [editorial] : []),
+          "public/posters",
+        ],
         staging
       );
       const changed = await run(
@@ -236,6 +264,7 @@ export async function publish(
           .some(
             (path) =>
               path !== "data/public/catalog.json" &&
+              path !== "data/public/editorial.json" &&
               !/^public\/posters\/[a-zA-Z0-9/_-]+\.(jpg|jpeg|png|webp|avif)$/.test(
                 path
               )

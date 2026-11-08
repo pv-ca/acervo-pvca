@@ -290,9 +290,18 @@ test("isolated batch deploy excludes prototype, verifies both languages and resu
     root
   );
   writeFileSync(resolve(root, ".gitignore"), ".local-admin/\n");
+  writeFileSync(
+    resolve(root, "data/public/editorial.json"),
+    '[\n  "old",\n]\n'
+  );
   await command(["git", "add", "."], root);
   await command(["git", "commit", "-m", "base"], root);
   writeFileSync(resolve(root, "prototype.txt"), "unrelated work");
+  // the batch's own selection mirror line travels with the film
+  writeFileSync(
+    resolve(root, "data/public/editorial.json"),
+    '[\n  "old",\n  "test-film-2000",\n]\n'
+  );
   await stage(root, receipt(root));
   let first = true,
     pushes = 0,
@@ -361,6 +370,12 @@ test("isolated batch deploy excludes prototype, verifies both languages and resu
   assert.equal(result.deployment.pages.length, 2);
   const tracked = await command(["git", "ls-files"], result.deployment.staging);
   assert.ok(!tracked.includes("prototype.txt"));
+  assert.ok(
+    readFileSync(
+      resolve(result.deployment.staging, "data/public/editorial.json"),
+      "utf8"
+    ).includes('"test-film-2000",')
+  );
   assert.ok(
     readFileSync(resolve(root, "prototype.txt"), "utf8").includes("unrelated")
   );
