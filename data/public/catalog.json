@@ -39708,5 +39708,62 @@
     "countries": ["Estados Unidos"],
     "genres": ["Drama", "Crime", "Thriller"],
     "original_languages": ["en"]
+  },
+  {
+    "id": "PVCA-000677",
+    "slug": "memories-of-prison-1984",
+    "title": "Memories of Prison",
+    "year": 1984,
+    "copies": [
+      {
+        "id": "pvca-000677-archive",
+        "resolution": "1080p",
+        "size_gib": 13.902651644311845,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000677-archive",
+    "poster": "/posters/tmdb-135624-fpVYLQ22KroHbvvFyKddDFZdZ9j.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/memories-of-prison-1984-1080p",
+        "copy_id": "pvca-000677-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 135624,
+    "added_at": "2026-11-09",
+    "original_title": "Memórias do Cárcere",
+    "release_date": "1984-06-18",
+    "runtime_minutes": 190,
+    "imdb_id": "tt0087709",
+    "translations": {
+      "pt-BR": {
+        "title": "Memórias do Cárcere",
+        "synopsis": "Nos anos 1930, o escritor Graciliano Ramos, acusado de colaborar com subversivos, é tirado de Alagoas e levado ao presídio de Ilha Grande, no Rio, onde convive com os mais diversos personagens da marginalizada população brasileira, de ladrões de galinhas a homossexuais e assaltantes. Baseado em relato autobiográfico."
+      },
+      "en": {
+        "title": "Memories of Prison",
+        "synopsis": "In the 1930s, novelist and politician Graciliano Ramos is accused of being a communist sympathizer. He is then arrested and sent to the Ilha Grande prison, where he experiences the disturbing treatment reserved for common prisoners."
+      }
+    },
+    "synopsis": "Nos anos 1930, o escritor Graciliano Ramos, acusado de colaborar com subversivos, é tirado de Alagoas e levado ao presídio de Ilha Grande, no Rio, onde convive com os mais diversos personagens da marginalizada população brasileira, de ladrões de galinhas a homossexuais e assaltantes. Baseado em relato autobiográfico.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "História"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "History"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "História"],
+    "original_languages": ["pt"]
   }
 ]
