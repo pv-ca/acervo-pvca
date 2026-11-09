@@ -41190,5 +41190,62 @@
     "countries": ["Brasil"],
     "genres": ["Romance", "Comédia", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000703",
+    "slug": "elite-squad-the-enemy-within-2010",
+    "title": "Elite Squad: The Enemy Within",
+    "year": 2010,
+    "copies": [
+      {
+        "id": "pvca-000703-archive",
+        "resolution": "1080p",
+        "size_gib": 11.73607762902975,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000703-archive",
+    "poster": "/posters/tmdb-47931-8G7F938AHqBBLc5yJXPUJhSJzN5.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/elite-squad-the-enemy-within-2010-1080p",
+        "copy_id": "pvca-000703-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 47931,
+    "added_at": "2026-11-09",
+    "original_title": "Tropa de Elite 2",
+    "release_date": "2010-10-08",
+    "runtime_minutes": 115,
+    "imdb_id": "tt1555149",
+    "translations": {
+      "pt-BR": {
+        "title": "Tropa de Elite 2: O Inimigo Agora é Outro",
+        "synopsis": "O destino da cidade do Rio de Janeiro e de Nascimento se cruzam em \"Tropa de Elite 2\", quando suas obrigações de pai se chocam com as de policial. Mais maduro, estratégico e solitário, o agora Coronel Nascimento faz o bope crescer e coloca o tráfico de drogas de joelho. Isto apenas para descobrir que na segurança pública do Rio de Janeiro nada é o que parece. O sistema se reinventa e descobre como lucrar sem o intermédio do tráfico. Em perseguição ao caminho trilhado pelo sistema, Nascimento vai além dos limites do quartel, revelando as ligações das milícias com o Estado. E o preço por essa descoberta é alto: o inimigo agora é outro."
+      },
+      "en": {
+        "title": "Elite Squad: The Enemy Within",
+        "synopsis": "After a bloody invasion of the BOPE in the High-Security Penitentiary Bangu 1 in Rio de Janeiro to control a rebellion of interns, the Lieutenant-Colonel Roberto Nascimento and the second in command Captain André Matias are accused by the Human Right Aids member Diogo Fraga of execution of prisoners. Matias is transferred to the corrupted Military Police and Nascimento is exonerated from the BOPE by the Governor."
+      }
+    },
+    "synopsis": "O destino da cidade do Rio de Janeiro e de Nascimento se cruzam em \"Tropa de Elite 2\", quando suas obrigações de pai se chocam com as de policial. Mais maduro, estratégico e solitário, o agora Coronel Nascimento faz o bope crescer e coloca o tráfico de drogas de joelho. Isto apenas para descobrir que na segurança pública do Rio de Janeiro nada é o que parece. O sistema se reinventa e descobre como lucrar sem o intermédio do tráfico. Em perseguição ao caminho trilhado pelo sistema, Nascimento vai além dos limites do quartel, revelando as ligações das milícias com o Estado. E o preço por essa descoberta é alto: o inimigo agora é outro.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Ação", "Crime"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Action", "Crime"]
+      }
+    },
+    "directors": ["José Padilha"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Ação", "Crime"],
+    "original_languages": ["pt"]
   }
 ]
