@@ -40962,5 +40962,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "História"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000699",
+    "slug": "the-priest-and-the-girl-1966",
+    "title": "The Priest and the Girl",
+    "year": 1966,
+    "copies": [
+      {
+        "id": "pvca-000699-archive",
+        "resolution": "1080p",
+        "size_gib": 7.719014813192189,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000699-archive",
+    "poster": "/posters/tmdb-119023-tIGIBoAKL4HrC2M3MRSRDdM6OTu.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-priest-and-the-girl-1966-1080p",
+        "copy_id": "pvca-000699-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 119023,
+    "added_at": "2026-11-09",
+    "original_title": "O Padre e a Moça",
+    "release_date": "1966-03-28",
+    "runtime_minutes": 94,
+    "imdb_id": "tt0059560",
+    "translations": {
+      "pt-BR": {
+        "title": "O Padre e a Moça",
+        "synopsis": "Um padre, recém-ordenado, envolve-se com uma moça bonita da cidadezinha onde cumprirá sua missão sacerdotal. O homem mais rico do lugar, enciumado como todos os habitantes, propõe casamento à moça. Enfrentando a raiva do local, o padre foge com a moça mas, ao concretizar seu desejo, retorna à cidade para receber o castigo. (Cinemateca Brasileira)"
+      },
+      "en": {
+        "title": "The Priest and the Girl",
+        "synopsis": "In a small town in Minas Gerais, the arrival of a young priest causes a commotion in the conservative atmosphere of the place, aggravated by the sudden attraction this priest feels for a beautiful girl. This forbidden love affair soon turns into an unbridled passion."
+      }
+    },
+    "synopsis": "Um padre, recém-ordenado, envolve-se com uma moça bonita da cidadezinha onde cumprirá sua missão sacerdotal. O homem mais rico do lugar, enciumado como todos os habitantes, propõe casamento à moça. Enfrentando a raiva do local, o padre foge com a moça mas, ao concretizar seu desejo, retorna à cidade para receber o castigo. (Cinemateca Brasileira)",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Romance", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Romance", "Drama"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Romance", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
