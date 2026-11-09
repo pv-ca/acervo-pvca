@@ -40392,5 +40392,62 @@
     "countries": ["Brasil"],
     "genres": ["Crime", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000689",
+    "slug": "rio-northern-zone-1957",
+    "title": "Rio, Northern Zone",
+    "year": 1957,
+    "copies": [
+      {
+        "id": "pvca-000689-archive",
+        "resolution": "1080p",
+        "size_gib": 6.09684688411653,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000689-archive",
+    "poster": "/posters/tmdb-146904-6a3PqsI0YdcG3g1Kd2QKTkta5fm.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/rio-northern-zone-1957-1080p",
+        "copy_id": "pvca-000689-archive"
+      }
+    ],
+    "selections": ["Anos 1950"],
+    "tmdb_id": 146904,
+    "added_at": "2026-11-09",
+    "original_title": "Rio, Zona Norte",
+    "release_date": "1957-08-26",
+    "runtime_minutes": 82,
+    "imdb_id": "tt0050919",
+    "translations": {
+      "pt-BR": {
+        "title": "Rio, Zona Norte",
+        "synopsis": "Configurando as dicotomias graciosamente chocantes que perturbam o filme \"tradicional\" de dos Santos, a montagem de crédito de abertura apresenta a descoberta de um corpo nas trilhas do trem, enquanto uma trilha sonora de Hollywood, cortante de biscoito, toca distraidamente. O homem ferido é Espírito da Luz Soares (literalmente \"Espírito da Luz\"), um compositor cujos sambas unem e elevam o povo brasileiro marginalizado no meio dele em sua luta. Com base na vida do compositor Zé Keti - que realmente aparece no filme como cantor popular Alaor - a história do Espírito se desenvolve através de flashbacks que transbordam luxuosamente com canções, mas também expõem as múltiplas divisões dentro dos estratos sociais do Rio. Uma vítima de homens de negócios exploradores que sugam sua vida e sua música, Espírito testemunha que cada um de seus sonhos precipitou para uma tragédia implacável. - Harvard Film Archive"
+      },
+      "en": {
+        "title": "Rio, Northern Zone",
+        "synopsis": "A talented songwriter of sambas is forced to face the social injustices of the city around him."
+      }
+    },
+    "synopsis": "Configurando as dicotomias graciosamente chocantes que perturbam o filme \"tradicional\" de dos Santos, a montagem de crédito de abertura apresenta a descoberta de um corpo nas trilhas do trem, enquanto uma trilha sonora de Hollywood, cortante de biscoito, toca distraidamente. O homem ferido é Espírito da Luz Soares (literalmente \"Espírito da Luz\"), um compositor cujos sambas unem e elevam o povo brasileiro marginalizado no meio dele em sua luta. Com base na vida do compositor Zé Keti - que realmente aparece no filme como cantor popular Alaor - a história do Espírito se desenvolve através de flashbacks que transbordam luxuosamente com canções, mas também expõem as múltiplas divisões dentro dos estratos sociais do Rio. Uma vítima de homens de negócios exploradores que sugam sua vida e sua música, Espírito testemunha que cada um de seus sonhos precipitou para uma tragédia implacável. - Harvard Film Archive",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Música"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Music"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Música"],
+    "original_languages": ["pt"]
   }
 ]
