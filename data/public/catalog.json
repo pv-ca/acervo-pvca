@@ -39765,5 +39765,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "História"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000678",
+    "slug": "my-name-is-tonho-1969",
+    "title": "My Name Is Tonho",
+    "year": 1969,
+    "copies": [
+      {
+        "id": "pvca-000678-archive",
+        "resolution": "1080p",
+        "size_gib": 2.934061173349619,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000678-archive",
+    "poster": "/posters/tmdb-192505-7L3qGnK3E7c4D7ClIKAvD2NluXO.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/my-name-is-tonho-1969-1080p",
+        "copy_id": "pvca-000678-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 192505,
+    "added_at": "2026-11-09",
+    "original_title": "Meu Nome é... Tonho",
+    "release_date": "1969-07-24",
+    "runtime_minutes": 90,
+    "imdb_id": "tt0183512",
+    "translations": {
+      "pt-BR": {
+        "title": "Meu Nome é... Tonho",
+        "synopsis": "Quando criança, ele foi sequestrado por ciganos que o criaram, sem que ele conhecesse seus pais. Quando jovem, Tonho abandona os ciganos e vai viver sozinho. Acaba cruzando o caminho de uma bela mulher, que perdeu seu irmão, e de um grupo perigoso de criminosos violentos."
+      },
+      "en": {
+        "title": "My Name Is Tonho",
+        "synopsis": "As a child he was kidnapped by gypsies that raised him, without he ever knowing his parents. As a young man Tonho leaves the gypsies and go live by himself, meeting in his way a beautiful woman, who lost her brother, and a dangerous gang of violent criminals."
+      }
+    },
+    "synopsis": "Quando criança, ele foi sequestrado por ciganos que o criaram, sem que ele conhecesse seus pais. Quando jovem, Tonho abandona os ciganos e vai viver sozinho. Acaba cruzando o caminho de uma bela mulher, que perdeu seu irmão, e de um grupo perigoso de criminosos violentos.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Faroeste", "Drama", "Comédia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Western", "Drama", "Comedy"]
+      }
+    },
+    "directors": ["Ozualdo Ribeiro Candeias"],
+    "countries": ["Brasil"],
+    "genres": ["Faroeste", "Drama", "Comédia"],
+    "original_languages": ["pt"]
   }
 ]
