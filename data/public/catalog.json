@@ -40335,5 +40335,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000688",
+    "slug": "pixote-1980",
+    "title": "Pixote",
+    "year": 1980,
+    "copies": [
+      {
+        "id": "pvca-000688-archive",
+        "resolution": "1080p",
+        "size_gib": 19.834965084679425,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en", "zh", "fr", "de", "el", "ro"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000688-archive",
+    "poster": "/posters/tmdb-42148-g5NxPFGcoUCXOrHx9DHi6AAQWQu.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/pixote-1980-1038p",
+        "copy_id": "pvca-000688-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 42148,
+    "added_at": "2026-11-09",
+    "original_title": "Pixote: A Lei do Mais Fraco",
+    "release_date": "1980-09-26",
+    "runtime_minutes": 128,
+    "imdb_id": "tt0082912",
+    "translations": {
+      "pt-BR": {
+        "title": "Pixote: A Lei do Mais Fraco",
+        "synopsis": "Aos 11 anos, um menor abandonado foge do reformatório, onde aprendeu muito sobre o crime, para viver nas ruas. Ele sobrevive atuando como traficante, assassino e até cafetão."
+      },
+      "en": {
+        "title": "Pixote",
+        "synopsis": "10-year-old Pixote endures torture, degradation, and corruption at a local youth detention center where two of its members are murdered by policemen who frame Lilica, a 17-year-old trans hustler. Pixote helps Lilica and three other boys escape and they start to make their living by a life of crime which only escalates to more violence and death."
+      }
+    },
+    "synopsis": "Aos 11 anos, um menor abandonado foge do reformatório, onde aprendeu muito sobre o crime, para viver nas ruas. Ele sobrevive atuando como traficante, assassino e até cafetão.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Crime", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Crime", "Drama"]
+      }
+    },
+    "directors": ["Héctor Babenco"],
+    "countries": ["Brasil"],
+    "genres": ["Crime", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
