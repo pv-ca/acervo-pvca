@@ -39993,5 +39993,62 @@
     "countries": ["Brasil"],
     "genres": ["Crime", "Thriller", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000682",
+    "slug": "o-fabuloso-fittipaldi-1973",
+    "title": "O Fabuloso Fittipaldi",
+    "year": 1973,
+    "copies": [
+      {
+        "id": "pvca-000682-archive",
+        "resolution": "1080p",
+        "size_gib": 6.289512858726084,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000682-archive",
+    "poster": "/posters/tmdb-377486-WkcyR9wGTPmqEYhYufvLRGQnwH.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/o-fabuloso-fittipaldi-1973-1080p",
+        "copy_id": "pvca-000682-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 377486,
+    "added_at": "2026-11-09",
+    "original_title": "O Fabuloso Fittipaldi",
+    "release_date": "1973-01-01",
+    "runtime_minutes": 99,
+    "imdb_id": "tt0187841",
+    "translations": {
+      "pt-BR": {
+        "title": "O Fabuloso Fittipaldi",
+        "synopsis": "Documentário sobre o famoso piloto de Formula 1 Emerson Fittipaldi."
+      },
+      "en": {
+        "title": "O Fabuloso Fittipaldi",
+        "synopsis": "Documentary about race car driver Emerson Fittipaldi"
+      }
+    },
+    "synopsis": "Documentário sobre o famoso piloto de Formula 1 Emerson Fittipaldi.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Héctor Babenco", "Roberto Farias"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
