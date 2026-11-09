@@ -40221,5 +40221,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Romance"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000686",
+    "slug": "neighboring-sounds-2012",
+    "title": "Neighboring Sounds",
+    "year": 2012,
+    "copies": [
+      {
+        "id": "pvca-000686-archive",
+        "resolution": "1080p",
+        "size_gib": 9.972564205527306,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000686-archive",
+    "poster": "/posters/tmdb-97989-yskFlo8KoD9toQR2YoFmH360d9L.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/neighboring-sounds-2012-804p",
+        "copy_id": "pvca-000686-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 97989,
+    "added_at": "2026-11-09",
+    "original_title": "O Som ao Redor",
+    "release_date": "2012-11-19",
+    "runtime_minutes": 131,
+    "imdb_id": "tt2190367",
+    "translations": {
+      "pt-BR": {
+        "title": "O Som ao Redor",
+        "synopsis": "A vida numa rua de classe média na zona sul do Recife toma um rumo inesperado, após a chegada de uma milícia que oferece a paz de espírito da segurança particular. A presença desses homens traz tranquilidade para alguns, e tensão para outros, numa comunidade que parece temer muita coisa. Enquanto isso, Bia (Maeve Jinkings), casada e mãe de duas crianças, precisa achar uma maneira de lidar com os latidos constantes do cão de seu vizinho."
+      },
+      "en": {
+        "title": "Neighboring Sounds",
+        "synopsis": "An independent private security firm arrives at a middle-class neighborhood in Recife, Brazil."
+      }
+    },
+    "synopsis": "A vida numa rua de classe média na zona sul do Recife toma um rumo inesperado, após a chegada de uma milícia que oferece a paz de espírito da segurança particular. A presença desses homens traz tranquilidade para alguns, e tensão para outros, numa comunidade que parece temer muita coisa. Enquanto isso, Bia (Maeve Jinkings), casada e mãe de duas crianças, precisa achar uma maneira de lidar com os latidos constantes do cão de seu vizinho.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Thriller", "Drama", "Crime"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Thriller", "Drama", "Crime"]
+      }
+    },
+    "directors": ["Kleber Mendonça Filho"],
+    "countries": ["Brasil"],
+    "genres": ["Thriller", "Drama", "Crime"],
+    "original_languages": ["pt"]
   }
 ]
