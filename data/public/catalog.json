@@ -7021,7 +7021,7 @@
       {
         "id": "pvca-000120-archive",
         "resolution": "576i",
-        "size_gib": 4.106129904277623,
+        "size_gib": 4.106129897758365,
         "format": "MKV",
         "audio_languages": ["fr"],
         "subtitle_languages": ["pt-BR", "ru", "es"]
@@ -20410,10 +20410,10 @@
       {
         "id": "pvca-000344-archive",
         "resolution": "1080p",
-        "size_gib": 4.492596143856645,
-        "format": "Matroska",
+        "size_gib": 25.091712268069386,
+        "format": "MKV",
         "audio_languages": ["en"],
-        "subtitle_languages": ["en"]
+        "subtitle_languages": ["pt-BR", "en"]
       }
     ],
     "catalog_copy_id": "pvca-000344-archive",
