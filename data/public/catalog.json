@@ -40278,5 +40278,62 @@
     "countries": ["Brasil"],
     "genres": ["Thriller", "Drama", "Crime"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000687",
+    "slug": "metalworkers-2004",
+    "title": "Metalworkers",
+    "year": 2004,
+    "copies": [
+      {
+        "id": "pvca-000687-archive",
+        "resolution": "1080p",
+        "size_gib": 5.769868925213814,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000687-archive",
+    "poster": "/posters/tmdb-259402-fKkN4A5CBFwud51tF75Jsw1MYjd.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/metalworkers-2004-1080p",
+        "copy_id": "pvca-000687-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 259402,
+    "added_at": "2026-11-09",
+    "original_title": "Peões",
+    "release_date": "2004-11-24",
+    "runtime_minutes": 85,
+    "imdb_id": "tt0440712",
+    "translations": {
+      "pt-BR": {
+        "title": "Peões",
+        "synopsis": "O documentário mergulha na busca pelos metalúrgicos do ABC paulista que participaram das maiores greves do século 20. O movimento mudou a face do sindicalismo brasileiro, forneceu as bases para a criação do Partido dos Trabalhadores (PT) e fez emergir a figura do líder Luiz Inácio Lula da Silva."
+      },
+      "en": {
+        "title": "Metalworkers",
+        "synopsis": "In 1979 and 1980, workers in São Paulo’s metallurgical industry organized a series of strikes that changed the face of union politics in Brazil. In the process, they established the groundwork for Brazil’s Worker’s Party and brought to the national spotlight union leader Luís Inácio Lula da Silva. Metalworkers is a feature-length documentary about the stories of 21 of these workers who took part in these historic strikes but remain in relative anonymity today."
+      }
+    },
+    "synopsis": "O documentário mergulha na busca pelos metalúrgicos do ABC paulista que participaram das maiores greves do século 20. O movimento mudou a face do sindicalismo brasileiro, forneceu as bases para a criação do Partido dos Trabalhadores (PT) e fez emergir a figura do líder Luiz Inácio Lula da Silva.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
