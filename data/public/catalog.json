@@ -41019,5 +41019,62 @@
     "countries": ["Brasil"],
     "genres": ["Romance", "Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000700",
+    "slug": "the-year-my-parents-went-on-vacation-2006",
+    "title": "The Year My Parents Went on Vacation",
+    "year": 2006,
+    "copies": [
+      {
+        "id": "pvca-000700-archive",
+        "resolution": "1080p",
+        "size_gib": 3.8086231108754873,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "tr"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000700-archive",
+    "poster": "/posters/tmdb-14421-bFs27H1Grxh30j655VDQhwywTTU.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-year-my-parents-went-on-vacation-2006-960p",
+        "copy_id": "pvca-000700-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 14421,
+    "added_at": "2026-11-09",
+    "original_title": "O Ano em que Meus Pais Saíram de Férias",
+    "release_date": "2006-11-02",
+    "runtime_minutes": 103,
+    "imdb_id": "tt0857355",
+    "translations": {
+      "pt-BR": {
+        "title": "O Ano em que Meus Pais Saíram de Férias",
+        "synopsis": "Em 1970, o Brasil e o mundo parecem estar de cabeça para baixo, mas a maior preocupação na vida de Mauro, um garoto de 12 anos, tem pouco a ver com a ditadura militar que impera no País; seu maior sonho é ver o Brasil tricampeão mundial de futebol. De repente, ele é separado dos pais e obrigado a se adaptar a uma \"estranha\" e divertida comunidade - o Bom Retiro, bairro de São Paulo, que abriga judeus, italianos, entre outras culturas. Uma história emocionante de superação e solidariedade."
+      },
+      "en": {
+        "title": "The Year My Parents Went on Vacation",
+        "synopsis": "A boy is left alone in a Jewish neighborhood in the year of 1970, where both world cup and dictatorship happen in Brazil."
+      }
+    },
+    "synopsis": "Em 1970, o Brasil e o mundo parecem estar de cabeça para baixo, mas a maior preocupação na vida de Mauro, um garoto de 12 anos, tem pouco a ver com a ditadura militar que impera no País; seu maior sonho é ver o Brasil tricampeão mundial de futebol. De repente, ele é separado dos pais e obrigado a se adaptar a uma \"estranha\" e divertida comunidade - o Bom Retiro, bairro de São Paulo, que abriga judeus, italianos, entre outras culturas. Uma história emocionante de superação e solidariedade.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Cao Hamburger"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
