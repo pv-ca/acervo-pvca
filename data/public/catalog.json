@@ -40791,5 +40791,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000696",
+    "slug": "murina-2022",
+    "title": "Murina",
+    "year": 2022,
+    "copies": [
+      {
+        "id": "pvca-000696-archive",
+        "resolution": "1080p",
+        "size_gib": 6.675457572564483,
+        "format": "MKV",
+        "audio_languages": ["hr"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000696-archive",
+    "poster": "/posters/tmdb-838148-cWiI5utAnJmQ8JBTbzK8Sd9Rs0F.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/murina-2022-804p",
+        "copy_id": "pvca-000696-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 838148,
+    "added_at": "2026-11-09",
+    "original_title": "Murina",
+    "release_date": "2022-04-08",
+    "runtime_minutes": 95,
+    "imdb_id": "tt8434110",
+    "translations": {
+      "pt-BR": {
+        "title": "Murina",
+        "synopsis": "A relação entre a adolescente Julija e Ante, seu opressivo pai, se tensiona ao limite quando um velho amigo da família chega em sua casa insular na Croácia. Enquanto Ante tenta fechar um negócio que vai mudar suas vidas, Julija, incomodada com a vida pacata e isolada que levam, busca mudanças através do visitante que traz consigo um gosto de liberação em um fim de semana cheio de desejo e violência."
+      },
+      "en": {
+        "title": "Murina",
+        "synopsis": "A teenage girl decides to replace her controlling father with his wealthy foreign friend during a weekend trip to the Adriatic Sea."
+      }
+    },
+    "synopsis": "A relação entre a adolescente Julija e Ante, seu opressivo pai, se tensiona ao limite quando um velho amigo da família chega em sua casa insular na Croácia. Enquanto Ante tenta fechar um negócio que vai mudar suas vidas, Julija, incomodada com a vida pacata e isolada que levam, busca mudanças através do visitante que traz consigo um gosto de liberação em um fim de semana cheio de desejo e violência.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Croácia", "Eslovênia", "Estados Unidos"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "Croatia", "Slovenia", "United States"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Antoneta Alamat Kusijanović"],
+    "countries": ["Brasil", "Croácia", "Eslovênia", "Estados Unidos"],
+    "genres": ["Drama"],
+    "original_languages": ["hr"]
   }
 ]
