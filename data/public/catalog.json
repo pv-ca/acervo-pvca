@@ -40848,5 +40848,62 @@
     "countries": ["Brasil", "Croácia", "Eslovênia", "Estados Unidos"],
     "genres": ["Drama"],
     "original_languages": ["hr"]
+  },
+  {
+    "id": "PVCA-000697",
+    "slug": "strive-strive-strive-2021",
+    "title": "Strive, Strive, Strive",
+    "year": 2021,
+    "copies": [
+      {
+        "id": "pvca-000697-archive",
+        "resolution": "1080p",
+        "size_gib": 3.717292576096952,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000697-archive",
+    "poster": "/posters/tmdb-808734-mSqDWnzKPq7hHOlcBWp6LRkGAj2.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/strive-strive-strive-2021-1080p",
+        "copy_id": "pvca-000697-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 808734,
+    "added_at": "2026-11-09",
+    "original_title": "Lutar, Lutar, Lutar",
+    "release_date": "2021-03-19",
+    "runtime_minutes": 90,
+    "imdb_id": "tt14687192",
+    "translations": {
+      "pt-BR": {
+        "title": "Lutar, Lutar, Lutar",
+        "synopsis": "O documentário conta a história de um dos mais tradicionais times de Minas Gerais: o Atlético-MG. Acompanhe mais informações sobre os primeiros anos do clube mineiro e todas suas adversidades, até os momentos mais gloriosos de sua antiga trajetória."
+      },
+      "en": {
+        "title": "Strive, Strive, Strive",
+        "synopsis": "Documentary film about the Brazilian football club Atletico Mineiro, but also about something intangible: football, its emotion and imperishable spirit."
+      }
+    },
+    "synopsis": "O documentário conta a história de um dos mais tradicionais times de Minas Gerais: o Atlético-MG. Acompanhe mais informações sobre os primeiros anos do clube mineiro e todas suas adversidades, até os momentos mais gloriosos de sua antiga trajetória.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Sérgio Borges", "Helvécio Marins Jr."],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
