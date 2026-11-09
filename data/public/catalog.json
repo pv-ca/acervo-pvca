@@ -39936,5 +39936,62 @@
     "countries": ["Brasil"],
     "genres": ["Fantasia", "Crime", "Drama", "Ação"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000681",
+    "slug": "the-kiss-1981",
+    "title": "The Kiss",
+    "year": 1981,
+    "copies": [
+      {
+        "id": "pvca-000681-archive",
+        "resolution": "1080p",
+        "size_gib": 5.731155208311975,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000681-archive",
+    "poster": "/posters/tmdb-183855-iI9Fi4YUAVpBHIbgGz0sEWyMczm.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-kiss-1981-1040p",
+        "copy_id": "pvca-000681-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 183855,
+    "added_at": "2026-11-09",
+    "original_title": "O Beijo no Asfalto",
+    "release_date": "1981-06-01",
+    "runtime_minutes": 78,
+    "imdb_id": "tt0088784",
+    "translations": {
+      "pt-BR": {
+        "title": "O Beijo no Asfalto",
+        "synopsis": "Um desconhecido é morto ao ser atropelado por um ônibus e, agonizante, pede a um bancário que lhe de um beijo na boca. Este gesto é transformado em escândalo pela imprensa sensacionalista e o homem que cometeu o \"crime\" de beijar um agonizante passa a ser alvo de preconceito popular e também a ser investigado pela polícia, que começa a supor que o acidente tenha sido um assassinato."
+      },
+      "en": {
+        "title": "The Kiss",
+        "synopsis": "When a pedestrian is hit by a bus, the simple clerk Arandir runs and kisses the moribund in a gesture of sympathy and unconditional pure love. Opportunist photographer Amado Pinheiro witnesses the scene and sees the opportunity to sell newspaper and, together with the despicable and abusive chief of police Cunha, accuses Arandir of homosexuality."
+      }
+    },
+    "synopsis": "Um desconhecido é morto ao ser atropelado por um ônibus e, agonizante, pede a um bancário que lhe de um beijo na boca. Este gesto é transformado em escândalo pela imprensa sensacionalista e o homem que cometeu o \"crime\" de beijar um agonizante passa a ser alvo de preconceito popular e também a ser investigado pela polícia, que começa a supor que o acidente tenha sido um assassinato.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Crime", "Thriller", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Crime", "Thriller", "Drama"]
+      }
+    },
+    "directors": ["Bruno Barreto"],
+    "countries": ["Brasil"],
+    "genres": ["Crime", "Thriller", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
