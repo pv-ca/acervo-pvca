@@ -41133,5 +41133,62 @@
     "countries": ["Brasil"],
     "genres": ["Thriller", "Crime", "Ação"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000702",
+    "slug": "all-the-women-in-the-world-1966",
+    "title": "All the Women in the World",
+    "year": 1966,
+    "copies": [
+      {
+        "id": "pvca-000702-archive",
+        "resolution": "1080p",
+        "size_gib": 3.012165400199592,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000702-archive",
+    "poster": "/posters/tmdb-251766-g4AfvtfjBMmXwtiwBD2m3A1KNlm.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/all-the-women-in-the-world-1966-1080p",
+        "copy_id": "pvca-000702-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 251766,
+    "added_at": "2026-11-09",
+    "original_title": "Todas as Mulheres do Mundo",
+    "release_date": "1966-02-02",
+    "runtime_minutes": 86,
+    "imdb_id": "tt0145532",
+    "translations": {
+      "pt-BR": {
+        "title": "Todas as Mulheres do Mundo",
+        "synopsis": "Paulo é conquistador e mulherengo, se apaixona por Maria Alice e faz de tudo para ficar com ela. A jovem termina um noivado para namorar Paulo. Essa relação sobreviverá à rotina?"
+      },
+      "en": {
+        "title": "All the Women in the World",
+        "synopsis": "When womanizer Paulo meets a friend’s fiancée, she changes the way he looks at the opposite sex. He falls in love, and believes she is in fact all women in one. Because of that, he has to face an important decision: to go on with his old life, or embrace this special relationship and become a monogamous man."
+      }
+    },
+    "synopsis": "Paulo é conquistador e mulherengo, se apaixona por Maria Alice e faz de tudo para ficar com ela. A jovem termina um noivado para namorar Paulo. Essa relação sobreviverá à rotina?",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Romance", "Comédia", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Romance", "Comedy", "Drama"]
+      }
+    },
+    "directors": ["Domingos de Oliveira"],
+    "countries": ["Brasil"],
+    "genres": ["Romance", "Comédia", "Drama"],
+    "original_languages": ["pt"]
   }
 ]
