@@ -40734,5 +40734,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000695",
+    "slug": "moscow-2009",
+    "title": "Moscow",
+    "year": 2009,
+    "copies": [
+      {
+        "id": "pvca-000695-archive",
+        "resolution": "1080p",
+        "size_gib": 5.191792459227145,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "fr"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000695-archive",
+    "poster": "/posters/tmdb-183029-7YY3cV3wZDTiVAcldBtCURwnlPx.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/moscow-2009-1080p",
+        "copy_id": "pvca-000695-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 183029,
+    "added_at": "2026-11-09",
+    "original_title": "Moscou",
+    "release_date": "2009-04-14",
+    "runtime_minutes": 70,
+    "imdb_id": "tt1843212",
+    "translations": {
+      "pt-BR": {
+        "title": "Moscou",
+        "synopsis": "O Grupo Galpão e o diretor Enrique Diaz enfrentaram o desafio de montar, em apenas três semanas, a peça As Três Irmãs, de Anton Tchekcov. Eduardo Coutinho acompanhou essa experiência, registrando fragmentos de workshops, improvisações e ensaios de uma peça que não teve e nem terá estréia. Os atores só tomaram conhecimento do texto no dia da filmagem e aceitaram a proposta. O interesse maior era registrar a experiência e não o resultado final. A peça As Três Irmãs relata a história de Olga, Maria e Irina que, sem perspectivas de vida na província, sonham em voltar para Moscou."
+      },
+      "en": {
+        "title": "Moscow",
+        "synopsis": "Continuing the exploration of the thin line between truth and performance, Eduardo Coutinho turns his attention to the drama generated during rehearsals for the Galpão Theater Company’s performance of Chekov’s The Three Sisters. As he shoots scenes from the play, Coutinho attempts to capture the very moment in which reality becomes fiction and vice versa—whether through the actors’ bodies and words or in backstage scenes of a performance that will exist only on film."
+      }
+    },
+    "synopsis": "O Grupo Galpão e o diretor Enrique Diaz enfrentaram o desafio de montar, em apenas três semanas, a peça As Três Irmãs, de Anton Tchekcov. Eduardo Coutinho acompanhou essa experiência, registrando fragmentos de workshops, improvisações e ensaios de uma peça que não teve e nem terá estréia. Os atores só tomaram conhecimento do texto no dia da filmagem e aceitaram a proposta. O interesse maior era registrar a experiência e não o resultado final. A peça As Três Irmãs relata a história de Olga, Maria e Irina que, sem perspectivas de vida na província, sonham em voltar para Moscou.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
