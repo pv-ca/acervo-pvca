@@ -39822,5 +39822,62 @@
     "countries": ["Brasil"],
     "genres": ["Faroeste", "Drama", "Comédia"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000679",
+    "slug": "o-aleijadinho-1978",
+    "title": "O Aleijadinho",
+    "year": 1978,
+    "copies": [
+      {
+        "id": "pvca-000679-archive",
+        "resolution": "1080p",
+        "size_gib": 2.6514203920960426,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000679-archive",
+    "poster": "/posters/tmdb-258072-tOQJ7vynYFvJtlAcqaJvhMSDOfK.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/o-aleijadinho-1978-1080p",
+        "copy_id": "pvca-000679-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 258072,
+    "added_at": "2026-11-09",
+    "original_title": "O Aleijadinho",
+    "release_date": "1978-01-01",
+    "runtime_minutes": 23,
+    "imdb_id": "tt0292907",
+    "translations": {
+      "pt-BR": {
+        "title": "O Aleijadinho",
+        "synopsis": "Um inventário da vida e da obra de Antônio Francisco Lisboa, o artista mais expressivo do Brasil colônia. Nascido em 1738 na antiga Vila Rica, hoje cidade de Ouro Preto (MG), cedo tornou-se conhecido pelas originais concepções técnicas e artística que introduziu em seu ofício de escultor. Além das obras realizadas em Ouro Preto, trabalhou também em Tiradentes, Congonhas do Campo, Sabará, Mariana e outras cidades vizinhas, mesmo acometido por uma doença que o deformou, mas que não o impediu de continuar sua obra monumental e comovente. Baseado em texto e roteiro de Lúcio Costa."
+      },
+      "en": {
+        "title": "O Aleijadinho",
+        "synopsis": "O Aleijadinho, a study of the work of Antonio Francisco Lisboa, the architect whose cathedral de Andrade had assisted in the restoration of more than 20 years earlier. de Andrade dedicated the film to his father, who had sent him on the expedition."
+      }
+    },
+    "synopsis": "Um inventário da vida e da obra de Antônio Francisco Lisboa, o artista mais expressivo do Brasil colônia. Nascido em 1738 na antiga Vila Rica, hoje cidade de Ouro Preto (MG), cedo tornou-se conhecido pelas originais concepções técnicas e artística que introduziu em seu ofício de escultor. Além das obras realizadas em Ouro Preto, trabalhou também em Tiradentes, Congonhas do Campo, Sabará, Mariana e outras cidades vizinhas, mesmo acometido por uma doença que o deformou, mas que não o impediu de continuar sua obra monumental e comovente. Baseado em texto e roteiro de Lúcio Costa.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
