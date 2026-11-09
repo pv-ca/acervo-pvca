@@ -40506,5 +40506,62 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000691",
+    "slug": "the-mighty-spirit-1999",
+    "title": "The Mighty Spirit",
+    "year": 1999,
+    "copies": [
+      {
+        "id": "pvca-000691-archive",
+        "resolution": "1080p",
+        "size_gib": 5.242359991185367,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000691-archive",
+    "poster": "/posters/tmdb-229280-mj1U39cbw9rgR0qYXcNQkMgO5ns.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-mighty-spirit-1999-1080p",
+        "copy_id": "pvca-000691-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 229280,
+    "added_at": "2026-11-09",
+    "original_title": "Santo Forte",
+    "release_date": "1999-08-09",
+    "runtime_minutes": 78,
+    "imdb_id": "tt0254753",
+    "translations": {
+      "pt-BR": {
+        "title": "Santo Forte",
+        "synopsis": "Conheça as formas de apropriação das religiões praticadas no Brasil. Acompanhe uma investigação do cotidiano popular por meio das experiências de moradores da favela Vila Parque da Cidade, no estado do Rio de Janeiro."
+      },
+      "en": {
+        "title": "The Mighty Spirit",
+        "synopsis": "An overview of Brazilian spirituality and religions."
+      }
+    },
+    "synopsis": "Conheça as formas de apropriação das religiões praticadas no Brasil. Acompanhe uma investigação do cotidiano popular por meio das experiências de moradores da favela Vila Parque da Cidade, no estado do Rio de Janeiro.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
