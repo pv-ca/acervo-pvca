@@ -40050,5 +40050,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000683",
+    "slug": "the-man-who-bought-the-world-1968",
+    "title": "The Man Who Bought the World",
+    "year": 1968,
+    "copies": [
+      {
+        "id": "pvca-000683-archive",
+        "resolution": "720p",
+        "size_gib": 1.673052285797894,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000683-archive",
+    "poster": "/posters/tmdb-236306-vHnEMq79UVNXobvdIslkDzHdxoI.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-man-who-bought-the-world-1968-720p",
+        "copy_id": "pvca-000683-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 236306,
+    "added_at": "2026-11-09",
+    "original_title": "O Homem que Comprou o Mundo",
+    "release_date": "1968-09-16",
+    "runtime_minutes": 100,
+    "imdb_id": "tt0260954",
+    "translations": {
+      "pt-BR": {
+        "title": "O Homem que Comprou o Mundo",
+        "synopsis": "José Guerra, humilde cidadão do país Reserva 17, procura ingenuamente descontar um cheque de cem mil “strikmas”, que recebeu de um misterioso hindu, e acaba por lançar a confusão em um poderoso banco, onde um computador eletrônico, depois de mostrar-se impotente para realizar a conversão da quantia, ordena sua detenção. Com a revelação feita pelo sábio do país, as cem mil “strikmas” equivalem a dez trilhões de dólares, as autoridades exigem que o dinheiro seja depositado no banco estatal e ordenam o confinamento de José Guerra no interesse da segurança nacional. Isolado numa fortaleza, casa-se secretamente com Rosinha. Em sua lua-de-mel tem delírios de aquisição, nos quais se incluem o Maracanã e a Estátua da Liberdade. José consegue iludir seus opressores e empreende espetacular fuga: a pé, a cavalo, de patinete, na cidade e nas selvas. Não pode parar. Buscará sempre uma liberdade que sempre lhe fugirá."
+      },
+      "en": {
+        "title": "The Man Who Bought the World",
+        "synopsis": "In a fictitious country, a civil servant receives the greatest inheritance in history (ten trillion dollars) and is confined by authorities to prevent a collapse of the world economy. But he manages to escape."
+      }
+    },
+    "synopsis": "José Guerra, humilde cidadão do país Reserva 17, procura ingenuamente descontar um cheque de cem mil “strikmas”, que recebeu de um misterioso hindu, e acaba por lançar a confusão em um poderoso banco, onde um computador eletrônico, depois de mostrar-se impotente para realizar a conversão da quantia, ordena sua detenção. Com a revelação feita pelo sábio do país, as cem mil “strikmas” equivalem a dez trilhões de dólares, as autoridades exigem que o dinheiro seja depositado no banco estatal e ordenam o confinamento de José Guerra no interesse da segurança nacional. Isolado numa fortaleza, casa-se secretamente com Rosinha. Em sua lua-de-mel tem delírios de aquisição, nos quais se incluem o Maracanã e a Estátua da Liberdade. José consegue iludir seus opressores e empreende espetacular fuga: a pé, a cavalo, de patinete, na cidade e nas selvas. Não pode parar. Buscará sempre uma liberdade que sempre lhe fugirá.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Fantasia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Fantasy"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Fantasia"],
+    "original_languages": ["pt"]
   }
 ]
