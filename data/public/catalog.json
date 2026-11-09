@@ -39879,5 +39879,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000680",
+    "slug": "the-amulet-of-ogum-1974",
+    "title": "The Amulet of Ogum",
+    "year": 1974,
+    "copies": [
+      {
+        "id": "pvca-000680-archive",
+        "resolution": "480p",
+        "size_gib": 1.9357296926900744,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000680-archive",
+    "poster": "/posters/tmdb-86234-nBHqWehLd6knn95t1eXxrVAs4u9.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-amulet-of-ogum-1974-476p",
+        "copy_id": "pvca-000680-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 86234,
+    "added_at": "2026-11-09",
+    "original_title": "O Amuleto de Ogum",
+    "release_date": "1974-05-21",
+    "runtime_minutes": 113,
+    "imdb_id": "tt0071137",
+    "translations": {
+      "pt-BR": {
+        "title": "O Amuleto de Ogum",
+        "synopsis": "Para entreter alguns ladrões, um guitarrista cego conta a história de um homem do Nordeste do Brasil, envolvido com criminosos que vivem nos subúrbios do Rio de Janeiro, que supostamente tinham um \"corpo fechado\", o que significa que seu corpo não podia ser atingido por balas ou outras armas, pelo desejo de Ogum, um dos deuses do candomblé, uma religião comum no Brasil e na África."
+      },
+      "en": {
+        "title": "The Amulet of Ogum",
+        "synopsis": "An ubiquitous folk singer narrates the tale of a young boy, who apparently becomes immune to gunfire after his mother arranges for him to have an amulet bearing Ogum's blessings. As time goes by, he becomes a valuable member of a mobster's hit-team, but ends up joining a group of people who resist his original employers."
+      }
+    },
+    "synopsis": "Para entreter alguns ladrões, um guitarrista cego conta a história de um homem do Nordeste do Brasil, envolvido com criminosos que vivem nos subúrbios do Rio de Janeiro, que supostamente tinham um \"corpo fechado\", o que significa que seu corpo não podia ser atingido por balas ou outras armas, pelo desejo de Ogum, um dos deuses do candomblé, uma religião comum no Brasil e na África.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Fantasia", "Crime", "Drama", "Ação"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Fantasy", "Crime", "Drama", "Action"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Fantasia", "Crime", "Drama", "Ação"],
+    "original_languages": ["pt"]
   }
 ]
