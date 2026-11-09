@@ -40905,5 +40905,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000698",
+    "slug": "the-conspirators-1972",
+    "title": "The Conspirators",
+    "year": 1972,
+    "copies": [
+      {
+        "id": "pvca-000698-archive",
+        "resolution": "1080p",
+        "size_gib": 5.836710261180997,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000698-archive",
+    "poster": "/posters/tmdb-74441-ncP6jWDPqjstvI5WMpN4PPB4l83.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-conspirators-1972-1080p",
+        "copy_id": "pvca-000698-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 74441,
+    "added_at": "2026-11-09",
+    "original_title": "Os Inconfidentes",
+    "release_date": "1972-01-05",
+    "runtime_minutes": 78,
+    "imdb_id": "tt0068739",
+    "translations": {
+      "pt-BR": {
+        "title": "Os Inconfidentes",
+        "synopsis": "A história real da tentativa fracassada de golpe de independência por parte de um grupo de intelectuais e homens ricos durante o Brasil colonial, desde o seu início até a execução de Tiradentes."
+      },
+      "en": {
+        "title": "The Conspirators",
+        "synopsis": "The real story of the failed attempt of an independence coup by a group of intellectuals and rich men during Brazil's colonial days, from its beginning to the execution of Tiradentes."
+      }
+    },
+    "synopsis": "A história real da tentativa fracassada de golpe de independência por parte de um grupo de intelectuais e homens ricos durante o Brasil colonial, desde o seu início até a execução de Tiradentes.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "História"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "History"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "História"],
+    "original_languages": ["pt"]
   }
 ]
