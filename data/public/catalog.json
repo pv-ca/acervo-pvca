@@ -42102,5 +42102,290 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000719",
+    "slug": "o-patio-1959",
+    "title": "O Pátio",
+    "year": 1959,
+    "copies": [
+      {
+        "id": "pvca-000719-archive",
+        "resolution": "720p",
+        "size_gib": 0.23214588407427073,
+        "format": "MKV",
+        "audio_languages": ["zxx"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000719-archive",
+    "poster": "/posters/tmdb-74353-mqFwvmOxmtxxb6yqpytzvjsa0bA.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/o-patio-1959-720p",
+        "copy_id": "pvca-000719-archive"
+      }
+    ],
+    "selections": ["Anos 1950"],
+    "tmdb_id": 74353,
+    "added_at": "2026-11-10",
+    "original_title": "O Pátio",
+    "release_date": "1959-01-01",
+    "runtime_minutes": 14,
+    "imdb_id": "tt0140449",
+    "translations": {
+      "pt-BR": {
+        "title": "O Pátio",
+        "synopsis": "Num terraço de azulejos em forma de xadrez, um rapaz e uma moça jogados sobre um pátio. O casal compõe um jogo de formas. Seus movimentos se desenvolvem lentamente: tocam-se, rolam no chão, aproximam e se afastam."
+      },
+      "en": {
+        "title": "O Pátio",
+        "synopsis": "A man and a woman are laying on a chess-like patio. Both are trying to reach each other in the best way they can. However, for some odd reason they don't get on their feet, they don't talk to each other, and the only sounds heard are voices coming from a radio and strange sounds that seem to indicate something's about to happen."
+      }
+    },
+    "synopsis": "Num terraço de azulejos em forma de xadrez, um rapaz e uma moça jogados sobre um pátio. O casal compõe um jogo de formas. Seus movimentos se desenvolvem lentamente: tocam-se, rolam no chão, aproximam e se afastam.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": []
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": []
+      }
+    },
+    "directors": ["Glauber Rocha"],
+    "countries": ["Brasil"],
+    "genres": [],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000720",
+    "slug": "who-is-beta-1972",
+    "title": "Who Is Beta?",
+    "year": 1972,
+    "copies": [
+      {
+        "id": "pvca-000720-archive",
+        "resolution": "480p",
+        "size_gib": 1.5973851177841425,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000720-archive",
+    "poster": "/posters/tmdb-150167-e5a3dtmu6ztRUclQFOmnwjR4o9A.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/who-is-beta-1972-480p",
+        "copy_id": "pvca-000720-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 150167,
+    "added_at": "2026-11-10",
+    "original_title": "Quem é Beta?",
+    "release_date": "1972-04-11",
+    "runtime_minutes": 85,
+    "imdb_id": "tt0069147",
+    "translations": {
+      "pt-BR": {
+        "title": "Quem é Beta?",
+        "synopsis": "Após uma catástrofe que destruiu a sociedade civilizada, um casal começa uma nova vida em um abrigo. Sua missão é exterminar os seres “contaminados”, condenados a vagar como zumbis até a morte."
+      },
+      "en": {
+        "title": "Who Is Beta?",
+        "synopsis": "The critical success in France of How Tasty Was My Little Frenchman made possible dos Santos’ delirious science-fiction vision of free love in a post-apocalyptic wilderness besieged by flesh hungry zombies contaminated by an unnamed nuclear attack. Who is Beta? follows two statuesque survivors drawn irresistibly together only to be entranced by the arrival and sudden disappearance of a third, the bewitching raven haired Beta. With its cartoon-like depiction of extreme violence and desire, Who is Beta? offers a heady Pop-infused companion to Hunger for Love. Yet beneath its giddy play of surfaces, dos Santos' underappreciated film gradually reveals a darkly ambiguous metaphoric dimension. -Harvard Film Archive"
+      }
+    },
+    "synopsis": "Após uma catástrofe que destruiu a sociedade civilizada, um casal começa uma nova vida em um abrigo. Sua missão é exterminar os seres “contaminados”, condenados a vagar como zumbis até a morte.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "França"],
+        "genres": ["Drama", "Ficção científica"]
+      },
+      "en": {
+        "countries": ["Brazil", "France"],
+        "genres": ["Drama", "Science Fiction"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil", "França"],
+    "genres": ["Drama", "Ficção científica"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000721",
+    "slug": "cold-tropics-2009",
+    "title": "Cold Tropics",
+    "year": 2009,
+    "copies": [
+      {
+        "id": "pvca-000721-archive",
+        "resolution": "1080p",
+        "size_gib": 1.3779767751693726,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000721-archive",
+    "poster": "/posters/tmdb-181539-iRfzexogG239gKJLuHi6fRHz58s.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/cold-tropics-2009-1080p",
+        "copy_id": "pvca-000721-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 181539,
+    "added_at": "2026-11-10",
+    "original_title": "Recife Frio",
+    "release_date": "2009-11-20",
+    "runtime_minutes": 25,
+    "imdb_id": "tt2246947",
+    "translations": {
+      "pt-BR": {
+        "title": "Recife Frio",
+        "synopsis": "A cidade brasileira de Recife, que já foi tropical, agora é fria, chuvosa e triste, depois de passar por uma desconhecida mudança climática."
+      },
+      "en": {
+        "title": "Cold Tropics",
+        "synopsis": "In tropical Recife, in northeastern Brazil, temperatures drop to impossible lows and the inhabitants have to adapt. This 'mockumentary' gradually turns critical, looking at the climate, urban development and social interaction from every angle. Does a ray of sun pierce the clouds, after all?"
+      }
+    },
+    "synopsis": "A cidade brasileira de Recife, que já foi tropical, agora é fria, chuvosa e triste, depois de passar por uma desconhecida mudança climática.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "Ficção científica"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "Science Fiction"]
+      }
+    },
+    "directors": ["Kleber Mendonça Filho"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "Ficção científica"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000722",
+    "slug": "the-language-of-persuasion-1970",
+    "title": "The Language of Persuasion",
+    "year": 1970,
+    "copies": [
+      {
+        "id": "pvca-000722-archive",
+        "resolution": "1080p",
+        "size_gib": 0.6977245472371578,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000722-archive",
+    "poster": "/posters/tmdb-258110-klXXAzWxz50WmLA4TUZmE0hOf1U.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-language-of-persuasion-1970-1080p",
+        "copy_id": "pvca-000722-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 258110,
+    "added_at": "2026-11-10",
+    "original_title": "A Linguagem da Persuasão",
+    "release_date": "1970-01-01",
+    "runtime_minutes": 11,
+    "imdb_id": "tt9059862",
+    "translations": {
+      "pt-BR": {
+        "title": "A Linguagem da Persuasão",
+        "synopsis": "Pequeno documentário sobre a ideologia da publicidade e das mídias de massa."
+      },
+      "en": {
+        "title": "The Language of Persuasion",
+        "synopsis": "Short documentary about the ideology of publicity and mass medias."
+      }
+    },
+    "synopsis": "Pequeno documentário sobre a ideologia da publicidade e das mídias de massa.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000723",
+    "slug": "the-master-of-apipucos-1959",
+    "title": "The Master of Apipucos",
+    "year": 1959,
+    "copies": [
+      {
+        "id": "pvca-000723-archive",
+        "resolution": "1080p",
+        "size_gib": 0.7219932144507766,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000723-archive",
+    "poster": "/posters/tmdb-258130-frU9t2KLUCFxINghwx4nODu1jrO.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-master-of-apipucos-1959-1080p",
+        "copy_id": "pvca-000723-archive"
+      }
+    ],
+    "selections": ["Anos 1950"],
+    "tmdb_id": 258130,
+    "added_at": "2026-11-10",
+    "original_title": "O Mestre de Apipucos",
+    "release_date": "1959-01-01",
+    "runtime_minutes": 10,
+    "imdb_id": "tt0053062",
+    "translations": {
+      "pt-BR": {
+        "title": "O Mestre de Apipucos",
+        "synopsis": "Gilberto Freyre, O Mestre de Apipucos (10m): O cotidiano do sociólogo e escritor em sua casa de Apipucos, bairro de Recife, seus prazeres gastronômicos, a beleza da moradia, o exercício da intelectualidade e o prazer sem divisões específicas.\r Originalmente era parte de um mesmo documentário junto com Manuel Bandeira, O Poeta do Castelo (8m). Mas foram desmembrados em 2 distintos por causa da duração para curtas antes de um filme de longa metragem nos cinemas. (Cinemateca Brasileira)"
+      },
+      "en": {
+        "title": "The Master of Apipucos",
+        "synopsis": "Documentary about influential Brazilian sociologist Gilberto Freyre, made in his country house in Apipucos, Pernambuco (Northeast Brazil)."
+      }
+    },
+    "synopsis": "Gilberto Freyre, O Mestre de Apipucos (10m): O cotidiano do sociólogo e escritor em sua casa de Apipucos, bairro de Recife, seus prazeres gastronômicos, a beleza da moradia, o exercício da intelectualidade e o prazer sem divisões específicas.\r Originalmente era parte de um mesmo documentário junto com Manuel Bandeira, O Poeta do Castelo (8m). Mas foram desmembrados em 2 distintos por causa da duração para curtas antes de um filme de longa metragem nos cinemas. (Cinemateca Brasileira)",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
