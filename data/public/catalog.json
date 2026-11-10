@@ -41475,5 +41475,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000708",
+    "slug": "the-edge-of-democracy-2019",
+    "title": "The Edge of Democracy",
+    "year": 2019,
+    "copies": [
+      {
+        "id": "pvca-000708-archive",
+        "resolution": "1080p",
+        "size_gib": 5.898611436598003,
+        "format": "MKV",
+        "audio_languages": ["mul"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000708-archive",
+    "poster": "/posters/tmdb-566221-z2aPe57jyW0TPYLVBXb8T0yBFGQ.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-edge-of-democracy-2019-1080p",
+        "copy_id": "pvca-000708-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 566221,
+    "added_at": "2026-11-10",
+    "original_title": "Democracia em Vertigem",
+    "release_date": "2019-01-24",
+    "runtime_minutes": 121,
+    "imdb_id": "tt6016744",
+    "translations": {
+      "pt-BR": {
+        "title": "Democracia em Vertigem",
+        "synopsis": "Documentário sobre o processo de impeachment da ex-presidente do Brasil, Dilma Rousseff, que foi considerado como um dos reflexos da polarização política e da ascensão da extrema-direita para o poder. O filme conta com imagens internas e exclusivas dos bastidores do Sindicato dos Metalúrgicos do ABC e do Palácio da Alvorada, enquanto ocorria a votação para a queda de Dilma."
+      },
+      "en": {
+        "title": "The Edge of Democracy",
+        "synopsis": "A cautionary tale for these times of democracy in crisis—the personal and political fuse to explore one of the most dramatic periods in Brazilian history. With unprecedented access to Presidents Dilma Rousseff and Lula da Silva, we witness their rise and fall and the tragically polarized nation that remains."
+      }
+    },
+    "synopsis": "Documentário sobre o processo de impeachment da ex-presidente do Brasil, Dilma Rousseff, que foi considerado como um dos reflexos da polarização política e da ascensão da extrema-direita para o poder. O filme conta com imagens internas e exclusivas dos bastidores do Sindicato dos Metalúrgicos do ABC e do Palácio da Alvorada, enquanto ocorria a votação para a queda de Dilma.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Petra Costa"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
