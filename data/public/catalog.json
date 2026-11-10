@@ -41247,5 +41247,233 @@
     "countries": ["Brasil"],
     "genres": ["Drama", "Ação", "Crime"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000704",
+    "slug": "posthumous-memories-2001",
+    "title": "Posthumous Memories",
+    "year": 2001,
+    "copies": [
+      {
+        "id": "pvca-000704-archive",
+        "resolution": "1080p",
+        "size_gib": 4.701158142648637,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000704-archive",
+    "poster": "/posters/tmdb-70816-7cQyFtbcPsA0g6YOxdIT9DA7kYN.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/posthumous-memories-2001-1080p",
+        "copy_id": "pvca-000704-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 70816,
+    "added_at": "2026-11-10",
+    "original_title": "Memórias Póstumas",
+    "release_date": "2001-08-17",
+    "runtime_minutes": 101,
+    "imdb_id": "tt0166709",
+    "translations": {
+      "pt-BR": {
+        "title": "Memórias Póstumas",
+        "synopsis": "Após ter morrido, em pleno ano de 1869, Brás Cubas (Reginaldo Faria) decide por narrar sua história e revisitar os fatos mais importantes de sua vida, a fim de se distrair na eternidade. A partir de então ele relembra de amigos como Quincas Borba (Marcos Caruso), de sua displicente formação acadêmica em Portugal, dos amores de sua vida e ainda do privilégio que teve de nunca ter precisado trabalhar em sua vida."
+      },
+      "en": {
+        "title": "Posthumous Memories",
+        "synopsis": "Free adaptation of Machado de Assis' classic. The narrator is a rich dead man, who tells us about his life and times, making fun of both."
+      }
+    },
+    "synopsis": "Após ter morrido, em pleno ano de 1869, Brás Cubas (Reginaldo Faria) decide por narrar sua história e revisitar os fatos mais importantes de sua vida, a fim de se distrair na eternidade. A partir de então ele relembra de amigos como Quincas Borba (Marcos Caruso), de sua displicente formação acadêmica em Portugal, dos amores de sua vida e ainda do privilégio que teve de nunca ter precisado trabalhar em sua vida.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Portugal"],
+        "genres": ["Drama", "Comédia", "Fantasia"]
+      },
+      "en": {
+        "countries": ["Brazil", "Portugal"],
+        "genres": ["Drama", "Comedy", "Fantasy"]
+      }
+    },
+    "directors": ["André Klotzel"],
+    "countries": ["Brasil", "Portugal"],
+    "genres": ["Drama", "Comédia", "Fantasia"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000705",
+    "slug": "foreign-land-1996",
+    "title": "Foreign Land",
+    "year": 1996,
+    "copies": [
+      {
+        "id": "pvca-000705-archive",
+        "resolution": "1080p",
+        "size_gib": 15.82722673844546,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000705-archive",
+    "poster": "/posters/tmdb-57811-9N0ATrUbrVXgGGQ0YzPC4yqTxPf.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/foreign-land-1996-1036p",
+        "copy_id": "pvca-000705-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 57811,
+    "added_at": "2026-11-10",
+    "original_title": "Terra Estrangeira",
+    "release_date": "1996-09-04",
+    "runtime_minutes": 110,
+    "imdb_id": "tt0114651",
+    "translations": {
+      "pt-BR": {
+        "title": "Terra Estrangeira",
+        "synopsis": "Sem perspectiva de vida no Brasil, Paco leva uma encomenda misteriosa para Portugal. Na terra estrangeira, ele conhece um casal e, juntos, se envolvem em um esquema de contrabando."
+      },
+      "en": {
+        "title": "Foreign Land",
+        "synopsis": "During a time of political upheaval in Brazil, two strangers meet by coincidence in a foreign land and end up caught in the middle of a gem smuggling ring."
+      }
+    },
+    "synopsis": "Sem perspectiva de vida no Brasil, Paco leva uma encomenda misteriosa para Portugal. Na terra estrangeira, ele conhece um casal e, juntos, se envolvem em um esquema de contrabando.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "Portugal"],
+        "genres": ["Drama", "Thriller", "Romance"]
+      },
+      "en": {
+        "countries": ["Brazil", "Portugal"],
+        "genres": ["Drama", "Thriller", "Romance"]
+      }
+    },
+    "directors": ["Walter Salles", "Daniela Thomas"],
+    "countries": ["Brasil", "Portugal"],
+    "genres": ["Drama", "Thriller", "Romance"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000706",
+    "slug": "elite-squad-2007",
+    "title": "Elite Squad",
+    "year": 2007,
+    "copies": [
+      {
+        "id": "pvca-000706-archive",
+        "resolution": "1080p",
+        "size_gib": 17.3088794760406,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000706-archive",
+    "poster": "/posters/tmdb-7347-7STSm4dSnUxq0HoPtydj3k9MMPV.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/elite-squad-2007-1080p",
+        "copy_id": "pvca-000706-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 7347,
+    "added_at": "2026-11-10",
+    "original_title": "Tropa de Elite",
+    "release_date": "2007-10-05",
+    "runtime_minutes": 115,
+    "imdb_id": "tt0861739",
+    "translations": {
+      "pt-BR": {
+        "title": "Tropa de Elite",
+        "synopsis": "Rio de Janeiro, 1997. Nascimento, capitão da Tropa de Elite do Rio de Janeiro, é designado para chefiar uma das equipes que tem como missão \"apaziguar\" o Morro do Turano por um motivo que ele considera insensato. Mas ele tem que cumprir as ordens enquanto procura por um substituto. Sua mulher, Rosane, está no final da gravidez e todos os dias lhe pede para sair da linha de frente do batalhão. Pressionado, o capitão sente os efeitos do estresse.Neste clima, é chamado para mais uma emergência num morro. Em meio a um tiroteio em um baile funk, Nascimento e sua equipe têm que resgatar dois aspirantes a oficiais da PM: Neto e Matias. Ansiosos por entrar em ação e impressionados com a eficiência de seus salvadores, os dois se candidatam ao curso de formação da Tropa de Elite."
+      },
+      "en": {
+        "title": "Elite Squad",
+        "synopsis": "In 1997, before the visit of the pope to Rio de Janeiro, Captain Nascimento from BOPE (Special Police Operations Battalion) is assigned to eliminate the risks of the drug dealers in a dangerous slum nearby where the pope intends to be lodged."
+      }
+    },
+    "synopsis": "Rio de Janeiro, 1997. Nascimento, capitão da Tropa de Elite do Rio de Janeiro, é designado para chefiar uma das equipes que tem como missão \"apaziguar\" o Morro do Turano por um motivo que ele considera insensato. Mas ele tem que cumprir as ordens enquanto procura por um substituto. Sua mulher, Rosane, está no final da gravidez e todos os dias lhe pede para sair da linha de frente do batalhão. Pressionado, o capitão sente os efeitos do estresse.Neste clima, é chamado para mais uma emergência num morro. Em meio a um tiroteio em um baile funk, Nascimento e sua equipe têm que resgatar dois aspirantes a oficiais da PM: Neto e Matias. Ansiosos por entrar em ação e impressionados com a eficiência de seus salvadores, os dois se candidatam ao curso de formação da Tropa de Elite.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Ação", "Crime"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Action", "Crime"]
+      }
+    },
+    "directors": ["José Padilha"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Ação", "Crime"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000707",
+    "slug": "last-conversations-2015",
+    "title": "Last Conversations",
+    "year": 2015,
+    "copies": [
+      {
+        "id": "pvca-000707-archive",
+        "resolution": "1080p",
+        "size_gib": 5.884731615893543,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000707-archive",
+    "poster": "/posters/tmdb-334636-1v1JZlmYyK5y7rr1j2vPegAmQ1l.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/last-conversations-2015-1080p",
+        "copy_id": "pvca-000707-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 334636,
+    "added_at": "2026-11-10",
+    "original_title": "Últimas Conversas",
+    "release_date": "2015-04-10",
+    "runtime_minutes": 88,
+    "imdb_id": "tt4611160",
+    "translations": {
+      "pt-BR": {
+        "title": "Últimas Conversas",
+        "synopsis": "Último filme dirigido por Eduardo Coutinho. Nele, o cineasta entrevista diversos estudantes do ensino médio público no RJ, perguntando sobre suas vidas, sentimentos e expectativas para o futuro."
+      },
+      "en": {
+        "title": "Last Conversations",
+        "synopsis": "Made from interviews with young Brazilian students by filmmaker Eduardo Coutinho before his death (in February 2014), the film seeks to understand how teenagers think, live and dream nowadays. The footage was edited by Coutinho’s longtime partner, film editor Jordana Berg, and the final cut is signed by João Moreira Salles."
+      }
+    },
+    "synopsis": "Último filme dirigido por Eduardo Coutinho. Nele, o cineasta entrevista diversos estudantes do ensino médio público no RJ, perguntando sobre suas vidas, sentimentos e expectativas para o futuro.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
