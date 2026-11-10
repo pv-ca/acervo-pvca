@@ -41760,5 +41760,347 @@
     "countries": ["Brasil"],
     "genres": ["Comédia", "História", "Fantasia"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000713",
+    "slug": "the-past-2007",
+    "title": "The Past",
+    "year": 2007,
+    "copies": [
+      {
+        "id": "pvca-000713-archive",
+        "resolution": "1080p",
+        "size_gib": 4.3167497823014855,
+        "format": "MKV",
+        "audio_languages": ["es"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000713-archive",
+    "poster": "/posters/tmdb-66461-1BxoNZ6kxoKsr2RUlU17IagvtQE.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-past-2007-1080p",
+        "copy_id": "pvca-000713-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 66461,
+    "added_at": "2026-11-10",
+    "original_title": "El Pasado",
+    "release_date": "2007-10-26",
+    "runtime_minutes": 114,
+    "imdb_id": "tt0765469",
+    "translations": {
+      "pt-BR": {
+        "title": "O Passado",
+        "synopsis": "A separação também pode ser parte de uma história de amor... Passada é a história de Rimini, jovem tradutor que termina um casamento de 12 anos com Sofia, sua primeira namorada. A delicadeza com a qual ambos conduzem a separação acaba quando ele começa a namorar Vera, modelo de 22 anos que, ao presenciar Sofia beijando-o à força, morre atropelada. Um ano depois, já refeito, Rimini se casa com Carmen, sua parceira de tradução. Uma amnésia misteriosa, decorrente do trauma da morte de Vera, apaga do seu cérebro o conhecimento dos idiomas que ele traduz."
+      },
+      "en": {
+        "title": "The Past",
+        "synopsis": "After 12 years, Sofía and Rímini decided to separate. While Rímini finds it easy to move on and start a new life, Sofía stays stuck in the past and constantly harasses him. She reappears again and again on Rímini's horizon to reconquer him, torture him or redeem him."
+      }
+    },
+    "synopsis": "A separação também pode ser parte de uma história de amor... Passada é a história de Rimini, jovem tradutor que termina um casamento de 12 anos com Sofia, sua primeira namorada. A delicadeza com a qual ambos conduzem a separação acaba quando ele começa a namorar Vera, modelo de 22 anos que, ao presenciar Sofia beijando-o à força, morre atropelada. Um ano depois, já refeito, Rimini se casa com Carmen, sua parceira de tradução. Uma amnésia misteriosa, decorrente do trauma da morte de Vera, apaga do seu cérebro o conhecimento dos idiomas que ele traduz.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Argentina", "Brasil"],
+        "genres": ["Drama", "Romance"]
+      },
+      "en": {
+        "countries": ["Argentina", "Brazil"],
+        "genres": ["Drama", "Romance"]
+      }
+    },
+    "directors": ["Héctor Babenco"],
+    "countries": ["Argentina", "Brasil"],
+    "genres": ["Drama", "Romance"],
+    "original_languages": ["es"]
+  },
+  {
+    "id": "PVCA-000714",
+    "slug": "i-travel-because-i-have-to-i-come-back-because-i-love-you-2010",
+    "title": "I Travel Because I Have to, I Come Back Because I Love You",
+    "year": 2010,
+    "copies": [
+      {
+        "id": "pvca-000714-archive",
+        "resolution": "1080p",
+        "size_gib": 2.871643301099539,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000714-archive",
+    "poster": "/posters/tmdb-87199-moL7AWgl5o50ChwSxTQ6YBPCM0.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/i-travel-because-i-have-to-i-come-back-because-i-love-you-2010-1080p",
+        "copy_id": "pvca-000714-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 87199,
+    "added_at": "2026-11-10",
+    "original_title": "Viajo Porque Preciso, Volto Porque Te Amo",
+    "release_date": "2010-05-07",
+    "runtime_minutes": 75,
+    "imdb_id": "tt1500761",
+    "translations": {
+      "pt-BR": {
+        "title": "Viajo Porque Preciso, Volto Porque Te Amo",
+        "synopsis": "José Renato (Irandhir Santos) tem 35 anos, é geólogo e foi enviado para realizar uma pesquisa, onde terá que atravessar todo o sertão nordestino. Sua missão é avaliar o possível percurso de um canal que será feito, desviando as águas do único rio caudaloso da região. À medida que a viagem ocorre ele percebe que possui muitas coisas em comum com os lugares por onde passa. Desde o vazio à sensação de abandono, até o isolamento, o que torna a viagem cada vez mais difícil."
+      },
+      "en": {
+        "title": "I Travel Because I Have to, I Come Back Because I Love You",
+        "synopsis": "José Renato, a 35-year-old geologist, is sent out on a solitary expedition to the hinterlands of northeastern Brazil. The purpose of the trip is to assess possible routes for a canal that will connect the area with the only major river in the region. As the field trip progresses, it becomes clear that Renato shares with those places the same emptiness, sense of abandonment and isolation."
+      }
+    },
+    "synopsis": "José Renato (Irandhir Santos) tem 35 anos, é geólogo e foi enviado para realizar uma pesquisa, onde terá que atravessar todo o sertão nordestino. Sua missão é avaliar o possível percurso de um canal que será feito, desviando as águas do único rio caudaloso da região. À medida que a viagem ocorre ele percebe que possui muitas coisas em comum com os lugares por onde passa. Desde o vazio à sensação de abandono, até o isolamento, o que torna a viagem cada vez mais difícil.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Marcelo Gomes", "Karim Aïnouz"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000715",
+    "slug": "killed-the-family-and-went-to-the-movies-1969",
+    "title": "Killed the Family and Went to the Movies",
+    "year": 1969,
+    "copies": [
+      {
+        "id": "pvca-000715-archive",
+        "resolution": "1080p",
+        "size_gib": 1.4965368090197444,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000715-archive",
+    "poster": "/posters/tmdb-175125-rjRQ2v3UDAyWbvYAxAQiEtn0D7E.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/killed-the-family-and-went-to-the-movies-1969-1080p",
+        "copy_id": "pvca-000715-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 175125,
+    "added_at": "2026-11-10",
+    "original_title": "Matou a Família e Foi ao Cinema",
+    "release_date": "1969-03-01",
+    "runtime_minutes": 64,
+    "imdb_id": "tt0158766",
+    "translations": {
+      "pt-BR": {
+        "title": "Matou a Família e Foi ao Cinema",
+        "synopsis": "Manchetes de jornais em forma de colagem e crônica policial numa luta com a realidade e com a linguagem: um rapaz da classe média mata a navalhadas o pai e a mãe e vai assistir ao filme \"Perdidas de Amor\"; um homem mata uma mulher por amor; duas jovens se amam e uma delas mata a mãe que as critica; marido mata a mulher que reclama das dificuldades financeiras, etc."
+      },
+      "en": {
+        "title": "Killed the Family and Went to the Movies",
+        "synopsis": "A man living with his parents in a low middle-class apartment in Rio de Janeiro coldly stabs them with a razor and then goes to the movies. Marcia, a rich and dissatisfied young woman, takes advantage of a trip from her husband to go to her home in Petrópolis, where she receives a visit from an old friend, Regina."
+      }
+    },
+    "synopsis": "Manchetes de jornais em forma de colagem e crônica policial numa luta com a realidade e com a linguagem: um rapaz da classe média mata a navalhadas o pai e a mãe e vai assistir ao filme \"Perdidas de Amor\"; um homem mata uma mulher por amor; duas jovens se amam e uma delas mata a mãe que as critica; marido mata a mulher que reclama das dificuldades financeiras, etc.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Comédia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Comedy"]
+      }
+    },
+    "directors": ["Júlio Bressane"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Comédia"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000716",
+    "slug": "nelson-filma-1971",
+    "title": "Nelson Filma",
+    "year": 1971,
+    "copies": [
+      {
+        "id": "pvca-000716-archive",
+        "resolution": "576p",
+        "size_gib": 0.10874941851943731,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000716-archive",
+    "poster": "/posters/tmdb-426425-glQ74qSw66uEp5LNP5qtRdmCYWE.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/nelson-filma-1971-540p",
+        "copy_id": "pvca-000716-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 426425,
+    "added_at": "2026-11-10",
+    "original_title": "Nelson Filma",
+    "release_date": "1971-01-01",
+    "runtime_minutes": 11,
+    "imdb_id": "tt4872780",
+    "translations": {
+      "pt-BR": {
+        "title": "Nelson Filma",
+        "synopsis": "Documentário sobre o cineasta Nelson Pereira dos Santos em meio às realizações de alguns de seus filmes."
+      },
+      "en": {
+        "title": "Nelson Filma",
+        "synopsis": "The work of Nelson Pereira dos Santos guides the documentary, which traces the path taken by Cinema Novo and addresses the issues raised by the filmmaker during the filming of Brazilian Cinema classics."
+      }
+    },
+    "synopsis": "Documentário sobre o cineasta Nelson Pereira dos Santos em meio às realizações de alguns de seus filmes.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Luiz Carlos Lacerda"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000717",
+    "slug": "the-end-and-the-beginning-2006",
+    "title": "The End and the Beginning",
+    "year": 2006,
+    "copies": [
+      {
+        "id": "pvca-000717-archive",
+        "resolution": "576p",
+        "size_gib": 1.6422848170623183,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000717-archive",
+    "poster": "/posters/tmdb-255551-bSvBiQ6GwxFgwE9gcE0Hxio1Gk7.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-end-and-the-beginning-2006-576p",
+        "copy_id": "pvca-000717-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 255551,
+    "added_at": "2026-11-10",
+    "original_title": "O Fim e o Princípio",
+    "release_date": "2006-03-01",
+    "runtime_minutes": 110,
+    "imdb_id": "tt0796979",
+    "translations": {
+      "pt-BR": {
+        "title": "O Fim e o Princípio",
+        "synopsis": "O documentário registra o cotidiano e as histórias dos moradores da pequena São João do Rio do Peixe, na Paraíba. Por meio de depoimentos, o filme retrata o sentimento de uma população humilde que esbanja alegria e esperança, além de apresentar as nuances de um nordeste de alma densa e fecunda."
+      },
+      "en": {
+        "title": "The End and the Beginning",
+        "synopsis": "A film that began from zero. Without any previous research, characters, locations or established themes, a film crew arrives at the Paraiba backlands in search of people with stories to tell. In the town of São João do Rio Peixe, they discover the Araçás Farm, a rural community where 86 families live, the majority connected by family ties. Thanks to the mediation of a young woman from Araçás, the residents – consisting mostly of elderly people – tell their life stories, marked by popular Catholicism, hierarchy, a sense of family and honor. A world on the verge of disappearing."
+      }
+    },
+    "synopsis": "O documentário registra o cotidiano e as histórias dos moradores da pequena São João do Rio do Peixe, na Paraíba. Por meio de depoimentos, o filme retrata o sentimento de uma população humilde que esbanja alegria e esperança, além de apresentar as nuances de um nordeste de alma densa e fecunda.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000718",
+    "slug": "os-sonambulos-2018",
+    "title": "Os Sonâmbulos",
+    "year": 2018,
+    "copies": [
+      {
+        "id": "pvca-000718-archive",
+        "resolution": "720p",
+        "size_gib": 1.0752985896542668,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000718-archive",
+    "poster": "/posters/tmdb-543653-fOsY5R9ynxtGiz5cJS5YMrbdx7a.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/os-sonambulos-2018-720p",
+        "copy_id": "pvca-000718-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 543653,
+    "added_at": "2026-11-10",
+    "original_title": "Os Sonâmbulos",
+    "release_date": "2018-09-21",
+    "runtime_minutes": 110,
+    "imdb_id": "tt13509378",
+    "translations": {
+      "pt-BR": {
+        "title": "Os Sonâmbulos",
+        "synopsis": "Era um pequeno grupo de demolidores de mundo. Perdidos na multidão, mas ligados uns aos outros, viviam na solidão da clandestinidade, às voltas com suas contradições."
+      },
+      "en": {
+        "title": "Os Sonâmbulos",
+        "synopsis": "A tale of love and death in a world where the state of exception has become the rule and the last days of humanity never end."
+      }
+    },
+    "synopsis": "Era um pequeno grupo de demolidores de mundo. Perdidos na multidão, mas ligados uns aos outros, viviam na solidão da clandestinidade, às voltas com suas contradições.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Tiago Mata Machado"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
