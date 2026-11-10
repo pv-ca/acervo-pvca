@@ -42387,5 +42387,119 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000724",
+    "slug": "the-poet-of-the-castle-1959",
+    "title": "The Poet of the Castle",
+    "year": 1959,
+    "copies": [
+      {
+        "id": "pvca-000724-archive",
+        "resolution": "1080p",
+        "size_gib": 0.869431771337986,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000724-archive",
+    "poster": "/posters/tmdb-258112-q9mxsK7Xa2fEVfUJsV1jlCaJ7lF.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-poet-of-the-castle-1959-1080p",
+        "copy_id": "pvca-000724-archive"
+      }
+    ],
+    "selections": ["Anos 1950"],
+    "tmdb_id": 258112,
+    "added_at": "2026-11-10",
+    "original_title": "O Poeta do Castelo",
+    "release_date": "1959-01-01",
+    "runtime_minutes": 8,
+    "imdb_id": "tt0053179",
+    "translations": {
+      "pt-BR": {
+        "title": "O Poeta do Castelo",
+        "synopsis": "Manuel Bandeira, O Poeta do Castelo (8m): O cotidiano do poeta, passeio matinal pelas ruas de seu bairro no Rio de Janeiro, a solidão e o encontro provocado por um telefonema, a modéstia do seu lar.  Originalmente era parte de um mesmo documentário junto com Gilberto Freyre, O Mestre de Apipucos (10m). Mas foram desmembrados em 2 distintos por causa da duração para curtas antes de um filme de longa metragem nos cinemas. (Cinemateca Brasileira)"
+      },
+      "en": {
+        "title": "The Poet of the Castle",
+        "synopsis": "A 10-minute portrait of modernist poet and de Andrade’s godfather, Manuel Bandeira, is clear in its affection for it subject, though like many New-Waveish films of the time, depicts the modern urban landscape as an ominous and alienating force."
+      }
+    },
+    "synopsis": "Manuel Bandeira, O Poeta do Castelo (8m): O cotidiano do poeta, passeio matinal pelas ruas de seu bairro no Rio de Janeiro, a solidão e o encontro provocado por um telefonema, a modéstia do seu lar.  Originalmente era parte de um mesmo documentário junto com Gilberto Freyre, O Mestre de Apipucos (10m). Mas foram desmembrados em 2 distintos por causa da duração para curtas antes de um filme de longa metragem nos cinemas. (Cinemateca Brasileira)",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000725",
+    "slug": "a-seventy-four-year-old-fellow-1964",
+    "title": "A Seventy-Four Year-Old Fellow",
+    "year": 1964,
+    "copies": [
+      {
+        "id": "pvca-000725-archive",
+        "resolution": "480p",
+        "size_gib": 0.20499504543840885,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000725-archive",
+    "poster": "/posters/tmdb-500948-w0xa8BxGKQvAg5lcAgS6V3SIo8j.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/a-seventy-four-year-old-fellow-1964-480p",
+        "copy_id": "pvca-000725-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 500948,
+    "added_at": "2026-11-10",
+    "original_title": "Um Moço de 74 Anos",
+    "release_date": "1964-01-01",
+    "runtime_minutes": 11,
+    "imdb_id": "tt11142122",
+    "translations": {
+      "pt-BR": {
+        "title": "Um Moço de 74 Anos",
+        "synopsis": "Em 1965, o Jornal do Brasil marcava sua posição inovadora e atuante, como ficou registrado no documentário Um Moço de 74 Anos, do cineasta Nelson Pereira dos Santos, e a própria história se incumbiu de constatar. Nos anos seguintes, o jornal testemunharia os fatos mais marcantes da segunda metade do século XX no Brasil e no mundo. Aplaudiria as lutas democráticas e de independência dos povos, apoiaria as manifestações sociais contra a opressão e pela justiça em todos os planos. Incansável, não hesitou em noticiar a verdade dos fatos, independente das circunstâncias em que se apresentassem."
+      },
+      "en": {
+        "title": "A Seventy-Four Year-Old Fellow",
+        "synopsis": "Documentary about the history of Jornal do Brasil, founded on April 14, 1891.  In 1965, the Jornal do Brasil marked its innovative and active position, as recorded in the documentary \"A Seventv-Four- Year-Old Fellow\" by the filmmaker Nelson Pereira dos Santos, and the story itself was in charge of confirming. In the following years, the newspaper would witness the most remarkable events of the second half of the twentieth century in Brazil and in the world. It would applaud the democratic struggles and independence of peoples, support social demonstrations against oppression and justice at all levels. Tirelessly, he did not hesitate to report the truth of the facts, regardless of the circumstances in which they presented themselves."
+      }
+    },
+    "synopsis": "Em 1965, o Jornal do Brasil marcava sua posição inovadora e atuante, como ficou registrado no documentário Um Moço de 74 Anos, do cineasta Nelson Pereira dos Santos, e a própria história se incumbiu de constatar. Nos anos seguintes, o jornal testemunharia os fatos mais marcantes da segunda metade do século XX no Brasil e no mundo. Aplaudiria as lutas democráticas e de independência dos povos, apoiaria as manifestações sociais contra a opressão e pela justiça em todos os planos. Incansável, não hesitou em noticiar a verdade dos fatos, independente das circunstâncias em que se apresentassem.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
   }
 ]
