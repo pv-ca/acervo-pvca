@@ -2,7 +2,9 @@
 
 For verified Archive/Drive uploads, catalog synchronization, publication or recovery, read [the integration contract](docs/PUBLICATION_INTEGRATION.md). It owns the site handoff; upload acceptance remains with the selected operational owner.
 
-The normalized private database is authoritative. Use the shared transaction layer for writes; export only validated public records. Preserve stable work/copy identity, manual editorial locks, selected copies and curation. Credentials and operational evidence stay private.
+Films reach the site only through the `envio` CLI of the parent project, which publishes from a clean worktree of `origin/main`; this checkout can be behind, so `git pull --ff-only` before reading or editing data here.
+
+The normalized private database (`.local-admin/`, this checkout only) holds drafts, removed fichas and editorial locks; the published `data/public/catalog.json` wins over it on load. Use the shared transaction layer for writes; export only validated public records. Preserve stable work/copy identity, manual editorial locks, selected copies and curation. Credentials and operational evidence stay private.
 
 Preserve Flexoki Dark, bilingual static rendering and unrelated local work. Publication finishes with successful Pages deployment and live bilingual ficha verification, not a push or upload progress indicator.
 

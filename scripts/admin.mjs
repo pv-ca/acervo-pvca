@@ -141,6 +141,7 @@ export function createAdmin(
   }
   const server = createServer(async (req, res) => {
     const json = (status, value) => {
+      if (res.headersSent) return; // a failed build start fires both `error` and `close`
       res.writeHead(status, {
         "Content-Type": "application/json; charset=utf-8",
         "Cache-Control": "no-store",

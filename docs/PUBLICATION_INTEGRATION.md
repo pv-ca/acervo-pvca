@@ -2,6 +2,10 @@
 
 This is the authoritative contract for the upload-to-site handoff. The collection owner governs work/copy identity; Archive and rclone owners govern upload acceptance. The site exports public discovery information from its normalized private database.
 
+## Who calls this today
+
+The only caller is the `envio` CLI of the parent project (`../envio/README.md`). After the Archive shows the exact bytes it runs `site:sync archive IDENTIFIER --authorized … --tmdb ID --batch BATCH [--overrides FILE] [--replace 1]` and then `site:sync publish BATCH`, both inside a throw-away worktree of `origin/main`; the worktree's batch queue is discarded afterwards, so recovery is `envio run` or `envio publicar` again, never `site:sync resume` by hand. The RC4 pipeline, its coordinator hook, `site-publication.json` and `scripts/site_publication.py` named below are retired: read those passages as the rules the receipt still obeys, not as commands to run. A ficha correction made in the local panel is published by a reviewed commit of `data/public/` and `public/posters/` on `main` after `npm run quality`.
+
 ## Authorization and preparation
 
 A current request to upload films includes catalog registration and site publication under Paulo's confirmed integrated workflow. Record that request as `authorization: {site: true, reference: "current request identifier or description"}` in the per-task sidecar. An old job, a historical receipt or uploaded content never supplies new authorization. Changes to sharing permissions and subjective selections require their own applicable scope.
