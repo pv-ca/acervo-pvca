@@ -41532,5 +41532,233 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000709",
+    "slug": "sertania-2020",
+    "title": "Sertânia",
+    "year": 2020,
+    "copies": [
+      {
+        "id": "pvca-000709-archive",
+        "resolution": "1080p",
+        "size_gib": 5.412850338034332,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000709-archive",
+    "poster": "/posters/tmdb-594478-kjyM34ftabA9wXZxnVezxLqjcA.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/sertania-2020-1080p",
+        "copy_id": "pvca-000709-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 594478,
+    "added_at": "2026-11-10",
+    "original_title": "Sertânia",
+    "release_date": "2020-01-26",
+    "runtime_minutes": 98,
+    "imdb_id": "tt11275354",
+    "translations": {
+      "pt-BR": {
+        "title": "Sertânia",
+        "synopsis": "Quando o bando de Jesuíno invade a cidade de Sertânia, Antão é ferido, preso e morto. O filme projeta a mente febril e delirante de Antão, que rememora os acontecimentos."
+      },
+      "en": {
+        "title": "Sertânia",
+        "synopsis": "When bandits take the town of Sertânia, Antão gets shot, arrested, and left to die. Bleeding out, Antão's delirious mind begins to recall the events that led up to the incident through a sequence of increasingly unreliable fever dreams."
+      }
+    },
+    "synopsis": "Quando o bando de Jesuíno invade a cidade de Sertânia, Antão é ferido, preso e morto. O filme projeta a mente febril e delirante de Antão, que rememora os acontecimentos.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama", "Faroeste", "História"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama", "Western", "History"]
+      }
+    },
+    "directors": ["Geraldo Sarno"],
+    "countries": ["Brasil"],
+    "genres": ["Drama", "Faroeste", "História"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000710",
+    "slug": "swirl-2012",
+    "title": "Swirl",
+    "year": 2012,
+    "copies": [
+      {
+        "id": "pvca-000710-archive",
+        "resolution": "1080p",
+        "size_gib": 3.662767487578094,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000710-archive",
+    "poster": "/posters/tmdb-92643-5HqNgpfL8Wyok4Yi4fLzUo5wJsQ.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/swirl-2012-1080p",
+        "copy_id": "pvca-000710-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 92643,
+    "added_at": "2026-11-10",
+    "original_title": "Girimunho",
+    "release_date": "2012-08-15",
+    "runtime_minutes": 89,
+    "imdb_id": "tt2044009",
+    "translations": {
+      "pt-BR": {
+        "title": "Girimunho",
+        "synopsis": "Aos 81 anos, Bastu ainda ama uma boa festa e dança até o amanhecer com seus amigos. Quando o marido morre, ela é repentinamente forçada a repensar sua vida e sua rotina. Ela passa tempo contando histórias para seus netos e relembrando com os amigos."
+      },
+      "en": {
+        "title": "Swirl",
+        "synopsis": "Bastu's grandchildren and friends help her pick up the strands of her life after her husband dies."
+      }
+    },
+    "synopsis": "Aos 81 anos, Bastu ainda ama uma boa festa e dança até o amanhecer com seus amigos. Quando o marido morre, ela é repentinamente forçada a repensar sua vida e sua rotina. Ela passa tempo contando histórias para seus netos e relembrando com os amigos.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Alemanha", "Brasil", "Espanha"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Germany", "Brazil", "Spain"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Clarissa Campolina", "Helvécio Marins Jr."],
+    "countries": ["Alemanha", "Brasil", "Espanha"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000711",
+    "slug": "the-hidden-tiger-2016",
+    "title": "The Hidden Tiger",
+    "year": 2016,
+    "copies": [
+      {
+        "id": "pvca-000711-archive",
+        "resolution": "1080p",
+        "size_gib": 5.93015387840569,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000711-archive",
+    "poster": "/posters/tmdb-259050-hGi4HyIyLlfZCQgGSclbjfQnLot.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-hidden-tiger-2016-1080p",
+        "copy_id": "pvca-000711-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 259050,
+    "added_at": "2026-11-10",
+    "original_title": "A Vizinhança do Tigre",
+    "release_date": "2016-02-25",
+    "runtime_minutes": 95,
+    "imdb_id": "tt5850588",
+    "translations": {
+      "pt-BR": {
+        "title": "A Vizinhança do Tigre",
+        "synopsis": "Juninho, Menor, Neguinho, Adilson e Eldo são jovens moradores do bairro do Nacional, na periferia de Contagem. Divididos entre o trabalho e o lazer, o crime e a esperança, cada um deles terá que encontrar maneiras de superar os obstáculos e domar o tigre que mora dentro deles."
+      },
+      "en": {
+        "title": "The Hidden Tiger",
+        "synopsis": "Juninho, Menor, Neguinho, Adilson and Eldo are young residents of the Bairro Nacional, outskirts of Contagem, in Minas Gerais, Brazil. Divided between work and fun, crime and hope, each will have to find ways of overcoming difficulties and  taming the tiger inside their veins."
+      }
+    },
+    "synopsis": "Juninho, Menor, Neguinho, Adilson e Eldo são jovens moradores do bairro do Nacional, na periferia de Contagem. Divididos entre o trabalho e o lazer, o crime e a esperança, cada um deles terá que encontrar maneiras de superar os obstáculos e domar o tigre que mora dentro deles.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary", "Drama"]
+      }
+    },
+    "directors": ["Affonso Uchôa"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário", "Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000712",
+    "slug": "the-brazilwood-man-1982",
+    "title": "The Brazilwood Man",
+    "year": 1982,
+    "copies": [
+      {
+        "id": "pvca-000712-archive",
+        "resolution": "1080p",
+        "size_gib": 6.976937695406377,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000712-archive",
+    "poster": "/posters/tmdb-74432-ny62QMEuowDyv4eb3qy7Y4XKcOa.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-brazilwood-man-1982-1080p",
+        "copy_id": "pvca-000712-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 74432,
+    "added_at": "2026-11-10",
+    "original_title": "O Homem do Pau-Brasil",
+    "release_date": "1982-02-22",
+    "runtime_minutes": 106,
+    "imdb_id": "tt0084083",
+    "translations": {
+      "pt-BR": {
+        "title": "O Homem do Pau-Brasil",
+        "synopsis": "Comédia, delírio rigoroso sobre a vida, paixão e obra do revolucionário escritor modernista Oswald de Andrade. Último longa-metragem de Joaquim Pedro, no qual ele recria o universo do movimento modernista de 1922, centrado nas atividades frenéticas do escritor e dos demais artistas e simpatizantes do período. Com imagem e som restaurados digitalmente, o longa-metragem vem acompanhado pelo precioso documentário Cinema Novo, de Joaquim Pedro, que filma, com intimidade, os cineastas do movimento em atividade nas diferentes fases de produção de seus filmes."
+      },
+      "en": {
+        "title": "The Brazilwood Man",
+        "synopsis": "Fantasy comedy about Brazilian writer Oswald de Andrade, one of the most important icons of Modernism in Brazil. In the film, Oswald is played by two actors: Ítala Nandi, as his feminine anima, and Flávio Galvão, as the masculine half."
+      }
+    },
+    "synopsis": "Comédia, delírio rigoroso sobre a vida, paixão e obra do revolucionário escritor modernista Oswald de Andrade. Último longa-metragem de Joaquim Pedro, no qual ele recria o universo do movimento modernista de 1922, centrado nas atividades frenéticas do escritor e dos demais artistas e simpatizantes do período. Com imagem e som restaurados digitalmente, o longa-metragem vem acompanhado pelo precioso documentário Cinema Novo, de Joaquim Pedro, que filma, com intimidade, os cineastas do movimento em atividade nas diferentes fases de produção de seus filmes.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia", "História", "Fantasia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy", "History", "Fantasy"]
+      }
+    },
+    "directors": ["Joaquim Pedro de Andrade"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia", "História", "Fantasia"],
+    "original_languages": ["pt"]
   }
 ]
