@@ -4,7 +4,7 @@ This is the authoritative contract for the upload-to-site handoff. The collectio
 
 ## Who calls this today
 
-The only caller is the `envio` CLI of the parent project (`../envio/README.md`). After the Archive shows the exact bytes it runs `site:sync archive IDENTIFIER --authorized … --tmdb ID --batch BATCH [--overrides FILE] [--replace 1]` and then `site:sync publish BATCH`, both inside a throw-away worktree of `origin/main`; the worktree's batch queue is discarded afterwards, so recovery is `envio run` or `envio publicar` again, never `site:sync resume` by hand. The RC4 pipeline, its coordinator hook, `site-publication.json` and `scripts/site_publication.py` named below are retired: read those passages as the rules the receipt still obeys, not as commands to run. A ficha correction made in the local panel is published by a reviewed commit of `data/public/` and `public/posters/` on `main` after `npm run quality`.
+The only caller is the `envio` CLI of the parent project (`../envio/README.md`). After the Archive shows the exact bytes it runs `site:sync archive IDENTIFIER --authorized … --tmdb ID --batch BATCH [--overrides FILE] [--replace 1]` and then `site:sync publish BATCH`, both inside a throw-away worktree of `origin/main`; the worktree's batch queue is discarded afterwards, so recovery is `envio run` or `envio publish` again, never `site:sync resume` by hand. The RC4 pipeline, its coordinator hook, `site-publication.json` and `scripts/site_publication.py` named below are retired: read those passages as the rules the receipt still obeys, not as commands to run. A ficha correction made in the local panel is published by a reviewed commit of `data/public/` and `public/posters/` on `main` after `npm run quality`.
 
 ## Authorization and preparation
 
