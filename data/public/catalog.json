@@ -42501,5 +42501,62 @@
     "countries": ["Brasil"],
     "genres": ["Documentário"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000726",
+    "slug": "pedreira-de-sao-diogo-1962",
+    "title": "Pedreira de São Diogo",
+    "year": 1962,
+    "copies": [
+      {
+        "id": "pvca-000726-archive",
+        "resolution": "720p",
+        "size_gib": 0.4960004109889269,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000726-archive",
+    "poster": "/posters/pedreira-de-sao-diogo-1962-720p.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/pedreira-de-sao-diogo-1962-720p",
+        "copy_id": "pvca-000726-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 1660962,
+    "added_at": "2026-11-12",
+    "original_title": "Pedreira de São Diogo",
+    "release_date": "1962-11-23",
+    "runtime_minutes": 19,
+    "imdb_id": null,
+    "translations": {
+      "pt-BR": {
+        "title": "Pedreira de São Diogo",
+        "synopsis": "No Morro São Diogo, o perigo vem de baixo. Explosões constantes em uma pedreira ameaçam destruir a favela, forçando moradores e operários a se unirem para salvar suas casas."
+      },
+      "en": {
+        "title": "Pedreira de São Diogo",
+        "synopsis": null
+      }
+    },
+    "synopsis": "No Morro São Diogo, o perigo vem de baixo. Explosões constantes em uma pedreira ameaçam destruir a favela, forçando moradores e operários a se unirem para salvar suas casas.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Leon Hirszman"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
   }
 ]
