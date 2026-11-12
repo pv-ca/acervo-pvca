@@ -42900,5 +42900,176 @@
     "countries": ["Brasil"],
     "genres": ["Documentário", "Cinema TV"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000733",
+    "slug": "meu-compadre-ze-ketti-2001",
+    "title": "Meu Compadre, Zé Ketti",
+    "year": 2001,
+    "copies": [
+      {
+        "id": "pvca-000733-archive",
+        "resolution": "480p",
+        "size_gib": 0.2118656514212489,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": ["en", "es"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000733-archive",
+    "poster": "/posters/meu-compadre-ze-ketti-2001-410p.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/meu-compadre-ze-ketti-2001-410p",
+        "copy_id": "pvca-000733-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 249546,
+    "added_at": "2026-11-12",
+    "translations": {
+      "pt-BR": {
+        "title": "Meu Compadre, Zé Ketti",
+        "synopsis": "Curta musical em homenagem ao compositor Zé Kéti. Reunidos numa casa em Inhaúma, no Rio de Janeiro, amigos e sambistas tocam as músicas dele enquanto uma feijoada é preparada."
+      },
+      "en": {
+        "title": "Meu Compadre, Zé Ketti",
+        "synopsis": "Short musical film paying a tribute to samba composer Zé Ketti, one of the greatest popular artists of Brazilian music. In a jam session, in the late composer's house in Inhaúma, a neighborhood of Rio de Janeiro, a group of friends get together to play his music while a \"feijoada\" (typical Brazilian food with black beans)is being cooked in the kitchen. The samba-players, first-rate samba stars themselves, remember Ketti's great hits in a homage to the man who was best known as \"a voz do morro\" (\"the hill's voice\" - but hill as a metaphor for a place where poor people build their shacks in slums, in opposition to city, where middle-class people live in Rio). Among the guests, names of the traditional \"samba-school\" Portela and ex-partners. Also, the presence of a black hat on an empty chair, represents the composer himself, who died in 1999, after a life of many accomplishments in music, and appearance in three of Dos Santos's films: \"Rio, 40 Graus\", \"Rio Zona Norte\" and \"Boca de Ouro\"."
+      }
+    },
+    "synopsis": "Curta musical em homenagem ao compositor Zé Kéti. Reunidos numa casa em Inhaúma, no Rio de Janeiro, amigos e sambistas tocam as músicas dele enquanto uma feijoada é preparada.",
+    "original_title": "Meu Compadre, Zé Ketti",
+    "release_date": "2001-08-20",
+    "runtime_minutes": 12,
+    "imdb_id": "tt0318441",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário", "Música"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary", "Music"]
+      }
+    },
+    "directors": ["Nelson Pereira dos Santos"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário", "Música"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000734",
+    "slug": "my-hindu-friend-2016",
+    "title": "My Hindu Friend",
+    "year": 2016,
+    "copies": [
+      {
+        "id": "pvca-000734-archive",
+        "resolution": "1080p",
+        "size_gib": 9.624970838427544,
+        "format": "MKV",
+        "audio_languages": ["en"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000734-archive",
+    "poster": "/posters/tmdb-362314-gGHpvcy6hb4LYwnXpF6YD8kdHL.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/my-hindu-friend-2016-1036p",
+        "copy_id": "pvca-000734-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 362314,
+    "added_at": "2026-11-12",
+    "original_title": "Meu Amigo Hindu",
+    "release_date": "2016-03-03",
+    "runtime_minutes": 109,
+    "imdb_id": "tt4400360",
+    "translations": {
+      "pt-BR": {
+        "title": "Meu Amigo Hindu",
+        "synopsis": "Diego é um diretor de cinema que ao saber que uma doença maligna pode ser fatal, casa-se com sua mulher de muitos anos, despede-se de seus amigos e entra numa rotina de longas jornadas num hospital. Lidando com a dor e conversando com a morte conhece um menino hindu, que se torna seu mais novo amigo. Um dia ele não aparece mais. Diego recebe alta, mas sua vida nunca mais será a mesma. Seu casamento acaba e, solitário, chega a se questionar se ele não estaria morrendo e ninguém lhe diz nada, até que conhece uma nova mulher..."
+      },
+      "en": {
+        "title": "My Hindu Friend",
+        "synopsis": "Diego is a film director who, when he is told that he has a malignant disease which could be fatal, marries his girlfriend of many years, says goodbye to his friends and begins a routine of long days of treatment in hospital. While learning to live with the pain and also conversing with death, he meets a Hindu boy who is a fellow patient and who becomes his friend. But one day the boy disappears. Diego is discharged, but his life has changed forever. His marriage fails and, living alone, he begins to wonder whether he may in fact be dying and no one has told him. He tries to find out what happened to his Hindu friend, and eventually meets another woman."
+      }
+    },
+    "synopsis": "Diego é um diretor de cinema que ao saber que uma doença maligna pode ser fatal, casa-se com sua mulher de muitos anos, despede-se de seus amigos e entra numa rotina de longas jornadas num hospital. Lidando com a dor e conversando com a morte conhece um menino hindu, que se torna seu mais novo amigo. Um dia ele não aparece mais. Diego recebe alta, mas sua vida nunca mais será a mesma. Seu casamento acaba e, solitário, chega a se questionar se ele não estaria morrendo e ninguém lhe diz nada, até que conhece uma nova mulher...",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Drama"]
+      }
+    },
+    "directors": ["Héctor Babenco"],
+    "countries": ["Brasil"],
+    "genres": ["Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000735",
+    "slug": "the-himalayan-1976",
+    "title": "The Himalayan",
+    "year": 1976,
+    "copies": [
+      {
+        "id": "pvca-000735-archive",
+        "resolution": "480i",
+        "size_gib": 3.8866319824010134,
+        "format": "MKV",
+        "audio_languages": ["zh"],
+        "subtitle_languages": ["pt-BR", "en"]
+      }
+    ],
+    "catalog_copy_id": "pvca-000735-archive",
+    "poster": "/posters/tmdb-299041-btZeEK4KHNPrPL5EX2OqDHKR17f.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-himalayan-1976-480p",
+        "copy_id": "pvca-000735-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 299041,
+    "added_at": "2026-11-12",
+    "translations": {
+      "pt-BR": {
+        "title": "O Mestre da Escola Esotérica",
+        "synopsis": "Tseng Ching Lan, filha do poderoso chefe Tseng, se casa com o homem que acredita ser Kao I Fan. Na verdade, o chefe Kao matou o próprio irmão adotivo e o substituiu por um sósia, para pôr as mãos na fortuna e nas províncias dos Tseng. Acusada de infidelidade e condenada ao rio, Ching Lan sobrevive e, ao lado do amigo Hsu, sobe ao Himalaia em busca do Lama Águia, mestre da rara Arte Mi, o ramo esotérico do budismo marcial, única capaz de enfrentar a Garra de Tigre de Kao."
+      },
+      "en": {
+        "title": "The Himalayan",
+        "synopsis": "The Tseng family is one of the most noble and respected clans in a small village in Tibet. The patriarch of the Tseng family wants to marry off his daughter Ching Lan into the Kao clan. However, the cunning and deceitful eldest brother Kao Chu only wants his younger sibling Kao I-Fan to marry Lan so he can gain access to the Tseng family's considerable wealth and power."
+      }
+    },
+    "synopsis": "Tseng Ching Lan, filha do poderoso chefe Tseng, se casa com o homem que acredita ser Kao I Fan. Na verdade, o chefe Kao matou o próprio irmão adotivo e o substituiu por um sósia, para pôr as mãos na fortuna e nas províncias dos Tseng. Acusada de infidelidade e condenada ao rio, Ching Lan sobrevive e, ao lado do amigo Hsu, sobe ao Himalaia em busca do Lama Águia, mestre da rara Arte Mi, o ramo esotérico do budismo marcial, única capaz de enfrentar a Garra de Tigre de Kao.",
+    "original_title": "密宗聖手",
+    "release_date": "1976-02-20",
+    "runtime_minutes": 117,
+    "imdb_id": "tt0073382",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Hong Kong, RAE da China"],
+        "genres": ["Drama", "Ação"]
+      },
+      "en": {
+        "countries": ["Hong Kong SAR China"],
+        "genres": ["Drama", "Action"]
+      }
+    },
+    "directors": ["黃楓"],
+    "countries": ["Hong Kong, RAE da China"],
+    "genres": ["Drama", "Ação"],
+    "original_languages": ["zh"]
   }
 ]
