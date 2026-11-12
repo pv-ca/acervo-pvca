@@ -42558,5 +42558,347 @@
     "countries": ["Brasil"],
     "genres": ["Drama"],
     "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000727",
+    "slug": "the-boy-and-the-wind-1967",
+    "title": "The Boy and the Wind",
+    "year": 1967,
+    "copies": [
+      {
+        "id": "pvca-000727-archive",
+        "resolution": "480p",
+        "size_gib": 1.4022859167307615,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000727-archive",
+    "poster": "/posters/tmdb-258109-3K0Fb544GewZYfEfGv9lB1JlA9I.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-boy-and-the-wind-1967-480p",
+        "copy_id": "pvca-000727-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 258109,
+    "added_at": "2026-11-12",
+    "original_title": "O Menino e o Vento",
+    "release_date": "1967-08-21",
+    "runtime_minutes": 104,
+    "imdb_id": "tt0144304",
+    "translations": {
+      "pt-BR": {
+        "title": "O Menino e o Vento",
+        "synopsis": "A força do vento na cidade de Bela Vista, interior de Minas, fascina um menino e um engenheiro, criando forte laço de amizade entre os dois. Porém, com o sumiço do menino, toda a cidade se volta contra o engenheiro responsabilizando-o pelo desaparecimento."
+      },
+      "en": {
+        "title": "The Boy and the Wind",
+        "synopsis": "A young engineer on holiday gets involved with a boy who has a strange relationship with the wind. Their close friendship arouses suspicion in the small town. When the boy disappears, the engineer is accused of murdering him."
+      }
+    },
+    "synopsis": "A força do vento na cidade de Bela Vista, interior de Minas, fascina um menino e um engenheiro, criando forte laço de amizade entre os dois. Porém, com o sumiço do menino, toda a cidade se volta contra o engenheiro responsabilizando-o pelo desaparecimento.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Fantasia", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Fantasy", "Drama"]
+      }
+    },
+    "directors": ["Carlos Hugo Christensen"],
+    "countries": ["Brasil"],
+    "genres": ["Fantasia", "Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000728",
+    "slug": "the-moving-creatures-2013",
+    "title": "The Moving Creatures",
+    "year": 2013,
+    "copies": [
+      {
+        "id": "pvca-000728-archive",
+        "resolution": "480p",
+        "size_gib": 0.5011489931493998,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000728-archive",
+    "poster": "/posters/tmdb-192839-4yAFobwwn8EZZy5qzsiE90qDGkr.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/the-moving-creatures-2013-460p",
+        "copy_id": "pvca-000728-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 192839,
+    "added_at": "2026-11-12",
+    "translations": {
+      "pt-BR": {
+        "title": "O Que Se Move",
+        "synopsis": "Três famílias lidam, cada uma à sua maneira, com a chegada ou a perda de um filho. Em histórias sem ligação aparente, o amor aparece sobretudo no papel da mãe, até nos pequenos gestos do cotidiano."
+      },
+      "en": {
+        "title": "The Moving Creatures",
+        "synopsis": "Three families, in three different situations, have to deal with a sudden change in their lives, caused by a loss or a re encounter. Three mothers sing their love for their children while facing difficult times. A film about affection on the borders of painful happenings."
+      }
+    },
+    "synopsis": "Três famílias lidam, cada uma à sua maneira, com a chegada ou a perda de um filho. Em histórias sem ligação aparente, o amor aparece sobretudo no papel da mãe, até nos pequenos gestos do cotidiano.",
+    "original_title": "O Que Se Move",
+    "release_date": "2013-05-10",
+    "runtime_minutes": 97,
+    "imdb_id": "tt2925942",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil", "França"],
+        "genres": ["Música", "Drama"]
+      },
+      "en": {
+        "countries": ["Brazil", "France"],
+        "genres": ["Music", "Drama"]
+      }
+    },
+    "directors": ["Caetano Gotardo"],
+    "countries": ["Brasil", "França"],
+    "genres": ["Música", "Drama"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000729",
+    "slug": "king-of-the-cards-1975",
+    "title": "King of the Cards",
+    "year": 1975,
+    "copies": [
+      {
+        "id": "pvca-000729-archive",
+        "resolution": "480p",
+        "size_gib": 1.3922838484868407,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000729-archive",
+    "poster": "/posters/tmdb-154881-zS9je5BLOQrbWo6QAut4CiU54o7.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/king-of-the-cards-1975-480p",
+        "copy_id": "pvca-000729-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 154881,
+    "added_at": "2026-11-12",
+    "original_title": "O Rei do Baralho",
+    "release_date": "1975-11-03",
+    "runtime_minutes": 90,
+    "imdb_id": "tt0182385",
+    "translations": {
+      "pt-BR": {
+        "title": "O Rei do Baralho",
+        "synopsis": "Num estúdio, atores se maquiam e a equipe técnico-artística aguarda o momento de começar a atuar. O rei do baralho contempla a praia; é visto, em seguida, no seu quotidiano, namorando a loira em cenário de bar e de convés, conquistando a segunda loira em quarto de hotel modesto, reunindo-se com outros malandros em jogos de carta num cenário de interior de barraco - onde um dos amigos dança um bolero - e contempla a praia. Num cenário de esquina, a loira faz um despacho. O Rei do baralho toma um táxi com a loira para namorar no Leblon. (Cinemateca Brasileira)"
+      },
+      "en": {
+        "title": "King of the Cards",
+        "synopsis": "In a movie studio, the actors are getting made up and the crew is waiting to begin shooting the film. Grande Otelo, the bungling \"king of the deck\", and Marta Anderson, the blond and provocative star of the show, recite in the historical scenario of the chanchadas, the abandoned studios of Cinédia. \"The photography is splendid, it is a sort of parallel song, of critique, of parody, of understanding of a certain light typical of Brazilian cinema of the times, already re-created, already stylized. And with the older actors, Otelo, Lewgoy and the others, something very important happened in the artistic perception, seeing again, doing again, it was already a concrete metalanguage\" (J. Bressane)."
+      }
+    },
+    "synopsis": "Num estúdio, atores se maquiam e a equipe técnico-artística aguarda o momento de começar a atuar. O rei do baralho contempla a praia; é visto, em seguida, no seu quotidiano, namorando a loira em cenário de bar e de convés, conquistando a segunda loira em quarto de hotel modesto, reunindo-se com outros malandros em jogos de carta num cenário de interior de barraco - onde um dos amigos dança um bolero - e contempla a praia. Num cenário de esquina, a loira faz um despacho. O Rei do baralho toma um táxi com a loira para namorar no Leblon. (Cinemateca Brasileira)",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Comédia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Comedy"]
+      }
+    },
+    "directors": ["Júlio Bressane"],
+    "countries": ["Brasil"],
+    "genres": ["Comédia"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000730",
+    "slug": "porrada-2000",
+    "title": "Porrada!",
+    "year": 2000,
+    "copies": [
+      {
+        "id": "pvca-000730-archive",
+        "resolution": "480p",
+        "size_gib": 0.038918561302125454,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000730-archive",
+    "poster": "/posters/tmdb-352753-3PNVxtGjU3WRzcGjI53P0Ndo3hh.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/porrada-2000-472p",
+        "copy_id": "pvca-000730-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 352753,
+    "added_at": "2026-11-12",
+    "translations": {
+      "pt-BR": {
+        "title": "Porrada!",
+        "synopsis": "Internos do Instituto Philippe Pinel reencenam um quadro de teste de paternidade do Programa do Ratinho, no estilo dos programas de auditório de confronto. O curta foi feito para uma exposição de Marcelo Dantas sobre os 50 anos da televisão brasileira e filmado pela equipe da TV Pinel."
+      },
+      "en": {
+        "title": "Porrada!",
+        "synopsis": "Programa do Ratinho DNA test played by the members of  Instituto Philippe Pinel and filmed by Eduardo Coutinho."
+      }
+    },
+    "synopsis": "Internos do Instituto Philippe Pinel reencenam um quadro de teste de paternidade do Programa do Ratinho, no estilo dos programas de auditório de confronto. O curta foi feito para uma exposição de Marcelo Dantas sobre os 50 anos da televisão brasileira e filmado pela equipe da TV Pinel.",
+    "original_title": "Porrada!",
+    "release_date": "2000-09-18",
+    "runtime_minutes": 8,
+    "imdb_id": "tt3310910",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário", "Comédia"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary", "Comedy"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário", "Comédia"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000731",
+    "slug": "seis-dias-de-ouricuri-1976",
+    "title": "Seis Dias de Ouricuri",
+    "year": 1976,
+    "copies": [
+      {
+        "id": "pvca-000731-archive",
+        "resolution": "480p",
+        "size_gib": 0.47213782276958227,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000731-archive",
+    "poster": "/posters/tmdb-268368-jZyIvrlliRLxVyRdFqR49A2yVMC.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/seis-dias-de-ouricuri-1976-480p",
+        "copy_id": "pvca-000731-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 268368,
+    "added_at": "2026-11-12",
+    "translations": {
+      "pt-BR": {
+        "title": "Seis Dias de Ouricuri",
+        "synopsis": "Panorama de uma cidade de 60 mil habitantes devastada pela falta d'água e pela fome no sertão de Pernambuco."
+      },
+      "en": {
+        "title": "Seis Dias de Ouricuri",
+        "synopsis": "Early documentary by Eduardo Coutinho dealing with the water shortage in the city of Ouricuri in the seventies."
+      }
+    },
+    "synopsis": "Panorama de uma cidade de 60 mil habitantes devastada pela falta d'água e pela fome no sertão de Pernambuco.",
+    "original_title": "Seis Dias de Ouricuri",
+    "release_date": "1976-01-01",
+    "runtime_minutes": 41,
+    "imdb_id": "tt3310936",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário"],
+    "original_languages": ["pt"]
+  },
+  {
+    "id": "PVCA-000732",
+    "slug": "theodorico-o-imperador-do-sertao-1978",
+    "title": "Theodorico, o Imperador do Sertão",
+    "year": 1978,
+    "copies": [
+      {
+        "id": "pvca-000732-archive",
+        "resolution": "480p",
+        "size_gib": 0.5683492850512266,
+        "format": "MKV",
+        "audio_languages": ["pt"],
+        "subtitle_languages": []
+      }
+    ],
+    "catalog_copy_id": "pvca-000732-archive",
+    "poster": "/posters/tmdb-254593-dwOrcCcHfPvNj2iYG8Rn0Zrx9zl.jpg",
+    "external_links": [
+      {
+        "provider": "internet_archive",
+        "url": "https://archive.org/details/theodorico-o-imperador-do-sertao-1978-480p",
+        "copy_id": "pvca-000732-archive"
+      }
+    ],
+    "selections": [],
+    "tmdb_id": 254593,
+    "added_at": "2026-11-12",
+    "original_title": "Theodorico, o Imperador do Sertão",
+    "release_date": "1978-08-22",
+    "runtime_minutes": 50,
+    "imdb_id": "tt2211031",
+    "translations": {
+      "pt-BR": {
+        "title": "Theodorico, o Imperador do Sertão",
+        "synopsis": "O documentário acompanha Theodorico Bezerra, conhecido como o Imperador do Interior. Latifundiário e político do Rio Grande do Norte, ele era conhecido como um chefe severo e rígido, que comandava seus empregados por meio de uma série de regras incomuns."
+      },
+      "en": {
+        "title": "Theodorico, o Imperador do Sertão",
+        "synopsis": "Theodoro Bezerra is a member of the Brazilian elite, a farmer and politician since the 1940s who has been elected as a state congressman by the state of Rio Grande do Norte. He concentrates on his own characteristics as a popular leader, despite being sexist and elitist, as well as using public funds for personal causes."
+      }
+    },
+    "synopsis": "O documentário acompanha Theodorico Bezerra, conhecido como o Imperador do Interior. Latifundiário e político do Rio Grande do Norte, ele era conhecido como um chefe severo e rígido, que comandava seus empregados por meio de uma série de regras incomuns.",
+    "localized_metadata": {
+      "pt-BR": {
+        "countries": ["Brasil"],
+        "genres": ["Documentário", "Cinema TV"]
+      },
+      "en": {
+        "countries": ["Brazil"],
+        "genres": ["Documentary", "TV Movie"]
+      }
+    },
+    "directors": ["Eduardo Coutinho"],
+    "countries": ["Brasil"],
+    "genres": ["Documentário", "Cinema TV"],
+    "original_languages": ["pt"]
   }
 ]
