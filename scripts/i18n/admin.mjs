@@ -91,6 +91,8 @@ export const en = {
     "The record changed. Reopen it before deleting.",
   "A ficha mudou em outra janela. Reabra antes de salvar.":
     "The record changed in another window. Reopen it before saving.",
+  "Outra gravação está em andamento ou travou. Se nenhum painel ou comando do envio está rodando, confira o pid em .local-admin/writer.lock e remova só essa pasta.":
+    "Another write is in progress or got stuck. If no panel or envio command is running, check the pid in .local-admin/writer.lock and remove only that folder.",
   "O catálogo mudou. Reabra a seção antes de salvar.":
     "The catalog changed. Reopen this section before saving.",
   "Ficha inexistente. Reabra o catálogo.":

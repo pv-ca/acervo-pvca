@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { validateCatalog, mergeCatalog } from "./lib/catalog.mjs";
@@ -34,6 +34,18 @@ try {
   const errors = validateCatalog(incoming, schema, resolve(root, "public"));
   if (errors.length) throw new Error(errors.join("\n"));
   if (command === "check") {
+    if (!inputPath) {
+      // Posters uploaded in the admin panel and never used would be published by `git add public/posters`.
+      const used = new Set(incoming.map((film) => film.poster));
+      const orphans = readdirSync(resolve(root, "public/posters")).filter(
+        (file) =>
+          /^poster-[0-9a-f]{24}\./.test(file) && !used.has(`/posters/${file}`)
+      );
+      if (orphans.length)
+        throw new Error(
+          `Pôster enviado pelo painel e não usado por nenhum filme: ${orphans.join(", ")}. Apague o arquivo ou aplique a ficha.`
+        );
+    }
     console.log(
       incoming.length
         ? `${incoming.length} registro(s) válido(s). Nenhuma alteração feita.`

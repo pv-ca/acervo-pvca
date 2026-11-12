@@ -242,7 +242,7 @@ test("transaction CAS and interrupted journal recovery", () => {
   });
   assert.throws(
     () => updateDatabase(root, (db) => db, fingerprint(before)),
-    /CATALOG_CHANGED/
+    /O catálogo mudou/
   );
   const recovery = { ...readDatabase(root), revision: 90 };
   atomicJson(resolve(root, ".local-admin/transaction.json"), recovery);
@@ -764,4 +764,22 @@ test("a Drive film folder becomes a ficha with its link only when the folder ope
       "ALREADY_ON_SITE"
     );
   }
+});
+test("published catalog wins when the local row has the same film under another id", async () => {
+  const root = environment();
+  await stage(root, receipt(root));
+  const file = resolve(root, "data/public/catalog.json");
+  const published = JSON.parse(readFileSync(file, "utf8"));
+  published[0].id = "film-999";
+  atomicJson(file, published);
+  const db = readDatabase(root);
+  assert.deepEqual(
+    allRecords(db).map((film) => film.id),
+    ["film-999"]
+  );
+  const saved = JSON.parse(
+    readFileSync(resolve(root, ".local-admin/database.json"), "utf8")
+  );
+  assert.equal(Object.values(saved.films)[0].fields.id, "film-999");
+  assert.equal(readDatabase(root).revision, db.revision);
 });

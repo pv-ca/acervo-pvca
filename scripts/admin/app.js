@@ -220,7 +220,9 @@ function populateHome() {
 }
 async function load() {
   const response = await fetch("/api/state");
-  state = await response.json();
+  const next = await response.json();
+  if (!response.ok) throw Error(next.error);
+  state = next;
   $("#preview-note").textContent = state.preview
     ? "O catálogo real está vazio. O site usa os exemplos da prévia; eles não são filmes importados."
     : "";

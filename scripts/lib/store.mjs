@@ -58,6 +58,12 @@ export function writeCatalog(file, records) {
       (rank.get(a.id) ?? Infinity) - (rank.get(b.id) ?? Infinity) ||
       a.id.localeCompare(b.id)
   );
+  // Same content: skip the Prettier subprocess (0.8 s with 725 films).
+  if (
+    existsSync(file) &&
+    JSON.stringify(read(file)) === JSON.stringify(ordered)
+  )
+    return;
   atomicText(
     file,
     execFileSync(
@@ -89,7 +95,10 @@ export function withStoreLock(root, action, timeout = 10000) {
       if (error.code !== "EEXIST") throw error;
       // A stale lock is reported for explicit recovery; never steal another writer lock.
       if (Date.now() - start >= timeout)
-        throw Error("CATALOG_WRITER_BUSY", { cause: error });
+        throw Error(
+          "Outra gravação está em andamento ou travou. Se nenhum painel ou comando do envio está rodando, confira o pid em .local-admin/writer.lock e remova só essa pasta.",
+          { cause: error }
+        );
       Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 20);
     }
   }
@@ -127,9 +136,23 @@ function load(root) {
   const file = resolve(root, ".local-admin/database.json");
   let db = existsSync(file) ? read(file) : seedDatabase(records);
   const old = new Map(allRecords(db).map((record) => [record.id, record]));
+  let changed = false;
   for (const record of records)
-    if (JSON.stringify(old.get(record.id)) !== JSON.stringify(record))
+    if (JSON.stringify(old.get(record.id)) !== JSON.stringify(record)) {
+      // The published catalog wins: a local row with the same film under another id/slug is stale.
+      for (const [key, row] of Object.entries(db.films))
+        if (
+          (row.fields.id === record.id ||
+            row.fields.slug === record.slug ||
+            (record.tmdb_id && row.fields.tmdb_id === record.tmdb_id)) &&
+          (row.fields.id !== record.id || row.fields.slug !== record.slug)
+        )
+          delete db.films[key];
       db = saveManual(db, record, true);
+      changed = true;
+    }
+  // Save the reconciliation, or every read repeats it (3 s with 170 stale records).
+  if (changed && existsSync(file)) atomicJson(file, db);
   return db;
 }
 export const readDatabase = (root) => withStoreLock(root, () => load(root));
@@ -137,7 +160,7 @@ export function updateDatabase(root, change, expected) {
   return withStoreLock(root, () => {
     const before = load(root);
     if (expected !== undefined && fingerprint(before) !== expected)
-      throw Error("CATALOG_CHANGED_REVALIDATE");
+      throw Error("O catálogo mudou. Reabra a seção antes de salvar.");
     const next = change(structuredClone(before));
     if (fingerprint(next) === fingerprint(before)) return before;
     atomicJson(

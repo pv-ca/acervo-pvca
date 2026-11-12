@@ -680,7 +680,8 @@ export function createAdmin(
         const child = spawn(
           process.execPath,
           [path("node_modules/astro/bin/astro.mjs"), "build"],
-          { cwd: root, stdio: ["ignore", "pipe", "pipe"] }
+          // A stuck build would keep `building` true and refuse every save.
+          { cwd: root, stdio: ["ignore", "pipe", "pipe"], timeout: 300000 }
         );
         let output = "";
         child.stdout.on("data", (chunk) => (output += chunk));
